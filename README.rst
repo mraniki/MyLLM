@@ -10,9 +10,9 @@ MyLLM
 .. toctree::
    :maxdepth: 4
    
-   01_start
-   02_config
-   03_module
+   docs/01_start
+   docs/02_config
+   docs/03_module
 
 
 .. raw:: html
@@ -20,9 +20,6 @@ MyLLM
 
   <br>
 
-
-  <h4>MyLLM</h4>
-  <br>
   <table style="border: 1px solid transparent">
     <tr>
       <td>

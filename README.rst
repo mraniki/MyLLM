@@ -4,7 +4,7 @@
 
   <br>
 
-  <table style="border: 1px solid transparent">
+  <table style="border: 1px solid transparent"align="center">
     <tr>
       <td>
   <a href="https://talkytrader.github.io/wiki/"><img src="https://img.shields.io/badge/Wiki-%23000000.svg?style=for-the-badge&logo=wikipedia&logoColor=white"></a>
@@ -26,19 +26,12 @@
       </td>
       <td align="left"> 
   Interact with LLM in simple way.<br>
-  
-    </td>
-       
+    </td>  
     </tr>
+   </table>
   
-  
-  </div>
 
-=====
-MyLLM
-=====
 
-| Interact with LLM in simple way
 
 
 .. toctree::

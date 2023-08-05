@@ -2,6 +2,31 @@
 
 
 
+## v1.1.0 (2023-08-05)
+
+### Feat
+
+* Create feature template ([`342d411`](https://github.com/mraniki/MyLLM/commit/342d411a759c4ef83e341633e17a4057902ce49b))
+
+### Fix
+
+* Create bugfix template ([`31804f7`](https://github.com/mraniki/MyLLM/commit/31804f7cb0464ccac1b171840ac1b35f7eb163a3))
+
+### Other
+
+* Merge pull request #8 from mraniki/sweep/add-sweep-config
+
+Configure Sweep ([`829d95c`](https://github.com/mraniki/MyLLM/commit/829d95cf8e98bf2047ab6f2d45740c43708f7503))
+
+* Create refactor template ([`9bd9714`](https://github.com/mraniki/MyLLM/commit/9bd9714a352147dcfa1eedf1936f5247b7130fce))
+
+* Create sweep.yaml config file ([`9b88c00`](https://github.com/mraniki/MyLLM/commit/9b88c00d8d1cb28dc9ca7b3f83b92e4f5dd6c972))
+
+### Update
+
+* Update README.md ([`75ef996`](https://github.com/mraniki/MyLLM/commit/75ef996e12d1b6505d47fa1dbfef8a28a57b4fda))
+
+
 ## v1.0.2 (2023-08-05)
 
 ### Update

@@ -21,8 +21,8 @@
       <a href="https://pypi.org/project/myllm/"><img src="https://img.shields.io/pypi/dm/myllm?style=for-the-badge&logo=PyPI&logoColor=white"></a><br>
       <a href="https://github.com/mraniki/myllm/"><img src="https://img.shields.io/github/actions/workflow/status/mraniki/myllm/%F0%9F%91%B7Flow.yml?style=for-the-badge&logo=GitHub&logoColor=white"></a><br>
       <a href="https://talky.readthedocs.io/projects/myllm/"><img src="https://readthedocs.org/projects/myllm/badge/?version=latest&style=for-the-badge"></a><br>
-      <a href="https://codebeat.co/projects/github-com-mraniki-myllm-main"><img src="https://codebeat.co/badges/24c90aab-02d7-4cd1-9ad8-5907e180c9e6"/></a> <br>
-      <a href="https://codecov.io/gh/mraniki/talkytrend"><img src="https://codecov.io/gh/mraniki/myllm/branch/main/graph/badge.svg?token=WAHUEMAJN6"/></a><br>
+      <a href="https://codebeat.co/projects/github-com-mraniki-myllm-main"><img src="https://codebeat.co/badges/0567b9d9-3cbb-4263-80ec-8ac8043332ea"/></a> <br>
+      <a href="https://codecov.io/gh/mraniki/myllm"><img src="https://codecov.io/gh/mraniki/myllm/branch/main/graph/badge.svg?token=WAHUEMAJN6"/></a><br>
     </td>
     <td align="left"> 
 Interact with LLM in simple way.<br>

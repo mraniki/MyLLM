@@ -9,7 +9,6 @@ from typing import Any, List, Mapping, Optional
 import g4f
 from langchain.chains import LLMChain
 from langchain.llms.base import LLM
-from langchain.prompts import PromptTemplate
 from loguru import logger
 
 from myllm import __version__

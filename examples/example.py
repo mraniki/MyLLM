@@ -1,5 +1,5 @@
 """
-Provides example for talkytrend
+Provides example for myllm
 """
 
 import asyncio

@@ -49,7 +49,7 @@ class MyLLM():
 
     async def topic(
         self,
-        new_topic=True,
+        new_topic=False,
         prompt = settings.llm_default_prompt
         ):
         if new_topic:

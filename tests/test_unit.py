@@ -1,5 +1,5 @@
 """
-talkytrend Unit Testing
+myllm Unit Testing
 """
 
 import pytest
@@ -14,5 +14,12 @@ def set_test_settings():
 
 
 @pytest.mark.asyncio
-async def test_talkytrend():
+async def test_dynaconf():
     assert settings.VALUE == "On Testing"
+    
+
+@pytest.mark.asyncio
+async def test_myllm():
+    talky = MyLLM()
+    response = await talky.talk()
+    assert response is not None

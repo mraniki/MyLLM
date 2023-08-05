@@ -16,17 +16,16 @@ packages = [
     {include = "myllm"}
 ]
 
-
 [tool.poetry.urls]
 "Changelog" =  "https://github.com/mraniki/MyLLM/blob/dev/CHANGELOG.rst"
 "Support" =  "https://github.com/mraniki/MyLLM/discussions"
 "Issues" =  "https://github.com/mraniki/MyLLM/issues"
 
+
 [tool.poetry.dependencies]
 python = "^3.10"
 dynaconf = "^3.1.12"
 loguru = "^0.7.0"
-langchain = "^0.0.252"
 g4f = "^0.0.1"
 
 

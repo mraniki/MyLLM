@@ -1,0 +1,135 @@
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "MyLLM"
+version = "0.0.0"
+description = "A python package to interact with llm model supported by g4f"
+authors = ["mraniki <8766259+mraniki@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+keywords = ["chatgpt","llm","ai","llama","ai", "g4f", "freegpt"]
+packages = [
+    {include = "myllm"}
+]
+
+
+[tool.poetry.urls]
+"Changelog" =  "https://github.com/mraniki/MyLLM/blob/dev/CHANGELOG.rst"
+"Support" =  "https://github.com/mraniki/MyLLM/discussions"
+"Issues" =  "https://github.com/mraniki/MyLLM/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dynaconf = "^3.1.12"
+loguru = "^0.7.0"
+langchain = "^0.0.252"
+g4f = "^0.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+python-semantic-release = "^8.0.2"
+ruff = ">=0.0.280,<0.0.283"
+
+[tool.ruff]
+select = [
+  "E",  # pycodestyle
+  "F",  # pyflakes
+  "I",  # isort
+]
+exclude = [
+  ".github/*",
+  "docs/*",
+]
+ignore = ["E401","F401","F811"]
+format = "github"
+fixable = ["ALL"]
+
+[tool.pylint.exceptions]
+overgeneral-exceptions = [
+    "builtins.BaseException",
+    "builtins.Exception",
+    "builtins.RuntimeError",
+]
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.0"
+pytest-cov = "^4.1"
+pytest-asyncio = "^0.21.0"
+pytest-mock = "^3.11.1"
+pytest-loguru = "^0.2.0"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+sphinx = ">=5,<6"
+sphinx_bootstrap_theme = "^0.8.1"
+sphinxext-remoteliteralinclude = "^0.4.0"
+
+
+
+[tool.pytest.ini_options]
+pythonpath = "."
+testpaths = "tests"
+python_classes = "Test*"
+log_format = "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+log_level = "DEBUG"
+
+[tool.coverage.run]
+omit = [
+    "tests/*",
+    "examples/*",
+    "docs/*",
+    "*/config.py"
+]
+
+
+[tool.semantic_release]
+upload_to_vcs_release = true
+version_variables = ["pyproject.toml:version","talkytrend/__init__.py:__version__"]
+build_command = "pip install poetry && poetry build"
+commit_parser = "emoji"
+
+
+[tool.semantic_release.commit_parser_options]
+major_tags = [
+    "BREAKING",
+    "💥",
+    ":boom:",
+  ]
+minor_tags = ["feat",
+    "🥚",":egg:",
+    "🚀",":rocket:",
+    "💄",":lipstick:",
+    "✨",":sparkles:",
+]
+
+patch_tags = ["fix","bump","Update",
+    "🎨",":art:",
+    "🐛",":bug:",
+    "🚑",":ambulance:",
+    "⚡",":zap:",
+    "🔥",":fire:",
+    "🚨",":rotating_light:",
+    "♻️",":recycle:",
+    "🔧",":wrench:",
+    "⬆️",":arrow_up:",
+    "🩹",":adhesive_bandage:",
+    "👷",":construction_worker:",
+    "📝",":memo:",
+    "🔒",":lock:",
+    "👽",":alien:",
+    "💬",":speech_balloon:",
+    "🥅",":goal_net:",
+    "✅",":white_check_mark:",
+    "🐳",":whale:",
+    "🙈",":see_no_evil:",
+    "⚗️",":alembic:",
+    "🧐",":monocle_face:",
+    "🔇",":mute:",
+    "🔊",":volume:",
+]

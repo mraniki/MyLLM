@@ -1,0 +1,48 @@
+########################################
+###          DEFAULT SETTINGS        ###
+########################################
+
+# Any of those settings can be changed
+# by the user. To overwrite a setting, 
+# create a settings.toml or load the 
+# settings from .env file or vars.
+# As an example, to disable the 
+# myllm object:
+# settings.toml
+# [default]
+# myllm_enabled = false
+
+[default]
+VALUE = "On Default"
+llm_enabled = true
+llm_model = "gpt-4"
+llm_provider = "g4f.Provider.Providers.ChatgptAi"
+llm_host = ""
+llm_auth = ""
+llm_auth_token = ""
+llm_create_kwargs = ""
+llm_default_prompt = "write a tiny story"
+llm_commands = "🦾 /qq\n"
+bot_command_question = "qq"
+
+
+
+
+########################################
+###     END OF DEFAULT SETTINGS      ###
+########################################
+
+
+
+
+                                        
+# _   _                           _   ___  
+#| | | |                         | | |__ \ 
+#| |_| |__   ___    ___ _ __   __| |    )|
+#| __| '_ \ / _ \  / _ \ '_ \ / _` |   / / 
+#| |_| | | |  __/ |  __/ | | | (_| |  |_|  
+# \__|_| |_|\___|  \___|_| |_|\__,_|  (_)  
+########################################                                                                                      
+
+
+

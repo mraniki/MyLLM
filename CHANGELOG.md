@@ -2,6 +2,27 @@
 
 
 
+## v1.0.1 (2023-08-05)
+
+### :art:
+
+* :art: logo ([`638bdbf`](https://github.com/mraniki/MyLLM/commit/638bdbf073e50e53bb124a505263efa2869d8ff0))
+
+### :white_check_mark:
+
+* :white_check_mark: unit test ([`810a3f0`](https://github.com/mraniki/MyLLM/commit/810a3f0cfb5dfc148d045ab317f970a40c9b0725))
+
+### :wrench:
+
+* :wrench: Remove unused llm_auth and llm_auth_token variables ([`76c85c7`](https://github.com/mraniki/MyLLM/commit/76c85c7ff46517dc897f2c30f431b9721fbbc0d0))
+
+### Other
+
+* Merge pull request #6 from mraniki/dev
+
+✅ unit test ([`f7318a2`](https://github.com/mraniki/MyLLM/commit/f7318a267d5f4e83b2c88e38db4c8759dd369e5d))
+
+
 ## v1.0.0 (2023-08-05)
 
 ### :fire:

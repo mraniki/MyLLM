@@ -22,6 +22,7 @@ class MyLLM():
 
         self.logger = logger
         self.enabled = settings.llm_enabled
+        self.conversation = []
         if not self.enabled:
             return
         self.model = settings.llm_model
@@ -39,10 +40,14 @@ class MyLLM():
         return (f"{self.commands}\n")
 
     async def talk(self, prompt = settings.llm_default_prompt):
+        if not self.conversation:
+    async def talk(self, prompt = settings.llm_default_prompt):
+        if not self.conversation:
+            self.conversation.append({"role": "user", "content": prompt})
         return g4f.ChatCompletion.create(
             model=self.model,
             provider = self.provider,
-            messages=[
-                {"role": "user",
-                "content": prompt}],)
+            messages=self.conversation,)
 
+    async def start_new_topic(self):
+        self.conversation = []

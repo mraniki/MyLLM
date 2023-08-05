@@ -2,6 +2,17 @@
 
 
 
+## v1.0.2 (2023-08-05)
+
+### Update
+
+* Update README.md ([`3052523`](https://github.com/mraniki/MyLLM/commit/3052523850ec108c17c189b9d5e7d8ed54d33cde))
+
+* Update README.md ([`f7514de`](https://github.com/mraniki/MyLLM/commit/f7514de7daca498f9b79c4e588c3a161a5f4205c))
+
+* Update README.md ([`286280d`](https://github.com/mraniki/MyLLM/commit/286280dd49311adcf974e1ab6433bb70a07877df))
+
+
 ## v1.0.1 (2023-08-05)
 
 ### :art:

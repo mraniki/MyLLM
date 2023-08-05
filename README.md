@@ -1,6 +1,3 @@
-.. _myllm_readme:
-
-.. raw:: html
 
   <br>
 
@@ -32,14 +29,6 @@
   
 
 
-
-
-.. toctree::
-   :maxdepth: 4
-   
-   docs/01_start
-   docs/02_config
-   docs/03_module
 
 
 

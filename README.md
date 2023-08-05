@@ -13,7 +13,7 @@
 <a href="https://t.me/TTTalkyTraderChat/1"><img src="https://img.shields.io/badge/talky-blue?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a href="https://discord.gg/gMNERs5M9"><img src="https://img.shields.io/discord/1049307055867035648?style=for-the-badge&logo=discord&logoColor=white&label=%20%20&color=blue"></a>
        </td>
-    <td align="center"><img width="200" alt="Logo" src="/docs/_static/logo-full.png"></td>
+    <td align="center"><img width="200" alt="Logo" src="[/docs/_static/logo-full.png](https://github.com/mraniki/MyLLM/assets/8766259/879274c7-d2ac-4db6-a24e-1c9d264670e1)"></td>
   </tr>
   <tr>
     <td>
@@ -33,3 +33,4 @@ Interact with LLM in simple way.<br>
 
 
 </div>
+

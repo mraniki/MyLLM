@@ -48,7 +48,12 @@ class MyLLM():
                 "content": prompt}],)
 
     def download_model(self, repo_id):
-        hf_hub_download(repo_id=repo_id, filename="config.json")
+        try:
+            hf_hub_download(repo_id=repo_id, filename="config.json")
+        except Exception as e:
+            self.logger.error(f"Failed to download model from repo {repo_id}: {e}")
+
+    import subprocess
 
     def login(self):
-        os.system("huggingface-cli login --token " + settings.huggingface_api_token)
+        subprocess.run(["huggingface-cli", "login", "--token", settings.huggingface_api_token])

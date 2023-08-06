@@ -23,3 +23,9 @@ async def test_myllm():
     talky = MyLLM()
     response = await talky.talk()
     assert response is not None
+
+@pytest.mark.asyncio
+async def test_talk_method():
+    talky = MyLLM()
+    response = await talky.talk("test prompt")
+    assert isinstance(response, dict)

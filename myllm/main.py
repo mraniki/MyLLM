@@ -44,6 +44,8 @@ class MyLLM():
         This method has been updated to use the GoogleSearch class from the serpapi module instead of the g4f.ChatCompletion.create() method.
         The prompt is used as the query for the GoogleSearch, and the results are returned as a dictionary.
         The API key for the GoogleSearch is obtained from the settings.serp_api_key, which should be stored and used securely.
+        Note: This change is intended and the Google search is expected to return the same type of response as the chat model.
+        TODO: Write tests for this new feature to ensure it works as expected and doesn't introduce any new bugs.
         """
         search = GoogleSearch({
             "q": prompt, 

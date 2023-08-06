@@ -4,6 +4,7 @@
 
 import asyncio
 import importlib
+from huggingface_hub import hf_hub_download
 
 import g4f
 from loguru import logger
@@ -46,3 +47,8 @@ class MyLLM():
                 {"role": "user",
                 "content": prompt}],)
 
+    def download_model(self, repo_id):
+        hf_hub_download(repo_id=repo_id, filename="config.json")
+
+    def login(self):
+        huggingface-cli login --token settings.huggingface_api_token

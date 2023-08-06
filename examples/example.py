@@ -12,7 +12,7 @@ from loguru import logger
 from myllm import MyLLM
 
 logger.remove()
-logger.add(sys.stderr, level="INFO")
+logger.add(sys.stderr, level="DEBUG")
 
 
 async def main():
@@ -51,6 +51,12 @@ async def main():
         prompt="tell me who is president of the united states?"))
     # The current President of the United States is Joe Biden.
 
+    # logger.info(await talky.topic(
+    #         prompt="tell me who is president of the united states?"))
+
+    # logger.info(await talky.topic(
+    #     new_conversation=False,
+    #     prompt="does he have a dog?"))
 
 app = FastAPI()
 

@@ -27,5 +27,6 @@ settings = Dynaconf(
     # Set the environments to True
     environments=True,
     # Set the default environment
-    default_env="default",)
-    
+    default_env="default",
+    huggingface_api_token="your_huggingface_api_token",
+    huggingface_repo_id="your_huggingface_repo_id")

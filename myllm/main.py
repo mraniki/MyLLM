@@ -4,6 +4,7 @@
 
 import asyncio
 import importlib
+from serpapi import GoogleSearch
 
 import g4f
 from loguru import logger
@@ -39,10 +40,9 @@ class MyLLM():
         return (f"{self.commands}\n")
 
     async def talk(self, prompt = settings.llm_default_prompt):
-        return g4f.ChatCompletion.create(
-            model=self.model,
-            provider = self.provider,
-            messages=[
-                {"role": "user",
-                "content": prompt}],)
-
+        search = GoogleSearch({
+            "q": prompt, 
+            "api_key": settings.serp_api_key
+        })
+        result = search.get_dict()
+        return result

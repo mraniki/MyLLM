@@ -1,8 +1,4 @@
-<br>
 
-
-<h4>MyLLM</h4>
-<br>
 <table style="border: 1px solid transparent">
   <tr>
     <td>
@@ -25,11 +21,22 @@
     </td>
     <td align="left"> 
 Interact with LLM in simple way.<br>
-
-  </td>
-     
+  </td>   
   </tr>
+</table>
+
+<h5>How to use it</h5>
+<pre>
+<code>
+  talky = MyLLM()
+  logger.info(await talky.talk(
+        prompt="tell me who is president of the united states?"))
+    # The current President of the United States is Joe Biden.
+</code>
+</pre>
+
+<h5>Documentation</h5>
+<a href="https://talky.readthedocs.io/projects/myllm/en/latest/"><img src="https://img.shields.io/badge/Documentation-000000?style=for-the-badge&logo=readthedocs&logoColor=white"></a><br>
 
 
-</div>
 

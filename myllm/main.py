@@ -51,4 +51,4 @@ class MyLLM():
         hf_hub_download(repo_id=repo_id, filename="config.json")
 
     def login(self):
-        huggingface-cli login --token settings.huggingface_api_token
+        os.system("huggingface-cli login --token " + settings.huggingface_api_token)

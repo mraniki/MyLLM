@@ -45,7 +45,6 @@ intersphinx_mapping = {
     "myllm": ("https://talky.readthedocs.io/projects/myllm/en/latest", None),
 }
 intersphinx_disabled_reftypes = ["*"]
-hoverxref_auto_ref = True
 hoverxref_intersphinx = [
     'readthedocs',
     'sphinx',

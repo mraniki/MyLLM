@@ -27,5 +27,6 @@ settings = Dynaconf(
     # Set the environments to True
     environments=True,
     # Set the default environment
-    default_env="default",)
-    
+    default_env="default",
+    # Set the Serp API key
+    serp_api_key=os.getenv("SERP_API_KEY"),)

@@ -53,7 +53,6 @@ class MyLLM():
         except Exception as e:
             self.logger.error(f"Failed to download model from repo {repo_id}: {e}")
 
-    import subprocess
-
     def login(self):
-        subprocess.run(["huggingface-cli", "login", "--token", settings.huggingface_api_token])
+        from huggingface_hub import HfApi
+        HfApi().login(token=settings.huggingface_api_token)

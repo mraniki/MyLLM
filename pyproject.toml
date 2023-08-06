@@ -28,6 +28,7 @@ dynaconf = "^3.1.12"
 loguru = "^0.7.0"
 g4f = "^0.0.1"
 serpapi = "^0.3.0"
+serpapi = "^0.3.0"
 
 
 [tool.poetry.group.dev.dependencies]

@@ -40,6 +40,11 @@ class MyLLM():
         return (f"{self.commands}\n")
 
     async def talk(self, prompt = settings.llm_default_prompt):
+        """
+        This method has been updated to use the GoogleSearch class from the serpapi module instead of the g4f.ChatCompletion.create() method.
+        The prompt is used as the query for the GoogleSearch, and the results are returned as a dictionary.
+        The API key for the GoogleSearch is obtained from the settings.serp_api_key, which should be stored and used securely.
+        """
         search = GoogleSearch({
             "q": prompt, 
             "api_key": settings.serp_api_key

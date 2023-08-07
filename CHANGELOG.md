@@ -2,6 +2,23 @@
 
 
 
+## v1.2.1 (2023-08-07)
+
+### Other
+
+* Merge pull request #21 from mraniki/renovate/pydantic-2.x
+
+Update dependency pydantic to v2 ([`a09ea79`](https://github.com/mraniki/MyLLM/commit/a09ea79fc62bb0226189f8fe6445461e06ec1d49))
+
+* Merge pull request #23 from mraniki/renovate/numexpr-2.x
+
+Update dependency numexpr to v2.8.5 ([`62fcc58`](https://github.com/mraniki/MyLLM/commit/62fcc58848a1cfd82b6b9be672cac7889d780d6b))
+
+* Merge pull request #25 from mraniki/renovate/langchain-0.x
+
+Update dependency langchain to v0.0.254 ([`02c46f4`](https://github.com/mraniki/MyLLM/commit/02c46f4aea70e3c4e937d9a5f60132481c31c9f6))
+
+
 ## v1.2.0 (2023-08-07)
 
 ### Fix
@@ -33,6 +50,16 @@ Merge ([`8ecb29e`](https://github.com/mraniki/MyLLM/commit/8ecb29edb82929d776d7c
 * Rename sweep.yaml to .github/sweep.yaml ([`b8f25b1`](https://github.com/mraniki/MyLLM/commit/b8f25b13b8c567243328e81df9f415912c13ee98))
 
 ### Update
+
+* Update dependency langchain to v0.0.254 ([`11daff4`](https://github.com/mraniki/MyLLM/commit/11daff46a9bb49811f7a42fdd30c6477f8892dd0))
+
+* Update Requirements ([`11f3c89`](https://github.com/mraniki/MyLLM/commit/11f3c89f9e42d4617b1b66a2bee753bd5c9deada))
+
+* Update dependency numexpr to v2.8.5 ([`ba593b6`](https://github.com/mraniki/MyLLM/commit/ba593b68eebba8b31bd6dedabf0745ac54e1e860))
+
+* Update Requirements ([`85137e4`](https://github.com/mraniki/MyLLM/commit/85137e4709b9f0e1f08c2421d00036a9db9d749d))
+
+* Update dependency pydantic to v2 ([`8b4b572`](https://github.com/mraniki/MyLLM/commit/8b4b57243896d24f85c4669b67e932ca8564591a))
 
 * Update Requirements ([`abb48ab`](https://github.com/mraniki/MyLLM/commit/abb48ab61bb6d116756ae158a8131c338f116deb))
 

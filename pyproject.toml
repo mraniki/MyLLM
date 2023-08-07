@@ -34,6 +34,7 @@ js2py = "^0.74"
 # google-search-results = "^2.4.2"
 
 
+
 [tool.poetry.group.dev.dependencies]
 python-semantic-release = "^8.0.2"
 ruff = ">=0.0.280,<0.0.283"

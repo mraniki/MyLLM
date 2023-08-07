@@ -2,6 +2,101 @@
 
 
 
+## v1.2.0 (2023-08-07)
+
+### Fix
+
+* 📝 intersphinx fix ([`b054b75`](https://github.com/mraniki/MyLLM/commit/b054b75e0c2b5a759865dd3319a262fa05a70f8a))
+
+* 📝  fix ([`665a067`](https://github.com/mraniki/MyLLM/commit/665a06733b296796bb45fa71c12b73bd81d67a65))
+
+### Other
+
+* Merge pull request #20 from mraniki/renovate/langchain-0.x
+
+Update dependency langchain to v0.0.253 ([`71d8867`](https://github.com/mraniki/MyLLM/commit/71d886709a513042076155044f9b9e407d399572))
+
+* Merge pull request #24 from mraniki/dev
+
+💬 readme update ([`0ffd5e9`](https://github.com/mraniki/MyLLM/commit/0ffd5e93390e867ea2f2acd37968ba9e76ac18ee))
+
+* Merge branch &#39;main&#39; into dev ([`9a28ded`](https://github.com/mraniki/MyLLM/commit/9a28deda0674738238cb7edabac5eb3165a1145a))
+
+* Merge pull request #18 from mraniki/main
+
+Merge ([`8ecb29e`](https://github.com/mraniki/MyLLM/commit/8ecb29edb82929d776d7c0e29cd4c2bcff794af0))
+
+* Merge branch &#39;dev&#39; into main ([`58d45a9`](https://github.com/mraniki/MyLLM/commit/58d45a9d75a1a6d206599ad13a023b50b87470d5))
+
+* Merge branch &#39;main&#39; into dev ([`00c65e0`](https://github.com/mraniki/MyLLM/commit/00c65e001670a5cf81e508e591f4aacf95ab7f0a))
+
+* Rename sweep.yaml to .github/sweep.yaml ([`b8f25b1`](https://github.com/mraniki/MyLLM/commit/b8f25b13b8c567243328e81df9f415912c13ee98))
+
+### Update
+
+* Update Requirements ([`abb48ab`](https://github.com/mraniki/MyLLM/commit/abb48ab61bb6d116756ae158a8131c338f116deb))
+
+* Update Requirements ([`8ae15a2`](https://github.com/mraniki/MyLLM/commit/8ae15a2e7a6974e87530622602850e5ecd0a7f34))
+
+* Update dependency langchain to v0.0.253 ([`bc8cf94`](https://github.com/mraniki/MyLLM/commit/bc8cf943fcb23381c78473d81e957949d9b77b09))
+
+* Update Requirements ([`e78ba04`](https://github.com/mraniki/MyLLM/commit/e78ba041864e81f5f5da233de8ed101c09f5eb8c))
+
+* Update README.md ([`2a66494`](https://github.com/mraniki/MyLLM/commit/2a66494ca3c8cc8dc1388d738090576662b9d4a8))
+
+* Update Requirements ([`994eb3c`](https://github.com/mraniki/MyLLM/commit/994eb3cf2512ee992631375b08cfd183e625d75d))
+
+* Update and rename README.rst to README.md ([`69ce76d`](https://github.com/mraniki/MyLLM/commit/69ce76d822a3024ee1903f920de4713679f61b92))
+
+* Update index.rst ([`df7f69e`](https://github.com/mraniki/MyLLM/commit/df7f69ee1539fabf999565b13b45f0fe0001388b))
+
+* Update README.rst ([`4283051`](https://github.com/mraniki/MyLLM/commit/4283051c66b3ca4d73d94229cf2448933ababcb1))
+
+* Update README.rst ([`bd5a109`](https://github.com/mraniki/MyLLM/commit/bd5a109a470bfa6472b4526f5f0e47937e4ac22d))
+
+* Update index.rst ([`247ad4f`](https://github.com/mraniki/MyLLM/commit/247ad4fc5fc5da5f8d22713ae112429965284ac4))
+
+* Update README.rst ([`c31d873`](https://github.com/mraniki/MyLLM/commit/c31d873f1af267b9c35e018d24e6153f22cf541e))
+
+* Update and rename README.md to README.rst ([`78f1971`](https://github.com/mraniki/MyLLM/commit/78f19712f199aafe1f739d6aaa49992158cd3fb4))
+
+* Update Requirements ([`93743d9`](https://github.com/mraniki/MyLLM/commit/93743d93e102c6180ed12519a04b27fd71733c6f))
+
+### ✨
+
+* ✨ extended for Langchain support and prepping for chain ([`20ec096`](https://github.com/mraniki/MyLLM/commit/20ec0963429e83ac191ad89098d9375333cb5675))
+
+### 🎨
+
+* 🎨 improve docs with hovering ([`92d3234`](https://github.com/mraniki/MyLLM/commit/92d32342734f0988f70ee574a5bc4198bd568d09))
+
+### 💬
+
+* 💬 readme update ([`d925c57`](https://github.com/mraniki/MyLLM/commit/d925c57a9a1dd909e66be8f6eddb17659e3a2ec1))
+
+### 📝
+
+* 📝 updating docs template and sphinx ([`71d6efb`](https://github.com/mraniki/MyLLM/commit/71d6efb6b7336693ee27b66b27dc2e6de362eca7))
+
+* 📝  sphinx.ext.extlinks ([`0f24828`](https://github.com/mraniki/MyLLM/commit/0f2482868543cc75c57e34f502d0dd19c39bdede))
+
+* 📝 intersphinx setup ([`1189316`](https://github.com/mraniki/MyLLM/commit/1189316f5e2403570f32544130d9027e652eb264))
+
+### 🔥
+
+* 🔥 ([`cfae8a3`](https://github.com/mraniki/MyLLM/commit/cfae8a3e1190ac10f4443124cbeb73de901c3c1f))
+
+### 🔧
+
+* 🔧 ([`226b03b`](https://github.com/mraniki/MyLLM/commit/226b03b9cdfcea2185e8a4a8ff35a0b85b982fe9))
+
+* 🔧 ([`3a89423`](https://github.com/mraniki/MyLLM/commit/3a89423c4ca7455eed1cb2b8842084190f21ce77))
+
+* 🔧 ([`21d0e6a`](https://github.com/mraniki/MyLLM/commit/21d0e6a15faae0b64137a62549e4cf04a8ee5986))
+
+* 🔧 ([`f0f8bcb`](https://github.com/mraniki/MyLLM/commit/f0f8bcb252c156bc963049467517eb910ab801e6))
+
+
 ## v1.1.0 (2023-08-05)
 
 ### Feat

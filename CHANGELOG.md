@@ -2,6 +2,19 @@
 
 
 
+## v1.2.3 (2023-08-07)
+
+### Other
+
+* Merge pull request #28 from mraniki/dev
+
+📝 conf update for intersphinx ([`98131a8`](https://github.com/mraniki/MyLLM/commit/98131a850299204b62db703350f251732becda1d))
+
+### 📝
+
+* 📝 conf update for intersphinx ([`bda0784`](https://github.com/mraniki/MyLLM/commit/bda0784b944a7bb1242d9c6f19006b497387a8b4))
+
+
 ## v1.2.2 (2023-08-07)
 
 ### Other

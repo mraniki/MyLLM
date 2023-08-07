@@ -2,6 +2,15 @@
 
 
 
+## v1.2.4 (2023-08-07)
+
+### Other
+
+* Merge pull request #26 from mraniki/renovate/pydantic-2.x
+
+Update dependency pydantic to v2 ([`2f9142b`](https://github.com/mraniki/MyLLM/commit/2f9142baf0f526901b8310f9a7b8795f2708c229))
+
+
 ## v1.2.3 (2023-08-07)
 
 ### Other
@@ -43,6 +52,10 @@ Update dependency numexpr to v2.8.5 ([`62fcc58`](https://github.com/mraniki/MyLL
 * Merge pull request #25 from mraniki/renovate/langchain-0.x
 
 Update dependency langchain to v0.0.254 ([`02c46f4`](https://github.com/mraniki/MyLLM/commit/02c46f4aea70e3c4e937d9a5f60132481c31c9f6))
+
+### Update
+
+* Update dependency pydantic to v2 ([`64e7fa8`](https://github.com/mraniki/MyLLM/commit/64e7fa8e8a776ff82d0a7e85d183e6b0fe5968f9))
 
 
 ## v1.2.0 (2023-08-07)

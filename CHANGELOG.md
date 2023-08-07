@@ -2,6 +2,19 @@
 
 
 
+## v1.2.6 (2023-08-07)
+
+### Other
+
+* Merge pull request #32 from mraniki/dev
+
+🚑 removing langchain until pydantic upgrade v2 ([`7e26642`](https://github.com/mraniki/MyLLM/commit/7e2664204104e7842faff7b57d897b78910b7830))
+
+### 🚑
+
+* 🚑 removing langchain until pydantic upgrade v2 ([`623d2ba`](https://github.com/mraniki/MyLLM/commit/623d2ba620c4111016de201b29a5dcb4eaddf9be))
+
+
 ## v1.2.5 (2023-08-07)
 
 ### Other

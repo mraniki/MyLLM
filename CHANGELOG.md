@@ -2,6 +2,33 @@
 
 
 
+## v1.2.8 (2023-08-07)
+
+### :arrow_up:
+
+* :arrow_up: ([`2bf52fd`](https://github.com/mraniki/MyLLM/commit/2bf52fd4329e09e8fc81973808dfcf799707443a))
+
+* :arrow_up: ([`c5c1f13`](https://github.com/mraniki/MyLLM/commit/c5c1f139c29e299c2d73de8da7c315d3ea0bfaa3))
+
+### Other
+
+* Merge pull request #34 from mraniki/dev
+
+⬆️ ([`24a1f0b`](https://github.com/mraniki/MyLLM/commit/24a1f0b4003847aad5fc1c7917faefc5912f817c))
+
+### Update
+
+* Update Requirements ([`74b41d7`](https://github.com/mraniki/MyLLM/commit/74b41d7d4dbd66a3f1a63c4a03b245e9fccd25e6))
+
+### ⬆️
+
+* ⬆️ ([`b82cb4f`](https://github.com/mraniki/MyLLM/commit/b82cb4ffc53499bbd62acdb6c09cb61096dc66f5))
+
+### 👷
+
+* 👷 CI Change ([`4aa7d2a`](https://github.com/mraniki/MyLLM/commit/4aa7d2a367f71bfd4faac298841c350ab348eeee))
+
+
 ## v1.2.7 (2023-08-07)
 
 ### Other

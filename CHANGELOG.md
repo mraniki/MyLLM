@@ -2,6 +2,21 @@
 
 
 
+## v1.2.7 (2023-08-07)
+
+### Other
+
+* Merge pull request #33 from mraniki/dev
+
+⬆️ req ([`c9a0ea2`](https://github.com/mraniki/MyLLM/commit/c9a0ea2ac8153a71e2f99455356b6161c2f1946d))
+
+### ⬆️
+
+* ⬆️ ([`e2a08a0`](https://github.com/mraniki/MyLLM/commit/e2a08a00c33305a8e47bb6c6b5c6275d63d610f5))
+
+* ⬆️ req ([`d8d942d`](https://github.com/mraniki/MyLLM/commit/d8d942d10aa17a0ed1629b13c359539c9d8a3db4))
+
+
 ## v1.2.6 (2023-08-07)
 
 ### Other

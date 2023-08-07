@@ -55,7 +55,7 @@ async def main():
     #         prompt="tell me who is president of the united states?"))
 
     # logger.info(await talky.topic(
-    #     new_conversation=False,
+    #     new_topic=False,
     #     prompt="does he have a dog?"))
 
 app = FastAPI()

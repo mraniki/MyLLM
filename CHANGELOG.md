@@ -2,6 +2,19 @@
 
 
 
+## v1.2.2 (2023-08-07)
+
+### Other
+
+* Merge pull request #27 from mraniki/renovate/dataclasses-json-0.x
+
+Update dependency dataclasses-json to v0.5.14 ([`33f16b8`](https://github.com/mraniki/MyLLM/commit/33f16b816bbeb53192eb520aeb745a45d5b047f8))
+
+### Update
+
+* Update dependency dataclasses-json to v0.5.14 ([`142fac6`](https://github.com/mraniki/MyLLM/commit/142fac6fe44ed1584bfd66a0cb436d0a00def5d5))
+
+
 ## v1.2.1 (2023-08-07)
 
 ### Other

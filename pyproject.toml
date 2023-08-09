@@ -6,7 +6,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "MyLLM"
-version = "1.2.8"
+version = "1.2.9"
 description = "A python package to interact with llm model supported by g4f"
 authors = ["mraniki <8766259+mraniki@users.noreply.github.com>"]
 license = "MIT License"
@@ -37,7 +37,7 @@ js2py = "^0.74"
 
 [tool.poetry.group.dev.dependencies]
 python-semantic-release = "^8.0.2"
-ruff = ">=0.0.280,<0.0.283"
+ruff = ">=0.0.283,<0.0.284"
 
 [tool.ruff]
 select = [

@@ -2,6 +2,19 @@
 
 
 
+## v1.2.9 (2023-08-09)
+
+### Other
+
+* Merge pull request #37 from mraniki/renovate/ruff-0.x
+
+⬆️(deps): update dependency ruff to &gt;=0.0.283,&lt;0.0.284 ([`ac2a98d`](https://github.com/mraniki/MyLLM/commit/ac2a98d0ca8003a852674b666ac116178c828ca0))
+
+### ⬆️
+
+* ⬆️(deps): update dependency ruff to &gt;=0.0.283,&lt;0.0.284 ([`e5aad38`](https://github.com/mraniki/MyLLM/commit/e5aad385d0a759977efc37aa78d7e3e7fd447f4b))
+
+
 ## v1.2.8 (2023-08-07)
 
 ### :arrow_up:

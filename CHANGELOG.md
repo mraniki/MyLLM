@@ -2,6 +2,25 @@
 
 
 
+## v1.2.11 (2023-08-11)
+
+### Other
+
+* Merge pull request #41 from mraniki/dev
+
+📝 🔧 settings documentation ([`24879ad`](https://github.com/mraniki/MyLLM/commit/24879adb30f2612aed88b5d07f8e680e7881f5d8))
+
+* Merge branch &#39;main&#39; into dev ([`e09608d`](https://github.com/mraniki/MyLLM/commit/e09608d052f5b8ab7659e9a3562bf986b9fd7d4c))
+
+### Update
+
+* Update Requirements ([`2e504a2`](https://github.com/mraniki/MyLLM/commit/2e504a214d0a88bd0451ab078e9c5562933b2539))
+
+### 🔊
+
+* 🔊 added better debug logging ([`dbb2931`](https://github.com/mraniki/MyLLM/commit/dbb293185923bdec9a47b94868df36d2cfce35cb))
+
+
 ## v1.2.10 (2023-08-10)
 
 ### Other
@@ -10,9 +29,15 @@
 
 ⬆️(deps): update dependency ruff to &gt;=0.0.284,&lt;0.0.285 ([`e4b430b`](https://github.com/mraniki/MyLLM/commit/e4b430bc18f93d7e12a9ce99ad43023154d1b00f))
 
+* Merge branch &#39;main&#39; into dev ([`aa69fb3`](https://github.com/mraniki/MyLLM/commit/aa69fb321326c98848cda5c0316f7be579a64697))
+
 ### ⬆️
 
 * ⬆️(deps): update dependency ruff to &gt;=0.0.284,&lt;0.0.285 ([`30f4ddb`](https://github.com/mraniki/MyLLM/commit/30f4ddbdcfa4877399f35ccba514eeac5fb335f7))
+
+### 👷
+
+* 👷 CI Change ([`fc9ad6e`](https://github.com/mraniki/MyLLM/commit/fc9ad6e110fc204f0f3867be2e01919a015645bc))
 
 
 ## v1.2.9 (2023-08-09)
@@ -26,6 +51,10 @@
 ### ⬆️
 
 * ⬆️(deps): update dependency ruff to &gt;=0.0.283,&lt;0.0.284 ([`e5aad38`](https://github.com/mraniki/MyLLM/commit/e5aad385d0a759977efc37aa78d7e3e7fd447f4b))
+
+### 🔧
+
+* 📝 🔧  settings documentation ([`2e0b0f7`](https://github.com/mraniki/MyLLM/commit/2e0b0f7699881fcb8fa8a7b0d54ba9e122b84f8d))
 
 
 ## v1.2.8 (2023-08-07)

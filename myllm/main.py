@@ -15,10 +15,10 @@ from myllm import __version__
 from myllm.config import settings
 
 
-class MyLLM():
+class MyLLM:
     """
 
-    MyLLM class use to initiate a LLM client 
+    MyLLM class use to initiate a LLM client
     with a given model and a given provider
 
     Attributes:
@@ -35,6 +35,12 @@ class MyLLM():
     """
 
     def __init__(self):
+        """
+        Initialize the MyLLM object
+
+        Args:
+            None
+        """
 
         self.logger = logger
         self.enabled = settings.llm_enabled
@@ -45,15 +51,14 @@ class MyLLM():
 
         self.chain = None
 
-
     async def get_myllm_info(self):
         """
-        Retrieves information about MyLLM including 
+        Retrieves information about MyLLM including
         its version and the model being used.
 
         :return: A string containing the MyLLM version and the model.
         """
-        return (f"ℹ️ MyLLM v{__version__}\n {self.model}\n")
+        return f"ℹ️ MyLLM v{__version__}\n {self.model}\n"
 
     async def get_myllm_help(self):
         """
@@ -62,37 +67,34 @@ class MyLLM():
         Returns:
             str: The help message for the `myllm` command.
         """
-        return (f"{self.commands}\n")
+        return f"{self.commands}\n"
 
-
-    async def talk(
-        self,
-        prompt = settings.llm_default_prompt
-        ):
+    async def talk(self, prompt=settings.llm_default_prompt):
         """
         Asynchronously initiates a chat with the given prompt.
 
         Args:
-            prompt (str, optional): The prompt to start the chat with. 
+            prompt (str, optional): The prompt to start the chat with.
             Defaults to settings.llm_default_prompt.
 
         Returns:
-            g4f.ChatCompletion: An instance of the g4f.ChatCompletion class 
+            g4f.ChatCompletion: An instance of the g4f.ChatCompletion class
             representing the chat completion.
         """
+        self.logger.info(f"Starting chat with prompt: {prompt}")
         return g4f.ChatCompletion.create(
-            model = settings.llm_model,
-            provider = importlib.import_module(settings.llm_provider),
-            messages=[{"role": "user","content": prompt}],)
-
+            model=settings.llm_model,
+            provider=importlib.import_module(settings.llm_provider),
+            messages=[{"role": "user", "content": prompt}],
+        )
 
 
 #####PENDING PYDANTIC V2 support for clean chain support
-    # async def talk(
-    #     self,
-    #     prompt = settings.llm_default_prompt
-    #     ):
-        # return self.llm(prompt)
+# async def talk(
+#     self,
+#     prompt = settings.llm_default_prompt
+#     ):
+# return self.llm(prompt)
 
 #     async def topic(
 #         self,
@@ -108,7 +110,7 @@ class MyLLM():
 # from langchain.llms.base import LLM
 
 # class LangLLM(LLM):
-    
+
 #     @property
 #     def _llm_type(self) -> str:
 #         return "custom"
@@ -124,4 +126,3 @@ class MyLLM():
 #             if min_stop > -1:
 #                 out = out[:min_stop]
 #         return out
-        

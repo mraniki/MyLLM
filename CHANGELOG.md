@@ -2,6 +2,19 @@
 
 
 
+## v1.2.12 (2023-08-12)
+
+### Other
+
+* Merge pull request #42 from mraniki/dev
+
+🎨 logo update ([`24794f3`](https://github.com/mraniki/MyLLM/commit/24794f32be219aca4b085041a0654cbbfa7cd8a3))
+
+### 🎨
+
+* 🎨 logo update ([`f5e6100`](https://github.com/mraniki/MyLLM/commit/f5e6100d7ed0753e124653f6fce1d12ff8c315b2))
+
+
 ## v1.2.11 (2023-08-11)
 
 ### Other

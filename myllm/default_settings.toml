@@ -44,8 +44,8 @@ llm_default_prompt = "write a tiny story"
 llm_commands = """
 🦾 /qq\n
 💬 /ai\n
-➰ /aimode
-🧽 /clearai
+➰ /aimode\n
+🧽 /clearai\n
 """
 # command for questions
 bot_command_question = "qq"
@@ -53,8 +53,8 @@ bot_command_question = "qq"
 bot_command_topic = "ai"
 # command for reset chat
 bot_command_clearai = "clearai"
-# flag to activate or deactivate budfox mode
-llm_continous = true
+# flag to activate or deactivate aimode
+llm_continous = false
 llm_continous_context = """
 You operate within the following constraints:
 Your task is to devise up to 5 highly effective goals

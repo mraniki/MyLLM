@@ -2,6 +2,67 @@
 
 
 
+## v1.2.15 (2023-08-18)
+
+### Other
+
+* Merge pull request #48 from mraniki/dev
+
+Merge ([`9b6459e`](https://github.com/mraniki/MyLLM/commit/9b6459e9cf7034f5d62976ce6a7a8b18fe972234))
+
+* Merge pull request #49 from mraniki/sourcery/dev
+
+Merge (Sourcery refactored) ([`504a330`](https://github.com/mraniki/MyLLM/commit/504a330d122b9f59d53e769a300164af1bb8d67c))
+
+* &#39;Refactored by Sourcery&#39; ([`9be40d1`](https://github.com/mraniki/MyLLM/commit/9be40d1b122e898b10cb35e44bd09dd24b30433d))
+
+* Merge branch &#39;main&#39; into dev ([`bbc6d96`](https://github.com/mraniki/MyLLM/commit/bbc6d96bf92673189d324e9d4702720df92e838d))
+
+### Update
+
+* Update main.py ([`a96548d`](https://github.com/mraniki/MyLLM/commit/a96548d5c196cd4697b7291f34bad03df4265b51))
+
+* Update main.py ([`b17cedf`](https://github.com/mraniki/MyLLM/commit/b17cedf5d8a9e1fc13ce0b317bbf127941dc2204))
+
+* Update main.py ([`b0f16ca`](https://github.com/mraniki/MyLLM/commit/b0f16ca51c22a3ef4e0116a186e2bb4d38d948df))
+
+* Update example.py ([`76edf18`](https://github.com/mraniki/MyLLM/commit/76edf180c3a9b79ab0677d0a487e416cb1f2e51d))
+
+* Update main.py ([`d99ae4f`](https://github.com/mraniki/MyLLM/commit/d99ae4f4479a5f938e763de85ef011a69be8af28))
+
+* Update default_settings.toml ([`404c157`](https://github.com/mraniki/MyLLM/commit/404c157942bd9709617817aa94bafa9bdb17db5c))
+
+* Update main.py ([`8466f9c`](https://github.com/mraniki/MyLLM/commit/8466f9c9b115552c692590f939c405cbe14c2a00))
+
+* Update Requirements ([`8ac50aa`](https://github.com/mraniki/MyLLM/commit/8ac50aa85c5c0c4d6a78e666768998275f2c7bec))
+
+* Update pyproject.toml ([`ef1ed83`](https://github.com/mraniki/MyLLM/commit/ef1ed8310dcb8cb787a2b9324e414e09f7e4390f))
+
+* Update main.py ([`3d173d7`](https://github.com/mraniki/MyLLM/commit/3d173d737d4b2440d63f2fd7caab7a020975fabd))
+
+* Update default_settings.toml ([`b944850`](https://github.com/mraniki/MyLLM/commit/b9448506b2994c04b5c3db846d74b6114da78ab8))
+
+* Update main.py ([`33e683c`](https://github.com/mraniki/MyLLM/commit/33e683cf977fb2993477fe4701b9735c03b6ac7a))
+
+* Update main.py ([`e4abadd`](https://github.com/mraniki/MyLLM/commit/e4abadd95326fdbca3c0ebd76b9069adafff5f47))
+
+* Update Requirements ([`74843df`](https://github.com/mraniki/MyLLM/commit/74843df6af1fcd83d16d37c01c874659076fae63))
+
+* Update pyproject.toml ([`47ca7e5`](https://github.com/mraniki/MyLLM/commit/47ca7e518ddf2ced4aa1eb3cfa09df97e144a3e2))
+
+* Update example.py ([`b2b8893`](https://github.com/mraniki/MyLLM/commit/b2b8893e442178525817ba93df53572a7c56cb6f))
+
+* Update main.py ([`0fddd9b`](https://github.com/mraniki/MyLLM/commit/0fddd9b348c37ac3da6f15f518e5da402f6e7446))
+
+* Update README.md ([`6e0604b`](https://github.com/mraniki/MyLLM/commit/6e0604b79bf85f1e8b3ef6905b2ed6e46956be29))
+
+* Update pyproject.toml ([`260a147`](https://github.com/mraniki/MyLLM/commit/260a14787bd4bb2c1f28102f7687c6036bb63e11))
+
+* Update default_settings.toml ([`50c3d52`](https://github.com/mraniki/MyLLM/commit/50c3d52a3829fc357929fbb327418859b48e709d))
+
+* Update pyproject.toml ([`2abf5ee`](https://github.com/mraniki/MyLLM/commit/2abf5eeda184fd1e6f404fb659550d4e7c26cdc5))
+
+
 ## v1.2.14 (2023-08-18)
 
 ### :recycle:
@@ -10,9 +71,15 @@
 
 ### Other
 
+* Merge branch &#39;main&#39; into dev ([`681a3ab`](https://github.com/mraniki/MyLLM/commit/681a3ab38b8d98a67453b99f45455ab10a1b9d1e))
+
 * Merge pull request #46 from mraniki/dev
 
 :recycle::arrow_up:dep downgrade ([`e7d03f8`](https://github.com/mraniki/MyLLM/commit/e7d03f82cb3317e53f90552d32f782524279b2ff))
+
+### Update
+
+* Update Requirements ([`2695e2b`](https://github.com/mraniki/MyLLM/commit/2695e2b79bd011058e9d97e33ed95569a1138e27))
 
 
 ## v1.2.13 (2023-08-18)

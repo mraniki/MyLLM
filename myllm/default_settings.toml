@@ -73,7 +73,7 @@ Help me with a trading monitoring for EURUSD
 
 Example output:
 - Query current trend via /trend
-- Access volume data via /indicator
+- Access realtime data via /indicator
 - Query news via /news
 - Advise on a low timeframe and high timeframe trading positioning
 - Place an order if suitable and wait for user confirmation

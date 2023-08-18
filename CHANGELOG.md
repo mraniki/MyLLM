@@ -2,6 +2,19 @@
 
 
 
+## v1.2.14 (2023-08-18)
+
+### :recycle:
+
+* :recycle::arrow_up:dep downgrade ([`92349f2`](https://github.com/mraniki/MyLLM/commit/92349f2f5f75c5a47f394d29bad29c6ae6d90d10))
+
+### Other
+
+* Merge pull request #46 from mraniki/dev
+
+:recycle::arrow_up:dep downgrade ([`e7d03f8`](https://github.com/mraniki/MyLLM/commit/e7d03f82cb3317e53f90552d32f782524279b2ff))
+
+
 ## v1.2.13 (2023-08-18)
 
 ### Other

@@ -2,6 +2,19 @@
 
 
 
+## v1.2.19 (2023-08-18)
+
+### Other
+
+* Merge pull request #51 from mraniki/dev
+
+⚡ continuous fix ([`572b362`](https://github.com/mraniki/MyLLM/commit/572b36227d2340d64a5803243e0c1b54c93dbb89))
+
+### ⚡
+
+* ⚡ ([`85d6c6c`](https://github.com/mraniki/MyLLM/commit/85d6c6c8025acadb6a2d49cb66aeaa56b29cf211))
+
+
 ## v1.2.18 (2023-08-18)
 
 ### 💬

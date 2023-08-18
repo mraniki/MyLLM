@@ -51,12 +51,11 @@ async def main():
         prompt="tell me who is president of the united states?"))
     # The current President of the United States is Joe Biden.
 
-    # logger.info(await talky.topic(
-    #         prompt="tell me who is president of the united states?"))
+    logger.info(await talky.topic(
+            prompt="tell me who is president of the united states?"))
+    
+    logger.info(await talky.topic(prompt="what was my first prompt?"))
 
-    # logger.info(await talky.topic(
-    #     new_topic=False,
-    #     prompt="does he have a dog?"))
 
 app = FastAPI()
 

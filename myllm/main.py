@@ -96,8 +96,9 @@ class MyLLM:
         """
 
         """
-        if chat_history:
-            prompt = f"{prompt}, To answer, use the following context: {self.chat_history}"
+        if self.chat_history:
+            prompt = (
+                f"{prompt}, To answer, use the following context: {self.chat_history}")
         self.chat_history = prompt
         return await self.talk(prompt)
 

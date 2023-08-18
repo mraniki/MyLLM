@@ -96,9 +96,9 @@ class MyLLM:
         """
 
         """
-        res = self.collection.query(query_texts=prompt, n_results=2)
         if chat_history:
             prompt = f"{prompt}, To answer, use the following context: {self.chat_history}"
+        self.chat_history = prompt
         return await self.talk(prompt)
 
     async def clear_chat_history(self):

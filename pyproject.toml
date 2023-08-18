@@ -26,7 +26,7 @@ packages = [
 python = "^3.10"
 dynaconf = "^3.1.12"
 loguru = "^0.7.0"
-g4f = "^0.0.1.4"
+g4f = ">=0.0.1.4,<0.0.3.0"
 js2py = "^0.74"
 # langchain = "^0.0.255"
 # libre-chat = "^0.0.4"

@@ -86,23 +86,35 @@ class MyLLM:
         """
         self.logger.info(f"Starting chat with prompt: {prompt}")
         return g4f.ChatCompletion.create(
-            model = self.model,
-            provider = self.provider,
+            model=self.model,
+            provider=self.provider,
             messages=[{"role": "user", "content": prompt}],
         )
 
     async def chat(self, prompt, id=None):
         """
+        Asynchronously initiates a chat with the given prompt
+        and keep the history of the chat.
+
+        Args:
+            prompt (str, optional): The prompt to start the chat with.
+
+        Returns:
+            g4f.ChatCompletion: An instance of the g4f.ChatCompletion class
 
         """
         if self.chat_history:
             prompt = (
-                f"{prompt}, To answer, use the following context: {self.chat_history}")
+                f"{prompt}, To answer, use the following context: {self.chat_history}"
+            )
         self.chat_history = prompt
         return await self.talk(prompt)
 
-    async def clear_chat_history(self):
-        """
+    async def continous_mode(self, prompt, id=None):
+        """ """
+        if settings.llm_continous:
+            return await self.chat(prompt=settings.llm_continous_context)
 
-        """
+    async def clear_chat_history(self):
+        """ """
         self.chat_history = ""

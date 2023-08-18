@@ -8,6 +8,7 @@ import asyncio
 import importlib
 from typing import Any, List, Mapping, Optional
 
+import chromadb
 import g4f
 from loguru import logger
 
@@ -47,6 +48,8 @@ class MyLLM:
         if not self.enabled:
             return
         self.commands = settings.llm_commands
+        self.client = chromadb.Client()
+        self.collection = self.client.create_collection("myllm")
         # self.llm = LangLLM()
 
         self.chain = None
@@ -88,6 +91,14 @@ class MyLLM:
             messages=[{"role": "user", "content": prompt}],
         )
 
+    async def topic(self, prompt, id=None):
+        res = self.collection.query(query_texts=prompt, n_results=2)
+        if len(res) > 0 or res[0] != []:
+            prompt = prompt + "To answer, use the following context: "
+            for i in res:
+                if len(i) > 0:
+                    prompt = prompt + i[0]
+        return await self.talk(prompt)
 
 #####PENDING PYDANTIC V2 support for clean chain support
 # async def talk(

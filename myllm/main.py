@@ -94,7 +94,7 @@ class MyLLM:
     async def topic(self, prompt, id=None):
         res = self.collection.query(query_texts=prompt, n_results=2)
         if len(res) > 0 or res[0] != []:
-            prompt = prompt + "To answer, use the following context: "
+            prompt = f"{prompt}To answer, use the following context: "
             for i in res:
                 if len(i) > 0:
                     prompt = prompt + i[0]

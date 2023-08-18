@@ -46,7 +46,10 @@ class MyLLM:
         self.enabled = settings.llm_enabled
         if not self.enabled:
             return
+        self.model = settings.llm_model
+        self.provider = importlib.import_module(settings.llm_provider)
         self.commands = settings.llm_commands
+        self.chat_history = ""
         # self.llm = LangLLM()
 
         self.chain = None
@@ -83,46 +86,23 @@ class MyLLM:
         """
         self.logger.info(f"Starting chat with prompt: {prompt}")
         return g4f.ChatCompletion.create(
-            model=settings.llm_model,
-            provider=importlib.import_module(settings.llm_provider),
+            model = self.model,
+            provider = self.provider,
             messages=[{"role": "user", "content": prompt}],
         )
 
+    async def chat(self, prompt, id=None):
+        """
 
-#####PENDING PYDANTIC V2 support for clean chain support
-# async def talk(
-#     self,
-#     prompt = settings.llm_default_prompt
-#     ):
-# return self.llm(prompt)
+        """
+        if self.chat_history:
+            prompt = (
+                f"{prompt}, To answer, use the following context: {self.chat_history}")
+        self.chat_history = prompt
+        return await self.talk(prompt)
 
-#     async def topic(
-#         self,
-#         new_topic=False,
-#         prompt = settings.llm_default_prompt
-#         ):
-#         if new_topic:
-#             self.chain = LLMChain(llm=self.llm, prompt=prompt)
-#         return self.chain.run
+    async def clear_chat_history(self):
+        """
 
-
-# from langchain.chains import LLMChain
-# from langchain.llms.base import LLM
-
-# class LangLLM(LLM):
-
-#     @property
-#     def _llm_type(self) -> str:
-#         return "custom"
-
-#     def _call(self, prompt: str, stop: Optional[List[str]] = None) -> str:
-#         out = g4f.ChatCompletion.create(
-#             model = settings.llm_model,
-#             provider = importlib.import_module(settings.llm_provider),
-#             messages=[{"role": "user","content": prompt}],)
-#         if stop:
-#             stop_indexes = (out.find(s) for s in stop if s in out)
-#             min_stop = min(stop_indexes, default=-1)
-#             if min_stop > -1:
-#                 out = out[:min_stop]
-#         return out
+        """
+        self.chat_history = ""

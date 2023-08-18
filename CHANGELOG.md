@@ -2,6 +2,13 @@
 
 
 
+## v1.2.16 (2023-08-18)
+
+### 🔧
+
+* 🔧 ([`0f12cdc`](https://github.com/mraniki/MyLLM/commit/0f12cdc4d426a1c2dda3ab1daef51d17016bd262))
+
+
 ## v1.2.15 (2023-08-18)
 
 ### Other

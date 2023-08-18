@@ -49,6 +49,7 @@ class MyLLM:
         self.model = settings.llm_model
         self.provider = importlib.import_module(settings.llm_provider)
         self.commands = settings.llm_commands
+        self.llm_continous = settings.llm_continous
         self.chat_history = ""
         # self.llm = LangLLM()
 
@@ -110,10 +111,11 @@ class MyLLM:
         self.chat_history = prompt
         return await self.talk(prompt)
 
-    async def continous_mode(self, prompt, id=None):
+    async def continous_mode(self, prompt):
         """ """
-        if settings.llm_continous:
-            return await self.chat(prompt=settings.llm_continous_context)
+        if self.llm_continous:
+            self.chat_history = settings.llm_continous_context
+            return await self.chat(prompt)
 
     async def clear_chat_history(self):
         """ """

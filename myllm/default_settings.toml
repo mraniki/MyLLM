@@ -21,11 +21,11 @@ VALUE = "On Default"
 llm_enabled = true
 
 # LLM Model to use
-# llm_model = "gpt-4"
-llm_model = "g4f.models.gpt_4"
+llm_model = "gpt-4"
 # llm_model = "falcon-40b"
+
 # LLM Provider
-llm_provider = "g4f.Provider.ChatgptAi"
+llm_provider = "g4f.Provider.Providers.ChatgptAi"
 # llm_provider = "g4f.Provider.Providers.H2o"
 
 # LLM Host

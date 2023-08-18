@@ -2,6 +2,19 @@
 
 
 
+## v1.2.17 (2023-08-18)
+
+### ⚗️
+
+* ⚗️ experiment continous mode ([`8e2ea00`](https://github.com/mraniki/MyLLM/commit/8e2ea00620a6bd09807daf26a4224215ba0cc1ff))
+
+### 🔧
+
+* 🔧 ([`ec11a66`](https://github.com/mraniki/MyLLM/commit/ec11a66b3ec1de8b175faa72b314773cbea96848))
+
+* 🔧 ([`8cc32bc`](https://github.com/mraniki/MyLLM/commit/8cc32bc66b6ee46f15b7fcf50941a35b6599260c))
+
+
 ## v1.2.16 (2023-08-18)
 
 ### 🔧

@@ -2,6 +2,19 @@
 
 
 
+## v1.2.20 (2023-08-18)
+
+### :fire:
+
+* :fire: Remove SERP API Key and update main.py and pyproject.toml ([`06baf38`](https://github.com/mraniki/MyLLM/commit/06baf3854076217a28dd6ef9e79a1b39a4915654))
+
+### Other
+
+* Merge pull request #52 from mraniki/dev
+
+:fire: Remove SERP API Key and update main.py and pyproject.toml ([`b0b8743`](https://github.com/mraniki/MyLLM/commit/b0b8743af1c074966c1767bc788bb33bccbe5bb1))
+
+
 ## v1.2.19 (2023-08-18)
 
 ### Other

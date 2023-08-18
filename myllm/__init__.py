@@ -1,7 +1,7 @@
 """
  Versioning
 """
-__version__ = "1.2.19"
+__version__ = "1.2.20"
 
 from .config import settings
 from .main import MyLLM

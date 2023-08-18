@@ -112,11 +112,17 @@ class MyLLM:
         return await self.talk(prompt)
 
     async def continous_mode(self, prompt):
-        """ """
+        """
+       
+        """
         if self.llm_continous:
             self.chat_history = settings.llm_continous_context
             return await self.chat(prompt)
 
     async def clear_chat_history(self):
-        """ """
+        """ 
+        
+        """
         self.chat_history = ""
+
+

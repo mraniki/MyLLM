@@ -2,6 +2,33 @@
 
 
 
+## v1.2.13 (2023-08-18)
+
+### Other
+
+* Merge pull request #44 from mraniki/dependabot/pip/g4f-gte-0.0.1.4-and-lt-0.0.3.0
+
+⬆️ Dep: Update g4f requirement from ^0.0.1.4 to &gt;=0.0.1.4,&lt;0.0.3.0 ([`9bf9abd`](https://github.com/mraniki/MyLLM/commit/9bf9abd3d89bcc3921c03693208ebd6afd83f222))
+
+### Update
+
+* Update Requirements ([`ef9b1b6`](https://github.com/mraniki/MyLLM/commit/ef9b1b6a5eda77a59d82741ec88be24c457e06a0))
+
+* :arrow_up: Dep: Update g4f requirement
+
+Updates the requirements on [g4f](https://github.com/xtekky/gpt4free) to permit the latest version.
+- [Release notes](https://github.com/xtekky/gpt4free/releases)
+- [Commits](https://github.com/xtekky/gpt4free/commits)
+
+---
+updated-dependencies:
+- dependency-name: g4f
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`8ef0138`](https://github.com/mraniki/MyLLM/commit/8ef0138d3c984a7b534e2f9865c2b211c362ba64))
+
+
 ## v1.2.12 (2023-08-12)
 
 ### Other

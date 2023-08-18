@@ -8,7 +8,6 @@ import asyncio
 import importlib
 from typing import Any, List, Mapping, Optional
 
-import chromadb
 import g4f
 from loguru import logger
 

@@ -86,8 +86,9 @@ class MyLLM:
         """
         self.logger.info(f"Starting chat with prompt: {prompt}")
         return g4f.ChatCompletion.create(
-            model=settings.llm_model,
-            #provider=importlib.import_module(settings.llm_provider),
+            # model=settings.llm_model,
+            model=importlib.import_module(settings.llm_model),
+            # provider=importlib.import_module(settings.llm_provider),
             messages=[{"role": "user", "content": prompt}],
         )
 

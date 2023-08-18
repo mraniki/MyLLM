@@ -33,9 +33,6 @@ llm_host = ""
 # LLM Auth Token
 llm_auth_token = ""
 
-# SERP API Key 
-llm_serpapi-key = ""
-
 #default prompt if prompt is not given
 llm_default_prompt = "write a tiny story"
 

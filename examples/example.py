@@ -47,15 +47,15 @@ async def main():
     # reminding us all to embrace our curiosity and protect the beauty 
     # of our surroundings.
 
-    logger.info(await talky.talk(
-        prompt="tell me who is president of the united states?"))
-    # The current President of the United States is Joe Biden.
+    logger.info(await talky.chat(
+        prompt="My name is Jack"))
 
-    logger.info(await talky.topic(
+    logger.info(await talky.chat(
             prompt="tell me who is president of the united states?"))
+    # The current President of the United States is Joe Biden.
     
-    logger.info(await talky.topic(prompt="what was my first prompt?"))
-
+    logger.info(await talky.chat(prompt="what is my name"))
+    # your name is Jack
 
 app = FastAPI()
 

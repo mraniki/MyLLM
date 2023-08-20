@@ -2,6 +2,19 @@
 
 
 
+## v1.2.24 (2023-08-20)
+
+### Other
+
+* Create myllm.toml ([`a705440`](https://github.com/mraniki/MyLLM/commit/a70544092cb3cff7de8d8aed8eeee79e205d1b14))
+
+### Update
+
+* Update config.py ([`82b9305`](https://github.com/mraniki/MyLLM/commit/82b93055103dee99cdbe729e6069f9639bdc61ec))
+
+* Update config.py ([`eab4d29`](https://github.com/mraniki/MyLLM/commit/eab4d29a7d2747f2022ee231d299ef73883edb85))
+
+
 ## v1.2.23 (2023-08-20)
 
 ### Fix

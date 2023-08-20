@@ -2,6 +2,17 @@
 
 
 
+## v1.2.22 (2023-08-20)
+
+### Update
+
+* Update pyproject.toml ([`a61a702`](https://github.com/mraniki/MyLLM/commit/a61a7021fbbfa396f4f457e04d03a5aa588847c8))
+
+### ⬆️
+
+* ⬆️(deps): update dependency sphinx to v7.2.2 ([`e29fb42`](https://github.com/mraniki/MyLLM/commit/e29fb423de36c262ba82110f2cf7a3445465b686))
+
+
 ## v1.2.21 (2023-08-20)
 
 ### :fire:

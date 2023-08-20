@@ -2,6 +2,25 @@
 
 
 
+## v1.2.21 (2023-08-20)
+
+### :fire:
+
+* :fire: ([`3145a95`](https://github.com/mraniki/MyLLM/commit/3145a95e0053d1ef39190986706d3861165c08c0))
+
+### Other
+
+* Merge pull request #54 from mraniki/dev
+
+✨ Added setting and function switch_continous_mode ([`7b9050c`](https://github.com/mraniki/MyLLM/commit/7b9050c4ab93f257c0ebe3ef6e22fee879cadfb7))
+
+### Update
+
+* Update default_settings.toml ([`74f7207`](https://github.com/mraniki/MyLLM/commit/74f720792aa830b8814884581d151d29af6ae58d))
+
+* Update main.py ([`30218b3`](https://github.com/mraniki/MyLLM/commit/30218b384830bd9b4580565259f7dc1523ca99ed))
+
+
 ## v1.2.20 (2023-08-18)
 
 ### :fire:

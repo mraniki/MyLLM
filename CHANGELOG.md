@@ -2,6 +2,17 @@
 
 
 
+## v1.2.25 (2023-08-20)
+
+### Update
+
+* Update renovate.json ([`49871b6`](https://github.com/mraniki/MyLLM/commit/49871b65650a92656086053a8b55ef2d6cc273f0))
+
+### ⬆️
+
+* ⬆️(deps): update dependency sphinx to v7.1.2 ([`55c50ec`](https://github.com/mraniki/MyLLM/commit/55c50ec8bb635d00bd8fa4a40ff4cbdac3bfef33))
+
+
 ## v1.2.24 (2023-08-20)
 
 ### Other

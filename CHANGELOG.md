@@ -2,6 +2,13 @@
 
 
 
+## v1.2.23 (2023-08-20)
+
+### Fix
+
+* :memo: hot fix for sphinx Update pyproject.toml ([`e21758f`](https://github.com/mraniki/MyLLM/commit/e21758fc86116ab11c7fa37bf765cf0d28fd80ea))
+
+
 ## v1.2.22 (2023-08-20)
 
 ### Update

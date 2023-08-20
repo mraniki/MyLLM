@@ -125,4 +125,10 @@ class MyLLM:
         """
         self.chat_history = ""
 
+    async def switch_continous_mode(self):
+        """ 
+        
+        """
+        self.llm_continous = not self.llm_continous
+        return f"Continous mode {'enabled' if settings.llm_continous else 'disabled'}."
 

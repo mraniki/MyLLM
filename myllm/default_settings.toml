@@ -50,7 +50,9 @@ bot_command_question = "qq"
 bot_command_topic = "ai"
 # command for reset chat
 bot_command_clearai = "clearai"
-# flag to activate or deactivate aimode
+
+# command to activate or deactivate aimode
+bot_command_aimode = "aimode"
 llm_continous = false
 llm_continous_context = """
 You operate within the following constraints:

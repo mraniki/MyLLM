@@ -1,10 +1,4 @@
 
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-
 [tool.poetry]
 name = "MyLLM"
 version = "1.2.31"
@@ -22,6 +16,11 @@ packages = [
 "Changelog" =  "https://github.com/mraniki/MyLLM/blob/dev/CHANGELOG.rst"
 "Support" =  "https://github.com/mraniki/MyLLM/discussions"
 "Issues" =  "https://github.com/mraniki/MyLLM/issues"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
 
 
 [tool.poetry.dependencies]

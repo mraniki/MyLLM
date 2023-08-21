@@ -2,6 +2,19 @@
 
 
 
+## v1.2.27 (2023-08-21)
+
+### Fix
+
+* ♻️ continous fix ([`d4d556d`](https://github.com/mraniki/MyLLM/commit/d4d556d5e02ab12391f03b7e4991a56e6aa2d696))
+
+### Other
+
+* Merge pull request #61 from mraniki/dev
+
+♻️ continous fix ([`cca4b15`](https://github.com/mraniki/MyLLM/commit/cca4b15dc93c93c455e1e09779f2c8ec37c791c2))
+
+
 ## v1.2.26 (2023-08-21)
 
 ### Other

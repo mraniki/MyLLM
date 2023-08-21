@@ -1,5 +1,5 @@
 """
-
+ 
 MYLLM Main 🤖
 
 """
@@ -112,23 +112,16 @@ class MyLLM:
         return await self.talk(prompt)
 
     async def continous_mode(self, prompt):
-        """
-       
-        """
+        """ """
         if self.llm_continous:
             self.chat_history = settings.llm_continous_context
             return await self.chat(prompt)
 
     async def clear_chat_history(self):
-        """ 
-        
-        """
+        """ """
         self.chat_history = ""
 
     async def switch_continous_mode(self):
-        """ 
-        
-        """
+        """ """
         self.llm_continous = not self.llm_continous
-        return f"Continous mode {'enabled' if settings.llm_continous else 'disabled'}."
-
+        return f"Continous mode {'enabled' if self.llm_continous else 'disabled'}."

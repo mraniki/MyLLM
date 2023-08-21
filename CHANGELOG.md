@@ -2,6 +2,19 @@
 
 
 
+## v1.2.26 (2023-08-21)
+
+### Other
+
+* Merge pull request #60 from mraniki/dev
+
+Update .github/workflows/:construction_worker_man:Flow.yml ([`0123c2b`](https://github.com/mraniki/MyLLM/commit/0123c2b5fcc5f5aea363a33dd82de4be6e47ded4))
+
+### Update
+
+* Update .github/workflows/:construction_worker_man:Flow.yml ([`1062d25`](https://github.com/mraniki/MyLLM/commit/1062d25a1a496d0345bd29c774955ef9f1350e02))
+
+
 ## v1.2.25 (2023-08-20)
 
 ### Update

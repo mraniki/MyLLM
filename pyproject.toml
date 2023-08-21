@@ -35,8 +35,8 @@ js2py = "^0.74"
 
 
 [tool.poetry.group.dev.dependencies]
-python-semantic-release = "^8.0.2"
-ruff = ">=0.0.284"
+python-semantic-release = "^8.0.7"
+ruff = ">=0.0.285"
 
 [tool.ruff]
 select = [

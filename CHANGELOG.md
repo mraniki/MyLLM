@@ -2,6 +2,15 @@
 
 
 
+## v1.2.28 (2023-08-21)
+
+### Other
+
+* Merge pull request #59 from mraniki/dependabot/pip/sphinx-7.2.2
+
+⬆️ Dep: Update sphinx requirement from 7.1.2 to 7.2.2 ([`7dd2d52`](https://github.com/mraniki/MyLLM/commit/7dd2d5263947543440194242eb60974b804837a6))
+
+
 ## v1.2.27 (2023-08-21)
 
 ### Fix
@@ -24,6 +33,21 @@
 Update .github/workflows/:construction_worker_man:Flow.yml ([`0123c2b`](https://github.com/mraniki/MyLLM/commit/0123c2b5fcc5f5aea363a33dd82de4be6e47ded4))
 
 ### Update
+
+* :arrow_up: Dep: Update sphinx requirement from 7.1.2 to 7.2.2
+
+Updates the requirements on [sphinx](https://github.com/sphinx-doc/sphinx) to permit the latest version.
+- [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES)
+- [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.1.2...v7.2.2)
+
+---
+updated-dependencies:
+- dependency-name: sphinx
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`932a6c6`](https://github.com/mraniki/MyLLM/commit/932a6c6c82a3a7e11225ddb443a3514d21ec687c))
 
 * Update .github/workflows/:construction_worker_man:Flow.yml ([`1062d25`](https://github.com/mraniki/MyLLM/commit/1062d25a1a496d0345bd29c774955ef9f1350e02))
 

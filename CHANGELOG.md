@@ -2,6 +2,25 @@
 
 
 
+## v1.2.34 (2023-08-24)
+
+### Other
+
+* Merge pull request #64 from mraniki/dev ([`f39426f`](https://github.com/mraniki/MyLLM/commit/f39426f1bbd1239c1139f45dbf0f56e8f52f9e2d))
+
+### 👷
+
+* 👷 CI cleanup ([`f30e715`](https://github.com/mraniki/MyLLM/commit/f30e715a2e600e881c7c40da2f272c7036450259))
+
+### 📝
+
+* 📝 ([`6dd872d`](https://github.com/mraniki/MyLLM/commit/6dd872dc4b27cbf325181a0f4f12eef7e8ec00ef))
+
+### 🔥
+
+* 🔥 cleanup ([`aa0aa16`](https://github.com/mraniki/MyLLM/commit/aa0aa16cb8475bb98de8235bd18296f9c05ae81e))
+
+
 ## v1.2.33 (2023-08-24)
 
 ### Update

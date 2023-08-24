@@ -2,6 +2,13 @@
 
 
 
+## v1.2.33 (2023-08-24)
+
+### Update
+
+* Update pyproject.toml ([`fb799c1`](https://github.com/mraniki/MyLLM/commit/fb799c17e5db52dc96e3125801d5f4795e88fdbb))
+
+
 ## v1.2.32 (2023-08-21)
 
 ### Update

@@ -25,8 +25,8 @@ llm_model = "gpt-4"
 # llm_model = "falcon-40b"
 
 # LLM Provider
-llm_provider = "g4f.Provider.Providers.ChatgptAi"
-# llm_provider = "g4f.Provider.Providers.H2o"
+llm_provider = "g4f.Provider.ChatgptAi"
+#llm_provider = "g4f.Provider.Providers.H2o"
 
 # LLM Host
 llm_host = ""

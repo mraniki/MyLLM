@@ -26,12 +26,13 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.dependencies]
 python = "^3.10"
 dynaconf = "^3.1.12"
-loguru = "0.6.0"
-g4f = "0.0.1.7"
+loguru = ">=0.6.0"
+#g4f = "0.0.1.7"
+g4f = ">=0.0.1.7"
 js2py = "^0.74"
-# langchain = "^0.0.255"
-# libre-chat = "^0.0.4"
-# huggingface_hub = "^v0.16.4"
+langchain = "^0.0.255"
+libre-chat = "^0.0.4"
+huggingface_hub = "^v0.16.4"
 
 
 

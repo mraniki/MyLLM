@@ -1,7 +1,7 @@
 
 [tool.poetry]
 name = "MyLLM"
-version = "1.2.34"
+version = "1.2.35"
 description = "A python package to interact with llm model supported by g4f"
 authors = ["mraniki <8766259+mraniki@users.noreply.github.com>"]
 license = "MIT License"

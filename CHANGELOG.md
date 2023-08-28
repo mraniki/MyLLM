@@ -2,6 +2,23 @@
 
 
 
+## v1.2.35 (2023-08-28)
+
+### Other
+
+* Merge pull request #68 from mraniki/renovate/sphinx-7.x
+
+⬆️ 🛠️(deps): update dependency sphinx to v7.2.4 ([`80dbed3`](https://github.com/mraniki/MyLLM/commit/80dbed30c5512e1c4b36233cdcd7496292f72ac1))
+
+### Update
+
+* Update Requirements ([`655bc44`](https://github.com/mraniki/MyLLM/commit/655bc442eba863e122a3e22303f146e69680837d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.2.4 ([`863fe98`](https://github.com/mraniki/MyLLM/commit/863fe98133260143df202403f9116500bb9a3943))
+
+
 ## v1.2.34 (2023-08-24)
 
 ### Other

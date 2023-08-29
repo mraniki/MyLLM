@@ -9,8 +9,9 @@ import importlib
 from typing import Any, List, Mapping, Optional
 
 import g4f
-from langchain.chains import LLMChain
+from langchain.chains import ConversationChain
 from langchain.llms.base import LLM
+from langchain.memory import ConversationBufferMemory
 from loguru import logger
 
 from myllm import __version__
@@ -55,6 +56,7 @@ class MyLLM:
         self.chat_history = ""
         self.llm = LangLLM()
         self.chain = None
+        self.conversation = None
 
     async def get_myllm_info(self):
         """
@@ -103,14 +105,15 @@ class MyLLM:
         Returns:
             function: The result of calling the `run` method on the `chain` object.
         """
-        self.chain = LLMChain(llm=self.llm, prompt={"content": prompt})
-        return self.chain.run
+        self.conversation = ConversationChain(
+            llm=prompt,
+            memory=ConversationBufferMemory()
+        )
+        return self.conversation.run
 
     async def continous_mode(self, prompt):
         """ """
-        if self.llm_continous:
-            self.chat_history = settings.llm_continous_context
-            return await self.chat(prompt)
+        pass
 
     async def clear_chat_history(self):
         """ """
@@ -139,7 +142,7 @@ class LangLLM(LLM):
 
         Args:
             prompt (str): The prompt for the ChatCompletion API.
-            stop (Optional[List[str]], optional): A list of strings that, 
+            stop (Optional[List[str]], optional): A list of strings that,
             if found in the response,
                 indicates the response should be truncated. Defaults to None.
 

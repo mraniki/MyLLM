@@ -21,5 +21,5 @@ async def test_dynaconf():
 @pytest.mark.asyncio
 async def test_myllm():
     talky = MyLLM()
-    response = await talky.talk()
+    response = await talky.chat()
     assert response is not None

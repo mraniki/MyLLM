@@ -9,14 +9,12 @@ import importlib
 from typing import Any, List, Mapping, Optional
 
 import g4f
-from loguru import logger
-
 from langchain.chains import LLMChain
 from langchain.llms.base import LLM
+from loguru import logger
 
 from myllm import __version__
 from myllm.config import settings
-
 
 
 class MyLLM:
@@ -56,7 +54,6 @@ class MyLLM:
         self.llm_continous = settings.llm_continous
         self.chat_history = ""
         self.llm = LangLLM()
-
         self.chain = None
 
     async def get_myllm_info(self):
@@ -101,21 +98,9 @@ class MyLLM:
         Asynchronously initiates a chat with the given prompt
         and keep the history of the chat.
 
-        Args:
-            prompt (str, optional): The prompt to start the chat with.
-
-        Returns:
-            g4f.ChatCompletion: An instance of the g4f.ChatCompletion class
-
         """
-       # if self.chat_history:
-    #        prompt = (
-     #           f"{prompt}, To answer, use the following context: {self.chat_history}"
-        #    )
-    #    self.chat_history = prompt
-        LLMChain(llm=self.llm, prompt=prompt)
+        self.chain = LLMChain(llm=self.llm, prompt={"content": prompt})
         return self.chain.run
-        #return await self.talk(prompt)
 
     async def continous_mode(self, prompt):
         """ """
@@ -131,6 +116,7 @@ class MyLLM:
         """ """
         self.llm_continous = not self.llm_continous
         return f"Continous mode {'enabled' if self.llm_continous else 'disabled'}."
+
 
 # async def talk(
 #     self,
@@ -148,22 +134,20 @@ class MyLLM:
 #         return self.chain.run
 
 
-
 class LangLLM(LLM):
-
     @property
     def _llm_type(self) -> str:
         return "custom"
 
     def _call(self, prompt: str, stop: Optional[List[str]] = None) -> str:
         out = g4f.ChatCompletion.create(
-            model = settings.llm_model,
-            provider = importlib.import_module(settings.llm_provider),
-            messages=[{"role": "user","content": prompt}],)
+            model=settings.llm_model,
+            provider=importlib.import_module(settings.llm_provider),
+            messages=[{"role": "user", "content": prompt}],
+        )
         if stop:
             stop_indexes = (out.find(s) for s in stop if s in out)
             min_stop = min(stop_indexes, default=-1)
             if min_stop > -1:
                 out = out[:min_stop]
         return out
-

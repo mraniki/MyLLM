@@ -95,9 +95,13 @@ class MyLLM:
 
     async def chat(self, prompt):
         """
-        Asynchronously initiates a chat with the given prompt
-        and keep the history of the chat.
+        Asynchronously chats with the user using the provided prompt.
 
+        Args:
+            prompt (str): The prompt to start the conversation with.
+
+        Returns:
+            function: The result of calling the `run` method on the `chain` object.
         """
         self.chain = LLMChain(llm=self.llm, prompt={"content": prompt})
         return self.chain.run
@@ -118,28 +122,30 @@ class MyLLM:
         return f"Continous mode {'enabled' if self.llm_continous else 'disabled'}."
 
 
-# async def talk(
-#     self,
-#     prompt = settings.llm_default_prompt
-#     ):
-# return self.llm(prompt)
-
-#     async def topic(
-#         self,
-#         new_topic=False,
-#         prompt = settings.llm_default_prompt
-#         ):
-#         if new_topic:
-#             self.chain = LLMChain(llm=self.llm, prompt=prompt)
-#         return self.chain.run
-
-
 class LangLLM(LLM):
     @property
     def _llm_type(self) -> str:
+        """
+        Returns the type of the _llm_type property.
+
+        :return: A string representing the type of the property.
+        :rtype: str
+        """
         return "custom"
 
     def _call(self, prompt: str, stop: Optional[List[str]] = None) -> str:
+        """
+        Calls the ChatCompletion API to generate a response based on the given prompt.
+
+        Args:
+            prompt (str): The prompt for the ChatCompletion API.
+            stop (Optional[List[str]], optional): A list of strings that, 
+            if found in the response,
+                indicates the response should be truncated. Defaults to None.
+
+        Returns:
+            str: The generated response from the ChatCompletion API.
+        """
         out = g4f.ChatCompletion.create(
             model=settings.llm_model,
             provider=importlib.import_module(settings.llm_provider),

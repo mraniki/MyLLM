@@ -2,6 +2,13 @@
 
 
 
+## v1.2.36 (2023-08-29)
+
+### Update
+
+* Update conf.py ([`62781a9`](https://github.com/mraniki/MyLLM/commit/62781a9b726fbe9134583d138933981cd914ca42))
+
+
 ## v1.2.35 (2023-08-28)
 
 ### Other

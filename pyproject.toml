@@ -30,7 +30,7 @@ loguru = ">=0.6.0"
 #g4f = "0.0.1.7"
 g4f = ">=0.0.2.6"
 js2py = "^0.74"
-langchain = "^0.0.275"
+langchain = ">=0.0.275,<0.0.277"
 libre-chat = "^0.0.4"
 huggingface_hub = "^v0.16.4"
 

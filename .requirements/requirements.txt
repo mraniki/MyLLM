@@ -49,7 +49,7 @@ jsonschema-specifications==2023.7.1 ; python_version >= "3.10" and python_versio
 jsonschema==4.19.0 ; python_version >= "3.10" and python_version < "4.0"
 kiwisolver==1.4.5 ; python_version >= "3.10" and python_version < "4.0"
 langchain==0.0.276 ; python_version >= "3.10" and python_version < "4.0"
-langsmith==0.0.27 ; python_version >= "3.10" and python_version < "4.0"
+langsmith==0.0.28 ; python_version >= "3.10" and python_version < "4.0"
 libre-chat==0.0.4 ; python_version >= "3.10" and python_version < "4.0"
 loguru==0.7.0 ; python_version >= "3.10" and python_version < "4.0"
 lz4==4.3.2 ; python_version >= "3.10" and python_version < "4.0"

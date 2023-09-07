@@ -7,7 +7,7 @@ MYLLM Main 🤖
 import asyncio
 import importlib
 from typing import Any, List, Mapping, Optional
-
+import nest_asyncio
 import g4f
 from g4f import Provider
 from langchain.chains import ConversationChain
@@ -135,6 +135,7 @@ class LangLLM(LLM):
             str: The generated response from the ChatCompletion API.
         """
 
+        nest_asyncio.apply()
         provider_module_name = settings.llm_provider
         provider_module = importlib.import_module(provider_module_name)
         provider_class = getattr(provider_module, provider_module_name.split(".")[-1])

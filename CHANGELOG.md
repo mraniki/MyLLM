@@ -2,6 +2,19 @@
 
 
 
+## v2.0.1 (2023-09-07)
+
+### Other
+
+* Merge pull request #80 from mraniki/dev
+
+Update README.md ([`3e678ce`](https://github.com/mraniki/MyLLM/commit/3e678ce39ce83b59057d1071e4ccc0d7a32dd1db))
+
+### Update
+
+* Update README.md ([`bf567fd`](https://github.com/mraniki/MyLLM/commit/bf567fde99c0ea0e74e08098cb37b05d7156055a))
+
+
 ## v2.0.0 (2023-09-07)
 
 ### Other

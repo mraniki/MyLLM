@@ -2,6 +2,23 @@
 
 
 
+## v2.0.4 (2023-09-07)
+
+### Other
+
+* Merge pull request #82 from mraniki/dev
+
+💬 ([`1f2fbdb`](https://github.com/mraniki/MyLLM/commit/1f2fbdb7273d9069057993bdd078b1c0f1c4f8b8))
+
+### Update
+
+* Update Requirements ([`9a13c76`](https://github.com/mraniki/MyLLM/commit/9a13c765811f256dbce898fa5b2731f71e1eb0d1))
+
+### 💬
+
+* 💬 ([`6654103`](https://github.com/mraniki/MyLLM/commit/665410334def6e8935122624548b7835501bbd54))
+
+
 ## v2.0.3 (2023-09-07)
 
 ### Update

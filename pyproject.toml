@@ -1,7 +1,7 @@
 
 [tool.poetry]
 name = "MyLLM"
-version = "2.0.4"
+version = "2.0.5"
 description = "A python package to interact with llm model supported by g4f and langchain."
 authors = ["mraniki <8766259+mraniki@users.noreply.github.com>"]
 license = "MIT License"
@@ -30,7 +30,7 @@ loguru = ">=0.6.0"
 httpx = ">=0.24.1"
 js2py = "^0.74"
 g4f = "^0.0.2.6"
-langchain = "^0.0.283"
+langchain = "^0.0.284"
 nest_asyncio = "*"
 
 

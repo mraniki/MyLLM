@@ -13,6 +13,9 @@
 # myllm_enabled = false
 
 [default]
+# Dynaconf settings verification
+VALUE = "On default"
+
 # Module Enable/Disable
 llm_enabled = true
 

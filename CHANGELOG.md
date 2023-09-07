@@ -2,6 +2,26 @@
 
 
 
+## v2.0.6 (2023-09-07)
+
+### Other
+
+* Merge pull request #83 from mraniki/dev
+
+Refactor main.py and add nest_asyncio dependency ([`83f2767`](https://github.com/mraniki/MyLLM/commit/83f276738c2110d8de5ec80db4eab65dfed87896))
+
+* Merge ; commit &#39;f08e5bab84998a27a17ab8f3820c752e482f740f&#39;
+
+Conflicts:
+	pyproject.toml ([`4eef441`](https://github.com/mraniki/MyLLM/commit/4eef4413b3c28e81924a60cf0f8e4b49d2773dab))
+
+* Refactor main.py and add nest_asyncio dependency ([`be23b57`](https://github.com/mraniki/MyLLM/commit/be23b57b8847303bd58f11505fb0d29586befbe7))
+
+### Update
+
+* Update Requirements ([`9a43b58`](https://github.com/mraniki/MyLLM/commit/9a43b58bfc2638117126446e7146d094a35d20bb))
+
+
 ## v2.0.5 (2023-09-07)
 
 ### Other

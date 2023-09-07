@@ -2,6 +2,13 @@
 
 
 
+## v2.0.2 (2023-09-07)
+
+### Update
+
+* Update README.md ([`de671e2`](https://github.com/mraniki/MyLLM/commit/de671e2fc2ee3a74f3a4f65b8e773ad50866b774))
+
+
 ## v2.0.1 (2023-09-07)
 
 ### Other

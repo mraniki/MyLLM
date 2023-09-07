@@ -54,6 +54,7 @@ class MyLLM:
         if not self.enabled:
             return
         self.commands = settings.llm_commands
+        self.llm_ai_mode = settings.llm_ai_mode
         self.llm = LangLLM()
         self.conversation = None
 
@@ -102,6 +103,11 @@ class MyLLM:
         attribute to an empty string.
         """
         self.conversation = ""
+
+    async def switch_continous_mode(self):
+        """ """
+        self.llm_ai_mode = not self.llm_ai_mode
+        return f"Continous mode {'enabled' if self.llm_ai_mode else 'disabled'}."
 
 
 class LangLLM(LLM):

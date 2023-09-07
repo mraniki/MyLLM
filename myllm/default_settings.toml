@@ -40,7 +40,7 @@ bot_command_clearai = "clearai"
 # command to activate or deactivate aimode
 # not implemented
 bot_command_aimode = "aimode"
-llm_continous = false
+llm_ai_mode = false
 
 # template prompt context
 # not implemented

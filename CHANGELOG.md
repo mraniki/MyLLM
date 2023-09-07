@@ -2,7 +2,66 @@
 
 
 
+## v2.0.0 (2023-09-07)
+
+### Other
+
+* Merge pull request #70 from mraniki/dev
+
+✨adding langchain ([`85d7f61`](https://github.com/mraniki/MyLLM/commit/85d7f6140f9d6fe53a49c1603adeb931e9939889))
+
+* Merge pull request #75 from mraniki/dependabot/pip/dev/langchain-gte-0.0.275-and-lt-0.0.278
+
+⬆️ 🤖 Dependencies: Update langchain requirement from &gt;=0.0.275,&lt;0.0.277 to &gt;=0.0.275,&lt;0.0.278 ([`74be153`](https://github.com/mraniki/MyLLM/commit/74be15303c7ee98526a5dc22840baa643affa56e))
+
+* Merge branch &#39;main&#39; into dev ([`b701f82`](https://github.com/mraniki/MyLLM/commit/b701f824f7605bb4a34183294fac69addfdd360a))
+
+### Update
+
+* Update Requirements ([`83382dc`](https://github.com/mraniki/MyLLM/commit/83382dce6126b48d11e8af131b65df20980d8c04))
+
+* Update Requirements ([`5b0bd1a`](https://github.com/mraniki/MyLLM/commit/5b0bd1adddbc3eafceb657d962dbbc497607e7dd))
+
+* Update Requirements ([`0ea8b4d`](https://github.com/mraniki/MyLLM/commit/0ea8b4da5da78b2503d638d457bc9bb17809e00b))
+
+* Update Requirements ([`e3b20de`](https://github.com/mraniki/MyLLM/commit/e3b20de692020d6fe5e6fc0166b4c9ae43bddf90))
+
+* :arrow_up: 🤖 Dependencies: Update langchain requirement
+
+Updates the requirements on [langchain](https://github.com/langchain-ai/langchain) to permit the latest version.
+- [Release notes](https://github.com/langchain-ai/langchain/releases)
+- [Commits](https://github.com/langchain-ai/langchain/compare/v0.0.275...v0.0.277)
+
+---
+updated-dependencies:
+- dependency-name: langchain
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`29eb534`](https://github.com/mraniki/MyLLM/commit/29eb5340e2505a000616a6a727beb1e0485ca2da))
+
+### ⬆️
+
+* ⬆️ ✅ Unit Test ([`83f8744`](https://github.com/mraniki/MyLLM/commit/83f87448f4a2d1834e591f0651d3eb7a9464b45f))
+
+### 💄
+
+* 💄 Config update ([`405e6a2`](https://github.com/mraniki/MyLLM/commit/405e6a2a4629265e82346fe8eb9da4b48146659d))
+
+### 💥
+
+* 💥 Breaking change. Supporting latest G4F &amp; langchain ([`ecd6a2c`](https://github.com/mraniki/MyLLM/commit/ecd6a2c028ea01e519307aa8ac0177233681ecec))
+
+### 🔧
+
+* 🔧 ([`3e4eb26`](https://github.com/mraniki/MyLLM/commit/3e4eb2637b47e0010cc93bba06bf6bda88eabc26))
+
+
 ## v1.2.38 (2023-08-30)
+
+### Other
+
+* Merge branch &#39;main&#39; into dev ([`8816789`](https://github.com/mraniki/MyLLM/commit/88167896173df421dd7939f47378a6301d4cb8b1))
 
 ### Update
 
@@ -11,16 +70,82 @@
 
 ## v1.2.37 (2023-08-30)
 
+### Other
+
+* Merge pull request #72 from mraniki/dependabot/pip/dev/langchain-gte-0.0.275-and-lt-0.0.277
+
+⬆️ 🤖 Dependencies: Update langchain requirement from ^0.0.275 to &gt;=0.0.275,&lt;0.0.277 ([`7185d55`](https://github.com/mraniki/MyLLM/commit/7185d55831cfe6819d59c9229b6581baeb953eee))
+
+* Merge branch &#39;main&#39; into dev ([`aa9a44e`](https://github.com/mraniki/MyLLM/commit/aa9a44e28d750ce6da017f04f09a4e07332693b8))
+
 ### Update
 
 * Update pyproject.toml ([`43a50bd`](https://github.com/mraniki/MyLLM/commit/43a50bdba36bbbbeaf3648d44b357650b471e104))
 
+* Update Requirements ([`971abd2`](https://github.com/mraniki/MyLLM/commit/971abd2e8e9abfa5e28b899fd867136f913137f9))
+
+* Update Requirements ([`7a94935`](https://github.com/mraniki/MyLLM/commit/7a949355c5c8a201ec66ad5c98a07fb3fefd2a8f))
+
+* :arrow_up: 🤖 Dependencies: Update langchain requirement
+
+Updates the requirements on [langchain](https://github.com/langchain-ai/langchain) to permit the latest version.
+- [Release notes](https://github.com/langchain-ai/langchain/releases)
+- [Commits](https://github.com/langchain-ai/langchain/compare/v0.0.275...v0.0.276)
+
+---
+updated-dependencies:
+- dependency-name: langchain
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7f0ee6d`](https://github.com/mraniki/MyLLM/commit/7f0ee6dc3dd5b4211e44c99bde2ed0aeffb69b8f))
+
 
 ## v1.2.36 (2023-08-29)
+
+### :rotating_light:
+
+* :rotating_light: ([`917b488`](https://github.com/mraniki/MyLLM/commit/917b488f7373ec0aff26860800fba45d73072957))
+
+### :sparkles:
+
+* :sparkles:addding langchain ([`6973129`](https://github.com/mraniki/MyLLM/commit/697312970dec97e2cc6dc2aef19d52e06ce41699))
+
+### Other
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`aeab89e`](https://github.com/mraniki/MyLLM/commit/aeab89eb26feaf447506016d458acaddc1c15673))
+
+* Fix formatting in conf.py and update test_unit.py. ([`1762799`](https://github.com/mraniki/MyLLM/commit/17627998271bb870c16092f52aef7134616e400e))
+
+* Refactor test_unit.py to use chat() instead of talk() ([`71cc70c`](https://github.com/mraniki/MyLLM/commit/71cc70c92839117952fd4e957b7bb958ecce528f))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`68ff2e3`](https://github.com/mraniki/MyLLM/commit/68ff2e34a3d4ee000b0256f47ab42acd0584583e))
+
+* Merge branch &#39;main&#39; into dev ([`c8485f1`](https://github.com/mraniki/MyLLM/commit/c8485f11a7706467cbc27cb2178dff2e75f6b771))
 
 ### Update
 
 * Update conf.py ([`62781a9`](https://github.com/mraniki/MyLLM/commit/62781a9b726fbe9134583d138933981cd914ca42))
+
+* Update Requirements ([`b322c14`](https://github.com/mraniki/MyLLM/commit/b322c14f367d434b55feaa302eb924c37eaf756e))
+
+* Update Requirements ([`dfbe272`](https://github.com/mraniki/MyLLM/commit/dfbe272b2575680ef6da449d1c9dd1bcd09bc2df))
+
+* Update default_settings.toml and pyproject.toml ([`aa51d5e`](https://github.com/mraniki/MyLLM/commit/aa51d5e851019ca2b7ac91a1f42bfb5c49a4836d))
+
+* Update Requirements ([`360ee07`](https://github.com/mraniki/MyLLM/commit/360ee07a458418fa3b5c8c79741571275ce1437b))
+
+### ♻️
+
+* ♻️ ([`5f5f098`](https://github.com/mraniki/MyLLM/commit/5f5f098fc3091007796278df389f59d75d620d13))
+
+### 🐛
+
+* 🐛 ([`4f7eb7c`](https://github.com/mraniki/MyLLM/commit/4f7eb7c542a5ccee8155ccc34cfb7150c2b53747))
+
+### 📝
+
+* 📝 ([`f1daa4a`](https://github.com/mraniki/MyLLM/commit/f1daa4ac2f5b7b1ea20d2bdc07197803e66df507))
 
 
 ## v1.2.35 (2023-08-28)
@@ -38,6 +163,10 @@
 ### ⬆️
 
 * ⬆️ 🛠️(deps): update dependency sphinx to v7.2.4 ([`863fe98`](https://github.com/mraniki/MyLLM/commit/863fe98133260143df202403f9116500bb9a3943))
+
+### 🐛
+
+* 🐛 📝  extension error ([`3145d9b`](https://github.com/mraniki/MyLLM/commit/3145d9b5dbfa1944b986416be619fa748c147277))
 
 
 ## v1.2.34 (2023-08-24)

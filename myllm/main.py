@@ -9,9 +9,11 @@ import importlib
 from typing import Any, List, Mapping, Optional
 
 import g4f
+from g4f import Provider
 from langchain.chains import ConversationChain
 from langchain.llms.base import LLM
 from langchain.memory import ConversationBufferMemory
+from langchain.prompts import PromptTemplate
 from loguru import logger
 
 from myllm import __version__
@@ -26,14 +28,16 @@ class MyLLM:
 
     Attributes:
         logger (Logger): Logger
-        model (str): Model
-        enabled (bool): Enabled
-        commands (str): Commands
+        enabled (bool): Whether MyLLM is enabled
+        commands (str): MyLLM commands
+        llm (LLM): LLM
+        conversation (ConversationChain): Conversation
 
     Methods:
         get_myllm_info(self)
         get_myllm_help(self)
-        talk(self, prompt = settings.llm_default_prompt)
+        chat(self, prompt)
+        clear_chat_history(self)
 
     """
 
@@ -49,23 +53,20 @@ class MyLLM:
         self.enabled = settings.llm_enabled
         if not self.enabled:
             return
-        self.model = settings.llm_model
-        self.provider = importlib.import_module(settings.llm_provider)
         self.commands = settings.llm_commands
-        self.llm_continous = settings.llm_continous
-        self.chat_history = ""
         self.llm = LangLLM()
-        self.chain = None
         self.conversation = None
 
     async def get_myllm_info(self):
         """
-        Retrieves information about MyLLM including
-        its version and the model being used.
+        Get MyLLM information.
 
-        :return: A string containing the MyLLM version and the model.
+        Returns:
+            str: A string containing the MyLLM version, model, and provider.
         """
-        return f"ℹ️ MyLLM v{__version__}\n {self.model}\n"
+        return (
+            f"ℹ️ MyLLM v{__version__}\n {settings.llm_model}\n{settings.llm_provider}"
+        )
 
     async def get_myllm_help(self):
         """
@@ -76,53 +77,31 @@ class MyLLM:
         """
         return f"{self.commands}\n"
 
-    async def talk(self, prompt=settings.llm_default_prompt):
-        """
-        Asynchronously initiates a chat with the given prompt.
-
-        Args:
-            prompt (str, optional): The prompt to start the chat with.
-            Defaults to settings.llm_default_prompt.
-
-        Returns:
-            g4f.ChatCompletion: An instance of the g4f.ChatCompletion class
-            representing the chat completion.
-        """
-        self.logger.info(f"Starting chat with prompt: {prompt}")
-        return g4f.ChatCompletion.create(
-            model=self.model,
-            provider=self.provider,
-            messages=[{"role": "user", "content": prompt}],
-        )
-
     async def chat(self, prompt):
         """
-        Asynchronously chats with the user using the provided prompt.
+        Asynchronously chats with the user.
 
         Args:
-            prompt (str): The prompt to start the conversation with.
+            prompt (str): The prompt message from the user.
 
         Returns:
-            function: The result of calling the `run` method on the `chain` object.
+            str: The predicted response from the conversation model.
         """
-        self.conversation = ConversationChain(
-            llm=prompt,
-            memory=ConversationBufferMemory()
-        )
-        return self.conversation.run
 
-    async def continous_mode(self, prompt):
-        """ """
-        pass
+        if self.conversation is None:
+            self.conversation = ConversationChain(
+                llm=self.llm,
+                # prompt=PromptTemplate(template=settings.llm_template),
+                memory=ConversationBufferMemory(),
+            )
+        return self.conversation.predict(input=prompt)
 
     async def clear_chat_history(self):
-        """ """
-        self.chat_history = ""
-
-    async def switch_continous_mode(self):
-        """ """
-        self.llm_continous = not self.llm_continous
-        return f"Continous mode {'enabled' if self.llm_continous else 'disabled'}."
+        """
+        Clears the chat history by setting the `conversation`
+        attribute to an empty string.
+        """
+        self.conversation = ""
 
 
 class LangLLM(LLM):
@@ -149,9 +128,15 @@ class LangLLM(LLM):
         Returns:
             str: The generated response from the ChatCompletion API.
         """
+
+        provider_module_name = settings.llm_provider
+        provider_module = importlib.import_module(provider_module_name)
+        provider_class = getattr(provider_module, provider_module_name.split(".")[-1])
+        provider = provider_class()
+
         out = g4f.ChatCompletion.create(
             model=settings.llm_model,
-            provider=importlib.import_module(settings.llm_provider),
+            provider=provider,
             messages=[{"role": "user", "content": prompt}],
         )
         if stop:

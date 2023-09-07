@@ -27,8 +27,9 @@ build-backend = "poetry.core.masonry.api"
 python = "^3.10"
 dynaconf = "^3.1.12"
 loguru = ">=0.6.0"
-g4f = "^0.0.2.6"
+httpx = ">=0.24.1"
 js2py = "^0.74"
+g4f = "^0.0.2.6"
 langchain = "^0.0.283"
 
 

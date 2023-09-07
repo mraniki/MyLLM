@@ -13,28 +13,19 @@
 # myllm_enabled = false
 
 [default]
-
 # Dynaconf settings verification
-VALUE = "On Default"
+VALUE = "On default"
 
 # Module Enable/Disable
 llm_enabled = true
 
 # LLM Model to use
-llm_model = "gpt-4"
-# llm_model = "falcon-40b"
+llm_model = "gpt-3.5-turbo"
 
 # LLM Provider
-llm_provider = "g4f.Provider.Providers.ChatgptAi"
-# llm_provider = "g4f.Provider.Providers.H2o"
-
-# LLM Host
-llm_host = ""
-# LLM Auth Token
-llm_auth_token = ""
-
-#default prompt if prompt is not given
-llm_default_prompt = "write a tiny story"
+# Refer to https://github.com/xtekky/gpt4free
+# for the list of supported provider
+llm_provider = "g4f.Provider.DeepAi"
 
 # help message listing the commands
 # available
@@ -44,17 +35,19 @@ llm_commands = """
 ➰ /aimode\n
 🧽 /clearai\n
 """
-# command for questions
-bot_command_question = "qq"
 # command for topic/conversation
-bot_command_topic = "ai"
+bot_command_question = "qq"
 # command for reset chat
 bot_command_clearai = "clearai"
 
 # command to activate or deactivate aimode
+# not implemented
 bot_command_aimode = "aimode"
-llm_continous = false
-llm_continous_context = """
+llm_ai_mode = false
+
+# template prompt context
+# not implemented
+llm_template = """
 You operate within the following constraints:
 Your task is to devise up to 5 highly effective goals
 and an appropriate role-based name (_GPT) 

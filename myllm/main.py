@@ -9,6 +9,11 @@ import importlib
 from typing import Any, List, Mapping, Optional
 
 import g4f
+from g4f import Provider
+from langchain.chains import ConversationChain
+from langchain.llms.base import LLM
+from langchain.memory import ConversationBufferMemory
+from langchain.prompts import PromptTemplate
 from loguru import logger
 
 from myllm import __version__
@@ -23,14 +28,16 @@ class MyLLM:
 
     Attributes:
         logger (Logger): Logger
-        model (str): Model
-        enabled (bool): Enabled
-        commands (str): Commands
+        enabled (bool): Whether MyLLM is enabled
+        commands (str): MyLLM commands
+        llm (LLM): LLM
+        conversation (ConversationChain): Conversation
 
     Methods:
         get_myllm_info(self)
         get_myllm_help(self)
-        talk(self, prompt = settings.llm_default_prompt)
+        chat(self, prompt)
+        clear_chat_history(self)
 
     """
 
@@ -46,23 +53,21 @@ class MyLLM:
         self.enabled = settings.llm_enabled
         if not self.enabled:
             return
-        self.model = settings.llm_model
-        self.provider = importlib.import_module(settings.llm_provider)
         self.commands = settings.llm_commands
-        self.llm_continous = settings.llm_continous
-        self.chat_history = ""
-        # self.llm = LangLLM()
-
-        self.chain = None
+        self.llm_ai_mode = settings.llm_ai_mode
+        self.llm = LangLLM()
+        self.conversation = None
 
     async def get_myllm_info(self):
         """
-        Retrieves information about MyLLM including
-        its version and the model being used.
+        Get MyLLM information.
 
-        :return: A string containing the MyLLM version and the model.
+        Returns:
+            str: A string containing the MyLLM version, model, and provider.
         """
-        return f"ℹ️ MyLLM v{__version__}\n {self.model}\n"
+        return (
+            f"ℹ️ MyLLM v{__version__}\n {settings.llm_model}\n{settings.llm_provider}"
+        )
 
     async def get_myllm_help(self):
         """
@@ -73,55 +78,76 @@ class MyLLM:
         """
         return f"{self.commands}\n"
 
-    async def talk(self, prompt=settings.llm_default_prompt):
+    async def chat(self, prompt):
         """
-        Asynchronously initiates a chat with the given prompt.
+        Asynchronously chats with the user.
 
         Args:
-            prompt (str, optional): The prompt to start the chat with.
-            Defaults to settings.llm_default_prompt.
+            prompt (str): The prompt message from the user.
 
         Returns:
-            g4f.ChatCompletion: An instance of the g4f.ChatCompletion class
-            representing the chat completion.
+            str: The predicted response from the conversation model.
         """
-        self.logger.info(f"Starting chat with prompt: {prompt}")
-        return g4f.ChatCompletion.create(
-            model=self.model,
-            provider=self.provider,
-            messages=[{"role": "user", "content": prompt}],
-        )
 
-    async def chat(self, prompt, id=None):
-        """
-        Asynchronously initiates a chat with the given prompt
-        and keep the history of the chat.
-
-        Args:
-            prompt (str, optional): The prompt to start the chat with.
-
-        Returns:
-            g4f.ChatCompletion: An instance of the g4f.ChatCompletion class
-
-        """
-        if self.chat_history:
-            prompt = (
-                f"{prompt}, To answer, use the following context: {self.chat_history}"
+        if self.conversation is None:
+            self.conversation = ConversationChain(
+                llm=self.llm,
+                # prompt=PromptTemplate(template=settings.llm_template),
+                memory=ConversationBufferMemory(),
             )
-        self.chat_history = prompt
-        return await self.talk(prompt)
-
-    async def continous_mode(self, prompt):
-        """ """
-        if self.llm_continous:
-            self.chat_history = settings.llm_continous_context
-            return await self.chat(prompt)
+        return self.conversation.predict(input=prompt)
 
     async def clear_chat_history(self):
-        """ """
-        self.chat_history = ""
+        """
+        Clears the chat history by setting the `conversation`
+        attribute to an empty string.
+        """
+        self.conversation = ""
 
     async def switch_continous_mode(self):
         """ """
-        self.llm_continous = not self.llm_continous
-        return f"Continous mode {'enabled' if self.llm_continous else 'disabled'}."
+        self.llm_ai_mode = not self.llm_ai_mode
+        return f"Continous mode {'enabled' if self.llm_ai_mode else 'disabled'}."
+
+
+class LangLLM(LLM):
+    @property
+    def _llm_type(self) -> str:
+        """
+        Returns the type of the _llm_type property.
+
+        :return: A string representing the type of the property.
+        :rtype: str
+        """
+        return "custom"
+
+    def _call(self, prompt: str, stop: Optional[List[str]] = None) -> str:
+        """
+        Calls the ChatCompletion API to generate a response based on the given prompt.
+
+        Args:
+            prompt (str): The prompt for the ChatCompletion API.
+            stop (Optional[List[str]], optional): A list of strings that,
+            if found in the response,
+                indicates the response should be truncated. Defaults to None.
+
+        Returns:
+            str: The generated response from the ChatCompletion API.
+        """
+
+        provider_module_name = settings.llm_provider
+        provider_module = importlib.import_module(provider_module_name)
+        provider_class = getattr(provider_module, provider_module_name.split(".")[-1])
+        provider = provider_class()
+
+        out = g4f.ChatCompletion.create(
+            model=settings.llm_model,
+            provider=provider,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        if stop:
+            stop_indexes = (out.find(s) for s in stop if s in out)
+            min_stop = min(stop_indexes, default=-1)
+            if min_stop > -1:
+                out = out[:min_stop]
+        return out

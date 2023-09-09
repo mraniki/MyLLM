@@ -2,6 +2,23 @@
 
 
 
+## v2.0.8 (2023-09-09)
+
+### Other
+
+* Merge pull request #85 from mraniki/dev
+
+👷 CI Change ([`777a4a6`](https://github.com/mraniki/MyLLM/commit/777a4a6a5dec0a671f3751b66db4c204cc573a5e))
+
+### Update
+
+* Update Requirements ([`c72d5a0`](https://github.com/mraniki/MyLLM/commit/c72d5a0b5cad0c87f5c2f15e7f19258fae7f5df5))
+
+### 👷
+
+* 👷 CI Change ([`e959146`](https://github.com/mraniki/MyLLM/commit/e959146b7089c1060c474cd74ce3175a75bcf8ad))
+
+
 ## v2.0.7 (2023-09-09)
 
 ### Other

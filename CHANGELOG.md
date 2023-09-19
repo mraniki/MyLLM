@@ -2,9 +2,52 @@
 
 
 
+## v2.0.10 (2023-09-19)
+
+### Other
+
+* Merge pull request #96 from mraniki/dev
+
+⬆️ 🛠️(deps) ([`9e15f78`](https://github.com/mraniki/MyLLM/commit/9e15f78a741cee0dee5f375a27b27f4d63f06cf0))
+
+* Merge pull request #95 from mraniki/renovate/langchain-0.x
+
+⬆️ 🛠️(deps): update dependency langchain to ^0.0.295 ([`6a40374`](https://github.com/mraniki/MyLLM/commit/6a403748ab467df62d640194f2d2f80876289e35))
+
+* Merge pull request #92 from mraniki/dependabot/pip/dev/g4f-gte-0.0.2.6-and-lt-0.0.4.0
+
+⬆️ 🤖 Dependencies: Update g4f requirement from ^0.0.2.6 to &gt;=0.0.2.6,&lt;0.0.4.0 ([`8a6ac8e`](https://github.com/mraniki/MyLLM/commit/8a6ac8ee02b28df3585b71eef8c8318be471c1b1))
+
+* Merge branch &#39;main&#39; into dev ([`17858b7`](https://github.com/mraniki/MyLLM/commit/17858b7528b3597de71b771201b740b130e9d2d5))
+
+### Update
+
+* :arrow_up: 🤖 Dependencies: Update g4f requirement
+
+Updates the requirements on [g4f](https://github.com/xtekky/gpt4free) to permit the latest version.
+- [Release notes](https://github.com/xtekky/gpt4free/releases)
+- [Commits](https://github.com/xtekky/gpt4free/compare/0.0.2.6...0.0.3.0)
+
+---
+updated-dependencies:
+- dependency-name: g4f
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`738a314`](https://github.com/mraniki/MyLLM/commit/738a314c5e73e1af98b9e391d4acb4040e8d06a8))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency langchain to ^0.0.295 ([`b44c4cf`](https://github.com/mraniki/MyLLM/commit/b44c4cf2d8c3549ee62225c5ece254cab9be27e6))
+
+
 ## v2.0.9 (2023-09-19)
 
 ### Other
+
+* Merge pull request #94 from mraniki/renovate/langchain-0.x
+
+⬆️ 🛠️(deps): update dependency langchain to ^0.0.294 ([`8c95ed9`](https://github.com/mraniki/MyLLM/commit/8c95ed998355d7fee35fe7609a5acd646de68bde))
 
 * Merge pull request #91 from mraniki/dev
 
@@ -35,6 +78,8 @@
 ⬆️ 🛠️(deps): update dependency langchain to ^0.0.286 ([`4720d8b`](https://github.com/mraniki/MyLLM/commit/4720d8b4b84fbf86a1e9db5428f600410131c46d))
 
 ### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency langchain to ^0.0.294 ([`e3bec37`](https://github.com/mraniki/MyLLM/commit/e3bec37e512215cfb8bd94847a2d4621e7fd7ad6))
 
 * ⬆️ 🛠️(deps): update dependency langchain to ^0.0.293 ([`97bac20`](https://github.com/mraniki/MyLLM/commit/97bac2058b6993980cdc6541bf0f6fbd0a854b42))
 

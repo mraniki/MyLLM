@@ -30,7 +30,7 @@ loguru = ">=0.6.0"
 httpx = ">=0.24.1"
 js2py = "^0.74"
 g4f = "^0.0.2.6"
-langchain = "^0.0.293"
+langchain = "^0.0.294"
 nest_asyncio = "*"
 
 

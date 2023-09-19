@@ -2,6 +2,57 @@
 
 
 
+## v2.0.9 (2023-09-19)
+
+### Other
+
+* Merge pull request #91 from mraniki/dev
+
+⬆️ 🛠️(deps): update dependency ([`02f3f55`](https://github.com/mraniki/MyLLM/commit/02f3f5590244dc5ff3db008ffd71e56000f6bede))
+
+* Merge pull request #93 from mraniki/renovate/langchain-0.x
+
+⬆️ 🛠️(deps): update dependency langchain to ^0.0.293 ([`8911daf`](https://github.com/mraniki/MyLLM/commit/8911dafb621248eb88eb689d0639051a5615855c))
+
+* Merge pull request #90 from mraniki/renovate/pydata-sphinx-theme-0.x
+
+⬆️ 🛠️(deps): update dependency pydata-sphinx-theme to ^0.14.0 ([`a0eb75b`](https://github.com/mraniki/MyLLM/commit/a0eb75bf1490a8780ee6c8138afa0f8b6d32f5dc))
+
+* Merge pull request #89 from mraniki/renovate/sphinx-7.x
+
+⬆️ 🛠️(deps): update dependency sphinx to v7.2.6 ([`10a3d3b`](https://github.com/mraniki/MyLLM/commit/10a3d3bd14cc407521be452179a3ed64971465a0))
+
+* Merge pull request #88 from mraniki/renovate/langchain-0.x
+
+⬆️ 🛠️(deps): update dependency langchain to ^0.0.292 ([`49ea22e`](https://github.com/mraniki/MyLLM/commit/49ea22edda8ee7e9199a09ce9bb481a20bf54dcf))
+
+* Merge pull request #87 from mraniki/renovate/langchain-0.x
+
+⬆️ 🛠️(deps): update dependency langchain to ^0.0.287 ([`9c3d150`](https://github.com/mraniki/MyLLM/commit/9c3d15052ca18929d3cdda8ee252facf2bd20d13))
+
+* Merge pull request #86 from mraniki/renovate/langchain-0.x
+
+⬆️ 🛠️(deps): update dependency langchain to ^0.0.286 ([`4720d8b`](https://github.com/mraniki/MyLLM/commit/4720d8b4b84fbf86a1e9db5428f600410131c46d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency langchain to ^0.0.293 ([`97bac20`](https://github.com/mraniki/MyLLM/commit/97bac2058b6993980cdc6541bf0f6fbd0a854b42))
+
+* ⬆️ 🛠️(deps): update dependency pydata-sphinx-theme to ^0.14.0 ([`c6fb450`](https://github.com/mraniki/MyLLM/commit/c6fb450a985ec16c66e8b849cdd66cbbc26dc684))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.2.6 ([`50829ca`](https://github.com/mraniki/MyLLM/commit/50829ca421ab0ed296b1c88f0dd134ecac8c6967))
+
+* ⬆️ 🛠️(deps): update dependency langchain to ^0.0.292 ([`18dfbcd`](https://github.com/mraniki/MyLLM/commit/18dfbcdc0cbe75794b666cef53a9c81e980e22d5))
+
+* ⬆️ 🛠️(deps): update dependency langchain to ^0.0.287 ([`0539232`](https://github.com/mraniki/MyLLM/commit/053923231397671ac497307623d4f2abc13e1edf))
+
+* ⬆️ 🛠️(deps): update dependency langchain to ^0.0.286 ([`0e984e0`](https://github.com/mraniki/MyLLM/commit/0e984e0956381aa47b88deb8ea5b801ee0981295))
+
+### 🚨
+
+* 🚨 ([`6682159`](https://github.com/mraniki/MyLLM/commit/66821595cad020fe8979e3570198e27935563b9d))
+
+
 ## v2.0.8 (2023-09-09)
 
 ### Other

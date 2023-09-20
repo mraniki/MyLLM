@@ -2,6 +2,23 @@
 
 
 
+## v2.0.11 (2023-09-20)
+
+### Other
+
+* Merge pull request #98 from mraniki/dev
+
+⬆️ 🛠️(deps) ([`4910320`](https://github.com/mraniki/MyLLM/commit/4910320b337f5be6922fec12ef86bfd178398f4f))
+
+* Merge pull request #97 from mraniki/renovate/langchain-0.x
+
+⬆️ 🛠️(deps): update dependency langchain to ^0.0.296 ([`abb513a`](https://github.com/mraniki/MyLLM/commit/abb513a4feb75b2c558aa62145023d322efe411d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency langchain to ^0.0.296 ([`5c4232a`](https://github.com/mraniki/MyLLM/commit/5c4232a6de9de1dea604e277bdfc587fa48b9094))
+
+
 ## v2.0.10 (2023-09-19)
 
 ### Other

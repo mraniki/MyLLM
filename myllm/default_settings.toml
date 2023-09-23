@@ -25,7 +25,7 @@ llm_model = "gpt-3.5-turbo"
 # LLM Provider
 # Refer to https://github.com/xtekky/gpt4free
 # for the list of supported provider
-llm_provider = "g4f.Provider.DeepAi"
+llm_provider = "g4f.Provider.Aivvm"
 
 # help message listing the commands
 # available

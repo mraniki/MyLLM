@@ -2,6 +2,43 @@
 
 
 
+## v2.0.12 (2023-09-23)
+
+### Other
+
+* Merge pull request #102 from mraniki/dev
+
+⬆️ 🛠️(deps) ([`9335a08`](https://github.com/mraniki/MyLLM/commit/9335a08e0395a7dc85ef56ce18efcc11bb976c86))
+
+* Add curl-cffi to pyproject.toml ([`9e783b3`](https://github.com/mraniki/MyLLM/commit/9e783b3dce14b59cb234e79816618001bf38c867))
+
+* Merge pull request #99 from mraniki/renovate/langchain-0.x
+
+⬆️ 🛠️(deps): update dependency langchain to ^0.0.297 ([`0bf9b30`](https://github.com/mraniki/MyLLM/commit/0bf9b30c03580142524b522d8b475329b9bc1b93))
+
+### Update
+
+* Update llm_provider in default_settings.toml ([`d9e7367`](https://github.com/mraniki/MyLLM/commit/d9e7367d9de3df6a844c521d0362bfeedb341259))
+
+* Update g4f and langchain versions ([`427c93e`](https://github.com/mraniki/MyLLM/commit/427c93e706dd974e705f09f0d49b104a1b767968))
+
+* Update g4f and langchain versions ([`0be2329`](https://github.com/mraniki/MyLLM/commit/0be2329f274b954d288262dd5a1b7318b4ae4355))
+
+* Update g4f and langchain versions ([`15ed05f`](https://github.com/mraniki/MyLLM/commit/15ed05f1158e570f6f048685d69a06c8f740e4d5))
+
+* Update pyproject.toml with PyExecJS2 version 1.6.1 ([`8cdc9dd`](https://github.com/mraniki/MyLLM/commit/8cdc9dddb6f0c77be4c707ca2a010d75a90a1a96))
+
+* Update g4f and langchain versions, add &#34;W&#34; to select. ([`cf0289b`](https://github.com/mraniki/MyLLM/commit/cf0289bac5eba3bcad60409cb6472198737ebdcb))
+
+* Update dependencies in pyproject.toml ([`1b789f1`](https://github.com/mraniki/MyLLM/commit/1b789f125e6d18740e673f568cdaf07ca2803ac0))
+
+* Update dependencies in pyproject.toml ([`63fde94`](https://github.com/mraniki/MyLLM/commit/63fde945cdc412074696fd3170607c121a23eac1))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency langchain to ^0.0.297 ([`238379c`](https://github.com/mraniki/MyLLM/commit/238379c4b5c5a1041856df121ec6e4e6499c917d))
+
+
 ## v2.0.11 (2023-09-20)
 
 ### Other

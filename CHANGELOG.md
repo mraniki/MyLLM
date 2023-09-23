@@ -2,6 +2,21 @@
 
 
 
+## v2.0.13 (2023-09-23)
+
+### Other
+
+* Merge pull request #105 from mraniki/dev
+
+Dynaconf dep ([`7cf621c`](https://github.com/mraniki/MyLLM/commit/7cf621cb152fb1b865d6beb1d9f5fa795dc10e99))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`8ca5f13`](https://github.com/mraniki/MyLLM/commit/8ca5f13333f395705f564c4e9835038c4844c637))
+
+### Update
+
+* Update dynaconf version to &#34;\u000fLˌ��\b� ([`792cc28`](https://github.com/mraniki/MyLLM/commit/792cc288c3923df11cd6b3890d9b4c2eda5be273))
+
+
 ## v2.0.12 (2023-09-23)
 
 ### Other

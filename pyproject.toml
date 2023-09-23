@@ -32,7 +32,7 @@ js2py = "^0.74"
 g4f = ">=0.0.2.6,<0.0.4.0"
 langchain = "^0.0.297"
 nest_asyncio = "*"
-
+curl-cffi ="0.5.7"
 
 [tool.poetry.group.dev.dependencies]
 python-semantic-release = "^8.0.7"

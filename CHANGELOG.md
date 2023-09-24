@@ -2,6 +2,32 @@
 
 
 
+## v3.0.1 (2023-09-24)
+
+### :recycle:
+
+* :recycle: Refactor default_settings.toml and main.py
+
+The changes in this commit refactor the default_settings.toml and main.p
+y files. The llm_enabled variable in default_settings.toml has been
+rena
+med to myllm_enabled. Additionally, the llm_model variable has been
+remo
+ved and replaced with llm_provider. The main.py file has been modified
+t
+o update the variable names accordingly. The get_myllm_help method has
+b
+een added to the MyLLM class to retrieve the help message for the
+myllm
+command. The debug log statement in the MyLLM class has been updated. ([`a5757d2`](https://github.com/mraniki/MyLLM/commit/a5757d2fb853d6e0a022929616f3d18a1253114d))
+
+### Other
+
+* Merge pull request #110 from mraniki/dev
+
+:recycle: Refactor default_settings.toml and main.py ([`c1e464a`](https://github.com/mraniki/MyLLM/commit/c1e464a74da840bcdfd91b4d64d0c606c2ab040b))
+
+
 ## v3.0.0 (2023-09-24)
 
 ### Other

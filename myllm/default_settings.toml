@@ -17,7 +17,7 @@
 VALUE = "On default"
 
 # Module Enable/Disable
-llm_enabled = true
+myllm_enabled = true
 
 # LLM Model to use
 llm_model = "gpt-3.5-turbo"
@@ -25,8 +25,12 @@ llm_model = "gpt-3.5-turbo"
 # LLM Provider
 # Refer to https://github.com/xtekky/gpt4free
 # for the list of supported provider
-# llm_provider = "g4f.Provider.ChatgptAi"
 llm_provider = "g4f.Provider.Bing"
+
+# Number of conversation history 
+# between user and ai
+max_memory = 5
+
 # help message listing the commands
 # available
 llm_commands = """
@@ -35,14 +39,7 @@ llm_commands = """
 ➰ /aimode\n
 🧽 /clearai\n
 """
-# command for topic/conversation
-bot_command_question = "qq"
-# command for reset chat
-bot_command_clearai = "clearai"
 
-# command to activate or deactivate aimode
-# not implemented
-bot_command_aimode = "aimode"
 llm_ai_mode = false
 
 # template prompt context

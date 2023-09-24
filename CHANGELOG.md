@@ -2,6 +2,25 @@
 
 
 
+## v3.0.0 (2023-09-24)
+
+### Other
+
+* Merge pull request #109 from mraniki/dev
+
+💥 breaking Remove langchain and simplify the conversation records ([`3a8c9da`](https://github.com/mraniki/MyLLM/commit/3a8c9dabe00718f2a7625e164d4219f15f407e22))
+
+### Update
+
+* Update main.py ([`5d4b4d1`](https://github.com/mraniki/MyLLM/commit/5d4b4d1cf9bac4fd50ce1998cf3bae8141fb42a4))
+
+* Update pyproject.toml ([`043ddad`](https://github.com/mraniki/MyLLM/commit/043ddad44435b24226c8b91c4e5dd878c6ad5d99))
+
+### 💥
+
+* 💥 breaking Remove langchain and simplify the conversation records ([`136d67c`](https://github.com/mraniki/MyLLM/commit/136d67cb29bfe00a109c03c93f57ad202b7e76d2))
+
+
 ## v2.0.14 (2023-09-23)
 
 ### Other

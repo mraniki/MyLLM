@@ -11,7 +11,7 @@ from typing import Any, List, Mapping, Optional
 import g4f
 import nest_asyncio
 from g4f import Provider
-from langchain.chains import ConversationChain
+from langchain.chains import ConversationChain, LLMChain
 from langchain.llms.base import LLM
 from langchain.memory import ConversationBufferMemory
 from langchain.prompts import PromptTemplate
@@ -50,14 +50,16 @@ class MyLLM:
             None
         """
 
-        self.logger = logger
         self.enabled = settings.llm_enabled
         if not self.enabled:
             return
         self.commands = settings.llm_commands
         self.llm_ai_mode = settings.llm_ai_mode
-        self.llm = LangLLM()
-        self.conversation = None
+        provider_module_name = settings.llm_provider
+        provider_module = importlib.import_module(provider_module_name)
+        provider_class = getattr(provider_module, provider_module_name.split(".")[-1])
+        self.provider = provider_class()
+        self.conversation = Conversation()
 
     async def get_myllm_info(self):
         """
@@ -89,21 +91,24 @@ class MyLLM:
         Returns:
             str: The predicted response from the conversation model.
         """
-
-        if self.conversation is None:
-            self.conversation = ConversationChain(
-                llm=self.llm,
-                # prompt=PromptTemplate(template=settings.llm_template),
-                memory=ConversationBufferMemory(),
-            )
-        return self.conversation.predict(input=prompt)
+        logger.debug("chat {}", prompt)
+        self.conversation.add_message("user", prompt)
+        logger.debug("conversation {}", self.conversation.get_messages())
+        response = await self.provider.create_async(
+            model=settings.llm_model,
+            messages=self.conversation.get_messages(),
+        )
+        logger.debug("response {}", response)
+        self.conversation.add_message("ai", response)
+        logger.debug("conversation {}", self.conversation.get_messages())
+        return response
 
     async def clear_chat_history(self):
         """
         Clears the chat history by setting the `conversation`
         attribute to an empty string.
         """
-        self.conversation = ""
+        self.conversation = Conversation()
 
     async def switch_continous_mode(self):
         """ """
@@ -111,45 +116,16 @@ class MyLLM:
         return f"Continous mode {'enabled' if self.llm_ai_mode else 'disabled'}."
 
 
-class LangLLM(LLM):
-    @property
-    def _llm_type(self) -> str:
-        """
-        Returns the type of the _llm_type property.
+class Conversation:
+    def __init__(self, max_memory=5):
+        self.messages = []
+        self.max_memory = max_memory
 
-        :return: A string representing the type of the property.
-        :rtype: str
-        """
-        return "custom"
+    def add_message(self, role: str, content: str):
+        if len(self.messages) >= self.max_memory:
+            self.messages.pop(0)  # Remove the oldest message
+        self.messages.append({"role": role, "content": content})
 
-    def _call(self, prompt: str, stop: Optional[List[str]] = None) -> str:
-        """
-        Calls the ChatCompletion API to generate a response based on the given prompt.
-
-        Args:
-            prompt (str): The prompt for the ChatCompletion API.
-            stop (Optional[List[str]], optional): A list of strings that,
-            if found in the response,
-                indicates the response should be truncated. Defaults to None.
-
-        Returns:
-            str: The generated response from the ChatCompletion API.
-        """
-
-        nest_asyncio.apply()
-        provider_module_name = settings.llm_provider
-        provider_module = importlib.import_module(provider_module_name)
-        provider_class = getattr(provider_module, provider_module_name.split(".")[-1])
-        provider = provider_class()
-
-        out = g4f.ChatCompletion.create(
-            model=settings.llm_model,
-            provider=provider,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        if stop:
-            stop_indexes = (out.find(s) for s in stop if s in out)
-            min_stop = min(stop_indexes, default=-1)
-            if min_stop > -1:
-                out = out[:min_stop]
-        return out
+    def get_messages(self):
+        logger.debug("messages {}", self.messages)
+        return self.messages

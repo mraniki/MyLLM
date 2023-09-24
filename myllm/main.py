@@ -45,7 +45,7 @@ class MyLLM:
             None
         """
 
-        self.enabled = settings.llm_enabled
+        self.enabled = settings.myllm_enabled
         if not self.enabled:
             return
         self.commands = settings.llm_commands
@@ -55,6 +55,15 @@ class MyLLM:
         provider_class = getattr(provider_module, provider_module_name.split(".")[-1])
         self.provider = provider_class()
         self.conversation = Conversation()
+
+    async def get_myllm_help(self):
+        """
+        Get the help message for MyLLM.
+
+        Returns:
+            str: The help message for the `myllm` command.
+        """
+        return f"{self.commands}\n"
 
     async def get_myllm_info(self):
         """
@@ -67,14 +76,6 @@ class MyLLM:
             f"ℹ️ MyLLM v{__version__}\n {settings.llm_model}\n{settings.llm_provider}"
         )
 
-    async def get_myllm_help(self):
-        """
-        Get the help message for MyLLM.
-
-        Returns:
-            str: The help message for the `myllm` command.
-        """
-        return f"{self.commands}\n"
 
     async def chat(self, prompt):
         """
@@ -84,9 +85,8 @@ class MyLLM:
             prompt (str): The prompt message from the user.
 
         Returns:
-            str: The predicted response from the conversation model.
+            str: The  response from the conversation model.
         """
-        logger.debug("chat {}", prompt)
         self.conversation.add_message("user", prompt)
         logger.debug("conversation {}", self.conversation.get_messages())
         response = await self.provider.create_async(
@@ -95,13 +95,11 @@ class MyLLM:
         )
         logger.debug("response {}", response)
         self.conversation.add_message("ai", response)
-        logger.debug("conversation {}", self.conversation.get_messages())
         return response
 
     async def clear_chat_history(self):
         """
-        Clears the chat history by setting the `conversation`
-        attribute to an empty string.
+        Clears the chat history 
         """
         self.conversation = Conversation()
 
@@ -112,7 +110,7 @@ class MyLLM:
 
 
 class Conversation:
-    def __init__(self, max_memory=5):
+    def __init__(self, max_memory=settings.max_memory):
         self.messages = []
         self.max_memory = max_memory
 
@@ -122,5 +120,4 @@ class Conversation:
         self.messages.append({"role": role, "content": content})
 
     def get_messages(self):
-        logger.debug("messages {}", self.messages)
         return self.messages

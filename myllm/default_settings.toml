@@ -25,8 +25,8 @@ llm_model = "gpt-3.5-turbo"
 # LLM Provider
 # Refer to https://github.com/xtekky/gpt4free
 # for the list of supported provider
-llm_provider = "g4f.Provider.ChatgptAi"
-
+# llm_provider = "g4f.Provider.ChatgptAi"
+llm_provider = "g4f.Provider.Bing"
 # help message listing the commands
 # available
 llm_commands = """
@@ -48,29 +48,32 @@ llm_ai_mode = false
 # template prompt context
 # not implemented
 llm_template = """
-You operate within the following constraints:
-Your task is to devise up to 5 highly effective goals
-and an appropriate role-based name (_GPT) 
-for an autonomous agent, ensuring that the goals 
-are optimally aligned with the successful
-completion of its assigned task.
-
-The user will provide the task, 
-you will provide only the output 
-in the exact format specified below
-with no explanation or conversation.
-
-Example input:
-Help me with a trading monitoring for EURUSD
-
-Example output:
-- Query current trend via /trend
-- Access realtime data via /indicator
-- Query news via /news
-- Advise on a low timeframe and high timeframe trading positioning
-- Place an order if suitable and wait for user confirmation
-
+test
 """
+# llm_template = """
+# You operate within the following constraints:
+# Your task is to devise up to 5 highly effective goals
+# and an appropriate role-based name (_GPT) 
+# for an autonomous agent, ensuring that the goals 
+# are optimally aligned with the successful
+# completion of its assigned task.
+
+# The user will provide the task, 
+# you will provide only the output 
+# in the exact format specified below
+# with no explanation or conversation.
+
+# Example input:
+# Help me with a trading monitoring for EURUSD
+
+# Example output:
+# - Query current trend via /trend
+# - Access realtime data via /indicator
+# - Query news via /news
+# - Advise on a low timeframe and high timeframe trading positioning
+# - Place an order if suitable and wait for user confirmation
+
+# """
 
 ########################################
 ###     END OF DEFAULT SETTINGS      ###

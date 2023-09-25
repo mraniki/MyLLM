@@ -34,7 +34,7 @@ js2py = "^0.74"
 g4f = "0.0.3.4"
 # langchain = "0.0.300"
 # nest_asyncio = "*"
-curl-cffi ="0.5.7"
+curl-cffi ="0.5.9"
 PyExecJS2="1.6.1"
 
 [tool.poetry.group.dev.dependencies]

@@ -86,6 +86,7 @@ class MyLLM:
         Returns:
             str: The  response from the conversation model.
         """
+        #prompt = str(prompt)
         self.conversation.add_message("user", prompt)
         logger.debug("conversation {}", self.conversation.get_messages())
         response = await self.provider.create_async(

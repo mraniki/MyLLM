@@ -2,6 +2,31 @@
 
 
 
+## v3.0.6 (2023-09-26)
+
+### :white_check_mark:
+
+* :white_check_mark: ([`b2d41e3`](https://github.com/mraniki/MyLLM/commit/b2d41e3f35afc53051320f66bde1e603d9195eff))
+
+* :white_check_mark: ([`5c0834d`](https://github.com/mraniki/MyLLM/commit/5c0834d5219c0f4180de21a34df3d0056dfdd4c4))
+
+* :white_check_mark: ([`c0d3c0d`](https://github.com/mraniki/MyLLM/commit/c0d3c0d708f03b104ec2016904267544039b4ea1))
+
+* :white_check_mark: ([`d8fcba6`](https://github.com/mraniki/MyLLM/commit/d8fcba6817ba724358b1477e0142275f774affd9))
+
+* :white_check_mark: Refactor test_unit.py and add new test cases ([`8ed45fd`](https://github.com/mraniki/MyLLM/commit/8ed45fd63696fe80ddafbadcb2039717894ef06f))
+
+### Other
+
+* Merge pull request #119 from mraniki/dev
+
+Update unit test ([`d8977b6`](https://github.com/mraniki/MyLLM/commit/d8977b6c36ff07c9d6a32d3717438c036988f7c7))
+
+### Update
+
+* Update default_settings.toml with lag set to 5 ([`737acb4`](https://github.com/mraniki/MyLLM/commit/737acb4068776f9375de3b6484173ebb4312bbb2))
+
+
 ## v3.0.5 (2023-09-26)
 
 ### Other

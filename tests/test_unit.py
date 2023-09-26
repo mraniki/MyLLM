@@ -41,11 +41,11 @@ async def test_clear_chat_history(talky):
 
 @pytest.mark.asyncio
 async def test_switch_continous_mode(talky):
-    assert settings.llm_ai_mode is True
+    assert talky.llm_ai_mode is False
     result = await talky.switch_continous_mode()
     assert result is not None
     assert "Continous" in result
-    assert settings.llm_ai_mode is False
+    assert talky.llm_ai_mode is True
 
 
 @pytest.mark.asyncio

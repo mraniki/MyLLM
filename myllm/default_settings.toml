@@ -26,7 +26,7 @@ llm_model = "gpt-3.5-turbo"
 # Refer to https://github.com/xtekky/gpt4free
 # for the list of supported provider
 llm_provider = "g4f.Provider.Bing"
-lag = 0 
+lag = 5
 # Number of conversation history 
 # between user and ai
 max_memory = 100
@@ -34,7 +34,6 @@ max_memory = 100
 # help message listing the commands
 # available
 llm_commands = """
-🦾 /qq\n
 💬 /ai\n
 ➰ /aimode\n
 🧽 /clearai\n

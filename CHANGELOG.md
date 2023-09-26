@@ -2,6 +2,31 @@
 
 
 
+## v3.0.4 (2023-09-26)
+
+### Other
+
+* Merge pull request #116 from mraniki/dev
+
+Add prompt conversion to string ([`ca3a4d1`](https://github.com/mraniki/MyLLM/commit/ca3a4d174cefd3ab8c6466b9e564b5ab99ed55ad))
+
+* Merge pull request #117 from mraniki/sourcery/dev
+
+Add prompt conversion to string (Sourcery refactored) ([`e9bd6ca`](https://github.com/mraniki/MyLLM/commit/e9bd6ca223d95e77382054a29fd42587f98aaa66))
+
+* &#39;Refactored by Sourcery&#39; ([`d161cf1`](https://github.com/mraniki/MyLLM/commit/d161cf1c60ce2b92c2e98fb85ad4a2f3511b3c97))
+
+* Add prompt conversion to string ([`bc23a21`](https://github.com/mraniki/MyLLM/commit/bc23a2142d8b5c99517a10ee0aa29735dbfb9885))
+
+### Update
+
+* Update main.py ([`477f545`](https://github.com/mraniki/MyLLM/commit/477f5452c9e835b8b35049aa5c6305eb06efdb55))
+
+### ⚡
+
+* ⚡ ([`4452874`](https://github.com/mraniki/MyLLM/commit/44528743ff06ece2ec3194955a21b294c29e5cb5))
+
+
 ## v3.0.3 (2023-09-26)
 
 ### Other

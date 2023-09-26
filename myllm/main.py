@@ -95,10 +95,7 @@ class MyLLM:
         logger.debug("response {}", response)
         self.conversation.add_message("ai", response)
         sleep(10)
-        if response:
-            return response
-        else:
-            return "No response from the model"
+        return response if response else "No response from the model"
 
     async def clear_chat_history(self):
         """

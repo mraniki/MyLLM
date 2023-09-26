@@ -92,12 +92,15 @@ class MyLLM:
             model=settings.llm_model,
             messages=self.conversation.get_messages(),
         )
-        logger.debug("response {}", response)
-        # response = response.encode("utf-16")
-        # logger.debug("response {}", response)
+
         self.conversation.add_message("ai", response)
         sleep(10)
-        return response if response else "No response from the model"
+        if response:
+            logger.debug("response received {}", response)
+            return response
+        else:
+            logger.debug("No response from the model")
+            return "No response from the model"
 
     async def clear_chat_history(self):
         """

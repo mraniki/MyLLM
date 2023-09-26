@@ -2,6 +2,25 @@
 
 
 
+## v3.0.2 (2023-09-26)
+
+### Other
+
+* Merge pull request #113 from mraniki/dev
+
+♻️ added time for llm response to consolidate ([`49bcb41`](https://github.com/mraniki/MyLLM/commit/49bcb4163e197f163ebad4d13425fedccba8511e))
+
+* Merge pull request #114 from mraniki/sourcery/dev
+
+♻️ added time for llm response to consolidate (Sourcery refactored) ([`1bb77a3`](https://github.com/mraniki/MyLLM/commit/1bb77a33ccf4117454b8a86bf3be382b51b6c444))
+
+* &#39;Refactored by Sourcery&#39; ([`1f1c68a`](https://github.com/mraniki/MyLLM/commit/1f1c68ae115f048889e414868336b3d1b56d4470))
+
+### ♻️
+
+* ♻️ added time for llm resonse to consolidate ([`26ca853`](https://github.com/mraniki/MyLLM/commit/26ca853d2d124fc9f7acfcc09702ad2bf054f89f))
+
+
 ## v3.0.1 (2023-09-24)
 
 ### :recycle:

@@ -39,7 +39,7 @@ llm_commands = """
 ➰ /aimode\n
 🧽 /clearai\n
 """
-
+llm_prefix = "🐻"
 llm_ai_mode = false
 
 # template prompt context

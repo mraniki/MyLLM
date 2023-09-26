@@ -6,9 +6,9 @@ MYLLM Main 🤖
 
 import asyncio
 import importlib
+from time import sleep
 
 import g4f
-
 from g4f import Provider
 from loguru import logger
 
@@ -76,7 +76,6 @@ class MyLLM:
             f"ℹ️ MyLLM v{__version__}\n {settings.llm_model}\n{settings.llm_provider}"
         )
 
-
     async def chat(self, prompt):
         """
         Asynchronously chats with the user.
@@ -95,11 +94,12 @@ class MyLLM:
         )
         logger.debug("response {}", response)
         self.conversation.add_message("ai", response)
-        return response
+        sleep(10)
+        return response if response else "No response from the model"
 
     async def clear_chat_history(self):
         """
-        Clears the chat history 
+        Clears the chat history
         """
         self.conversation = Conversation()
 

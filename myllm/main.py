@@ -94,7 +94,7 @@ class MyLLM:
         )
 
         self.conversation.add_message("ai", response)
-        sleep(10)
+        sleep(settings.lag)
         if response:
             logger.debug("response received {}", response)
             return response
@@ -118,7 +118,8 @@ class Conversation:
     def __init__(self, max_memory=settings.max_memory):
         self.messages = []
         self.max_memory = max_memory
-        self.template = settings.template
+        self.template = settings.llm_template
+        self.add_message("user", self.template)
 
     def add_message(self, role: str, content: str):
         if len(self.messages) >= self.max_memory:

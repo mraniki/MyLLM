@@ -26,7 +26,7 @@ llm_model = "gpt-3.5-turbo"
 # Refer to https://github.com/xtekky/gpt4free
 # for the list of supported provider
 llm_provider = "g4f.Provider.Bing"
-
+lag = 0 
 # Number of conversation history 
 # between user and ai
 max_memory = 100
@@ -45,7 +45,7 @@ llm_ai_mode = false
 # template prompt context
 # not implemented
 llm_template = """
-You are a friendly AI, help me with trading
+You are a friendly AI, helping me with task
 """
 # llm_template = """
 # You operate within the following constraints:

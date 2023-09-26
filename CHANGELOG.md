@@ -2,6 +2,23 @@
 
 
 
+## v3.0.5 (2023-09-26)
+
+### Other
+
+* Merge pull request #118 from mraniki/dev
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.3.7 ([`eee8f36`](https://github.com/mraniki/MyLLM/commit/eee8f36436da14b4ccd9df17f820e07a766e864e))
+
+* Merge pull request #112 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.3.7 ([`8ed482f`](https://github.com/mraniki/MyLLM/commit/8ed482f3c7b182d88e19bdc4d44a453136eef567))
+
+### Update
+
+* Update 👷Flow.yml ([`6a5012a`](https://github.com/mraniki/MyLLM/commit/6a5012a96d40602e9c88fa48968756fdddcb0512))
+
+
 ## v3.0.4 (2023-09-26)
 
 ### Other
@@ -25,6 +42,10 @@ Add prompt conversion to string (Sourcery refactored) ([`e9bd6ca`](https://githu
 ### ⚡
 
 * ⚡ ([`4452874`](https://github.com/mraniki/MyLLM/commit/44528743ff06ece2ec3194955a21b294c29e5cb5))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.3.7 ([`784131c`](https://github.com/mraniki/MyLLM/commit/784131c227dd88f8d47541edb802f7513927ad65))
 
 
 ## v3.0.3 (2023-09-26)

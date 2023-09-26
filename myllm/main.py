@@ -76,32 +76,29 @@ class MyLLM:
             f"ℹ️ MyLLM v{__version__}\n {settings.llm_model}\n{settings.llm_provider}"
         )
 
-    async def chat(self, prompt):
-        """
-        Asynchronously chats with the user.
 
-        Args:
-            prompt (str): The prompt message from the user.
+async def chat(self, prompt):
+    """
+    Asynchronously chats with the user.
 
-        Returns:
-            str: The  response from the conversation model.
-        """
-        #prompt = str(prompt)
+    Args:
+        prompt (str): The prompt message from the user.
+
+    Returns:
+        str: The response from the conversation model.
+    """
+    try:
         self.conversation.add_message("user", prompt)
-        logger.debug("conversation {}", self.conversation.get_messages())
         response = await self.provider.create_async(
             model=settings.llm_model,
             messages=self.conversation.get_messages(),
         )
-
-        self.conversation.add_message("ai", response)
         sleep(settings.lag)
-        if response:
-            logger.debug("response received {}", response)
-            return response
-        else:
-            logger.debug("No response from the model")
-            return "No response from the model"
+        self.conversation.add_message("ai", response)
+        return settings.llm_prefix + " " + response
+    except Exception as error:
+        logger.error("No response from the model {}", error)
+        return "No response from the model"
 
     async def clear_chat_history(self):
         """

@@ -29,7 +29,7 @@ llm_provider = "g4f.Provider.Bing"
 
 # Number of conversation history 
 # between user and ai
-max_memory = 5
+max_memory = 100
 
 # help message listing the commands
 # available
@@ -45,7 +45,7 @@ llm_ai_mode = false
 # template prompt context
 # not implemented
 llm_template = """
-test
+You are a friendly AI, help me with trading
 """
 # llm_template = """
 # You operate within the following constraints:

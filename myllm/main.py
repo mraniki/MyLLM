@@ -118,10 +118,11 @@ class Conversation:
     def __init__(self, max_memory=settings.max_memory):
         self.messages = []
         self.max_memory = max_memory
+        self.template = settings.template
 
     def add_message(self, role: str, content: str):
         if len(self.messages) >= self.max_memory:
-            self.messages.pop(0)  # Remove the oldest message
+            self.messages.pop(0)
         self.messages.append({"role": role, "content": content})
 
     def get_messages(self):

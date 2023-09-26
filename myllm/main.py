@@ -95,7 +95,7 @@ async def chat(self, prompt):
         )
         sleep(settings.lag)
         self.conversation.add_message("ai", response)
-        return settings.llm_prefix + " " + response
+        return f"{settings.llm_prefix} {response}"
     except Exception as error:
         logger.error("No response from the model {}", error)
         return "No response from the model"

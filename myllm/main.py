@@ -93,6 +93,8 @@ class MyLLM:
             messages=self.conversation.get_messages(),
         )
         logger.debug("response {}", response)
+        # response = response.encode("utf-16")
+        # logger.debug("response {}", response)
         self.conversation.add_message("ai", response)
         sleep(10)
         return response if response else "No response from the model"

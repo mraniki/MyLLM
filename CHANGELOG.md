@@ -2,6 +2,31 @@
 
 
 
+## v3.1.0 (2023-09-27)
+
+### Feat
+
+* ✨ Added chat export feature ([`5a0352b`](https://github.com/mraniki/MyLLM/commit/5a0352b0bbf7582e6673756c23c87a5ec7e78e3f))
+
+### Other
+
+* Merge pull request #121 from mraniki/dev
+
+✨ Added chat export feature ([`fbd2186`](https://github.com/mraniki/MyLLM/commit/fbd2186c71c898cac4704cc1b24ac08b3a180afc))
+
+### 🔧
+
+* 🔧 LLM Template update ([`96fd34e`](https://github.com/mraniki/MyLLM/commit/96fd34e308167d2be2db121ec7003e171532c792))
+
+### 🥅
+
+* 🥅 ([`f06191f`](https://github.com/mraniki/MyLLM/commit/f06191f65835e6e9a107b6b55c6f7b9e7b9de8bc))
+
+### 🩹
+
+* 🩹 version declaration ([`7a545a9`](https://github.com/mraniki/MyLLM/commit/7a545a99a1bc298fd3ef6915989b5e030207d36b))
+
+
 ## v3.0.7 (2023-09-27)
 
 ### Other

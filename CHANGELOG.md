@@ -2,6 +2,19 @@
 
 
 
+## v3.0.7 (2023-09-27)
+
+### Other
+
+* Merge pull request #120 from mraniki/dev
+
+👷 CI Change ([`eaa51fe`](https://github.com/mraniki/MyLLM/commit/eaa51fe1bdfe5e6a9325204715f70609c589a4e5))
+
+### 👷
+
+* 👷 CI Change ([`14a5f9f`](https://github.com/mraniki/MyLLM/commit/14a5f9f9fdbb343fddd3f6d05b0e0fa0c203d3cb))
+
+
 ## v3.0.6 (2023-09-26)
 
 ### :white_check_mark:

@@ -5,6 +5,7 @@ MYLLM Main 🤖
 """
 
 import importlib
+import json
 from time import sleep
 
 from g4f import Provider
@@ -123,3 +124,7 @@ class Conversation:
 
     def get_messages(self):
         return self.messages
+
+    def export_messages(self):
+        with open("history.json", "w") as f:
+            json.dump(self.messages, f, indent=4)

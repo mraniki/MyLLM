@@ -39,6 +39,12 @@ async def test_get_myllm_info(talky):
 
 @pytest.mark.asyncio
 async def test_clear_chat_history(talky):
+    history = talky.conversation.export_messages()
+    assert history is not None
+
+
+@pytest.mark.asyncio
+async def test_clear_chat_history(talky):
     await talky.clear_chat_history()
     assert talky.conversation is not None
 

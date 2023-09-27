@@ -5,6 +5,7 @@ MYLLM Main 🤖
 """
 
 import importlib
+import json
 from time import sleep
 
 from g4f import Provider
@@ -95,7 +96,7 @@ class MyLLM:
             return f"{settings.llm_prefix} {response}"
         except Exception as error:
             logger.error("No response from the model {}", error)
-            return f"{settings.llm_prefix} No response from the model"
+            # return f"{settings.llm_prefix} No response from the model"
 
     async def clear_chat_history(self):
         """
@@ -123,3 +124,7 @@ class Conversation:
 
     def get_messages(self):
         return self.messages
+
+    def export_messages(self):
+        with open("history.json", "w") as f:
+            json.dump(self.messages, f, indent=4)

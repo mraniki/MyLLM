@@ -35,7 +35,9 @@ async def main():
     time.sleep(10)
     chat = await talky.chat("what is my name")
     logger.info(chat)
-    #  Your name is Jack, as you mentioned earlier.
+    #  Your name is Jack, as you mentioned earlier
+
+    talky.conversation.export_messages()
 
 
 app = FastAPI()

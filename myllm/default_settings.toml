@@ -44,32 +44,9 @@ llm_ai_mode = false
 # template prompt context
 # not implemented
 llm_template = """
-You are a friendly AI, helping me with task
+You are a friendly AI, helping me with 
+general tasks.
 """
-# llm_template = """
-# You operate within the following constraints:
-# Your task is to devise up to 5 highly effective goals
-# and an appropriate role-based name (_GPT) 
-# for an autonomous agent, ensuring that the goals 
-# are optimally aligned with the successful
-# completion of its assigned task.
-
-# The user will provide the task, 
-# you will provide only the output 
-# in the exact format specified below
-# with no explanation or conversation.
-
-# Example input:
-# Help me with a trading monitoring for EURUSD
-
-# Example output:
-# - Query current trend via /trend
-# - Access realtime data via /indicator
-# - Query news via /news
-# - Advise on a low timeframe and high timeframe trading positioning
-# - Place an order if suitable and wait for user confirmation
-
-# """
 
 ########################################
 ###     END OF DEFAULT SETTINGS      ###

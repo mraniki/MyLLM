@@ -17,6 +17,7 @@ def set_test_settings():
 async def test_dynaconf():
     assert settings.VALUE == "On Testing"
 
+
 @pytest.fixture(name="talky")
 def test_fixture_myllm():
     return MyLLM()
@@ -28,16 +29,19 @@ async def test_get_myllm_help(talky):
     assert result is not None
     assert "💬" in result
 
+
 @pytest.mark.asyncio
 async def test_get_myllm_info(talky):
     result = await talky.get_myllm_info()
     assert result is not None
     assert "ℹ️" in result
 
+
 @pytest.mark.asyncio
 async def test_clear_chat_history(talky):
-    result = await talky.clear_chat_history()
+    await talky.clear_chat_history()
     assert talky.conversation is not None
+
 
 @pytest.mark.asyncio
 async def test_switch_continous_mode(talky):

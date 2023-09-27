@@ -4,11 +4,9 @@ MYLLM Main 🤖
 
 """
 
-import asyncio
 import importlib
 from time import sleep
 
-import g4f
 from g4f import Provider
 from loguru import logger
 
@@ -76,14 +74,13 @@ class MyLLM:
             f"ℹ️ MyLLM v{__version__}\n {settings.llm_model}\n{settings.llm_provider}"
         )
 
-
     async def chat(self, prompt):
         """
         Asynchronously chats with the user.
-    
+
         Args:
             prompt (str): The prompt message from the user.
-    
+
         Returns:
             str: The response from the conversation model.
         """

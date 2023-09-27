@@ -2,6 +2,19 @@
 
 
 
+## v3.1.1 (2023-09-27)
+
+### Other
+
+* Merge pull request #122 from mraniki/dev
+
+⚡ export method for MyLLM object ([`9ba8af4`](https://github.com/mraniki/MyLLM/commit/9ba8af43a89b7a8e676b1b5c5f4043bf7c96978b))
+
+### ⚡
+
+* ⚡ ([`5364d85`](https://github.com/mraniki/MyLLM/commit/5364d856939826049b132a581a926ee64dfe8633))
+
+
 ## v3.1.0 (2023-09-27)
 
 ### Feat

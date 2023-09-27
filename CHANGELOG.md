@@ -2,6 +2,25 @@
 
 
 
+## v3.1.3 (2023-09-27)
+
+### :white_check_mark:
+
+* :white_check_mark: Refactor test_clear_chat_history to test_export_chat_history ([`460ee4e`](https://github.com/mraniki/MyLLM/commit/460ee4e1c5b27163e15f13ee7da5eadd255a8f9e))
+
+### Other
+
+* Merge pull request #125 from mraniki/dev
+
+:white_check_mark: Refactor test_clear_chat_history to test_export_ch… ([`562a00d`](https://github.com/mraniki/MyLLM/commit/562a00d670306df4dd2126407ead15107ea45bc3))
+
+* Refactor test_export_chat_history function ([`0bd389d`](https://github.com/mraniki/MyLLM/commit/0bd389df3a735f1511683d6322046f69a3b3be80))
+
+* Add unit test for exporting chat history ([`c571178`](https://github.com/mraniki/MyLLM/commit/c57117830113630d7d56efd774e5359532d16917))
+
+* Refactor test_unit.py for exporting chat history ([`fa17a97`](https://github.com/mraniki/MyLLM/commit/fa17a97a62af569ed11e7d80e7dae396d716552f))
+
+
 ## v3.1.2 (2023-09-27)
 
 ### Other

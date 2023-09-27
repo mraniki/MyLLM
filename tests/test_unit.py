@@ -41,7 +41,7 @@ async def test_get_myllm_info(talky):
 @pytest.mark.asyncio
 async def test_export_chat_history(talky):
     await talky.export_chat_history()
-    
+
     assert os.path.exists("history.json")
 
 

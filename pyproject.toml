@@ -95,14 +95,16 @@ omit = [
     "docs/*",
     "*/config.py"
 ]
-
+  
 
 [tool.semantic_release]
 upload_to_vcs_release = true
-version_variables = ["pyproject.toml:version","myllm/__init__.py:__version__"]
+version_variables = ["myllm/__init__.py:__version__"]
 build_command = "pip install poetry && poetry build"
 commit_parser = "emoji"
-
+version_toml = [
+   "pyproject.toml:tool.poetry.version",
+   ]
 
 [tool.semantic_release.commit_parser_options]
 major_tags = [

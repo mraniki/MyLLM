@@ -2,6 +2,7 @@
 myllm Unit Testing
 """
 
+import os
 import pytest
 
 from myllm.config import settings
@@ -38,9 +39,10 @@ async def test_get_myllm_info(talky):
 
 
 @pytest.mark.asyncio
-async def test_clear_chat_history(talky):
-    history = talky.conversation.export_messages()
-    assert history is not None
+async def test_export_chat_history(talky):
+    await talky.export_chat_history()
+
+    assert os.path.exists("history.json")
 
 
 @pytest.mark.asyncio

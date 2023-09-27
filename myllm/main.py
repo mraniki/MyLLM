@@ -104,6 +104,12 @@ class MyLLM:
         """
         self.conversation = Conversation()
 
+    async def export_chat_history(self):
+        """
+        Clears the chat history
+        """
+        self.conversation.export_messages()
+
     async def switch_continous_mode(self):
         """ """
         self.llm_ai_mode = not self.llm_ai_mode

@@ -53,6 +53,7 @@ class MyLLM:
         provider_module = importlib.import_module(provider_module_name)
         provider_class = getattr(provider_module, provider_module_name.split(".")[-1])
         self.provider = provider_class()
+        self.llm_model = settings.llm_model
         self.conversation = Conversation()
 
     async def get_myllm_help(self):
@@ -88,7 +89,7 @@ class MyLLM:
         try:
             self.conversation.add_message("user", prompt)
             response = await self.provider.create_async(
-                model=settings.llm_model,
+                model=self.llm_model,
                 messages=self.conversation.get_messages(),
             )
             sleep(settings.lag)

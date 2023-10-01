@@ -2,6 +2,21 @@
 
 
 
+## v3.1.8 (2023-10-01)
+
+### Other
+
+* Merge pull request #131 from mraniki/dev
+
+🚑 removing commands ([`66131cb`](https://github.com/mraniki/MyLLM/commit/66131cb423ea0200c41d12e853356fd09e02a233))
+
+### 🚑
+
+* 🚑 ([`06f5546`](https://github.com/mraniki/MyLLM/commit/06f554682499e67a361cf86b5e21c3b3d153f900))
+
+* 🚑 ([`80ca7b4`](https://github.com/mraniki/MyLLM/commit/80ca7b409ecbb7f84fb53fed8c0cac3376723d52))
+
+
 ## v3.1.7 (2023-10-01)
 
 ### Other

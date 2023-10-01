@@ -2,6 +2,19 @@
 
 
 
+## v3.1.7 (2023-10-01)
+
+### Other
+
+* Merge pull request #130 from mraniki/dev
+
+♻️ Cleanup and refactoring ([`f4c8301`](https://github.com/mraniki/MyLLM/commit/f4c8301f6d31131982fe912141f081051917a3f4))
+
+### ♻️
+
+* ♻️ Cleanup and refactoring ([`318c832`](https://github.com/mraniki/MyLLM/commit/318c832bb03667f53546bb72b06ec5c5be11794b))
+
+
 ## v3.1.6 (2023-10-01)
 
 ### Other

@@ -47,7 +47,6 @@ class MyLLM:
         self.enabled = settings.myllm_enabled
         if not self.enabled:
             return
-        self.commands = settings.llm_commands
         self.llm_ai_mode = settings.llm_ai_mode
         provider_module_name = settings.llm_provider
         provider_module = importlib.import_module(provider_module_name)

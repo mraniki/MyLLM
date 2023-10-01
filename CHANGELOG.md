@@ -2,6 +2,21 @@
 
 
 
+## v3.1.5 (2023-10-01)
+
+### Other
+
+* Merge pull request #128 from mraniki/dev
+
+Update example.py ([`236c8e2`](https://github.com/mraniki/MyLLM/commit/236c8e226f17fae90ad8ac321d33fd5bb376ffe5))
+
+### Update
+
+* Update Requirements ([`9aa7cf8`](https://github.com/mraniki/MyLLM/commit/9aa7cf89e95281bba1ed577ec718585418adb07b))
+
+* Update example.py ([`e023d67`](https://github.com/mraniki/MyLLM/commit/e023d67315a3285241f701f0369acca64de7e5ba))
+
+
 ## v3.1.4 (2023-10-01)
 
 ### Other

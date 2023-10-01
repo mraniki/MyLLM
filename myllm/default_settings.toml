@@ -26,23 +26,19 @@ llm_model = "gpt-3.5-turbo"
 # Refer to https://github.com/xtekky/gpt4free
 # for the list of supported provider
 llm_provider = "g4f.Provider.Bing"
-lag = 5
-# Number of conversation history 
-# between user and ai
+
+# Conversation history size
 max_memory = 100
 
-# help message listing the commands
-# available
-llm_commands = """
-💬 /ai\n
-➰ /aimode\n
-🧽 /clearai\n
-"""
-llm_prefix = "🐻"
+# time lag to wait ai response
+lag = 5
+
+# AI Mode to continously listen 
 llm_ai_mode = false
+# prefix use to filter the AI response
+llm_prefix = "🐻"
 
 # template prompt context
-# not implemented
 llm_template = """
 You are a friendly AI, helping me with 
 general tasks.

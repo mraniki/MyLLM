@@ -3,6 +3,7 @@ myllm Unit Testing
 """
 
 import os
+
 import pytest
 
 from myllm.config import settings
@@ -22,13 +23,6 @@ async def test_dynaconf():
 @pytest.fixture(name="talky")
 def test_fixture_myllm():
     return MyLLM()
-
-
-@pytest.mark.asyncio
-async def test_get_myllm_help(talky):
-    result = await talky.get_myllm_help()
-    assert result is not None
-    assert "💬" in result
 
 
 @pytest.mark.asyncio

@@ -47,7 +47,6 @@ class MyLLM:
         self.enabled = settings.myllm_enabled
         if not self.enabled:
             return
-        self.commands = settings.llm_commands
         self.llm_ai_mode = settings.llm_ai_mode
         provider_module_name = settings.llm_provider
         provider_module = importlib.import_module(provider_module_name)
@@ -55,15 +54,6 @@ class MyLLM:
         self.provider = provider_class()
         self.llm_model = settings.llm_model
         self.conversation = Conversation()
-
-    async def get_myllm_help(self):
-        """
-        Get the help message for MyLLM.
-
-        Returns:
-            str: The help message for the `myllm` command.
-        """
-        return f"{self.commands}\n"
 
     async def get_myllm_info(self):
         """

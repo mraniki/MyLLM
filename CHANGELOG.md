@@ -2,6 +2,23 @@
 
 
 
+## v3.1.6 (2023-10-01)
+
+### Other
+
+* Merge pull request #129 from mraniki/dev
+
+♻️   self.llm_model ([`f500de8`](https://github.com/mraniki/MyLLM/commit/f500de8d2647b9ed40497be436db73d2257cce80))
+
+### ♻️
+
+* ♻️ ([`177714f`](https://github.com/mraniki/MyLLM/commit/177714fd4f65ece6c551b7c92d15db3330f739e0))
+
+### 🎨
+
+* 🎨 ([`b341549`](https://github.com/mraniki/MyLLM/commit/b3415498c3a21e962eaf6132b34f127689e6195b))
+
+
 ## v3.1.5 (2023-10-01)
 
 ### Other

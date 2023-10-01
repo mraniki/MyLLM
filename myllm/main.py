@@ -55,15 +55,6 @@ class MyLLM:
         self.llm_model = settings.llm_model
         self.conversation = Conversation()
 
-    async def get_myllm_help(self):
-        """
-        Get the help message for MyLLM.
-
-        Returns:
-            str: The help message for the `myllm` command.
-        """
-        return f"{self.commands}\n"
-
     async def get_myllm_info(self):
         """
         Get MyLLM information.

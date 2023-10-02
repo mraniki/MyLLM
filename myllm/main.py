@@ -22,15 +22,12 @@ class MyLLM:
     with a given model and a given provider
 
     Attributes:
-        logger (Logger): Logger
         enabled (bool): Whether MyLLM is enabled
-        commands (str): MyLLM commands
         llm (LLM): LLM
         conversation (ConversationChain): Conversation
 
     Methods:
         get_myllm_info(self)
-        get_myllm_help(self)
         chat(self, prompt)
         clear_chat_history(self)
 

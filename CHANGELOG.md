@@ -2,6 +2,51 @@
 
 
 
+## v3.1.9 (2023-10-02)
+
+### Other
+
+* Merge pull request #133 from mraniki/dev
+
+✅ Unit Test ([`3ac2f31`](https://github.com/mraniki/MyLLM/commit/3ac2f3157464c2703849b994a48c264e41455cc4))
+
+* Merge pull request #132 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.4.4 ([`fbe5713`](https://github.com/mraniki/MyLLM/commit/fbe5713c2be97fec60f7a96119df8e4427f95246))
+
+* Merge branch &#39;main&#39; into dev ([`dc84736`](https://github.com/mraniki/MyLLM/commit/dc84736aefec8f35f0f31bf79bf2266fee4b5261))
+
+### Update
+
+* Update Requirements ([`ab6dca4`](https://github.com/mraniki/MyLLM/commit/ab6dca42d3f08e33bafec93673915d0254bbf506))
+
+* Update main.py ([`9854c1c`](https://github.com/mraniki/MyLLM/commit/9854c1c85ef703ddbee8dd7d827d2bf4beee7f8c))
+
+* Update main.py ([`6e4c1d3`](https://github.com/mraniki/MyLLM/commit/6e4c1d3b2f7748a52c49e215540fa6b36ba52e96))
+
+* Update README.md ([`e05e639`](https://github.com/mraniki/MyLLM/commit/e05e639bc0a8e6cf72f1d682f919fdf0dac71032))
+
+### ✅
+
+* ✅ Unit Test ([`ba7da7a`](https://github.com/mraniki/MyLLM/commit/ba7da7ae4687181dc62ea46050816d8d5e8b755b))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.4.4 ([`23c16a8`](https://github.com/mraniki/MyLLM/commit/23c16a8f14a258e27ef7780c9e68a8e8abf3c32f))
+
+### 🐛
+
+* 🐛 ([`729d0b3`](https://github.com/mraniki/MyLLM/commit/729d0b3fd16028d42ed5acaed94657f69c8c6061))
+
+### 🔧
+
+* 🔧 ([`1cacbf9`](https://github.com/mraniki/MyLLM/commit/1cacbf96db5b47cc12c3f85d094538354a634abf))
+
+### 🚨
+
+* 🚨 ([`577ce7d`](https://github.com/mraniki/MyLLM/commit/577ce7d8ab4baf759c77090e9b916e1352fb3f7b))
+
+
 ## v3.1.8 (2023-10-01)
 
 ### Other

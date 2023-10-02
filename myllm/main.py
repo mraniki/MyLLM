@@ -53,6 +53,7 @@ class MyLLM:
         provider_class = getattr(provider_module, provider_module_name.split(".")[-1])
         self.provider = provider_class()
         self.llm_model = settings.llm_model
+        self.lag = settings.lag
         self.conversation = Conversation()
 
     async def get_myllm_info(self):
@@ -63,7 +64,7 @@ class MyLLM:
             str: A string containing the MyLLM version, model, and provider.
         """
         return (
-            f"ℹ️ MyLLM v{__version__}\n {settings.llm_model}\n{settings.llm_provider}"
+            f"ℹ️ MyLLM v{__version__}\n {self.llm_model}\n{self.provider}"
         )
 
     async def chat(self, prompt):
@@ -82,11 +83,12 @@ class MyLLM:
                 model=self.llm_model,
                 messages=self.conversation.get_messages(),
             )
-            sleep(settings.lag)
+            sleep(self.lag)
             self.conversation.add_message("ai", response)
             return f"{settings.llm_prefix} {response}"
         except Exception as error:
             logger.error("No response from the model {}", error)
+            return error
 
     async def clear_chat_history(self):
         """

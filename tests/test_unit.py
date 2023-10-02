@@ -57,4 +57,6 @@ async def test_switch_continous_mode(talky):
 @pytest.mark.asyncio
 async def test_chat(talky):
     result = await talky.chat("tell me a story")
+    print(talky.provider)
+    print(talky.model)
     assert result is not None

@@ -49,7 +49,7 @@ class MyLLM:
         provider_module = importlib.import_module(provider_module_name)
         provider_class = getattr(provider_module, provider_module_name.split(".")[-1])
         self.provider = provider_class()
-        self.llm_model = settings.llm_model
+        self.model = settings.llm_model
         self.lag = settings.lag
         self.conversation = Conversation()
 
@@ -60,9 +60,7 @@ class MyLLM:
         Returns:
             str: A string containing the MyLLM version, model, and provider.
         """
-        return (
-            f"ℹ️ MyLLM v{__version__}\n {self.llm_model}\n{self.provider}"
-        )
+        return f"ℹ️ MyLLM v{__version__}\n {self.model}\n{self.provider}"
 
     async def chat(self, prompt):
         """
@@ -77,7 +75,7 @@ class MyLLM:
         try:
             self.conversation.add_message("user", prompt)
             response = await self.provider.create_async(
-                model=self.llm_model,
+                model=self.model,
                 messages=self.conversation.get_messages(),
             )
             sleep(self.lag)

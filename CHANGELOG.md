@@ -2,6 +2,31 @@
 
 
 
+## v3.1.11 (2023-10-04)
+
+### Other
+
+* Merge pull request #138 from mraniki/dev
+
+♻️ Refactor config file loading ([`5eaa702`](https://github.com/mraniki/MyLLM/commit/5eaa7025203201c083239f5ae6175256be375a7f))
+
+* Merge pull request #139 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.4.7 ([`2a455c8`](https://github.com/mraniki/MyLLM/commit/2a455c8918a3d72e1e423ea4d9d8b47169d99753))
+
+* Refactor config file loading ([`ac5645c`](https://github.com/mraniki/MyLLM/commit/ac5645cfe5cdad699ed78ce76f6c8e0746320714))
+
+### Update
+
+* Update Requirements ([`e98aa12`](https://github.com/mraniki/MyLLM/commit/e98aa1206e7872047ca1637e85fce446c916aa12))
+
+* Update Requirements ([`2b402db`](https://github.com/mraniki/MyLLM/commit/2b402dbf927c5f3d347a8e5a58773384db29817d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.4.7 ([`012288a`](https://github.com/mraniki/MyLLM/commit/012288aea5cbc1c68aca4f909075c081b5057613))
+
+
 ## v3.1.10 (2023-10-04)
 
 ### Other

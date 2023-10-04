@@ -2,6 +2,37 @@
 
 
 
+## v3.1.10 (2023-10-04)
+
+### Other
+
+* Merge pull request #137 from mraniki/dev
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.4.6 ([`40aef31`](https://github.com/mraniki/MyLLM/commit/40aef31b40475c3068520c929391fc7bb7fd9a6b))
+
+* Merge pull request #136 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.4.6 ([`f09b7c8`](https://github.com/mraniki/MyLLM/commit/f09b7c846dd7fe1c6bb23476cf89a76ca84bc5e4))
+
+* Merge pull request #134 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.4.5 ([`8c3b8a5`](https://github.com/mraniki/MyLLM/commit/8c3b8a5019ad2a07ea3dd788694bcd6a77ca85f7))
+
+### Update
+
+* Update Requirements ([`f25fce2`](https://github.com/mraniki/MyLLM/commit/f25fce25b60253458b924f5a69735cb583057247))
+
+* Update Requirements ([`2fbeaac`](https://github.com/mraniki/MyLLM/commit/2fbeaacbf58763673950bc4b3d29abe4a8a6aa0f))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.4.6 ([`7ce5995`](https://github.com/mraniki/MyLLM/commit/7ce5995c58c0280977f8fc4f7b91ec3e5e873f3b))
+
+* ⬆️ 🛠️(deps): update python docker tag to v3.12 ([`ea3b225`](https://github.com/mraniki/MyLLM/commit/ea3b225464fcf381758b8da4874ec0f72d40a1c5))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.4.5 ([`afd21d0`](https://github.com/mraniki/MyLLM/commit/afd21d048559ab936ddcbd39b38a0175b4dfd989))
+
+
 ## v3.1.9 (2023-10-02)
 
 ### Other

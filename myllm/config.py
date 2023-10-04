@@ -17,10 +17,11 @@ settings = Dynaconf(
     settings_files=[
         os.path.join(ROOT, "default_settings.toml"),
         # experiment
-        "myllm_settings.toml",
+        #"myllm_settings.toml",
         "talky_settings.toml",
         "settings.toml",
         ".secrets.toml",
+        ".op.toml",
     ],
     # Load the.env file
     load_dotenv=True,

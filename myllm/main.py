@@ -82,7 +82,7 @@ class MyLLM:
             self.conversation.add_message("ai", response)
             return f"{settings.llm_prefix} {response}"
         except Exception as error:
-            logger.error("No response from the model {}", error)
+            logger.error("No response {}", error)
 
     async def clear_chat_history(self):
         """

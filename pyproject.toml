@@ -33,7 +33,7 @@ httpx = ">=0.24.1"
 js2py = "^0.74"
 curl-cffi ="0.5.7"
 PyExecJS2="1.6.1"
-g4f = "0.1.4.8"
+g4f = "0.1.4.9"
 
 
 [tool.poetry.group.dev.dependencies]

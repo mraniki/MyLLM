@@ -2,6 +2,35 @@
 
 
 
+## v3.1.12 (2023-10-05)
+
+### Other
+
+* Merge pull request #142 from mraniki/dev
+
+⬆️ ([`99fec74`](https://github.com/mraniki/MyLLM/commit/99fec742aabb7887d68c383ec1ddec0a80915962))
+
+* Merge pull request #141 from mraniki/renovate/pytest-loguru-0.x
+
+⬆️ 🛠️(deps): update dependency pytest-loguru to ^0.3.0 ([`8e20560`](https://github.com/mraniki/MyLLM/commit/8e2056072071abb065ea5b8dbfe058501e94d3ac))
+
+### Update
+
+* Update Requirements ([`9d30201`](https://github.com/mraniki/MyLLM/commit/9d302016649c8d48bc7001ad88b86d181a90419c))
+
+### ♻️
+
+* ♻️ ([`8ab4741`](https://github.com/mraniki/MyLLM/commit/8ab474199a2bee9cc5b8303b027d8b1a70c7feb8))
+
+* ♻️ ([`70bb0e5`](https://github.com/mraniki/MyLLM/commit/70bb0e5371fcab57839dc5490d8a8b9ce60b98f2))
+
+### ⬆️
+
+* ⬆️ ([`0bb6e6b`](https://github.com/mraniki/MyLLM/commit/0bb6e6be3ed1d3537a2ed5d563261d7e90de14e0))
+
+* ⬆️ 🛠️(deps): update dependency pytest-loguru to ^0.3.0 ([`c18f2e9`](https://github.com/mraniki/MyLLM/commit/c18f2e98f6c4e76fb3d7c54336a6be070e7ff29c))
+
+
 ## v3.1.11 (2023-10-04)
 
 ### Other

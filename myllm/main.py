@@ -83,7 +83,6 @@ class MyLLM:
             return f"{settings.llm_prefix} {response}"
         except Exception as error:
             logger.error("No response from the model {}", error)
-            # return error
 
     async def clear_chat_history(self):
         """

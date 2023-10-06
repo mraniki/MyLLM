@@ -60,7 +60,7 @@ class MyLLM:
         Returns:
             str: A string containing the MyLLM version, model, and provider.
         """
-        return f"ℹ️ {type(self).__name__} {__version__}\n{self.model}\n{self.provider}"
+        return f"ℹ️ {type(self).__name__} {__version__}\n{self.model}\n{str(self.provider)}"
 
     async def chat(self, prompt):
         """

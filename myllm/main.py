@@ -62,7 +62,7 @@ class MyLLM:
             model, and provider.
         """
         info = f"ℹ️ {type(self).__name__} {__version__}\n"
-        info =+ f"{self.model}\n{str(self.provider)}"
+        info += f"{self.model}\n{str(self.provider)}"
         return info
 
     async def chat(self, prompt):

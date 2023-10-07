@@ -58,9 +58,12 @@ class MyLLM:
         Get MyLLM information.
 
         Returns:
-            str: A string containing the MyLLM version, model, and provider.
+            str: A string containing the MyLLM version, 
+            model, and provider.
         """
-        return f"ℹ️ {type(self).__name__} {__version__}\n{self.model}\n{self.provider}"
+        info = f"ℹ️ {type(self).__name__} {__version__}\n"
+        info += f"{self.model}\n{str(self.provider)}"
+        return info
 
     async def chat(self, prompt):
         """

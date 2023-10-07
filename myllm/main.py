@@ -8,7 +8,6 @@ import importlib
 import json
 from time import sleep
 
-from g4f import Provider
 from loguru import logger
 
 from myllm import __version__
@@ -58,11 +57,11 @@ class MyLLM:
         Get MyLLM information.
 
         Returns:
-            str: A string containing the MyLLM version, 
+            str: A string containing the MyLLM version,
             model, and provider.
         """
         info = f"ℹ️ {type(self).__name__} {__version__}\n"
-        info += f"{self.model}\n{str(self.provider)}"
+        info += f"{self.model}\n{str(settings.llm_provider)}"
         return info
 
     async def chat(self, prompt):

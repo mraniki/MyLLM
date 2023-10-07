@@ -2,6 +2,41 @@
 
 
 
+## v3.1.14 (2023-10-07)
+
+### :rotating_light:
+
+* :rotating_light:Fix info assignment in MyLLM class ([`16ddf83`](https://github.com/mraniki/MyLLM/commit/16ddf8368ecaaec3e7e376fb7f35ff793cca94eb))
+
+### Other
+
+* Merge pull request #146 from mraniki/dev
+
+⬆️ g4f update ([`29275e0`](https://github.com/mraniki/MyLLM/commit/29275e010835197770b440d44c8d52965cb5c259))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`4ec976b`](https://github.com/mraniki/MyLLM/commit/4ec976b3a3365c9fad2d8613db0eca28a8f77d34))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`276ee66`](https://github.com/mraniki/MyLLM/commit/276ee66ca5426db3b82621ec3b4a53a00752f72b))
+
+### Update
+
+* Update Requirements ([`7086ca1`](https://github.com/mraniki/MyLLM/commit/7086ca122c3077e48b95fa5e369784c79b1c0996))
+
+* Update MyLLM info string formatting
+
+The commit message should be:
+
+&#34;Update MyLLM info string formatting ([`4d97c65`](https://github.com/mraniki/MyLLM/commit/4d97c656fe9b735f86d33f6b0ff9153343477159))
+
+* Update provider to be converted to string in return statement ([`8e00a6d`](https://github.com/mraniki/MyLLM/commit/8e00a6d91a4015c2450f54287866d6298d914e1f))
+
+* Update pyproject.toml ignore and format settings ([`fe0e9a3`](https://github.com/mraniki/MyLLM/commit/fe0e9a3f16932176f73b37839e41bc883ea58633))
+
+* Update Requirements ([`9d7f0cd`](https://github.com/mraniki/MyLLM/commit/9d7f0cd50b94cf2afce43e229e10a99d94515730))
+
+* Update pyproject.toml ([`21a2c0a`](https://github.com/mraniki/MyLLM/commit/21a2c0a29f67d16cf1753dbd99fa1648df2fc04c))
+
+
 ## v3.1.13 (2023-10-05)
 
 ### Other

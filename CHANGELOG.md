@@ -2,6 +2,23 @@
 
 
 
+## v3.1.15 (2023-10-07)
+
+### Other
+
+* Merge pull request #147 from mraniki/dev
+
+🐛 ([`0996b18`](https://github.com/mraniki/MyLLM/commit/0996b1828e0e7e7238e2065e6fb6fe7172c03310))
+
+### Update
+
+* Update Requirements ([`62e8f10`](https://github.com/mraniki/MyLLM/commit/62e8f10e59ab38513732fe15f773487fcbea59aa))
+
+### 🐛
+
+* 🐛 ([`d56c64a`](https://github.com/mraniki/MyLLM/commit/d56c64a4e0ccdfd4843dc5ced4688e9a893ac3ff))
+
+
 ## v3.1.14 (2023-10-07)
 
 ### :rotating_light:

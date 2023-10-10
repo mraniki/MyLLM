@@ -133,6 +133,11 @@ omit = [
     "*/config.py"
 ]
   
+[tool.bandit]
+exclude_dirs = ["tests","docs"]
+
+[tool.bandit.assert_used]
+skips = ["*_test.py", "test_*.py"]
 
 [tool.semantic_release]
 upload_to_vcs_release = true
@@ -142,6 +147,7 @@ commit_parser = "emoji"
 version_toml = [
    "pyproject.toml:tool.poetry.version",
    ]
+
 
 [tool.semantic_release.commit_parser_options]
 major_tags = [

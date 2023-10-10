@@ -2,6 +2,39 @@
 
 
 
+## v3.1.17 (2023-10-10)
+
+### Other
+
+* Merge pull request #152 from mraniki/dev
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.5.7 ([`b6e6b5c`](https://github.com/mraniki/MyLLM/commit/b6e6b5c18bd258918814e87e9d5492d8644cccd6))
+
+* Merge pull request #151 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.5.8 ([`c934f2a`](https://github.com/mraniki/MyLLM/commit/c934f2a411a53bf2bf7e998a17007a21e8b4a39b))
+
+* Merge pull request #150 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.5.7 ([`147040f`](https://github.com/mraniki/MyLLM/commit/147040f8a552a4ee9767abe7dcb0b7eb48229be8))
+
+* Merge pull request #149 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.5.6 ([`ec57bb2`](https://github.com/mraniki/MyLLM/commit/ec57bb2adfeedddf4fa6cdc7b2117ceeaacdfeae))
+
+### Update
+
+* Update Requirements ([`03ab94d`](https://github.com/mraniki/MyLLM/commit/03ab94d02e9f00273d41fb918c7e9f67d2feff9d))
+
+* Update Requirements ([`b7da539`](https://github.com/mraniki/MyLLM/commit/b7da5393fcd96b07eae5db235a4937e50a5e6e78))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.5.8 ([`2dd3338`](https://github.com/mraniki/MyLLM/commit/2dd33388694f090664e64f17f4350a8b54e74af0))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.5.7 ([`38cd274`](https://github.com/mraniki/MyLLM/commit/38cd274cf18eb64ee22e4126ba209f7219fb5d00))
+
+
 ## v3.1.16 (2023-10-08)
 
 ### Other
@@ -16,9 +49,13 @@
 
 ### Update
 
+* Update Requirements ([`265f825`](https://github.com/mraniki/MyLLM/commit/265f825d966d0e8d4d0abd8fdacda12d0070c9e9))
+
 * Update Requirements ([`d8037fd`](https://github.com/mraniki/MyLLM/commit/d8037fd74ae84d4babbdd91f60281a90fe755ccf))
 
 ### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.5.6 ([`4fe6045`](https://github.com/mraniki/MyLLM/commit/4fe60454f570fcd177c9fbfcd851a3c4ddcd4458))
 
 * ⬆️ 🛠️(deps): update dependency g4f to v0.1.5.5 ([`f9e2b7f`](https://github.com/mraniki/MyLLM/commit/f9e2b7f37eb477437e2ac39749e80228bb4f2839))
 

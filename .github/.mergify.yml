@@ -1,9 +1,7 @@
 pull_request_rules:
   - name: Automatic merge on approval
     conditions:
-      - "check-success=build"
-      - "check-success=test"
-      - "#check-failure=0"
+      - "status-success=test"
     actions:
       merge:
         method: merge

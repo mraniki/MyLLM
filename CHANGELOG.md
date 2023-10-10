@@ -2,6 +2,19 @@
 
 
 
+## v3.1.18 (2023-10-10)
+
+### Other
+
+* Merge pull request #153 from mraniki/dev
+
+♻️ pyproject update ([`ed022a3`](https://github.com/mraniki/MyLLM/commit/ed022a3c3edc5269f213a5a9337576271b16242c))
+
+### ♻️
+
+* ♻️ pyproject update ([`df6e4c5`](https://github.com/mraniki/MyLLM/commit/df6e4c56eec64f69d3415d93d355d5800fd91834))
+
+
 ## v3.1.17 (2023-10-10)
 
 ### Other

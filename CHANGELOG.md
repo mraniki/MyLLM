@@ -2,6 +2,34 @@
 
 
 
+## v3.1.19 (2023-10-10)
+
+### Other
+
+* Merge pull request #154 from mraniki/dev
+
+👷 CI Change with precommit ([`184784b`](https://github.com/mraniki/MyLLM/commit/184784b1c7f0583be37d13ccf9d1ea0b7ffcbbb1))
+
+* Add automatic merge on approval rule
+
+This commit adds a new file `.github/.mergify.yml` which contains the co
+nfiguration for automatic merging of pull requests. The rule is set to
+m
+erge the pull request when the build and test checks are successful
+and
+there are no check failures. ([`f5a36c3`](https://github.com/mraniki/MyLLM/commit/f5a36c349d6186c175e85cdbc7f205c734e9963a))
+
+### 👷
+
+* 👷 CI Change with precommit ([`76c1a03`](https://github.com/mraniki/MyLLM/commit/76c1a0362678ef6b4d61cc1cf82b1bb8c5e6715e))
+
+### 🔒
+
+* 🔒 ([`2e71446`](https://github.com/mraniki/MyLLM/commit/2e714463006a6261ebd904d2d5842f43b9a8d085))
+
+* 🔒 bandit ([`ec0888f`](https://github.com/mraniki/MyLLM/commit/ec0888f6a32ed331ce82a65473fd83501e2850fb))
+
+
 ## v3.1.18 (2023-10-10)
 
 ### Other

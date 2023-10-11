@@ -2,6 +2,19 @@
 
 
 
+## v3.1.25 (2023-10-11)
+
+### Other
+
+* Merge pull request #164 from mraniki/dev
+
+Update mergify.yml ([`8df29f2`](https://github.com/mraniki/MyLLM/commit/8df29f20193a41f7ccb620a9036562adef43d514))
+
+### Update
+
+* Update mergify.yml ([`894c342`](https://github.com/mraniki/MyLLM/commit/894c342e41de3d15d3efa23152b47972b322097d))
+
+
 ## v3.1.24 (2023-10-11)
 
 ### Other

@@ -2,6 +2,43 @@
 
 
 
+## v3.1.20 (2023-10-11)
+
+### Other
+
+* Merge pull request #158 from mraniki/dev
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.5.9 ([`02d7e69`](https://github.com/mraniki/MyLLM/commit/02d7e695d43169640ab55dda3187dd15a5122c4b))
+
+* Merge pull request #155 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.5.9 ([`b26e5ee`](https://github.com/mraniki/MyLLM/commit/b26e5ee36248e44e632a0e55c61e4a4b8efe6a4c))
+
+* update .mergify.yml file location ([`f2df868`](https://github.com/mraniki/MyLLM/commit/f2df86848d5ff08971d5554eb6be4ee5d626842c))
+
+* Merge pull request #157 from mraniki/mergify/mraniki/config-update
+
+ci(Mergify): configuration update ([`221ff1f`](https://github.com/mraniki/MyLLM/commit/221ff1f0163b939bf75bbbc701cb72731df1aa50))
+
+* ci(Mergify): configuration update
+
+Signed-off-by: null &lt;null&gt; ([`da25330`](https://github.com/mraniki/MyLLM/commit/da2533050c464de7737087c4774ddcb81a136371))
+
+* Merge pull request #156 from mraniki/dev
+
+♻️ Refactor Mergify.yml: remove build and test checks, add status-succes… ([`4a01265`](https://github.com/mraniki/MyLLM/commit/4a012657ea2f77e11c547689e54f1166e7217e58))
+
+* Refactor Mergify.yml: remove build and test checks, add status-success=test ([`34bcd18`](https://github.com/mraniki/MyLLM/commit/34bcd18d7450b8daa2c50a42dddd9acde0974cf0))
+
+### Update
+
+* Update Requirements ([`3500c71`](https://github.com/mraniki/MyLLM/commit/3500c71d173e6824c055d61d21f8444fcef8ee9a))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.5.9 ([`06c3e8d`](https://github.com/mraniki/MyLLM/commit/06c3e8d3609adbf33e4172430295538d6e31df73))
+
+
 ## v3.1.19 (2023-10-10)
 
 ### Other

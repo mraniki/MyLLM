@@ -2,6 +2,33 @@
 
 
 
+## v3.1.24 (2023-10-11)
+
+### Other
+
+* Merge pull request #163 from mraniki/dev
+
+Dev ([`c993e99`](https://github.com/mraniki/MyLLM/commit/c993e99788fcd98eeba6764eaec9e21e321156f2))
+
+* Merge branch &#39;main&#39; into dev ([`dd8136e`](https://github.com/mraniki/MyLLM/commit/dd8136e40c4274c97f0e696533bc4642caa2482b))
+
+* Merge pull request #162 from mraniki/mergify/mraniki/config-update
+
+ci(Mergify): configuration update ([`a41f297`](https://github.com/mraniki/MyLLM/commit/a41f2970cd8a965493cd9bf7fc2a9faedf8ffdec))
+
+* ci(Mergify): configuration update
+
+Signed-off-by: null &lt;null&gt; ([`5674cb2`](https://github.com/mraniki/MyLLM/commit/5674cb285516814927fb360c59ca5b10950be98c))
+
+### ♻️
+
+* ♻️ ([`114eefd`](https://github.com/mraniki/MyLLM/commit/114eefdd9cb25c91bdd70f161791bb8a9c0631f7))
+
+### 👷
+
+* 👷 CI Change ([`5b2bce4`](https://github.com/mraniki/MyLLM/commit/5b2bce43b1bdb49375a9d22b8bcdfe7c2788b8bf))
+
+
 ## v3.1.23 (2023-10-11)
 
 ### :recycle:

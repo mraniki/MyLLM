@@ -2,6 +2,19 @@
 
 
 
+## v3.1.21 (2023-10-11)
+
+### :recycle:
+
+* :recycle: Refactor Mergify configuration file ([`cf2996b`](https://github.com/mraniki/MyLLM/commit/cf2996bdfd5aad3a4c1613a0af87f74a39a071a8))
+
+### Other
+
+* Merge pull request #159 from mraniki/dev
+
+:recycle: Refactor Mergify configuration file ([`8e3c976`](https://github.com/mraniki/MyLLM/commit/8e3c97653c4831d8320dac68de45de962f7f5c12))
+
+
 ## v3.1.20 (2023-10-11)
 
 ### Other

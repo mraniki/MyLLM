@@ -2,6 +2,13 @@
 
 
 
+## v3.1.26 (2023-10-11)
+
+### Update
+
+* Update sweep.yaml ([`d6e6e2f`](https://github.com/mraniki/MyLLM/commit/d6e6e2fe71b89e5e45fc7a81d42391cc0cde872c))
+
+
 ## v3.1.25 (2023-10-11)
 
 ### Other

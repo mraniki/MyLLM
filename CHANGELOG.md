@@ -2,6 +2,19 @@
 
 
 
+## v3.1.23 (2023-10-11)
+
+### :recycle:
+
+* :recycle: Add gitIgnoredAuthors to renovate.json ([`18e6095`](https://github.com/mraniki/MyLLM/commit/18e6095bba9f4f108c067f5a87172b3242286476))
+
+### Other
+
+* Merge pull request #161 from mraniki/dev
+
+:recycle: Add gitIgnoredAuthors to renovate.json ([`5f3205b`](https://github.com/mraniki/MyLLM/commit/5f3205b840b165086fcc9d9605100a94e17c3c0a))
+
+
 ## v3.1.22 (2023-10-11)
 
 ### Other

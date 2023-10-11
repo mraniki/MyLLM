@@ -2,11 +2,39 @@
 
 
 
+## v3.1.27 (2023-10-11)
+
+### Other
+
+* Merge pull request #166 from mraniki/dev
+
+⬆️g4f ([`5a38a0b`](https://github.com/mraniki/MyLLM/commit/5a38a0b6da66a20f3224f62e80e10385e0887492))
+
+* Remove .github/mergify.yml and update queue_rules
+
+This commit removes the .github/mergify.yml file and updates the queue_r
+ules. ([`1b3cdca`](https://github.com/mraniki/MyLLM/commit/1b3cdca94d7f59a76bea75312a602514eef08d6b))
+
+* Merge branch &#39;main&#39; into dev ([`91d64fc`](https://github.com/mraniki/MyLLM/commit/91d64fc19bc5fd5cc9ae5b39db2c77d59125e1c4))
+
+
 ## v3.1.26 (2023-10-11)
+
+### Other
+
+* Merge pull request #165 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.6.1 ([`88f7cbe`](https://github.com/mraniki/MyLLM/commit/88f7cbe2deb592f485aad1af3fb0f9e93c3751e7))
 
 ### Update
 
 * Update sweep.yaml ([`d6e6e2f`](https://github.com/mraniki/MyLLM/commit/d6e6e2fe71b89e5e45fc7a81d42391cc0cde872c))
+
+* Update Requirements ([`0aac644`](https://github.com/mraniki/MyLLM/commit/0aac64462b4f2fb5d9bc8e6fe130223ea77457d4))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.6.1 ([`9529d79`](https://github.com/mraniki/MyLLM/commit/9529d7905f0ef543f31e7911827411e43fbe44f2))
 
 
 ## v3.1.25 (2023-10-11)

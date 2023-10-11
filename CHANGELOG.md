@@ -2,6 +2,19 @@
 
 
 
+## v3.1.28 (2023-10-11)
+
+### Other
+
+* Merge pull request #167 from mraniki/dev
+
+Update pyproject.toml ([`a1b7e5b`](https://github.com/mraniki/MyLLM/commit/a1b7e5b0b508cee5ea5c52206bf9512e44877c9a))
+
+### Update
+
+* Update pyproject.toml ([`d9f7be1`](https://github.com/mraniki/MyLLM/commit/d9f7be1fd8e6a352411c5c80b0b635f23c650a6a))
+
+
 ## v3.1.27 (2023-10-11)
 
 ### Other

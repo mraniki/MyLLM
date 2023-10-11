@@ -2,6 +2,28 @@
 
 
 
+## v3.1.22 (2023-10-11)
+
+### Other
+
+* Merge pull request #160 from mraniki/dev
+
+Dev ([`c15f824`](https://github.com/mraniki/MyLLM/commit/c15f824ed2bf216da947ad0a989edf4b33311908))
+
+* Merge ; commit &#39;2b29d12fd638e923075c3229a9fac9bc448d60ba&#39;
+
+Conflicts:
+	.github/mergify.yml ([`740c20c`](https://github.com/mraniki/MyLLM/commit/740c20c9c51a54c812e3b59757918d902b3c3097))
+
+### Update
+
+* Update  mergify.yml ([`59cb107`](https://github.com/mraniki/MyLLM/commit/59cb107a953401e4b2df38b88c10105239ec67a9))
+
+### 👷
+
+* 👷 CI Change ([`2b29d12`](https://github.com/mraniki/MyLLM/commit/2b29d12fd638e923075c3229a9fac9bc448d60ba))
+
+
 ## v3.1.21 (2023-10-11)
 
 ### :recycle:

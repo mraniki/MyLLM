@@ -2,6 +2,35 @@
 
 
 
+## v3.1.31 (2023-10-12)
+
+### Other
+
+* Merge pull request #172 from mraniki/dev
+
+Update gitIgnoredAuthors in renovate.json ([`573177e`](https://github.com/mraniki/MyLLM/commit/573177ea047734b2569c614e17f4f1ea2c8dba22))
+
+* Merge pull request #170 from mraniki/dev
+
+Add merge workflow for automerging releases ([`51fb7d8`](https://github.com/mraniki/MyLLM/commit/51fb7d81a6e8e5e5099bd371925bb71f5e85b3c2))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`4a986ba`](https://github.com/mraniki/MyLLM/commit/4a986ba02db0609e94221b814216f215ae8cecbc))
+
+* Add merge workflow for automerging releases ([`654e140`](https://github.com/mraniki/MyLLM/commit/654e1404c6efa332607c356f15dfac1a4fcfc4fd))
+
+* Merge pull request #169 from mraniki/dev
+
+Dev ([`62f29e6`](https://github.com/mraniki/MyLLM/commit/62f29e6a13973d83c6247dcd538e056795062f96))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`742c915`](https://github.com/mraniki/MyLLM/commit/742c915f688dfb4b0198f4673fcf57c2e588cefb))
+
+* update Ci flow ([`ac6f3ce`](https://github.com/mraniki/MyLLM/commit/ac6f3ce64cbbf2819265ecd875f9cf2f40991158))
+
+### Update
+
+* Update gitIgnoredAuthors in renovate.json ([`81cfaec`](https://github.com/mraniki/MyLLM/commit/81cfaec125b43bece52f780bac885d901b2bcc2e))
+
+
 ## v3.1.30 (2023-10-12)
 
 ### Update

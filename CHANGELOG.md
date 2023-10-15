@@ -2,6 +2,19 @@
 
 
 
+## v3.1.33 (2023-10-15)
+
+### Other
+
+* Merge pull request #175 from mraniki/dev
+
+⚡ ([`115938b`](https://github.com/mraniki/MyLLM/commit/115938b4e3ce7ae9d5e44d6e9986ba916ba7d864))
+
+### ⚡
+
+* ⚡ ([`6cda855`](https://github.com/mraniki/MyLLM/commit/6cda855425f4e50056ad06bd5a0a7a01e9dde112))
+
+
 ## v3.1.32 (2023-10-13)
 
 ### Other

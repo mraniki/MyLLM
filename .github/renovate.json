@@ -21,7 +21,7 @@
     },
     {
       "matchUpdateTypes": ["major"],
-      "automerge": false,
+      "automerge": true,
       "minimumReleaseAge": "30 days"
     }
   ]

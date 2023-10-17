@@ -2,6 +2,19 @@
 
 
 
+## v3.1.38 (2023-10-17)
+
+### Other
+
+* Merge pull request #183 from mraniki/dev
+
+Dev ([`66f06f1`](https://github.com/mraniki/MyLLM/commit/66f06f1ee5eac1d1f3b4ad5f13ff87c5a6a76115))
+
+* Merge pull request #182 from mraniki/renovate/ruff-0.x
+
+⬆️ 🛠️(deps): update dependency ruff to ^0.1.0 ([`bc0b314`](https://github.com/mraniki/MyLLM/commit/bc0b314641b110db7524a35349694e409e4506c7))
+
+
 ## v3.1.37 (2023-10-17)
 
 ### Other
@@ -12,7 +25,13 @@
 
 ### Update
 
+* Update Requirements ([`156b676`](https://github.com/mraniki/MyLLM/commit/156b676a6e1920b224b6b8330259fee6ef164255))
+
 * Update Requirements ([`365dac5`](https://github.com/mraniki/MyLLM/commit/365dac5b2b86f9bfe81b9e61470ab0e8e17a1290))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.1.0 ([`036c5a9`](https://github.com/mraniki/MyLLM/commit/036c5a9d45c06495b9a9b36c2e842a5e0c728d49))
 
 ### 👷
 

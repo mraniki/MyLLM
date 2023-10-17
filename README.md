@@ -19,7 +19,7 @@
       <a href="https://codecov.io/gh/mraniki/myllm"><img src="https://codecov.io/gh/mraniki/myllm/branch/main/graph/badge.svg?token=WAHUEMAJN6"/></a><br>
     </td>
     <td align="left"> 
-Interact with LLM in simple way.<br>
+Interact with LLM in simple way,<br> powered by  <a href="https://github.com/xtekky/gpt4free">G4F</a><br>
   </td>   
   </tr>
 </table>

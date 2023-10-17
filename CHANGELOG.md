@@ -2,6 +2,27 @@
 
 
 
+## v3.1.37 (2023-10-17)
+
+### Other
+
+* Merge pull request #181 from mraniki/dev
+
+🚨 ([`2a38693`](https://github.com/mraniki/MyLLM/commit/2a38693d2fc35d5acdc67c6debd61630297f586b))
+
+### Update
+
+* Update Requirements ([`365dac5`](https://github.com/mraniki/MyLLM/commit/365dac5b2b86f9bfe81b9e61470ab0e8e17a1290))
+
+### 👷
+
+* 👷 CI Change ([`014716c`](https://github.com/mraniki/MyLLM/commit/014716c3797afcc5b924adfad61020fde256e538))
+
+### 🚨
+
+* 🚨 ([`9d82f9d`](https://github.com/mraniki/MyLLM/commit/9d82f9da39649a018f40a614e79923b849f41428))
+
+
 ## v3.1.36 (2023-10-17)
 
 ### Other

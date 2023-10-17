@@ -21,7 +21,6 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 
-
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = ">=0.95.2"
@@ -36,9 +35,10 @@ g4f = "0.1.6.6"
 
 
 [tool.poetry.group.dev.dependencies]
-python-semantic-release = "^8.0.8"
-ruff = "*"
-
+python-semantic-release = ">=8.0.8"
+ruff = "^0.0.292"
+black = "^23.3.0"
+pre-commit = "^3.3.1"
 
 [tool.ruff]
 select = [
@@ -52,7 +52,6 @@ exclude = [
   "docs/*",
 ]
 #ignore = ["E401","F401","F811"]
-#format = "github"
 fixable = ["ALL"]
 
 [tool.pylint.exceptions]
@@ -63,83 +62,12 @@ overgeneral-exceptions = [
 ]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [tool.poetry.group.test.dependencies]
 pytest = "^7.0"
 pytest-cov = "^4.1"
 pytest-asyncio = "^0.21.0"
 pytest-mock = "^3.11.1"
 pytest-loguru = "^0.3.0"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

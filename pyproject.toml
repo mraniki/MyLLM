@@ -32,7 +32,7 @@ httpx = ">=0.24.1"
 js2py = "^0.74"
 curl-cffi ="0.5.7"
 PyExecJS2="1.6.1"
-g4f = "0.1.6.4"
+g4f = "0.1.6.6"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -157,6 +157,10 @@ testpaths = "tests"
 python_classes = "Test*"
 log_format = "%(asctime)s - %(levelname)s - %(name)s - %(message)s"
 log_level = "DEBUG"
+addopts = """
+-v
+--show-capture=stderr
+"""
 
 [tool.coverage.run]
 omit = [

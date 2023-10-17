@@ -36,7 +36,7 @@ g4f = "0.1.6.6"
 
 [tool.poetry.group.dev.dependencies]
 python-semantic-release = ">=8.0.8"
-ruff = "^0.0.292"
+ruff = "^0.1.0"
 black = "^23.3.0"
 pre-commit = "^3.3.1"
 

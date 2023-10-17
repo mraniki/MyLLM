@@ -2,6 +2,19 @@
 
 
 
+## v3.1.36 (2023-10-17)
+
+### Other
+
+* Merge pull request #180 from mraniki/dev
+
+Update README.md ([`8424f67`](https://github.com/mraniki/MyLLM/commit/8424f6733c99bebf513d5e80b6cad0013f0fe89e))
+
+### Update
+
+* Update README.md ([`ad96561`](https://github.com/mraniki/MyLLM/commit/ad96561ea7766b9cb28d64694ac7affc8b627e15))
+
+
 ## v3.1.35 (2023-10-17)
 
 ### Other

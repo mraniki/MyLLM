@@ -23,8 +23,11 @@ jobs:
   release:
     needs: [build]
     uses: mraniki/coding_toolset/.github/workflows/📦Release.yml@main
+    with:
+      settings_publish: true
     secrets: inherit
-  merge:
-    needs: [release]
+  pr-merge:
+    needs: [build, test,release]
     uses: mraniki/coding_toolset/.github/workflows/⛙Automerge.yml@main
     secrets: inherit
+

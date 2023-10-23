@@ -3,6 +3,14 @@
 
 
 
+## v3.1.45 (2023-10-23)
+
+### Other
+
+* Auto ([`65af626`](https://github.com/mraniki/MyLLM/commit/65af6262139e4cc996d2eea61bdd4cb1bffc4d5c))
+
+* Merge remote-tracking branch &#39;origin/dev&#39; ([`c0d7243`](https://github.com/mraniki/MyLLM/commit/c0d72438570d3816db8fecfd1dcb2e88dca02b25))
+
 ## v3.1.44 (2023-10-23)
 
 ### :recycle:
@@ -12,6 +20,10 @@
 ### Other
 
 * Merge remote-tracking branch &#39;origin/dev&#39; ([`2ce749d`](https://github.com/mraniki/MyLLM/commit/2ce749d3167d6ce547eb18e55072a24ea3051557))
+
+### Update
+
+* Update README.md ([`fb9843f`](https://github.com/mraniki/MyLLM/commit/fb9843fbc80f1f58cd1286064bdaa5bcaba64705))
 
 ## v3.1.43 (2023-10-23)
 

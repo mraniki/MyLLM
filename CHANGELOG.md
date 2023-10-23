@@ -3,6 +3,16 @@
 
 
 
+## v3.1.44 (2023-10-23)
+
+### :recycle:
+
+* :recycle: Remove old changelog file ([`ae238bf`](https://github.com/mraniki/MyLLM/commit/ae238bf84bd98b5e134c7deea8bef5b8ec9e7f59))
+
+### Other
+
+* Merge remote-tracking branch &#39;origin/dev&#39; ([`2ce749d`](https://github.com/mraniki/MyLLM/commit/2ce749d3167d6ce547eb18e55072a24ea3051557))
+
 ## v3.1.43 (2023-10-23)
 
 ### Other

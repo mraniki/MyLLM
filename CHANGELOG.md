@@ -3,6 +3,62 @@
 
 
 
+## v3.1.47 (2023-10-23)
+
+### Other
+
+* Auto ([`fc94170`](https://github.com/mraniki/MyLLM/commit/fc94170e06ca00ed09762331a82aee7d90fff3a0))
+
+* Merge pull request #205 from mraniki/main
+
+Merge pull request #204 from mraniki/dev ([`f4db429`](https://github.com/mraniki/MyLLM/commit/f4db42900244807aaf06f0de30d9d3e355a99d1f))
+
+* Merge pull request #204 from mraniki/dev
+
+⬆️ 🤖 - Auto Release - ([`cbd97e4`](https://github.com/mraniki/MyLLM/commit/cbd97e4feb117121455a992cd900a43c643c38cb))
+
+* Auto ([`f795b81`](https://github.com/mraniki/MyLLM/commit/f795b8188173bc4ceec7cac7cd20c289968f1686))
+
+### Update
+
+* Update README.md ([`20a73e1`](https://github.com/mraniki/MyLLM/commit/20a73e16528aa93cfd0cb76b824b9698f94f89de))
+
+* Update README.md ([`02c00f3`](https://github.com/mraniki/MyLLM/commit/02c00f3b95a383b8df66b5659310292939f73fc1))
+
+## v3.1.46 (2023-10-23)
+
+### Other
+
+* Auto ([`2588728`](https://github.com/mraniki/MyLLM/commit/2588728f8dcea36affd5000f795767dadb7c09ee))
+
+* Merge branch &#39;main&#39; into dev ([`96a90c2`](https://github.com/mraniki/MyLLM/commit/96a90c28252646a24aa7d61f5aeb48f7636a90a6))
+
+## v3.1.45 (2023-10-23)
+
+### Other
+
+* Auto ([`65af626`](https://github.com/mraniki/MyLLM/commit/65af6262139e4cc996d2eea61bdd4cb1bffc4d5c))
+
+* Merge remote-tracking branch &#39;origin/dev&#39; ([`c0d7243`](https://github.com/mraniki/MyLLM/commit/c0d72438570d3816db8fecfd1dcb2e88dca02b25))
+
+### Update
+
+* Update README.md ([`d0a98f9`](https://github.com/mraniki/MyLLM/commit/d0a98f970cb62c52816b9e5d0a443a8ddacc47f9))
+
+## v3.1.44 (2023-10-23)
+
+### :recycle:
+
+* :recycle: Remove old changelog file ([`ae238bf`](https://github.com/mraniki/MyLLM/commit/ae238bf84bd98b5e134c7deea8bef5b8ec9e7f59))
+
+### Other
+
+* Merge remote-tracking branch &#39;origin/dev&#39; ([`2ce749d`](https://github.com/mraniki/MyLLM/commit/2ce749d3167d6ce547eb18e55072a24ea3051557))
+
+### Update
+
+* Update README.md ([`fb9843f`](https://github.com/mraniki/MyLLM/commit/fb9843fbc80f1f58cd1286064bdaa5bcaba64705))
+
 ## v3.1.43 (2023-10-23)
 
 ### Other

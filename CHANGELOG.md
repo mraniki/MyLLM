@@ -3,6 +3,36 @@
 
 
 
+## v3.1.48 (2023-10-23)
+
+### :memo:
+
+* :memo:Add linkify-it-py 2.0.2 ([`22f547e`](https://github.com/mraniki/MyLLM/commit/22f547eff6bd4ce8d1f84d83cd55bb143f20a0a3))
+
+### Other
+
+* Auto ([`a644994`](https://github.com/mraniki/MyLLM/commit/a64499409e5d50e9ba451a17345a998aad23d3ed))
+
+* Merge pull request #207 from mraniki/dev
+
+⬆️ 🤖 - Auto Release - ([`1aae422`](https://github.com/mraniki/MyLLM/commit/1aae422a4ab800970699e66edf24a492c4906960))
+
+* Merge branch &#39;main&#39; into dev ([`35472e5`](https://github.com/mraniki/MyLLM/commit/35472e59551e88c4bcd0f5ec2fe3d147b0aea155))
+
+* Auto ([`f8dac71`](https://github.com/mraniki/MyLLM/commit/f8dac71d24a552fe9affa1e7f710666d1fd510b9))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`6c2e512`](https://github.com/mraniki/MyLLM/commit/6c2e512794578d4ea532e548bab5ae2a568f8a3c))
+
+* Merge pull request #206 from mraniki/dev
+
+⬆️ 🤖 - Auto Release - ([`54f0342`](https://github.com/mraniki/MyLLM/commit/54f03422dbe853950b70f345f377ac4ccec00427))
+
+* Auto ([`d1951c5`](https://github.com/mraniki/MyLLM/commit/d1951c548b759240884f5462ef0a74eb9a073dad))
+
+### Update
+
+* Update README.md ([`843cd0c`](https://github.com/mraniki/MyLLM/commit/843cd0c3c5943ff988f7352371e0a82d08517d22))
+
 ## v3.1.47 (2023-10-23)
 
 ### Other

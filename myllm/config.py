@@ -32,3 +32,4 @@ settings = Dynaconf(
     # Set the default environment
     default_env="default",
 )
+

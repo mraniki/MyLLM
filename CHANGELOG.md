@@ -3,6 +3,44 @@
 
 
 
+## v3.1.43 (2023-10-23)
+
+### Other
+
+* Merge remote-tracking branch &#39;origin/dev&#39; ([`606820d`](https://github.com/mraniki/MyLLM/commit/606820d58ab0bdbc5bda160510c6dd78ddb89e2a))
+
+* Merge pull request #203 from mraniki/dev
+
+⬆️ 🤖 - Auto Release - c25931e2a8b77a9e189594435c641493143c8a10 ([`6c8aa0c`](https://github.com/mraniki/MyLLM/commit/6c8aa0cc3ca666d482617d330f2a45c414a2c593))
+
+* Merge pull request #202 from mraniki/main
+
+Merge pull request #201 from mraniki/dev ([`49351dc`](https://github.com/mraniki/MyLLM/commit/49351dcbaeeccaf49e50246365493d3f2c29153b))
+
+* Merge pull request #201 from mraniki/dev
+
+⬆️ 🤖 - dev-4bb5545c955ff94c8c079a85fd3f095bf6c80458 ([`c25931e`](https://github.com/mraniki/MyLLM/commit/c25931e2a8b77a9e189594435c641493143c8a10))
+
+* Merge branch &#39;main&#39; into dev ([`e28fb20`](https://github.com/mraniki/MyLLM/commit/e28fb20af33006a67ac7ffa27693dc035594ab0e))
+
+* Merge pull request #200 from mraniki/dev
+
+Automated PR ([`8197592`](https://github.com/mraniki/MyLLM/commit/819759239a723f69b8ecc10d305eb785d5154327))
+
+### Update
+
+* Update Requirements ([`8dea6b5`](https://github.com/mraniki/MyLLM/commit/8dea6b5f2867e146a75242bbdc626767b766e3ce))
+
+### ♻️
+
+* ♻️ ([`a6a5838`](https://github.com/mraniki/MyLLM/commit/a6a5838906dc69f1176c9b1143f77014a0b4889e))
+
+* ♻️ ([`4bb5545`](https://github.com/mraniki/MyLLM/commit/4bb5545c955ff94c8c079a85fd3f095bf6c80458))
+
+### ⬆️
+
+* ⬆️ ([`204d852`](https://github.com/mraniki/MyLLM/commit/204d852a47fc1efebdb55a194008510e7d432399))
+
 ## v3.1.42 (2023-10-22)
 
 ### Other

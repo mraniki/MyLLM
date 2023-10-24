@@ -3,6 +3,66 @@
 
 
 
+## v3.1.49 (2023-10-24)
+
+### Other
+
+* Merge pull request #215 from mraniki/dev
+
+⬆️ 🤖 - Auto Release ([`d96f2f4`](https://github.com/mraniki/MyLLM/commit/d96f2f44ff6df6b6401a1b85082ceec51e20ff90))
+
+* Merge branch &#39;main&#39; into dev ([`54762e7`](https://github.com/mraniki/MyLLM/commit/54762e7a11e328e3481f56787dcddcbd15105f4a))
+
+* Auto ([`41046cc`](https://github.com/mraniki/MyLLM/commit/41046ccfb33da6050807f1ce3c13ed9d6a8300fc))
+
+* Merge pull request #214 from mraniki/dev
+
+⬆️ 🤖 - Auto Release ([`0dc16f5`](https://github.com/mraniki/MyLLM/commit/0dc16f573b2f20702b6e01a4511570ada71f1d73))
+
+* Merge branch &#39;main&#39; into dev ([`b6040e1`](https://github.com/mraniki/MyLLM/commit/b6040e1f8b2ca23e95aa1906d9c32d149f0bb7a8))
+
+* Auto ([`08b1a80`](https://github.com/mraniki/MyLLM/commit/08b1a8018edafd61b53ee04beb379b448807f42b))
+
+* Merge pull request #213 from mraniki/dev
+
+⬆️ 🤖 - Auto Release ([`2f6d8db`](https://github.com/mraniki/MyLLM/commit/2f6d8db40f74bf968e5e2367738a16fe2fde07ec))
+
+* Merge branch &#39;main&#39; into dev ([`8fbc7f9`](https://github.com/mraniki/MyLLM/commit/8fbc7f92e2882d7587397e99ec6e8bfe96073139))
+
+* Auto ([`02e6f96`](https://github.com/mraniki/MyLLM/commit/02e6f960fc9432d4ac141025522366a2f31b425f))
+
+* Merge pull request #212 from mraniki/dev
+
+⬆️ 🤖 - Auto Release ([`3ca3a0e`](https://github.com/mraniki/MyLLM/commit/3ca3a0ea2d2001fa715fd82fd811a7270ed18572))
+
+* Merge branch &#39;main&#39; into dev ([`9967080`](https://github.com/mraniki/MyLLM/commit/99670808df1032027fb6fa297f0c16e92e1ea0b7))
+
+* Merge pull request #211 from mraniki/dev
+
+⬆️ 🤖 - Auto Release - ([`f262f2f`](https://github.com/mraniki/MyLLM/commit/f262f2fa811a7c79b8afaaa2cd233c9867c0546b))
+
+* Merge pull request #210 from mraniki/main
+
+Merge pull request #209 from mraniki/dev ([`7fabaa0`](https://github.com/mraniki/MyLLM/commit/7fabaa01b305018e82e25f9015863c6feb81eb4f))
+
+* Merge pull request #209 from mraniki/dev
+
+⬆️ 🤖 - Auto Release - ([`75e8777`](https://github.com/mraniki/MyLLM/commit/75e877799df25886fb5b4245e33d8ee6b8ff15fa))
+
+### Update
+
+* Update README.md ([`73d639c`](https://github.com/mraniki/MyLLM/commit/73d639cd2f5139debca5745d0fb5e037d8d10ab3))
+
+### ⬆️
+
+* ⬆️ 🤖 - Auto Release ([`097745b`](https://github.com/mraniki/MyLLM/commit/097745b61f120d9d8ee27b07c2f8717f16f2a10a))
+
+* ⬆️ 🤖 - Auto Release ([`52af123`](https://github.com/mraniki/MyLLM/commit/52af1239a02ba901fda4cdfecd4941bffb26c9f8))
+
+* ⬆️ 🤖 - Auto Release ([`905549d`](https://github.com/mraniki/MyLLM/commit/905549dbfce49a88fd133736e854f30f3ce52739))
+
+* ⬆️ 🤖 - Auto Release ([`3787850`](https://github.com/mraniki/MyLLM/commit/378785071a6ff0681706f0f4e656fca467901c74))
+
 ## v3.1.48 (2023-10-23)
 
 ### :memo:

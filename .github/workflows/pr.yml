@@ -7,6 +7,11 @@ on:
   - cron: "0 0 * * *"
 
 jobs:
-  autopr:
-    uses: mraniki/coding_toolset/.github/workflows/⛙pr.yml@main
+  ci:
+    uses: mraniki/coding_toolset/.github/workflows/🐙.yml@main
+    with:
+      pypi_publish: true
+      gitlab_mirror: true
+      codeberg_mirror: true
+      docker_image: false
     secrets: inherit

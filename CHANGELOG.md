@@ -3,6 +3,48 @@
 
 
 
+## v3.1.51 (2023-10-26)
+
+### Other
+
+* Merge pull request #221 from mraniki/dev
+
+⬆️ 🤖 - Auto Release ([`a153728`](https://github.com/mraniki/MyLLM/commit/a15372833312e75e316606ea8009fd817495a24c))
+
+* Merge pull request #220 from mraniki/renovate/fastapi-0.x-lockfile
+
+⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`0e38d17`](https://github.com/mraniki/MyLLM/commit/0e38d17b446237a4587299ef4d113604447c0966))
+
+* Merge branch &#39;main&#39; into dev ([`8baadb2`](https://github.com/mraniki/MyLLM/commit/8baadb2a89819cf4e6fb6191244381991ea9ae14))
+
+* Merge pull request #218 from mraniki/dev
+
+⬆️ 🤖 - Auto Release ([`28f6d9f`](https://github.com/mraniki/MyLLM/commit/28f6d9ff75f4957f9b8d9df0c0092984cdd91d4c))
+
+* Auto ([`7d60d24`](https://github.com/mraniki/MyLLM/commit/7d60d24cb85e03c7c72dedb5d08ff051531b7d49))
+
+### Update
+
+* ⬆️ Update Requirements and Version ([`621a23b`](https://github.com/mraniki/MyLLM/commit/621a23b885c56f61df9d0dfb66fc9a0b1a08f4ea))
+
+* ⬆️ Update Requirements and Version ([`88ec135`](https://github.com/mraniki/MyLLM/commit/88ec135c98d316c3debbea6700eb036a6fd0d70f))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`9c6897d`](https://github.com/mraniki/MyLLM/commit/9c6897dd895bdc9ec7d39a56ed7ac1c9618eaf3a))
+
+### 👷
+
+* 👷 CI Change ([`86c6a61`](https://github.com/mraniki/MyLLM/commit/86c6a61033ddb26c83b93ac02893cd3e1331a49a))
+
+* 👷 CI Change ([`46ca522`](https://github.com/mraniki/MyLLM/commit/46ca52259400b474c3359efe667fa68d61236c66))
+
+* 👷 CI Change ([`2c16bde`](https://github.com/mraniki/MyLLM/commit/2c16bde0f41f06ab0a2ca7a023689061825c7c75))
+
+### 🔧
+
+* 🔧 ([`b51baec`](https://github.com/mraniki/MyLLM/commit/b51baeccafe34ae42f35933dd9c8ef70b1c7a6d6))
+
 ## v3.1.50 (2023-10-25)
 
 ### Other

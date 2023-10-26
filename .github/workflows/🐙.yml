@@ -1,0 +1,15 @@
+name: CI
+
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ci:
+    uses: mraniki/coding_toolset/.github/workflows/🐙.yml@main
+    with:
+      pypi_publish: true
+      gitlab_mirror: true
+      codeberg_mirror: true
+      docker_image: false
+    secrets: inherit

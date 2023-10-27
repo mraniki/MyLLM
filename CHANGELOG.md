@@ -3,9 +3,35 @@
 
 
 
+## v3.1.52 (2023-10-27)
+
+### Other
+
+* Merge pull request #224 from mraniki/dev
+
+⬆️ 🤖 - Auto Release ([`a205bff`](https://github.com/mraniki/MyLLM/commit/a205bff726a3fec8ab97a57324af0c48d2d2c575))
+
+* Merge pull request #223 from mraniki/renovate/ruff-0.x-lockfile
+
+⬆️ 🛠️(deps): update dependency ruff to v0.1.3 ([`bd25576`](https://github.com/mraniki/MyLLM/commit/bd25576e8fa3b689ab9af32757c4a2e09518ed98))
+
+* Merge branch &#39;main&#39; into dev ([`767fa5d`](https://github.com/mraniki/MyLLM/commit/767fa5d92b57671224ce7aa5f8e33c897052d756))
+
+### Update
+
+* ⬆️ Update Requirements and Version ([`e1dafdb`](https://github.com/mraniki/MyLLM/commit/e1dafdb75c5e065d2f67fc9b7c5f71d8375ea685))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency ruff to v0.1.3 ([`aec0e21`](https://github.com/mraniki/MyLLM/commit/aec0e21cbde041f619275d83648deabbaab707e1))
+
 ## v3.1.51 (2023-10-26)
 
 ### Other
+
+* Merge pull request #222 from mraniki/renovate/fastapi-0.x-lockfile
+
+⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`5962b08`](https://github.com/mraniki/MyLLM/commit/5962b088d6b72703bd42b4700e8608d0392493cb))
 
 * Merge pull request #221 from mraniki/dev
 
@@ -30,6 +56,8 @@
 * ⬆️ Update Requirements and Version ([`88ec135`](https://github.com/mraniki/MyLLM/commit/88ec135c98d316c3debbea6700eb036a6fd0d70f))
 
 ### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`b14ff0b`](https://github.com/mraniki/MyLLM/commit/b14ff0b9ecb246723244a21dd3ee2fed6e532805))
 
 * ⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`9c6897d`](https://github.com/mraniki/MyLLM/commit/9c6897dd895bdc9ec7d39a56ed7ac1c9618eaf3a))
 

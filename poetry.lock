@@ -986,13 +986,13 @@ files = [
 
 [[package]]
 name = "g4f"
-version = "0.1.7.8"
+version = "0.1.7.9"
 description = "The official gpt4free repository | various collection of powerful language models"
 optional = false
 python-versions = "*"
 files = [
-    {file = "g4f-0.1.7.8-py3-none-any.whl", hash = "sha256:5557eb04038fbf09574d6bf04b340834cf5411c40a318acd3c84391d2dc5fad6"},
-    {file = "g4f-0.1.7.8.tar.gz", hash = "sha256:a2a79aa3782b6836d554f202a0187b48f493a6ed228535bde80b279ceeb235ce"},
+    {file = "g4f-0.1.7.9-py3-none-any.whl", hash = "sha256:0b1596f7225d1a2478fd7fc77fb47a2b89151fb8d8ad1db4e04f14c666a3769a"},
+    {file = "g4f-0.1.7.9.tar.gz", hash = "sha256:3f246cc0e69d64240b2cf00bae8027e838e2bd2fbd40e57bfe77fb00287699fc"},
 ]
 
 [package.dependencies]
@@ -3297,4 +3297,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "3ffe0b76756c189c34e4abe7979bb6f19a411b7304f0c999c675239252a59e56"
+content-hash = "dc35b239d21987132a9fdc5f7f43b558f7969d1e75180c705c5441312d28fa59"

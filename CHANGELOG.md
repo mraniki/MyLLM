@@ -3,9 +3,37 @@
 
 
 
+## v3.1.53 (2023-10-28)
+
+### Other
+
+* Merge pull request #227 from mraniki/dev
+
+⬆️ 🤖 - Auto Release ([`0eb1ad1`](https://github.com/mraniki/MyLLM/commit/0eb1ad14558c52e80b1f3e7bd9b750e3dd0c7ab7))
+
+* Merge pull request #226 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.7.8 ([`c6138e5`](https://github.com/mraniki/MyLLM/commit/c6138e5c148d0ff86df587bcd0d9029c4e9a8b5d))
+
+* Merge branch &#39;main&#39; into dev ([`294b887`](https://github.com/mraniki/MyLLM/commit/294b887b3652f129474a4d702b3c5028cd806978))
+
+### Update
+
+* ⬆️ Update Requirements and Version ([`b02c9b5`](https://github.com/mraniki/MyLLM/commit/b02c9b5b13999969ada41853a51305f479e10659))
+
+* Update Requirements ([`4cbbf36`](https://github.com/mraniki/MyLLM/commit/4cbbf369ef6c2fa8ab45c6e687e50bf0b5ec9b85))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.7.8 ([`957577b`](https://github.com/mraniki/MyLLM/commit/957577b8e2a42319ecb0da8ffdc0f8d306adb130))
+
 ## v3.1.52 (2023-10-27)
 
 ### Other
+
+* Merge pull request #225 from mraniki/renovate/fastapi-0.x-lockfile
+
+⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`0e3daca`](https://github.com/mraniki/MyLLM/commit/0e3dacae1868c1b75ba202f166554a4984a4ac3a))
 
 * Merge pull request #224 from mraniki/dev
 
@@ -22,6 +50,8 @@
 * ⬆️ Update Requirements and Version ([`e1dafdb`](https://github.com/mraniki/MyLLM/commit/e1dafdb75c5e065d2f67fc9b7c5f71d8375ea685))
 
 ### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`7d6700f`](https://github.com/mraniki/MyLLM/commit/7d6700f260992794d68cf56526f4c14dfb5169fa))
 
 * ⬆️ 🛠️(deps): update dependency ruff to v0.1.3 ([`aec0e21`](https://github.com/mraniki/MyLLM/commit/aec0e21cbde041f619275d83648deabbaab707e1))
 

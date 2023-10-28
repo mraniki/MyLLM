@@ -863,19 +863,19 @@ all = ["email-validator (>=2.0.0)", "httpx (>=0.23.0)", "itsdangerous (>=1.1.0)"
 
 [[package]]
 name = "filelock"
-version = "3.12.4"
+version = "3.13.0"
 description = "A platform independent file lock."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "filelock-3.12.4-py3-none-any.whl", hash = "sha256:08c21d87ded6e2b9da6728c3dff51baf1dcecf973b768ef35bcbc3447edb9ad4"},
-    {file = "filelock-3.12.4.tar.gz", hash = "sha256:2e6f249f1f3654291606e046b09f1fd5eac39b360664c27f5aad072012f8bcbd"},
+    {file = "filelock-3.13.0-py3-none-any.whl", hash = "sha256:a552f4fde758f4eab33191e9548f671970f8b06d436d31388c9aa1e5861a710f"},
+    {file = "filelock-3.13.0.tar.gz", hash = "sha256:63c6052c82a1a24c873a549fbd39a26982e8f35a3016da231ead11a5be9dad44"},
 ]
 
 [package.extras]
-docs = ["furo (>=2023.7.26)", "sphinx (>=7.1.2)", "sphinx-autodoc-typehints (>=1.24)"]
-testing = ["covdefaults (>=2.3)", "coverage (>=7.3)", "diff-cover (>=7.7)", "pytest (>=7.4)", "pytest-cov (>=4.1)", "pytest-mock (>=3.11.1)", "pytest-timeout (>=2.1)"]
-typing = ["typing-extensions (>=4.7.1)"]
+docs = ["furo (>=2023.9.10)", "sphinx (>=7.2.6)", "sphinx-autodoc-typehints (>=1.24)"]
+testing = ["covdefaults (>=2.3)", "coverage (>=7.3.2)", "diff-cover (>=8)", "pytest (>=7.4.3)", "pytest-cov (>=4.1)", "pytest-mock (>=3.12)", "pytest-timeout (>=2.2)"]
+typing = ["typing-extensions (>=4.8)"]
 
 [[package]]
 name = "flask"
@@ -985,13 +985,13 @@ files = [
 
 [[package]]
 name = "g4f"
-version = "0.1.7.7"
+version = "0.1.7.8"
 description = "The official gpt4free repository | various collection of powerful language models"
 optional = false
 python-versions = "*"
 files = [
-    {file = "g4f-0.1.7.7-py3-none-any.whl", hash = "sha256:ee9ad8f5eec87dbe705365156d45204ea421a6b124b4a50921b10eb2bca4f681"},
-    {file = "g4f-0.1.7.7.tar.gz", hash = "sha256:fcee34ff0709a97ccba434d58da0b563e782eb94555b575a36b36d8a29dcb52c"},
+    {file = "g4f-0.1.7.8-py3-none-any.whl", hash = "sha256:5557eb04038fbf09574d6bf04b340834cf5411c40a318acd3c84391d2dc5fad6"},
+    {file = "g4f-0.1.7.8.tar.gz", hash = "sha256:a2a79aa3782b6836d554f202a0187b48f493a6ed228535bde80b279ceeb235ce"},
 ]
 
 [package.dependencies]
@@ -3296,4 +3296,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "f5845afe430b334c79c1edf78b6fda585b88307c5cf741d876555a43a9b017c1"
+content-hash = "3ffe0b76756c189c34e4abe7979bb6f19a411b7304f0c999c675239252a59e56"

@@ -7,9 +7,7 @@ on:
   workflow_dispatch:
   merge_group:
 
-
 jobs:
-
   lint:
     uses: mraniki/coding_toolset/.github/workflows/🦺Lint.yml@main
     secrets: inherit
@@ -24,8 +22,4 @@ jobs:
   release:
     needs: [build]
     uses: mraniki/coding_toolset/.github/workflows/📦Release.yml@main
-    with:
-      settings_publish: true
     secrets: inherit
-  
-

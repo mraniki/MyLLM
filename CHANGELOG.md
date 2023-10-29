@@ -3,9 +3,67 @@
 
 
 
+## v3.1.54 (2023-10-29)
+
+### Other
+
+* Merge pull request #235 from mraniki/dev
+
+⬆️ 🤖 - Q	Why do ducks have big flat feet ([`4bcda5c`](https://github.com/mraniki/MyLLM/commit/4bcda5c1feeb0539145350540ef6c2a79a66c0f9))
+
+* Merge pull request #234 from mraniki/dev
+
+⬆️ 🤖 - Auto Release - ([`3b682b2`](https://github.com/mraniki/MyLLM/commit/3b682b20ebaeef9d8ae0ee3958a6db54cf7e41aa))
+
+* Refactor GitHub Actions workflow file ([`d54a415`](https://github.com/mraniki/MyLLM/commit/d54a415900d11321f40ece62cb33a65b6576b020))
+
+* Merge pull request #233 from mraniki/dev
+
+Update README.md ([`0347c14`](https://github.com/mraniki/MyLLM/commit/0347c14340bfe82b6315dec456a6b8bae0092fc9))
+
+* Merge pull request #232 from mraniki/dev
+
+Merge pull request #231 from mraniki/main ([`87bedcc`](https://github.com/mraniki/MyLLM/commit/87bedcc659ec25fde80dd0f9416f1d227b242778))
+
+* Merge pull request #231 from mraniki/main
+
+Merge pull request #230 from mraniki/dev ([`7002012`](https://github.com/mraniki/MyLLM/commit/7002012fb319a8d5dfbd7ee258bf0742d74dccf1))
+
+* Merge pull request #230 from mraniki/dev
+
+Dev ([`a0465e1`](https://github.com/mraniki/MyLLM/commit/a0465e144b9d8fbca33eb0fda260933f41de4682))
+
+* Merge pull request #229 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.7.9 ([`12f1deb`](https://github.com/mraniki/MyLLM/commit/12f1deb1e80d60bb77c7272a8deb2f2433dbb758))
+
+* Merge branch &#39;main&#39; into dev ([`7a3cf66`](https://github.com/mraniki/MyLLM/commit/7a3cf662b7cffa4419a4813f24c98808149e3b56))
+
+### Update
+
+* Update README.md ([`5fe8499`](https://github.com/mraniki/MyLLM/commit/5fe849947a100298e228d85bb57d1ccfa512f2bc))
+
+* Update Requirements ([`7a464fb`](https://github.com/mraniki/MyLLM/commit/7a464fb48adadb9f6226f6024f6a0d5c6fb789cb))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.7.9 ([`c28e291`](https://github.com/mraniki/MyLLM/commit/c28e291271cec75b43e1c38043a9c0fa9ee81ab5))
+
+### 👷
+
+* 👷 CI Change ([`157b1b2`](https://github.com/mraniki/MyLLM/commit/157b1b23878ac91fd6064d39511e3b40b7e20f5d))
+
+* 👷 CI Change ([`8e63b86`](https://github.com/mraniki/MyLLM/commit/8e63b86a73d065a7cc923ee6756b932b1eac7115))
+
+* 👷 CI Change ([`c48a409`](https://github.com/mraniki/MyLLM/commit/c48a409a0ce9df1df8f76de087cc5ad95c7f0184))
+
 ## v3.1.53 (2023-10-28)
 
 ### Other
+
+* Merge pull request #228 from mraniki/renovate/fastapi-0.x-lockfile
+
+⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`7ed3856`](https://github.com/mraniki/MyLLM/commit/7ed3856112cff28ae6ef240c097c440c43066a2a))
 
 * Merge pull request #227 from mraniki/dev
 
@@ -24,6 +82,8 @@
 * Update Requirements ([`4cbbf36`](https://github.com/mraniki/MyLLM/commit/4cbbf369ef6c2fa8ab45c6e687e50bf0b5ec9b85))
 
 ### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`cdc3da8`](https://github.com/mraniki/MyLLM/commit/cdc3da86b56ecf394bf3d5412f4bae5524ff269a))
 
 * ⬆️ 🛠️(deps): update dependency g4f to v0.1.7.8 ([`957577b`](https://github.com/mraniki/MyLLM/commit/957577b8e2a42319ecb0da8ffdc0f8d306adb130))
 

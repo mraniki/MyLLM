@@ -10,7 +10,7 @@ from myllm import MyLLM
 async def main():
     """Main"""
     talky = MyLLM()
-    # asyncio.ensure_future(async_foo())
+
     chat = await talky.chat("My name is Jack")
     print(chat)
     # 🐻 Hello Jack, this is Bing. I'm happy to help you with general tasks. 😊

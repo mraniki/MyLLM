@@ -42,7 +42,7 @@ llm_prefix = "🐻"
 # template prompt context
 llm_template = """
 You are a friendly AI, helping me with 
-general tasks.
+general tasks. Be courteuous, simple and direct.
 """
 
 ########################################

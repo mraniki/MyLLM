@@ -3,6 +3,116 @@
 
 
 
+## v3.1.55 (2023-11-26)
+
+### Other
+
+* Merge pull request #260 from mraniki/dev
+
+🔥 cleanup ([`7bcd2ff`](https://github.com/mraniki/MyLLM/commit/7bcd2ff71a720bcf04053239db8df890b5873662))
+
+* Merge pull request #259 from mraniki/dev
+
+Update g4f version ([`717fe56`](https://github.com/mraniki/MyLLM/commit/717fe5643ceee17b6d9cca1d16d8af47975a24a5))
+
+* Merge pull request #258 from mraniki/dev
+
+Update pyproject.toml ([`0b0ce60`](https://github.com/mraniki/MyLLM/commit/0b0ce60e2cd56ed017f5912f5433f833bc3a5c79))
+
+* Merge pull request #256 from mraniki/dev
+
+⬆️ 🤖 - I dont know half of you half as well as I should like and I like less ([`d9c06bf`](https://github.com/mraniki/MyLLM/commit/d9c06bf10d986b7142c8917140cbd8d984720fb9))
+
+* Merge pull request #253 from mraniki/dev
+
+⬆️ 🤖 - Today is National Existential Ennui Awareness Day ([`776df98`](https://github.com/mraniki/MyLLM/commit/776df98f5fa4b4bb436b864d32e6058694c133c5))
+
+* Merge pull request #250 from mraniki/dev
+
+⬆️ 🤖 - You have the power to influence all with whom you come in contact ([`6b2440b`](https://github.com/mraniki/MyLLM/commit/6b2440bd1af87e46c3ec7f1b1fc456efd8ba4df2))
+
+* Merge pull request #248 from mraniki/dev
+
+⬆️ 🤖 - You work very hard  Dont try to think as well ([`e0258b5`](https://github.com/mraniki/MyLLM/commit/e0258b541a6318155c58628aa57b165bf82e8455))
+
+* Merge pull request #246 from mraniki/dev
+
+⬆️ 🤖 - When in doubt tell the truth ([`7ddd439`](https://github.com/mraniki/MyLLM/commit/7ddd439c8d24881ab6aece5f83eaf6a3493498c5))
+
+* Merge pull request #245 from mraniki/main
+
+Merge ([`5204230`](https://github.com/mraniki/MyLLM/commit/52042303c51a7e0d16e2ed0f6881418c1a887f97))
+
+* Merge pull request #244 from mraniki/dev
+
+⬆️ 🤖 - If one cannot enjoy reading a book over and over again there is no use ([`6f3184d`](https://github.com/mraniki/MyLLM/commit/6f3184dde1ccad3c7d9390817b15d1ba56e05d8b))
+
+* Merge pull request #243 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.8.1 ([`137c586`](https://github.com/mraniki/MyLLM/commit/137c586ab4c3daf6d5d2663f14c01e97b1e23301))
+
+* Merge pull request #242 from mraniki/dev
+
+⬆️ 🤖 - Your reasoning powers are good and you are a fairly good planner ([`ae30b71`](https://github.com/mraniki/MyLLM/commit/ae30b71553958883dfe6c545223f1b732a1e5253))
+
+* Merge pull request #241 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.8.0 ([`6df1540`](https://github.com/mraniki/MyLLM/commit/6df1540f0af44e5998357fbcfbea62d5601301cc))
+
+* Merge pull request #240 from mraniki/main
+
+Align ([`036d4e2`](https://github.com/mraniki/MyLLM/commit/036d4e2da7c7e8a5566791b8ae37355602a3be31))
+
+* Merge pull request #239 from mraniki/dev
+
+Dev ([`cae9148`](https://github.com/mraniki/MyLLM/commit/cae91482d22b14c29e8df91e441c81dd4c2eb139))
+
+* Delete requirements.txt ([`b89320c`](https://github.com/mraniki/MyLLM/commit/b89320c087ce69cc7fe46f92ce7427ff1023cf6f))
+
+* Merge pull request #237 from mraniki/dev
+
+⬆️ 🤖 - Troubled day for virgins over  who are beautiful and wealthy and live ([`f4982b3`](https://github.com/mraniki/MyLLM/commit/f4982b3094a56678e2a16836f028be310a0df541))
+
+* Merge pull request #236 from mraniki/renovate/pytest-asyncio-0.x
+
+⬆️ 🛠️(deps): update dependency pytest-asyncio to ^0.22.0 ([`3c78a94`](https://github.com/mraniki/MyLLM/commit/3c78a94c68bf8f26c0fb339877c440522cb4247e))
+
+### Update
+
+* Update g4f version ([`6e17a53`](https://github.com/mraniki/MyLLM/commit/6e17a53d37cc2d5762b35382e592df3b78b2aa47))
+
+* Update pyproject.toml ([`254d6bb`](https://github.com/mraniki/MyLLM/commit/254d6bb7eea2a1fb7ddd2e1a56299d6b9435bb81))
+
+* Update pyproject.toml ([`7fac718`](https://github.com/mraniki/MyLLM/commit/7fac71882a362621b7a95c752125203f0789c7ef))
+
+### ♻️
+
+* ♻️ ([`ec6aea2`](https://github.com/mraniki/MyLLM/commit/ec6aea2dfbcf6a87b64292683bd26dbdaf741ee5))
+
+* ♻️ simplify example ([`a5eeccd`](https://github.com/mraniki/MyLLM/commit/a5eeccdedff70bad2f701e6e788878b763b5d505))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.8.7 ([`87b64d7`](https://github.com/mraniki/MyLLM/commit/87b64d7f3d96b13bc7c2f18fe2bb3ce174e78ab6))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.8.6 ([`114a1b6`](https://github.com/mraniki/MyLLM/commit/114a1b667129c7d3aff9601991c971edde9ea216))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.8.5 ([`f6ef794`](https://github.com/mraniki/MyLLM/commit/f6ef79407eb575d4f51b3518f8483bcf4f82630e))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.8.3 ([`57f4a16`](https://github.com/mraniki/MyLLM/commit/57f4a16328fddb1ec2c0d8af5cbb43eb34535bf1))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.8.2 ([`037b478`](https://github.com/mraniki/MyLLM/commit/037b4789d8926df8115b9449d48f7ccfb9337d2b))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.8.1 ([`bcae7e0`](https://github.com/mraniki/MyLLM/commit/bcae7e0265a4b4b7a11df9c148727b0529256802))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.8.0 ([`dacc850`](https://github.com/mraniki/MyLLM/commit/dacc850dcce95eb75e8525cf191aeb6387d7c804))
+
+* ⬆️ 🛠️(deps): update dependency pytest-asyncio to ^0.22.0 ([`aaced04`](https://github.com/mraniki/MyLLM/commit/aaced042a2cc4ec97dfd18c7d150ec14bb02c717))
+
+### 🔥
+
+* 🔥 cleanup ([`6b9e081`](https://github.com/mraniki/MyLLM/commit/6b9e08113e9bcd3ca20aeb91af076272bb3ec3f3))
+
 ## v3.1.54 (2023-10-29)
 
 ### Other

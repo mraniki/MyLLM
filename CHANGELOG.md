@@ -3,6 +3,18 @@
 
 
 
+## v3.1.56 (2023-11-27)
+
+### Other
+
+* Merge pull request #261 from mraniki/dev
+
+⬆️ 🤖 - The difference between a Miracle and a Fact is exactly the difference ([`8ca13b6`](https://github.com/mraniki/MyLLM/commit/8ca13b6265808b81ed449f50dc25ada2202abe26))
+
+### Update
+
+* Update README.md ([`b2117d3`](https://github.com/mraniki/MyLLM/commit/b2117d3875ca9f54b7f6dd762a3e9826050c623d))
+
 ## v3.1.55 (2023-11-26)
 
 ### Other

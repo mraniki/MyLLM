@@ -30,7 +30,7 @@ loguru = ">=0.6.0"
 httpx = ">=0.24.1"
 js2py = "^0.74"
 PyExecJS2="1.6.1"
-g4f = "0.1.9.0"
+g4f = "0.1.9.2"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -84,7 +84,7 @@ overgeneral-exceptions = [
 [tool.poetry.group.test.dependencies]
 pytest = "^7.0"
 pytest-cov = "^4.1"
-pytest-asyncio = "^0.21.0"
+pytest-asyncio = "^0.23.0"
 pytest-mock = "^3.11.1"
 pytest-loguru = "^0.3.0"
 

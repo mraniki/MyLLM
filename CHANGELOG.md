@@ -3,6 +3,22 @@
 
 
 
+## v3.1.57 (2023-12-08)
+
+### Other
+
+* Merge pull request #264 from mraniki/dev
+
+⬆️ 🤖 - You will have long and healthy life ([`f958e18`](https://github.com/mraniki/MyLLM/commit/f958e18782494635b9f82e0d36afc70bbe6d4b80))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.2 ([`dd3ce29`](https://github.com/mraniki/MyLLM/commit/dd3ce29fbb95fc2e67831cc2d8348890c2adbd31))
+
+* ⬆️ 🛠️(deps): update dependency pytest-asyncio to ^0.23.0 ([`d47aec7`](https://github.com/mraniki/MyLLM/commit/d47aec7d5f8ac98b1b854bf1cfb14008daaa1802))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.1 ([`42174e1`](https://github.com/mraniki/MyLLM/commit/42174e166fd31e7450e4650f63dde24976c4e173))
+
 ## v3.1.56 (2023-11-27)
 
 ### Other

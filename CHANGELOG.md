@@ -3,6 +3,18 @@
 
 
 
+## v3.1.61 (2023-12-26)
+
+### Other
+
+* Merge pull request #275 from mraniki/dev
+
+⬆️ 🤖 - You get along very well with everyone except animals and people ([`7112a98`](https://github.com/mraniki/MyLLM/commit/7112a98a6bc628dd00ccbc14764ebd451ef1d851))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.6 ([`fbb0693`](https://github.com/mraniki/MyLLM/commit/fbb0693aad0916b7ec3fd439aac1a1649caf2399))
+
 ## v3.1.60 (2023-12-23)
 
 ### Other

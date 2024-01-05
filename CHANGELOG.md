@@ -3,6 +3,34 @@
 
 
 
+## v3.1.62 (2024-01-05)
+
+### Other
+
+* Merge pull request #282 from mraniki/dev
+
+⬆️ 🤖 - Today is National Existential Ennui Awareness Day ([`f14b373`](https://github.com/mraniki/MyLLM/commit/f14b373185a01398d94a572d33c3fd29c40ddb3a))
+
+* Merge ; commit &#39;13ac280e3ed4c7ea245d04d7f1fe4b03b5abca5f&#39; ([`527e45d`](https://github.com/mraniki/MyLLM/commit/527e45dc2ba773c22c7a62bdfd33dfecd656ef43))
+
+* Merge pull request #280 from mraniki/dev
+
+⬆️ 🤖 - Q	What do monsters eat ([`dfc7bf3`](https://github.com/mraniki/MyLLM/commit/dfc7bf31c308cef743bfd5541db01f6acd02646d))
+
+* Merge pull request #276 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.1.9.7 ([`0c49c6e`](https://github.com/mraniki/MyLLM/commit/0c49c6e739d475ac557b1b3e8770cc5676b328ed))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.8 ([`13ac280`](https://github.com/mraniki/MyLLM/commit/13ac280e3ed4c7ea245d04d7f1fe4b03b5abca5f))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.7 (#278)
+
+Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt; ([`e6cfbf6`](https://github.com/mraniki/MyLLM/commit/e6cfbf6b32130136aa7e1f19162f0a0cd285e883))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.7 ([`71e26b9`](https://github.com/mraniki/MyLLM/commit/71e26b94e19139772e446cec64c01f5b4466dc76))
+
 ## v3.1.61 (2023-12-26)
 
 ### Other

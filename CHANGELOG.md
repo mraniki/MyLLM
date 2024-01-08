@@ -3,6 +3,26 @@
 
 
 
+## v3.1.63 (2024-01-08)
+
+### Other
+
+* Merge pull request #286 from mraniki/dev
+
+⬆️ 🤖 - You have an ability to sense and know higher truth ([`442e348`](https://github.com/mraniki/MyLLM/commit/442e34816eb19f1e65f13a0a473f8ca92fc2f3dc))
+
+* Merge pull request #283 from mraniki/dev
+
+⬆️ 🤖 - If one cannot enjoy reading a book over and over again there is no use ([`9201631`](https://github.com/mraniki/MyLLM/commit/9201631bfaeb65be32b0647788c89fc64b308408))
+
+### Update
+
+* Update README.md ([`fa23949`](https://github.com/mraniki/MyLLM/commit/fa23949819c517c04a1662da9faf60b06352e02d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.9 ([`196a9db`](https://github.com/mraniki/MyLLM/commit/196a9dbe7e47df9eda0f774b8f12ed8d4885a4b2))
+
 ## v3.1.62 (2024-01-05)
 
 ### Other

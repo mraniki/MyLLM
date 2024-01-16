@@ -3,6 +3,20 @@
 
 
 
+## v3.1.64 (2024-01-16)
+
+### Other
+
+* Merge pull request #292 from mraniki/dev
+
+⬆️ 🤖 - You will be awarded a medal for disregarding safety in saving someone ([`a9526a1`](https://github.com/mraniki/MyLLM/commit/a9526a10c505d43c4337daa0eb34f36cc72e5102))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.0.3 ([`ff83775`](https://github.com/mraniki/MyLLM/commit/ff837755ed1435f7cc6f5df434a44fabe3c346fc))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.0.2 ([`a7c111a`](https://github.com/mraniki/MyLLM/commit/a7c111a10469566682e1dc478a3931c53a8ac7f4))
+
 ## v3.1.63 (2024-01-08)
 
 ### Other

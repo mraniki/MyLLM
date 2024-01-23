@@ -3,6 +3,18 @@
 
 
 
+## v3.1.65 (2024-01-23)
+
+### Other
+
+* Merge pull request #295 from mraniki/dev
+
+⬆️ 🤖 - A visit to a fresh place will bring strange work ([`f0d447d`](https://github.com/mraniki/MyLLM/commit/f0d447db6ad48d894ed0c77b6e806ce2117a1de1))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.0.4 ([`062545e`](https://github.com/mraniki/MyLLM/commit/062545eb898e31f950d3d2a0e53d49276bd433c1))
+
 ## v3.1.64 (2024-01-16)
 
 ### Other

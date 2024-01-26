@@ -95,19 +95,44 @@ class AIClient:
 
 class Conversation:
     def __init__(self, max_memory=None, llm_template=None):
+        """
+        Initialize the class with optional max_memory and llm_template parameters.
+
+        :param max_memory: maximum memory
+        :param llm_template: LL template
+        """
         self.messages = []
         self.max_memory = max_memory
         self.template = llm_template
         self.add_message("user", self.template)
 
     def add_message(self, role: str, content: str):
+        """
+        Adds a message with the specified role and content to the messages list.
+
+        Args:
+            role (str): The role of the message.
+            content (str): The content of the message.
+        """
         if len(self.messages) >= self.max_memory:
             self.messages.pop(0)
         self.messages.append({"role": role, "content": content})
 
     def get_messages(self):
+        """
+        Return the messages stored in the instance variable.
+        """
         return self.messages
 
     def export_messages(self):
+        """
+        Export messages to a JSON file.
+
+        Parameters:
+            self: the instance of the class
+
+        Returns:
+            None
+        """
         with open("history.json", "w") as f:
             json.dump(self.messages, f, indent=4)

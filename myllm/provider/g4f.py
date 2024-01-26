@@ -11,6 +11,10 @@ from myllm.provider.client import AIClient
 
 
 class MyLLMG4F(AIClient):
+    """
+    MyLLM class for G4F
+
+    """
     def __init__(self, **kwargs):
         """
         Initialize the MyLLM object

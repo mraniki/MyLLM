@@ -31,7 +31,9 @@ class MyLLM:
 
     def __init__(self):
         """
-        Initialize the MyLLM object
+        Initialize the MyLLM object which supports multiple clients
+        of different LLM providers
+
 
         Args:
             None

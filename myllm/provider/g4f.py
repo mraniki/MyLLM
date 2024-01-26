@@ -50,7 +50,9 @@ class MyLLMG4F(AIClient):
                 messages=self.conversation.get_messages(),
             )
             sleep(self.timeout)
-            self.conversation.add_message("ai", response)
-            return f"{self.llm_prefix} {response}"
+            logger.debug("response {}", response)
+            if response:
+              self.conversation.add_message("ai", response)
+              return f"{self.llm_prefix} {response}"
         except Exception as error:
             logger.error("No response {}", error)

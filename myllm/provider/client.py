@@ -40,7 +40,7 @@ class AIClient:
         Args:
             None
         """
-        self.library = llm_library
+        self.llm_library = llm_library
         self.llm_model = llm_model
         self.llm_provider = llm_provider
         self.llm_provider_key = llm_provider_key

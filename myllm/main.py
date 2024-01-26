@@ -124,3 +124,10 @@ class MyLLM:
                 await client.export_chat_history()
         except Exception as e:
             logger.error(e)
+
+    async def clear_chat_history(self):
+        try:
+            for client in self.clients:
+                await client.clear_chat_history()
+        except Exception as e:
+            logger.error(e)

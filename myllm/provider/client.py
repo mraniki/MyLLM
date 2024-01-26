@@ -29,6 +29,8 @@ class AIClient:
         llm_provider_key=None,
         max_memory=None,
         timeout=None,
+        temperature=None,
+        token_limit=None,
         llm_prefix=None,
         llm_template=None,
     ):
@@ -45,6 +47,8 @@ class AIClient:
         self.llm_prefix = llm_prefix
         self.max_memory = max_memory
         self.timeout = timeout
+        self.temperature = temperature
+        self.token_limit = token_limit
         self.conversation = Conversation(
             max_memory=max_memory, llm_template=llm_template
         )

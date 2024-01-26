@@ -25,6 +25,8 @@ llm_provider = "g4f.Provider.Bing" # LLM Provider # Refer to https://github.com/
 llm_provider_key = ""
 max_memory = 100 # Conversation history size
 timeout = 5 # time lag to wait ai response
+temperature = 0
+token_limit = 400
 llm_prefix = "" # prefix use to filter the AI response
 llm_template = """
 You are a friendly AI, helping me with 
@@ -37,6 +39,8 @@ general tasks. Be courteuous, simple and direct.
 # llm_provider_key = "DEADBE4F"
 # max_memory = 100 
 # timeout = 5 
+# temperature = 0
+# token_limit = 1024
 # llm_prefix = ""
 # llm_template = """
 # You are a friendly AI, helping me with 
@@ -49,6 +53,8 @@ general tasks. Be courteuous, simple and direct.
 # llm_provider_key = "DEADBE4F"
 # max_memory = 100 # Conversation history size
 # timeout = 5 # time lag to wait ai response
+# temperature = 0
+# token_limit = 1024
 # llm_prefix = "" # prefix use to filter the AI response
 # llm_template = """
 # You are a friendly AI, helping me with 

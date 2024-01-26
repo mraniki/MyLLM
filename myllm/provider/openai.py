@@ -12,12 +12,12 @@ from myllm.provider.client import AIClient
 
 class MyLLMOpenAI(AIClient):
     def __init__(self):
-        super().__init__
+        # super().__init__
         self.client = AsyncOpenAI(
             api_key=self.llm_provider_key,
             model=self.llm_model,
-            temperature=0,
-            max_tokens=1024,
+            temperature=self.temperature,
+            max_tokens=self.token_limit,
         )
 
     async def chat(self, prompt):

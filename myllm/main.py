@@ -56,7 +56,7 @@ class MyLLM:
                 continue
             logger.debug("Client provider: {}", provider)
             client = self._create_client(
-                llm_library=item,
+                llm_library=provider,
                 llm_model=_config.get("llm_model"),
                 llm_provider=_config.get("llm_provider"),
                 llm_provider_key=_config.get("llm_provider_key"),

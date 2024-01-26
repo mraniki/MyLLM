@@ -14,8 +14,11 @@ from myllm.provider.client import AIClient
 
 class MyLLMBard(AIClient):
     def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-        self.client = Bard(token=self.llm_provider_key)
+        try:
+            super().__init__(**kwargs)
+            self.client = Bard(token=self.llm_provider_key)
+        except Exception as error:
+            logger.error("Bard initialization error {}", error)
 
     async def chat(self, prompt):
         try:

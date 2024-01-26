@@ -20,8 +20,9 @@ VALUE = "On default"
 myllm_enabled = true
 
 [default.myllm.template]
+enabled = true
 llm_model= "gpt_4"
-llm_provider = "g4f.Provider.Bing" # LLM Provider # Refer to https://github.com/xtekky/gpt4free
+llm_provider = "g4f.Provider.Bing" # Refer to https://github.com/xtekky/gpt4free
 llm_provider_key = ""
 max_memory = 100 # Conversation history size
 timeout = 5 # time lag to wait ai response
@@ -34,6 +35,7 @@ general tasks. Be courteuous, simple and direct.
 """
 
 # [default.myllm.openai] 
+# enabled = true
 # llm_model= "gpt-3.5-turbo" 
 # llm_provider = "" 
 # llm_provider_key = "DEADBE4F"
@@ -48,6 +50,7 @@ general tasks. Be courteuous, simple and direct.
 # """
 
 # [default.myllm.bard]
+# enabled = false
 # llm_model= "" # gpt-3.5-turbo" 
 # llm_provider = ""
 # llm_provider_key = "DEADBE4F"

@@ -8,19 +8,19 @@ class AIClient:
     with a given model and a given provider
 
     Attributes:
-        enabled (bool): Whether MyLLM is enabled
         llm (LLM): LLM
         conversation (ConversationChain): Conversation
 
     Methods:
-        get_myllm_info(self)
         chat(self, prompt)
         clear_chat_history(self)
+        export_chat_history(self)
 
     """
 
     def __init__(
         self,
+        enabled=True,
         llm_library=None,
         llm_model=None,
         llm_provider=None,
@@ -38,6 +38,7 @@ class AIClient:
         Args:
             None
         """
+        self.enabled = enabled
         self.llm_library = llm_library
         self.llm_model = llm_model
         self.llm_provider = llm_provider
@@ -51,18 +52,6 @@ class AIClient:
             max_memory=max_memory, llm_template=llm_template
         )
         self.client = None
-
-    # async def get_myllm_info(self):
-    #     """
-    #     Get MyLLM information.
-
-    #     Returns:
-    #         str: A string containing the MyLLM version,
-    #         model, and provider.
-    #     """
-    #     info = f"ℹ️ {type(self).__name__} {__version__}\n"
-    #     info += f"{self.llm_model}\n{str(self.llm_provider)}"
-    #     return info
 
     async def chat(self, prompt):
         """
@@ -86,11 +75,6 @@ class AIClient:
         Clears the chat history
         """
         self.conversation.export_messages()
-
-    # async def switch_continous_mode(self):
-    #     """ """
-    #     self.llm_ai_mode = not self.llm_ai_mode
-    #     return f"Continous mode {'enabled' if self.llm_ai_mode else 'disabled'}."
 
 
 class Conversation:

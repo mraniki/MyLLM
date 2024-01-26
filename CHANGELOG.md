@@ -3,6 +3,44 @@
 
 
 
+## v4.0.0 (2024-01-26)
+
+### Other
+
+* Merge pull request #301 from mraniki/dev
+
+💥 breaking - Integration with multiple LLM libraries ([`e22b460`](https://github.com/mraniki/MyLLM/commit/e22b460276222e561c754badbcd5df4e06cca504))
+
+### ♻️
+
+* ♻️ added temperature and max tokens ([`d6ccde1`](https://github.com/mraniki/MyLLM/commit/d6ccde1663446352e82f68ec25bd4210cd77c1a3))
+
+### ✅
+
+* ✅ Unit Test ([`44f22b2`](https://github.com/mraniki/MyLLM/commit/44f22b25de881c4fb95d60610730b0a5af19d371))
+
+* ✅ Unit Test ([`75836fd`](https://github.com/mraniki/MyLLM/commit/75836fdfb7a8f8cfc5b301109e02976db43bec6f))
+
+* ✅ Unit Test ([`f962382`](https://github.com/mraniki/MyLLM/commit/f962382ba1d2270865be261c917f0e684bfd409c))
+
+* ✅ Basic Unit Test ([`ede23a0`](https://github.com/mraniki/MyLLM/commit/ede23a0d7299052a979cbf0c1c5c5ca9433279f4))
+
+### 🐛
+
+* 🐛 ([`4009f62`](https://github.com/mraniki/MyLLM/commit/4009f62b4820c559a7893a7ab313b5a11d65848b))
+
+* 🐛 ([`9344d36`](https://github.com/mraniki/MyLLM/commit/9344d36d025c3a389b5f194b84cde7df287e01e4))
+
+### 💥
+
+* 💥 breaking - Integration with multiple LLM libraries clients (G4F/OPENAI/BARD) ([`913791f`](https://github.com/mraniki/MyLLM/commit/913791fedbbbbfe8bb20100337c26e3c3c57f6ff))
+
+### 🚨
+
+* 🚨 ([`57353d7`](https://github.com/mraniki/MyLLM/commit/57353d76798629ae6dffa56db3ea06bf095b7acd))
+
+* 🚨 ([`67419e1`](https://github.com/mraniki/MyLLM/commit/67419e167ea56802cc7d2339afc78e2b28eab78d))
+
 ## v3.1.66 (2024-01-26)
 
 ### Other

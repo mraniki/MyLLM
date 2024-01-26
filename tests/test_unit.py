@@ -24,11 +24,17 @@ def test_fixture_myllm():
     return MyLLM()
 
 
-# @pytest.mark.asyncio
-# async def test_get_myllm_info(talky):
-#     result = await talky.get_myllm_info()
-#     assert result is not None
-#     assert "ℹ️" in result
+@pytest.mark.asyncio
+async def test_get_myllm_info(talky):
+    result = await talky.get_info()
+    assert result is not None
+    assert "ℹ️" in result
+
+
+@pytest.mark.asyncio
+async def test_get_chats(talky):
+    result = await talky.get_chats("tell me a story")
+    assert result is not None
 
 
 # @pytest.mark.asyncio
@@ -51,9 +57,3 @@ def test_fixture_myllm():
 #     assert result is not None
 #     assert "Continous" in result
 #     assert talky.llm_ai_mode is True
-
-
-@pytest.mark.asyncio
-async def test_get_chats(talky):
-    result = await talky.get_chats("tell me a story")
-    assert result is not None

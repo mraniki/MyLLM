@@ -115,7 +115,7 @@ class MyLLM:
     async def chat(self, prompt):
         _chats = ["🤖 Chats"]
         for client in self.clients:
-            _chats.append(f"\n{await client.chat(prompt)}")
+            _chats.append(f"{client.llm_library}\n{await client.chat(prompt)}")
         return "\n".join(_chats)
 
     async def export_chat_history(self, prompt):

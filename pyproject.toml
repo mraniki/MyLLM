@@ -30,6 +30,8 @@ httpx = ">=0.24.1"
 js2py = "^0.74"
 PyExecJS2="1.6.1"
 g4f = "0.2.0.6"
+openai = "1.10.0"
+bardapi = "0.1.39"
 
 
 [tool.poetry.group.dev.dependencies]

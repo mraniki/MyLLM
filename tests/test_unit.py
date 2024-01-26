@@ -2,7 +2,6 @@
 myllm Unit Testing
 """
 
-import os
 
 import pytest
 
@@ -27,36 +26,29 @@ def test_fixture_myllm():
 
 @pytest.mark.asyncio
 async def test_get_myllm_info(talky):
-    result = await talky.get_myllm_info()
+    result = await talky.get_info()
     assert result is not None
     assert "ℹ️" in result
 
 
 @pytest.mark.asyncio
-async def test_export_chat_history(talky):
-    await talky.export_chat_history()
-
-    assert os.path.exists("history.json")
-
-
-@pytest.mark.asyncio
-async def test_clear_chat_history(talky):
-    await talky.clear_chat_history()
-    assert talky.conversation is not None
-
-
-@pytest.mark.asyncio
-async def test_switch_continous_mode(talky):
-    assert talky.llm_ai_mode is False
-    result = await talky.switch_continous_mode()
+async def test_get_chats(talky):
+    result = await talky.get_chats("tell me a story")
     assert result is not None
-    assert "Continous" in result
-    assert talky.llm_ai_mode is True
-
 
 @pytest.mark.asyncio
-async def test_chat(talky):
-    result = await talky.chat("tell me a story")
-    print(talky.provider)
-    print(talky.model)
-    assert result is not None
+async def test_myllmclient(talky):
+    """Init Testing"""
+    assert isinstance(talky, MyLLM)
+    assert talky.clients is not None
+    assert callable(talky.get_info)
+    assert callable(talky.get_chats)
+    for client in talky.clients:
+        assert client is not None
+        assert client.llm_library is not None
+        assert client.llm_model is not None
+        assert client.llm_provider is not None
+        assert client.Conversation is not None
+        assert callable(client.export_chat_history)
+        assert callable(client.clear_chat_history)
+        assert callable(client.clear_chat_history)

@@ -11,18 +11,27 @@ from myllm.provider.client import AIClient
 
 
 class MyLLMG4F(AIClient):
-    def __init__(self):
+    """
+    MyLLM class for G4F
+
+    """
+    def __init__(self, **kwargs):
         """
         Initialize the MyLLM object
 
         Args:
             None
         """
-        # super().__init__()
-        provider_module_name = self.llm_provider
-        provider_module = importlib.import_module(provider_module_name)
-        provider_class = getattr(provider_module, provider_module_name.split(".")[-1])
-        self.provider = provider_class()
+        try:
+            super().__init__(**kwargs)
+            provider_module_name = self.llm_provider
+            provider_module = importlib.import_module(provider_module_name)
+            provider_class = getattr(
+                provider_module, provider_module_name.split(".")[-1]
+            )
+            self.provider = provider_class()
+        except Exception as error:
+            logger.error("G4F initialization error {}", error)
 
     async def chat(self, prompt):
         """

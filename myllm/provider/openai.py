@@ -12,16 +12,33 @@ from myllm.provider.client import AIClient
 
 
 class MyLLMOpenAI(AIClient):
-    def __init__(self):
-        # super().__init__
-        self.client = AsyncOpenAI(
-            api_key=self.llm_provider_key,
-            model=self.llm_model,
-            temperature=self.temperature,
-            max_tokens=self.token_limit,
-        )
+    """
+    MyLLM class for OpenAI
+
+    """
+
+    def __init__(self, **kwargs):
+        """
+        Initialize the object with the given keyword arguments.
+
+        :param kwargs: keyword arguments
+        :return: None
+        """
+        try:
+            super().__init__(**kwargs)
+            self.client = AsyncOpenAI(
+                api_key=self.llm_provider_key,
+            )
+        except Exception as error:
+            logger.error("OpenAI initialization error {}", error)
 
     async def chat(self, prompt):
+        """
+        Asynchronously chats with the client based on the given prompt.
+
+        :param prompt: The prompt for the chat.
+        :return: The response from the chat.
+        """
         try:
             response = await self.client.chat.completions.create(
                 messages=[
@@ -30,7 +47,7 @@ class MyLLMOpenAI(AIClient):
                         "content": prompt,
                     }
                 ],
-                model=self.model,
+                model=self.llm_model,
             )
             sleep(self.timeout)
             self.conversation.add_message("ai", response)

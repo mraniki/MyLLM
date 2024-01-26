@@ -18,20 +18,19 @@ class MyLLM:
     with a given model and a given provider
 
     Attributes:
-        enabled (bool): Whether MyLLM is enabled
-        llm (LLM): LLM
-        conversation (ConversationChain): Conversation
+        clients (list): List of LLM clients
 
     Methods:
-        get_myllm_info(self)
-        chat(self, prompt)
-        clear_chat_history(self)
+        _create_client(self, **kwargs)
+        get_info(self)
+        get_chats(self, prompt)
+
 
     """
 
     def __init__(self):
         """
-        Initialize the MyLLM object
+        Initialize the MyLLM object which supports multiple LLM libraries
 
         Args:
             None
@@ -41,7 +40,7 @@ class MyLLM:
         if not self.enabled:
             return
         logger.info("Initializing MyLLM")
-        config = settings.dex
+        config = settings.myllm
         self.clients = []
         for item in config:
             logger.debug("Client configuration starting: {}", item)
@@ -56,7 +55,8 @@ class MyLLM:
                 continue
             logger.debug("Client provider: {}", provider)
             client = self._create_client(
-                llm_library=item,
+                llm_library=provider,
+                enabled=_config.get("enabled") or True,
                 llm_model=_config.get("llm_model"),
                 llm_provider=_config.get("llm_provider"),
                 llm_provider_key=_config.get("llm_provider_key"),
@@ -82,17 +82,17 @@ class MyLLM:
         Parameters:
             **kwargs (dict): Keyword arguments that
             contain the necessary information for creating the client.
-            The "provider" key is required.
+            The "llm_library" key is required.
 
         Returns:
             client object based on
             the specified protocol.
 
         """
-        logger.debug("Creating client {}", kwargs["provider"])
-        if kwargs["provider"] == "bard":
+        logger.debug("Creating client {}", kwargs["llm_library"])
+        if kwargs["llm_library"] == "bard":
             return MyLLMBard(**kwargs)
-        elif kwargs["provider"] == "openai":
+        elif kwargs["llm_library"] == "openai":
             return MyLLMOpenAI(**kwargs)
         else:
             return MyLLMG4F(**kwargs)
@@ -112,80 +112,8 @@ class MyLLM:
         )
         return version_info + client_info.strip()
 
-    async def get_chats(self,prompt):
-
-        _chats= ["🤖 Chats"]
+    async def get_chats(self, prompt):
+        _chats = ["🤖 Chats"]
         for client in self.clients:
             _chats.append(f"\n{await client.chat(prompt)}")
         return "\n".join(_chats)
-
-#     async def get_myllm_info(self):
-#         """
-#         Get MyLLM information.
-
-#         Returns:
-#             str: A string containing the MyLLM version,
-#             model, and provider.
-#         """
-#         info = f"ℹ️ {type(self).__name__} {__version__}\n"
-#         info += f"{self.model}\n{str(settings.llm_provider)}"
-#         return info
-
-#     async def chat(self, prompt):
-#         """
-#         Asynchronously chats with the user.
-
-#         Args:
-#             prompt (str): The prompt message from the user.
-
-#         Returns:
-#             str: The response from the conversation model.
-#         """
-#         try:
-#             self.conversation.add_message("user", prompt)
-#             response = await self.provider.create_async(
-#                 model=self.model,
-#                 messages=self.conversation.get_messages(),
-#             )
-#             sleep(self.timeout)
-#             self.conversation.add_message("ai", response)
-#             return f"{settings.llm_prefix} {response}"
-#         except Exception as error:
-#             logger.error("No response {}", error)
-
-#     async def clear_chat_history(self):
-#         """
-#         Clears the chat history
-#         """
-#         self.conversation = Conversation()
-
-#     async def export_chat_history(self):
-#         """
-#         Clears the chat history
-#         """
-#         self.conversation.export_messages()
-
-#     async def switch_continous_mode(self):
-#         """ """
-#         self.llm_ai_mode = not self.llm_ai_mode
-#         return f"Continous mode {'enabled' if self.llm_ai_mode else 'disabled'}."
-
-
-# class Conversation:
-#     def __init__(self, max_memory=settings.max_memory):
-#         self.messages = []
-#         self.max_memory = max_memory
-#         self.template = settings.llm_template
-#         self.add_message("user", self.template)
-
-#     def add_message(self, role: str, content: str):
-#         if len(self.messages) >= self.max_memory:
-#             self.messages.pop(0)
-#         self.messages.append({"role": role, "content": content})
-
-#     def get_messages(self):
-#         return self.messages
-
-#     def export_messages(self):
-#         with open("history.json", "w") as f:
-#             json.dump(self.messages, f, indent=4)

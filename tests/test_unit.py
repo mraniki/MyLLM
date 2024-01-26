@@ -37,7 +37,7 @@ async def test_myllmclient(talky):
     assert isinstance(talky, MyLLM)
     assert talky.clients is not None
     assert callable(talky.get_info)
-    assert callable(talky.get_chats)
+    assert callable(talky.chat)
     for llm in talky.clients:
         assert llm is not None
         assert llm.llm_library is not None
@@ -50,5 +50,5 @@ async def test_myllmclient(talky):
 
 @pytest.mark.asyncio
 async def test_get_chats(talky):
-    result = await talky.get_chats("tell me a story")
+    result = await talky.chat("tell me a story")
     assert result is not None

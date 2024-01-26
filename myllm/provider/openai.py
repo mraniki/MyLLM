@@ -17,8 +17,6 @@ class MyLLMOpenAI(AIClient):
             super().__init__(**kwargs)
             self.client = AsyncOpenAI(
                 api_key=self.llm_provider_key,
-                temperature=self.temperature,
-                max_tokens=self.token_limit,
             )
         except Exception as error:
             logger.error("OpenAI initialization error {}", error)

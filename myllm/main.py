@@ -41,7 +41,7 @@ class MyLLM:
         if not self.enabled:
             return
         logger.info("Initializing MyLLM")
-        config = settings.dex
+        config = settings.myllm
         self.clients = []
         for item in config:
             logger.debug("Client configuration starting: {}", item)

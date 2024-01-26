@@ -1,7 +1,5 @@
 import json
 
-from myllm import __version__
-
 
 class AIClient:
     """
@@ -53,7 +51,6 @@ class AIClient:
             max_memory=max_memory, llm_template=llm_template
         )
         self.client = None
-
 
     # async def get_myllm_info(self):
     #     """

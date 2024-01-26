@@ -1,5 +1,7 @@
 """
-🔗 Google BArd
+🔗 Google Bard
+via https://github.com/dsdanielpark/Bard-API
+
 
 """
 from time import sleep

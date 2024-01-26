@@ -1,5 +1,6 @@
 """
 🔗 OpenAI
+via https://github.com/openai/openai-python
 
 """
 from time import sleep

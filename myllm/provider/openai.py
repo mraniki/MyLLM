@@ -10,7 +10,7 @@ from openai import AsyncOpenAI
 from myllm.provider.client import AIClient
 
 
-class MyLLMG4F(AIClient):
+class MyLLMOpenAI(AIClient):
     def __init__(self):
         super().__init__
         self.client = AsyncOpenAI(

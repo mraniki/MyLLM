@@ -48,8 +48,8 @@ class MyLLM:
             _config = config[item]
             if item in ["", "template"]:
                 continue
-            provider = _config.get("provider") or "g4f"
-            if provider not in ["g4f", "openai", "google_bard"]:
+            provider = item
+            if provider not in ["g4f", "openai", "bard"]:
                 logger.warning(
                     f"Skipping client creation for unsupported provider: {provider}"
                 )

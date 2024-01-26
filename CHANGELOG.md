@@ -3,6 +3,62 @@
 
 
 
+## v4.0.1 (2024-01-26)
+
+### Other
+
+* Merge pull request #302 from mraniki/dev
+
+✅ Unit Test ([`b048ccd`](https://github.com/mraniki/MyLLM/commit/b048ccd8654376cdf6f7a4eede120ccc900bb407))
+
+### ♻️
+
+* ♻️ ([`81b126a`](https://github.com/mraniki/MyLLM/commit/81b126a4a8eec5eeab5689db735d290b1d41b67c))
+
+* ♻️ ([`c917f27`](https://github.com/mraniki/MyLLM/commit/c917f27e41ee77c62dfb685aacd105ab398f948b))
+
+* ♻️ ([`1940bb3`](https://github.com/mraniki/MyLLM/commit/1940bb3af9f4092ab0e010fa91b0a08b2824ace2))
+
+* ♻️ ([`2eef0b2`](https://github.com/mraniki/MyLLM/commit/2eef0b26455d764a9b2d90f869fc50f5d985a590))
+
+* ♻️ ([`29f65f5`](https://github.com/mraniki/MyLLM/commit/29f65f5b6e16aaeb198bbe66d9050308bef4fc79))
+
+### ✅
+
+* ✅ Unit Test ([`a3d1655`](https://github.com/mraniki/MyLLM/commit/a3d1655ee677dd52e6313bda551a045290dfbed2))
+
+* ✅ Unit Test ([`f795e49`](https://github.com/mraniki/MyLLM/commit/f795e494dc412214bb85767d21d21dbb0e41ffaf))
+
+* ✅ Unit Test ([`cedb571`](https://github.com/mraniki/MyLLM/commit/cedb571e294cb171d1cd6b540c78fd3cf6047664))
+
+### 🐛
+
+* 🐛 ([`98e6379`](https://github.com/mraniki/MyLLM/commit/98e63791c4acaa00932f36b904a245d9e88889aa))
+
+* 🐛 ([`fe4a719`](https://github.com/mraniki/MyLLM/commit/fe4a71928140d5fe4f792b25d9773756f2003ee1))
+
+* 🐛 ([`afff148`](https://github.com/mraniki/MyLLM/commit/afff14836f69889ce9d8dbb60720bf28003d517c))
+
+### 💬
+
+* 💬 ([`179a139`](https://github.com/mraniki/MyLLM/commit/179a139385a446948a447d5c2993e294515e27cb))
+
+### 📝
+
+* 📝 Docs ([`be33d88`](https://github.com/mraniki/MyLLM/commit/be33d88244c6d3cba827e37497f47cad6993b29e))
+
+### 🔧
+
+* 🔧 enable /disable flag per client ([`e2cfb32`](https://github.com/mraniki/MyLLM/commit/e2cfb32bede1ac72604f81b63e52fdfad8048ded))
+
+### 🚑
+
+* 🚑 ([`77429a2`](https://github.com/mraniki/MyLLM/commit/77429a2b51b4158d7642e7c9fea03461893dd9d2))
+
+* 🚑 ([`f03b007`](https://github.com/mraniki/MyLLM/commit/f03b007229ecf3b0811ec55ac5b7681d0aa223ac))
+
+* 🔧 🚑 ([`c63fed6`](https://github.com/mraniki/MyLLM/commit/c63fed6b725cb4b2c5a83c9d371003cf27be108f))
+
 ## v4.0.0 (2024-01-26)
 
 ### Other

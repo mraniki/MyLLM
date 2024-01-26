@@ -40,9 +40,10 @@ async def test_myllmclient(talky):
     assert callable(talky.get_chats)
     for llm in talky.clients:
         assert llm is not None
+        assert llm.library is not None
         assert llm.llm_model is not None
         assert llm.llm_provider is not None
-        assert llm.Conversation is not None
+        assert llm.conversation is not None
         assert callable(llm.export_chat_history)
         assert callable(llm.clear_chat_history)
 
@@ -51,4 +52,3 @@ async def test_myllmclient(talky):
 async def test_get_chats(talky):
     result = await talky.get_chats("tell me a story")
     assert result is not None
-

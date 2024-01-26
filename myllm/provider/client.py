@@ -55,17 +55,17 @@ class AIClient:
         self.client = None
 
 
-    async def get_myllm_info(self):
-        """
-        Get MyLLM information.
+    # async def get_myllm_info(self):
+    #     """
+    #     Get MyLLM information.
 
-        Returns:
-            str: A string containing the MyLLM version,
-            model, and provider.
-        """
-        info = f"ℹ️ {type(self).__name__} {__version__}\n"
-        info += f"{self.llm_model}\n{str(self.llm_provider)}"
-        return info
+    #     Returns:
+    #         str: A string containing the MyLLM version,
+    #         model, and provider.
+    #     """
+    #     info = f"ℹ️ {type(self).__name__} {__version__}\n"
+    #     info += f"{self.llm_model}\n{str(self.llm_provider)}"
+    #     return info
 
     async def chat(self, prompt):
         """

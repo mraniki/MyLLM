@@ -108,7 +108,7 @@ class MyLLM:
         """
         version_info = f"ℹ️ {type(self).__name__} {__version__}\n"
         client_info = "".join(
-            f"🤖 {client.llm_library} {client.llm_model}\n" for client in self.clients
+            f"🤖 {client.library} {client.llm_model}\n" for client in self.clients
         )
         return version_info + client_info.strip()
 

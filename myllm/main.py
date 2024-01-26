@@ -82,17 +82,17 @@ class MyLLM:
         Parameters:
             **kwargs (dict): Keyword arguments that
             contain the necessary information for creating the client.
-            The "provider" key is required.
+            The "llm_library" key is required.
 
         Returns:
             client object based on
             the specified protocol.
 
         """
-        logger.debug("Creating client {}", kwargs["provider"])
-        if kwargs["provider"] == "bard":
+        logger.debug("Creating client {}", kwargs["llm_library"])
+        if kwargs["llm_library"] == "bard":
             return MyLLMBard(**kwargs)
-        elif kwargs["provider"] == "openai":
+        elif kwargs["llm_library"] == "openai":
             return MyLLMOpenAI(**kwargs)
         else:
             return MyLLMG4F(**kwargs)

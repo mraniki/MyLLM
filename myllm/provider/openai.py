@@ -12,8 +12,8 @@ from myllm.provider.client import AIClient
 
 
 class MyLLMOpenAI(AIClient):
-    def __init__(self):
-        super().__init__
+    def __init__(self,**kwargs):
+        super().__init__(**kwargs)
         self.client = AsyncOpenAI(
             api_key=self.llm_provider_key,
             model=self.llm_model,

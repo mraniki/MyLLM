@@ -11,14 +11,14 @@ from myllm.provider.client import AIClient
 
 
 class MyLLMG4F(AIClient):
-    def __init__(self):
+    def __init__(self,**kwargs):
         """
         Initialize the MyLLM object
 
         Args:
             None
         """
-        super().__init__()
+        super().__init__(**kwargs)
         provider_module_name = self.llm_provider
         provider_module = importlib.import_module(provider_module_name)
         provider_class = getattr(provider_module, provider_module_name.split(".")[-1])

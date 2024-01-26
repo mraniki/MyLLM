@@ -13,8 +13,8 @@ from myllm.provider.client import AIClient
 
 
 class MyLLMBard(AIClient):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.client = Bard(token=self.llm_provider_key)
 
     async def chat(self, prompt):

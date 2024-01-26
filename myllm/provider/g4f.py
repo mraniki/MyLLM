@@ -37,7 +37,7 @@ class MyLLMG4F(AIClient):
         """
         Asynchronously chats with the user.
 
-        Args:
+        Args: 
             prompt (str): The prompt message from the user.
 
         Returns:
@@ -46,7 +46,7 @@ class MyLLMG4F(AIClient):
         try:
             self.conversation.add_message("user", prompt)
             response = await self.provider.create_async(
-                model=self.model,
+                model=self.llm_model,
                 messages=self.conversation.get_messages(),
             )
             sleep(self.timeout)

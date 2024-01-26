@@ -117,3 +117,10 @@ class MyLLM:
         for client in self.clients:
             _chats.append(f"\n{await client.chat(prompt)}")
         return "\n".join(_chats)
+
+    async def export_chat_history(self, prompt):
+        try:
+            for client in self.clients:
+                await client.export_chat_history()
+        except Exception as e:
+            logger.error(e)

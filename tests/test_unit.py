@@ -2,7 +2,6 @@
 myllm Unit Testing
 """
 
-import os
 
 import pytest
 

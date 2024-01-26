@@ -3,6 +3,18 @@
 
 
 
+## v4.0.3 (2024-01-26)
+
+### Other
+
+* Merge pull request #304 from mraniki/dev
+
+⚡ 🐛 Added chat export per client ([`311ad00`](https://github.com/mraniki/MyLLM/commit/311ad0075dc0379367d13e9a85b257665a346137))
+
+### 🐛
+
+* ⚡ 🐛 Added chat export per client ([`1fead7f`](https://github.com/mraniki/MyLLM/commit/1fead7f4667bfc8d82f8f019cd0cb7378bae9c5a))
+
 ## v4.0.2 (2024-01-26)
 
 ### Other

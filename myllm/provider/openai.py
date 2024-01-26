@@ -30,7 +30,6 @@ class MyLLMOpenAI(AIClient):
                         "content": prompt,
                     }
                 ],
-                model=self.model,
             )
             sleep(self.timeout)
             self.conversation.add_message("ai", response)

@@ -3,6 +3,18 @@
 
 
 
+## v4.0.5 (2024-01-26)
+
+### :bug:
+
+* :bug: Add debug logging for OpenAI response ([`e1be621`](https://github.com/mraniki/MyLLM/commit/e1be6214b88b6d798892c8b13b2ba654e1bfec35))
+
+### Other
+
+* Fix missing closing parenthesis in logger.debug statement ([`74f7685`](https://github.com/mraniki/MyLLM/commit/74f768507080f0ec26fa845e18835f749845f117))
+
+* Refactor MyLLMG4F class constructor ([`5056b08`](https://github.com/mraniki/MyLLM/commit/5056b0861a832ababb5757595df7dc27738b1631))
+
 ## v4.0.4 (2024-01-26)
 
 ### Other

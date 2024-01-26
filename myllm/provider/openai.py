@@ -50,7 +50,7 @@ class MyLLMOpenAI(AIClient):
                 model=self.llm_model,
             )
             sleep(self.timeout)
-            logger.debug("response {}", response
+            logger.debug("response {}", response)
             self.conversation.add_message("ai", response)
             return f"{self.llm_prefix} {response}"
         except Exception as error:

@@ -3,6 +3,28 @@
 
 
 
+## v3.1.66 (2024-01-26)
+
+### Other
+
+* Merge pull request #298 from mraniki/dev
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.0.5 ([`7151d4e`](https://github.com/mraniki/MyLLM/commit/7151d4e2c43394173535e1af1a84c8d5d36fed3c))
+
+* Merge pull request #297 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.0.6 ([`896dc25`](https://github.com/mraniki/MyLLM/commit/896dc2550a1e095d6ed59d5a52a11dbde8787481))
+
+* Merge pull request #296 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.0.5 ([`527f2a0`](https://github.com/mraniki/MyLLM/commit/527f2a0913cb925a264c1b5e231ad76196ea0fa5))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.0.6 ([`8b4d34c`](https://github.com/mraniki/MyLLM/commit/8b4d34c9c1f11d32768f001c1c44e16e1dbcecd4))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.0.5 ([`3a4e3aa`](https://github.com/mraniki/MyLLM/commit/3a4e3aa9f51fe971b585a3affa0c9240a2b30015))
+
 ## v3.1.65 (2024-01-23)
 
 ### Other

@@ -13,7 +13,7 @@ from myllm.provider.client import AIClient
 
 class MyLLMOpenAI(AIClient):
     def __init__(self):
-        # super().__init__
+        super().__init__
         self.client = AsyncOpenAI(
             api_key=self.llm_provider_key,
             model=self.llm_model,

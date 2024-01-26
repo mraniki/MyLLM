@@ -110,6 +110,12 @@ class MyLLM:
         )
         return version_info + client_info.strip()
 
+    async def get_chats(self,prompt):
+
+        _chats= ["🤖 Chats"]
+        for client in self.clients:
+            _chats.append(f"\n{await client.chat(prompt)}")
+        return "\n".join(_chats)
 
 #     async def get_myllm_info(self):
 #         """

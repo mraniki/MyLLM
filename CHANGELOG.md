@@ -3,6 +3,14 @@
 
 
 
+## v4.0.2 (2024-01-26)
+
+### Other
+
+* Merge pull request #303 from mraniki/dev
+
+♻️ backward compatible ([`251f01e`](https://github.com/mraniki/MyLLM/commit/251f01eda4ba197c8ef342e415348a28cc7d16f2))
+
 ## v4.0.1 (2024-01-26)
 
 ### Other
@@ -12,6 +20,8 @@
 ✅ Unit Test ([`b048ccd`](https://github.com/mraniki/MyLLM/commit/b048ccd8654376cdf6f7a4eede120ccc900bb407))
 
 ### ♻️
+
+* ♻️ backward compatible ([`df175b0`](https://github.com/mraniki/MyLLM/commit/df175b040696191ab3b96a59deda1fcc6c4e2e91))
 
 * ♻️ ([`81b126a`](https://github.com/mraniki/MyLLM/commit/81b126a4a8eec5eeab5689db735d290b1d41b67c))
 

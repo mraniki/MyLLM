@@ -3,6 +3,18 @@
 
 
 
+## v4.0.4 (2024-01-26)
+
+### Other
+
+* Merge pull request #305 from mraniki/dev
+
+⚡ clear_chat_history ([`fbb9b86`](https://github.com/mraniki/MyLLM/commit/fbb9b863f509b597fbb3ae03d9bf7391f157f830))
+
+### ⚡
+
+* ⚡ ([`0a73eee`](https://github.com/mraniki/MyLLM/commit/0a73eee39d994244887d9970c22b98b6e7be36b4))
+
 ## v4.0.3 (2024-01-26)
 
 ### Other

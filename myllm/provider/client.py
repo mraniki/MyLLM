@@ -1,7 +1,6 @@
 import json
 
 from myllm import __version__
-from myllm.config import settings
 
 
 class AIClient:
@@ -42,8 +41,13 @@ class AIClient:
         self.llm_library = llm_library
         self.llm_model = llm_model
         self.llm_provider = llm_provider
+        self.llm_provider_key = llm_provider_key
+        self.llm_prefix = llm_prefix
+        self.max_memory = max_memory
         self.timeout = timeout
-        self.conversation = Conversation()
+        self.conversation = Conversation(
+            max_memory=max_memory, llm_template=llm_template
+        )
         self.client = None
 
     async def get_myllm_info(self):
@@ -88,10 +92,10 @@ class AIClient:
 
 
 class Conversation:
-    def __init__(self, max_memory=settings.max_memory):
+    def __init__(self, max_memory=None, llm_template=None):
         self.messages = []
         self.max_memory = max_memory
-        self.template = settings.llm_template
+        self.template = llm_template
         self.add_message("user", self.template)
 
     def add_message(self, role: str, content: str):

@@ -53,7 +53,7 @@ class MyLLMOpenAI(AIClient):
             sleep(self.timeout)
             logger.debug("response {}", response)
             if response:
-              filtered_response = response.choices[0].message
+              filtered_response = response.choices[0].message.content
               self.conversation.add_message("ai", filtered_response)
               return f"{self.llm_prefix} {filtered_response}"
         except Exception as error:

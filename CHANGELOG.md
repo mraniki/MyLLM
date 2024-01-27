@@ -3,6 +3,32 @@
 
 
 
+## v4.0.6 (2024-01-27)
+
+### :arrow_up:
+
+* :arrow_up: Add OpenAI provider implementation ([`3b100ef`](https://github.com/mraniki/MyLLM/commit/3b100ef921bb54545d0ec4282782a41254e02fb1))
+
+### Other
+
+* Merge pull request #308 from mraniki/dev
+
+:arrow_up: Add OpenAI provider implementation ([`5a81e6d`](https://github.com/mraniki/MyLLM/commit/5a81e6d9a3d3aef001ec3d05018ea7c88daa539f))
+
+* Merge pull request #307 from mraniki/dev
+
+♻️ ([`691e23d`](https://github.com/mraniki/MyLLM/commit/691e23d8036ee5a01587317031420f7990eff0ee))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`f6f1dda`](https://github.com/mraniki/MyLLM/commit/f6f1dda768b52722b5053746a8fc15d070f10924))
+
+* Add client.llm_library to chat messages ([`5d34f0a`](https://github.com/mraniki/MyLLM/commit/5d34f0ad234cd840566bb690e7304754a294825c))
+
+* Merge pull request #306 from mraniki/dev
+
+🐛 Refactor code to  add debug logging and check for response before addi… ([`dcfba8c`](https://github.com/mraniki/MyLLM/commit/dcfba8c5aa588f0dd85722325f819e8aa3c3d4a6))
+
+* Refactor code to add debug logging and check for response before adding message. ([`fabd746`](https://github.com/mraniki/MyLLM/commit/fabd7468b1dafa7419c1992d58732d61f372ba32))
+
 ## v4.0.5 (2024-01-26)
 
 ### :bug:

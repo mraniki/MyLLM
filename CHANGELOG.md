@@ -3,6 +3,18 @@
 
 
 
+## v4.0.8 (2024-01-27)
+
+### :recycle:
+
+* :recycle:Refactor OpenAI response handling ([`54c08c0`](https://github.com/mraniki/MyLLM/commit/54c08c0f5f544b062695555a08006245355e9f77))
+
+### Other
+
+* Merge pull request #311 from mraniki/dev
+
+⬆️ 🤖 - Youre growing out of some of your problems but there are others that ([`1f91a66`](https://github.com/mraniki/MyLLM/commit/1f91a662a4bf46865b20dd7b904669f136e4124e))
+
 ## v4.0.7 (2024-01-27)
 
 ### :bug:

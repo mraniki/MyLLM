@@ -3,6 +3,28 @@
 
 
 
+## v4.0.7 (2024-01-27)
+
+### :bug:
+
+* :bug::loud_sound:Add debug log for Bard key ([`2431448`](https://github.com/mraniki/MyLLM/commit/2431448dbbc51fd820ffc76da7ff308a8a1fb772))
+
+### Other
+
+* Merge pull request #310 from mraniki/dev
+
+⬆️ 🤖 - It is a wise father that knows his own child ([`d3f4c59`](https://github.com/mraniki/MyLLM/commit/d3f4c59301ddd1574e5567170a371c470902519b))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`a4e6dc4`](https://github.com/mraniki/MyLLM/commit/a4e6dc42bde49a523fc964144cee2d5b6d2ae564))
+
+* Refactor debug log in MyLLMBard class and improve response handling in MyLLMOpenAI class ([`3421b5d`](https://github.com/mraniki/MyLLM/commit/3421b5d494c0756a027a832cab609bb7cbc492a4))
+
+* Refactor conversation message handling ([`18496e2`](https://github.com/mraniki/MyLLM/commit/18496e248793dd5f810817f0acd87896db766844))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.0.7 ([`b795f78`](https://github.com/mraniki/MyLLM/commit/b795f78ee672103d2a54385059009779a7b50d91))
+
 ## v4.0.6 (2024-01-27)
 
 ### :arrow_up:

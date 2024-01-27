@@ -30,6 +30,7 @@ class MyLLMBard(AIClient):
         """
         try:
             super().__init__(**kwargs)
+            logger.debug("Bard key {}", self.llm_provider_key)
             self.client = Bard(token=self.llm_provider_key)
         except Exception as error:
             logger.error("Bard initialization error {}", error)

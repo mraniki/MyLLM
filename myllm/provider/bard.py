@@ -48,8 +48,9 @@ class MyLLMBard(AIClient):
         """
         try:
             self.conversation.add_message("user", prompt)
-            response = self.client.get_answer(
-              self.conversation.get_messages())["content"]
+            response = self.client.get_answer(self.conversation.get_messages())[
+                "content"
+            ]
             sleep(self.timeout)
             logger.debug("response {}", response)
             if response:

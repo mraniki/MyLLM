@@ -3,6 +3,24 @@
 
 
 
+## v4.0.11 (2024-01-28)
+
+### Other
+
+* Merge pull request #314 from mraniki/dev
+
+⬆️ 🤖 - All the troubles you have will pass away very quickly ([`40733cc`](https://github.com/mraniki/MyLLM/commit/40733ccc7c5f9bc680e54023deefd868d9006779))
+
+### ♻️
+
+* ♻️ ([`2534312`](https://github.com/mraniki/MyLLM/commit/2534312226800b6054d4a29c9e15ca7f2a0f11ca))
+
+* ♻️ ([`ed62fd6`](https://github.com/mraniki/MyLLM/commit/ed62fd6a6bee06c0e8daa9335a19947504d2b5ae))
+
+### 🚨
+
+* 🚨 ([`085d2b3`](https://github.com/mraniki/MyLLM/commit/085d2b318d4714b609a4f0398472266f23c981ad))
+
 ## v4.0.10 (2024-01-28)
 
 ### :zap:

@@ -15,6 +15,7 @@ class MyLLMG4F(AIClient):
     MyLLM class for G4F
 
     """
+
     def __init__(self, **kwargs):
         """
         Initialize the MyLLM object
@@ -37,7 +38,7 @@ class MyLLMG4F(AIClient):
         """
         Asynchronously chats with the user.
 
-        Args: 
+        Args:
             prompt (str): The prompt message from the user.
 
         Returns:
@@ -52,7 +53,7 @@ class MyLLMG4F(AIClient):
             sleep(self.timeout)
             logger.debug("response {}", response)
             if response:
-              self.conversation.add_message("ai", response)
-              return f"{self.llm_prefix} {response}"
+                self.conversation.add_message("ai", response)
+                return f"{self.llm_prefix} {response}"
         except Exception as error:
             logger.error("No response {}", error)

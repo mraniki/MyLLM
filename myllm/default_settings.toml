@@ -53,7 +53,7 @@ general tasks. Be courteuous, simple and direct.
 # enabled = false
 # llm_model= "" # gpt-3.5-turbo" 
 # llm_provider = ""
-# llm_provider_key = "DEADBE4F"
+# llm_provider_key = { __Secure-1PAPISID = "", __Secure-1PSID = "", __Secure-1PSIDCC = "", __Secure-1PSIDTS = "" }
 # max_memory = 100 # Conversation history size
 # timeout = 5 # time lag to wait ai response
 # temperature = 0

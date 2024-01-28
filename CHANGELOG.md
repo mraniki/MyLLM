@@ -3,6 +3,22 @@
 
 
 
+## v4.0.9 (2024-01-28)
+
+### Other
+
+* Merge pull request #312 from mraniki/dev
+
+⬆️ 🤖 - Q	What is printed on the bottom of beer bottles in Minnesota ([`5305f7c`](https://github.com/mraniki/MyLLM/commit/5305f7cbc11d34aee8610d96bbfbef9c377828d5))
+
+### 🐛
+
+* 🐛 ⚡  Support for cookie disctionairy for Bard Client ([`bef3e1f`](https://github.com/mraniki/MyLLM/commit/bef3e1fb9a8ee2110bdd28b49d060b4c2a87d322))
+
+### 🚨
+
+* 🚨 ([`ec6083b`](https://github.com/mraniki/MyLLM/commit/ec6083b931481516715e24e2b082f57da107c163))
+
 ## v4.0.8 (2024-01-27)
 
 ### :recycle:

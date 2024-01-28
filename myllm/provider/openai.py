@@ -42,11 +42,12 @@ class MyLLMOpenAI(AIClient):
         :return: The response from the chat.
         """
         try:
+            self.conversation.add_message("user", prompt)
             response = await self.client.chat.completions.create(
                 messages=[
                     {
                         "role": "user",
-                        "content": prompt,
+                        "content": self.conversation.get_messages(),
                     }
                 ],
                 model=self.llm_model,

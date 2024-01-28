@@ -36,7 +36,7 @@ class MyLLMBard(AIClient):
             if self.enabled:
                 self.client = BardCookies(cookie_dict=self.llm_provider_key)
             else:
-                self.client = None
+                return None
         except Exception as error:
             logger.error("Bard initialization error {}", error)
 

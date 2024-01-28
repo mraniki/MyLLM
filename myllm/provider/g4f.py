@@ -33,7 +33,7 @@ class MyLLMG4F(AIClient):
                 )
                 self.provider = provider_class()
             else:
-                self.client = None
+                return None
         except Exception as error:
             logger.error("G4F initialization error {}", error)
 

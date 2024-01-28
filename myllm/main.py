@@ -71,10 +71,11 @@ class MyLLM:
                 continue
             self.clients.append(client)
             logger.debug(f"Loaded {item}")
-            if self.clients:
-                logger.info(f"Loaded {len(self.clients)} LLM clients")
-            else:
-                logger.warning("No LLM clients loaded. Verify config")
+
+        if self.clients:
+            logger.info(f"Loaded {len(self.clients)} LLM clients")
+        else:
+            logger.warning("No LLM clients loaded. Verify config")
 
     def _create_client(self, **kwargs):
         """

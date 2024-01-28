@@ -3,6 +3,18 @@
 
 
 
+## v4.0.12 (2024-01-28)
+
+### Other
+
+* Merge pull request #315 from mraniki/dev
+
+🐛 ♻️ ([`79632a4`](https://github.com/mraniki/MyLLM/commit/79632a45cb72f2484624740157ce5cb80ef6da98))
+
+### 🐛
+
+* 🐛 ♻️ ([`2b8dbed`](https://github.com/mraniki/MyLLM/commit/2b8dbed4ec273bc50a931f1f49fa2019063d9859))
+
 ## v4.0.11 (2024-01-28)
 
 ### Other

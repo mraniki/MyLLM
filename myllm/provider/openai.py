@@ -57,6 +57,7 @@ class MyLLMOpenAI(AIClient):
 
             if response:
                 response_content = response.choices[0].message.content
+                logger.debug("response_content {}", response_content)
                 self.conversation.add_message("ai", response_content)
                 formatted_response = f"{self.llm_prefix} {response_content}"
                 logger.debug("User: {}, AI: {}", prompt, response_content)

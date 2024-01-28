@@ -3,6 +3,72 @@
 
 
 
+## v4.0.14 (2024-01-28)
+
+### Other
+
+* Merge pull request #317 from mraniki/dev
+
+⚡ ♻️ ([`83866b0`](https://github.com/mraniki/MyLLM/commit/83866b09ff44011625733bf0439736b617a32c51))
+
+### ⚡
+
+* ⚡ ♻️ ([`6c51e0a`](https://github.com/mraniki/MyLLM/commit/6c51e0aa8eb628c9fb6235629186e3a449ee0e04))
+
+### 🔊
+
+* 🔊 ([`d54665e`](https://github.com/mraniki/MyLLM/commit/d54665ede1ff3a4796dee839f34ca24f4609a21c))
+
+### 🚨
+
+* 🚨 ([`264d579`](https://github.com/mraniki/MyLLM/commit/264d579ab7eda1027643208feb092238ec18f249))
+
+## v4.0.13 (2024-01-28)
+
+### Other
+
+* Merge pull request #316 from mraniki/dev
+
+⬆️ 🤖 - So youre back about time ([`8d2f3fc`](https://github.com/mraniki/MyLLM/commit/8d2f3fc1ba221f827307c5b2e6a2ab5ccd27bfbc))
+
+### 🚑
+
+* 🚑 ([`20bffb3`](https://github.com/mraniki/MyLLM/commit/20bffb305aede033f433730feddc57a9c0a5fbe8))
+
+### 🚨
+
+* 🚨 ([`5f8ee35`](https://github.com/mraniki/MyLLM/commit/5f8ee3591f64bd4906b24cf8d54aa7d303c5e34f))
+
+## v4.0.12 (2024-01-28)
+
+### Other
+
+* Merge pull request #315 from mraniki/dev
+
+🐛 ♻️ ([`79632a4`](https://github.com/mraniki/MyLLM/commit/79632a45cb72f2484624740157ce5cb80ef6da98))
+
+### 🐛
+
+* 🐛 ♻️ ([`2b8dbed`](https://github.com/mraniki/MyLLM/commit/2b8dbed4ec273bc50a931f1f49fa2019063d9859))
+
+## v4.0.11 (2024-01-28)
+
+### Other
+
+* Merge pull request #314 from mraniki/dev
+
+⬆️ 🤖 - All the troubles you have will pass away very quickly ([`40733cc`](https://github.com/mraniki/MyLLM/commit/40733ccc7c5f9bc680e54023deefd868d9006779))
+
+### ♻️
+
+* ♻️ ([`2534312`](https://github.com/mraniki/MyLLM/commit/2534312226800b6054d4a29c9e15ca7f2a0f11ca))
+
+* ♻️ ([`ed62fd6`](https://github.com/mraniki/MyLLM/commit/ed62fd6a6bee06c0e8daa9335a19947504d2b5ae))
+
+### 🚨
+
+* 🚨 ([`085d2b3`](https://github.com/mraniki/MyLLM/commit/085d2b318d4714b609a4f0398472266f23c981ad))
+
 ## v4.0.10 (2024-01-28)
 
 ### :zap:

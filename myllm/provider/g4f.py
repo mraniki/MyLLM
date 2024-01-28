@@ -25,12 +25,15 @@ class MyLLMG4F(AIClient):
         """
         try:
             super().__init__(**kwargs)
-            provider_module_name = self.llm_provider
-            provider_module = importlib.import_module(provider_module_name)
-            provider_class = getattr(
-                provider_module, provider_module_name.split(".")[-1]
-            )
-            self.provider = provider_class()
+            if self.enabled:
+                provider_module_name = self.llm_provider
+                provider_module = importlib.import_module(provider_module_name)
+                provider_class = getattr(
+                    provider_module, provider_module_name.split(".")[-1]
+                )
+                self.provider = provider_class()
+            else:
+                return None
         except Exception as error:
             logger.error("G4F initialization error {}", error)
 
@@ -46,14 +49,19 @@ class MyLLMG4F(AIClient):
         """
         try:
             self.conversation.add_message("user", prompt)
+
             response = await self.provider.create_async(
                 model=self.llm_model,
                 messages=self.conversation.get_messages(),
             )
+
             sleep(self.timeout)
+
             logger.debug("response {}", response)
             if response:
                 self.conversation.add_message("ai", response)
-                return f"{self.llm_prefix} {response}"
+                formatted_response = f"{self.llm_prefix} {response}"
+                logger.debug("User: {}, AI: {}", prompt, response)
+                return formatted_response
         except Exception as error:
             logger.error("No response {}", error)

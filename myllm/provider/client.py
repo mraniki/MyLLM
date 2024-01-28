@@ -108,6 +108,21 @@ class Conversation:
         """
         return self.messages
 
+    def get_messages_as_string(self, separator="\n"):
+        """
+        Returns the messages stored in the instance variable as a single string.
+
+        Args:
+            separator (str): The separator to use between messages.
+
+        Returns:
+            str: A string representation of the messages.
+        """
+        messages_str = separator.join(
+            f"{message['role']}: {message['content']}" for message in self.messages
+        )
+        return messages_str
+
     def export_messages(self):
         """
         Export messages to a JSON file.

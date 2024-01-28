@@ -60,6 +60,8 @@ class MyLLMG4F(AIClient):
             logger.debug("response {}", response)
             if response:
                 self.conversation.add_message("ai", response)
-                return f"{self.llm_prefix} {response}"
+                formatted_response = f"{self.llm_prefix} {response}"
+                logger.debug("User: {}, AI: {}", prompt, response)
+                return formatted_response
         except Exception as error:
             logger.error("No response {}", error)

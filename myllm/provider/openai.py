@@ -45,6 +45,7 @@ class MyLLMOpenAI(AIClient):
         """
         try:
             self.conversation.add_message("user", prompt)
+
             response = await self.client.chat.completions.create(
                 messages=[
                     {
@@ -54,13 +55,16 @@ class MyLLMOpenAI(AIClient):
                 ],
                 model=self.llm_model,
             )
+
             sleep(self.timeout)
+
             logger.debug("response {}", response)
-            if response and response.choices:
-                raw_response = response.choices[0].message.content
-                self.conversation.add_message("ai", raw_response)
-                formatted_response = f"{self.llm_prefix} {raw_response}"
-                logger.debug("User: {}, AI: {}", prompt, response)
+
+            if response:
+                response_content = response.choices[0].message.content
+                self.conversation.add_message("ai", response_content)
+                formatted_response = f"{self.llm_prefix} {response_content}"
+                logger.debug("User: {}, AI: {}", prompt, response_content)
                 return formatted_response
         except Exception as error:
             logger.error("No response {}", error)

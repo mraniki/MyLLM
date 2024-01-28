@@ -51,15 +51,15 @@ class MyLLMBard(AIClient):
         try:
             self.conversation.add_message("user", prompt)
 
-            response_content = self.client.get_answer(self.conversation.get_messages())
-            response = response_content["content"]
+            response = self.client.get_answer(self.conversation.get_messages())
 
             sleep(self.timeout)
 
             if response:
-                self.conversation.add_message("ai", response)
-                formatted_response = f"{self.llm_prefix} {response}"
-                logger.debug("User: {}, AI: {}", prompt, response)
+                response_content = response["content"]
+                self.conversation.add_message("ai", response_content)
+                formatted_response = f"{self.llm_prefix} {response_content}"
+                logger.debug("User: {}, AI: {}", prompt, response_content)
                 return formatted_response
             else:
                 logger.warning("Received an empty response for prompt: %s", prompt)

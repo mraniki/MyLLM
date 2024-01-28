@@ -67,6 +67,8 @@ class MyLLM:
                 llm_prefix=_config.get("llm_prefix") or "",
                 llm_template=_config.get("llm_template") or "You are an AI assistant.",
             )
+            if client is None:
+                continue
             self.clients.append(client)
             logger.debug(f"Loaded {item}")
             if self.clients:

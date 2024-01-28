@@ -31,6 +31,7 @@ class MyLLMOpenAI(AIClient):
                 api_key=self.llm_provider_key,
             )
         except Exception as error:
+            self.client = None
             logger.error("OpenAI initialization error {}", error)
 
     async def chat(self, prompt):

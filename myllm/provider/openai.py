@@ -48,7 +48,7 @@ class MyLLMOpenAI(AIClient):
 
             response = await self.client.chat.completions.create(
                 model=self.llm_model,
-                prompt=self.conversation.get_messages(),
+                message=prompt,
             )
 
             sleep(self.timeout)

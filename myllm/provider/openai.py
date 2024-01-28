@@ -27,11 +27,13 @@ class MyLLMOpenAI(AIClient):
         """
         try:
             super().__init__(**kwargs)
-            self.client = AsyncOpenAI(
-                api_key=self.llm_provider_key,
-            )
+            if self.enabled:
+                self.client = AsyncOpenAI(
+                    api_key=self.llm_provider_key,
+                )
+            else:
+                self.client = None
         except Exception as error:
-            self.client = None
             logger.error("OpenAI initialization error {}", error)
 
     async def chat(self, prompt):
@@ -43,6 +45,7 @@ class MyLLMOpenAI(AIClient):
         """
         try:
             self.conversation.add_message("user", prompt)
+
             response = await self.client.chat.completions.create(
                 messages=[
                     {
@@ -52,11 +55,16 @@ class MyLLMOpenAI(AIClient):
                 ],
                 model=self.llm_model,
             )
+
             sleep(self.timeout)
+
             logger.debug("response {}", response)
+
             if response:
-              filtered_response = response.choices[0].message.content
-              self.conversation.add_message("ai", filtered_response)
-              return f"{self.llm_prefix} {filtered_response}"
+                response_content = response.choices[0].message.content
+                self.conversation.add_message("ai", response_content)
+                formatted_response = f"{self.llm_prefix} {response_content}"
+                logger.debug("User: {}, AI: {}", prompt, response_content)
+                return formatted_response
         except Exception as error:
             logger.error("No response {}", error)

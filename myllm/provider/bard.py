@@ -33,9 +33,11 @@ class MyLLMBard(AIClient):
         """
         try:
             super().__init__(**kwargs)
-            self.client = BardCookies(cookie_dict=self.llm_provider_key)
+            if self.enabled:
+                self.client = BardCookies(cookie_dict=self.llm_provider_key)
+            else:
+                self.client = None
         except Exception as error:
-            self.client = None
             logger.error("Bard initialization error {}", error)
 
     async def chat(self, prompt):
@@ -48,12 +50,18 @@ class MyLLMBard(AIClient):
         """
         try:
             self.conversation.add_message("user", prompt)
-            response = self.client.get_answer(
-              self.conversation.get_messages())["content"]
+
+            response = self.client.get_answer(self.conversation.get_messages())
+
             sleep(self.timeout)
-            logger.debug("response {}", response)
+
             if response:
-                self.conversation.add_message("ai", response)
-                return f"{self.llm_prefix} {response}"
+                response_content = response["content"]
+                self.conversation.add_message("ai", response_content)
+                formatted_response = f"{self.llm_prefix} {response_content}"
+                logger.debug("User: {}, AI: {}", prompt, response_content)
+                return formatted_response
+            else:
+                logger.warning("Received an empty response for prompt: %s", prompt)
         except Exception as error:
             logger.error("No response {}", error)

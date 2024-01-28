@@ -3,6 +3,18 @@
 
 
 
+## v4.0.10 (2024-01-28)
+
+### :zap:
+
+* :zap:History support in Bard and OpenAI providers ([`6fcb0b9`](https://github.com/mraniki/MyLLM/commit/6fcb0b9563f23ac56f5c71ba5dd301e229112e05))
+
+### Other
+
+* Merge pull request #313 from mraniki/dev
+
+⬆️ 🤖 - One of the most striking differences between a cat and a lie is that a cat has ([`c3aedc9`](https://github.com/mraniki/MyLLM/commit/c3aedc92e5344ff2dc568f8a9930de973596c940))
+
 ## v4.0.9 (2024-01-28)
 
 ### Other

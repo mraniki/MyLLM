@@ -3,6 +3,18 @@
 
 
 
+## v4.0.15 (2024-01-28)
+
+### Other
+
+* Merge pull request #318 from mraniki/dev
+
+⬆️ 🤖 - Good day for a change of scene  Repaper the bedroom wall ([`61a03eb`](https://github.com/mraniki/MyLLM/commit/61a03ebf38d6ab107ba0d647eebc0b62f448b3f9))
+
+### ⚡
+
+* ⚡ ([`3f07dba`](https://github.com/mraniki/MyLLM/commit/3f07dba06691048607b503c5881954d502af00d7))
+
 ## v4.0.14 (2024-01-28)
 
 ### Other

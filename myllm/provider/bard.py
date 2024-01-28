@@ -6,7 +6,7 @@ via https://github.com/dsdanielpark/Bard-API
 """
 from time import sleep
 
-from bardapi import Bard
+from bardapi import BardCookies
 from loguru import logger
 
 from myllm.provider.client import AIClient
@@ -21,6 +21,9 @@ class MyLLMBard(AIClient):
     def __init__(self, **kwargs):
         """
         Initializes the object with the given keyword arguments.
+        The client is initialized with the given cookie dictionary.
+        refer to
+        https://github.com/dsdanielpark/Bard-API/blob/main/documents/README_DEV.md#multi-cookie-bard
 
         Args:
             **kwargs: Variable length keyword arguments.
@@ -30,9 +33,9 @@ class MyLLMBard(AIClient):
         """
         try:
             super().__init__(**kwargs)
-            logger.debug("Bard key {}", self.llm_provider_key)
-            self.client = Bard(token=self.llm_provider_key)
+            self.client = BardCookies(cookie_dict=self.llm_provider_key)
         except Exception as error:
+            self.client = None
             logger.error("Bard initialization error {}", error)
 
     async def chat(self, prompt):
@@ -48,7 +51,7 @@ class MyLLMBard(AIClient):
             sleep(self.timeout)
             logger.debug("response {}", response)
             if response:
-              self.conversation.add_message("ai", response)
-              return f"{self.llm_prefix} {response}"
+                self.conversation.add_message("ai", response)
+                return f"{self.llm_prefix} {response}"
         except Exception as error:
             logger.error("No response {}", error)

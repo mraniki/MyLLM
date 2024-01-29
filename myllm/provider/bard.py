@@ -39,6 +39,7 @@ class MyLLMBard(AIClient):
                 return None
         except Exception as error:
             logger.error("Bard initialization error {}", error)
+            return None
 
     async def chat(self, prompt):
         """

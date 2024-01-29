@@ -35,6 +35,7 @@ class MyLLMOpenAI(AIClient):
                 return None
         except Exception as error:
             logger.error("OpenAI initialization error {}", error)
+            return None
 
     async def chat(self, prompt):
         """

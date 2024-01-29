@@ -3,6 +3,20 @@
 
 
 
+## v4.0.18 (2024-01-29)
+
+### Other
+
+* Merge pull request #323 from mraniki/dev
+
+⬆️ 🤖 - You may my glories and my state dispose ([`5aa386e`](https://github.com/mraniki/MyLLM/commit/5aa386eea7d3b1decd926cde2e9e93ab5e04a6fa))
+
+### ✅
+
+* ✅ Unit Test ([`32803d1`](https://github.com/mraniki/MyLLM/commit/32803d104cee86a82aafa3fc5bce86024f0fb835))
+
+* ✅ Unit Test ([`0f6bb62`](https://github.com/mraniki/MyLLM/commit/0f6bb62d84e421e82d0bc7cdcd59b2ba31aacca6))
+
 ## v4.0.17 (2024-01-29)
 
 ### Other

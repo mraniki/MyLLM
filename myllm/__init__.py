@@ -1,7 +1,7 @@
 """
  Versioning
 """
-__version__ = "4.0.17"
+__version__ = "4.0.18"
 
 from .main import MyLLM
 

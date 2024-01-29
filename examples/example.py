@@ -25,7 +25,8 @@ async def main():
     print(chat)
     # 🐻 You told me your name is Jack. Is that correct?
 
-    talky.conversation.export_messages()
+    await talky.export_chat_history()
+    # talky.clear_chat_history()
 
 
 if __name__ == "__main__":

@@ -55,7 +55,7 @@ class Ollama(AIClient):
 
         #     if response:
         #         response_content = response["content"]
-        #         self.conversation.add_message("ai", response_content)
+        #         self.conversation.add_message("assistant", response_content)
         #         formatted_response = f"{self.llm_prefix} {response_content}"
         #         logger.debug("User: {}, AI: {}", prompt, response_content)
         #         return formatted_response

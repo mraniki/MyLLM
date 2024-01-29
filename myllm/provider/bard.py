@@ -6,7 +6,7 @@ via https://github.com/dsdanielpark/Bard-API
 """
 from time import sleep
 
-from bardapi import Bard
+from bardapi import BardCookies
 from loguru import logger
 
 from myllm.provider.client import AIClient
@@ -34,7 +34,7 @@ class BardLLM(AIClient):
         try:
             super().__init__(**kwargs)
             if self.enabled:
-                self.client = Bard(cookie_dict=self.llm_provider_key)
+                self.client = BardCookies(cookie_dict=self.llm_provider_key)
             else:
                 return None
         except Exception as error:
@@ -60,7 +60,7 @@ class BardLLM(AIClient):
 
             if response:
                 response_content = response["content"]
-                self.conversation.add_message("ai", response_content)
+                self.conversation.add_message("assistant", response_content)
                 formatted_response = f"{self.llm_prefix} {response_content}"
                 logger.debug("User: {}, AI: {}", prompt, response_content)
                 return formatted_response

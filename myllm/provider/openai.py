@@ -7,12 +7,12 @@ via https://github.com/openai/openai-python
 from time import sleep
 
 from loguru import logger
-from openai import AsyncOpenAI
+from openai import OpenAI
 
 from myllm.provider.client import AIClient
 
 
-class MyLLMOpenAI(AIClient):
+class OpenAILLM(AIClient):
     """
     MyLLM class for OpenAI
 
@@ -28,7 +28,7 @@ class MyLLMOpenAI(AIClient):
         try:
             super().__init__(**kwargs)
             if self.enabled:
-                self.client = AsyncOpenAI(
+                self.client = OpenAI(
                     api_key=self.llm_provider_key,
                 )
             else:
@@ -46,12 +46,12 @@ class MyLLMOpenAI(AIClient):
         """
         try:
             self.conversation.add_message("user", prompt)
-            messages = self.conversation.get_messages()
-            logger.debug("messages {}", messages)
+            archived_messages = self.conversation.get_messages()
+            logger.debug("archived_messages {}", archived_messages)
 
-            response = await self.client.chat.completions.create(
+            response = self.client.chat.completions.create(
                 model=self.llm_model,
-                messages=prompt,
+                messages=archived_messages,
             )
             sleep(self.timeout)
             logger.debug("response {}", response)
@@ -59,7 +59,7 @@ class MyLLMOpenAI(AIClient):
             if response:
                 response_content = response.choices[0].message.content
                 logger.debug("response_content {}", response_content)
-                self.conversation.add_message("ai", response_content)
+                self.conversation.add_message("assistant", response_content)
                 formatted_response = f"{self.llm_prefix} {response_content}"
                 logger.debug("User: {}, AI: {}", prompt, response_content)
                 return formatted_response

@@ -8,7 +8,7 @@ from loguru import logger
 
 from myllm import __version__
 from myllm.config import settings
-from myllm.provider import MyLLMBard, MyLLMG4F, MyLLMOpenAI
+from myllm.provider import G4FLLM, BardLLM, Ollama, OpenAILLM
 
 
 class MyLLM:
@@ -69,10 +69,10 @@ class MyLLM:
                     llm_template=_config.get("llm_template")
                     or "You are an AI assistant.",
                 )
-                if client is None:
-                    continue
-                self.clients.append(client)
-                logger.debug(f"Loaded {item}")
+                logger.debug("Client: {}", client)
+                if client.client:
+                    self.clients.append(client)
+                    logger.debug(f"Loaded {item}")
 
         if self.clients:
             logger.info(f"Loaded {len(self.clients)} LLM clients")
@@ -96,11 +96,13 @@ class MyLLM:
         """
         logger.debug("Creating client {}", kwargs["llm_library"])
         if kwargs["llm_library"] == "bard":
-            return MyLLMBard(**kwargs)
+            return BardLLM(**kwargs)
         elif kwargs["llm_library"] == "openai":
-            return MyLLMOpenAI(**kwargs)
+            return OpenAILLM(**kwargs)
+        elif kwargs["llm_library"] == "ollama":
+            return Ollama(**kwargs)
         else:
-            return MyLLMG4F(**kwargs)
+            return G4FLLM(**kwargs)
 
     async def get_info(self):
         """
@@ -118,12 +120,15 @@ class MyLLM:
         return version_info + client_info.strip()
 
     async def chat(self, prompt):
-        _chats = ["🤖 Chats"]
+        _chats = []
         for client in self.clients:
-            _chats.append(f"{client.llm_library}\n{await client.chat(prompt)}")
-        return "\n".join(_chats)
+            data = await client.chat(prompt)
+            if data:
+                _chats.append(f"{client.llm_library}\n{data}")
+        if _chats:
+            return "\n".join(_chats)
 
-    async def export_chat_history(self, prompt):
+    async def export_chat_history(self):
         try:
             for client in self.clients:
                 await client.export_chat_history()

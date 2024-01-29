@@ -20,7 +20,7 @@ VALUE = "On default"
 myllm_enabled = true
 
 [default.myllm.template]
-enabled = true
+enabled = false
 llm_model= "gpt_4"
 llm_provider = "g4f.Provider.Bing" # Refer to https://github.com/xtekky/gpt4free
 llm_provider_key = ""

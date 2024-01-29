@@ -48,7 +48,8 @@ async def test_myllmclient(talky):
         assert callable(llm.clear_chat_history)
 
 
-# @pytest.mark.asyncio
-# async def test_get_chats(talky):
-#     result = await talky.chat("tell me a story")
-#     assert result is not None
+
+@pytest.mark.asyncio
+async def test_get_chats(talky):
+    result = await talky.chat("tell me a story")
+    assert result is not None

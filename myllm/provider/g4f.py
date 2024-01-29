@@ -36,6 +36,7 @@ class MyLLMG4F(AIClient):
                 return None
         except Exception as error:
             logger.error("G4F initialization error {}", error)
+            return None
 
     async def chat(self, prompt):
         """

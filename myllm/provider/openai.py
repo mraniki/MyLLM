@@ -35,6 +35,7 @@ class MyLLMOpenAI(AIClient):
                 return None
         except Exception as error:
             logger.error("OpenAI initialization error {}", error)
+            return None
 
     async def chat(self, prompt):
         """
@@ -45,14 +46,14 @@ class MyLLMOpenAI(AIClient):
         """
         try:
             self.conversation.add_message("user", prompt)
+            messages = self.conversation.get_messages()
+            logger.debug("messages {}", messages)
 
             response = await self.client.chat.completions.create(
                 model=self.llm_model,
-                message=prompt,
+                messages=prompt,
             )
-
             sleep(self.timeout)
-
             logger.debug("response {}", response)
 
             if response:

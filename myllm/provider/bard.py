@@ -6,7 +6,7 @@ via https://github.com/dsdanielpark/Bard-API
 """
 from time import sleep
 
-from bardapi import BardCookies
+from bardapi import Bard
 from loguru import logger
 
 from myllm.provider.client import AIClient
@@ -34,7 +34,7 @@ class MyLLMBard(AIClient):
         try:
             super().__init__(**kwargs)
             if self.enabled:
-                self.client = BardCookies(cookie_dict=self.llm_provider_key)
+                self.client = Bard(cookie_dict=self.llm_provider_key)
             else:
                 return None
         except Exception as error:
@@ -51,13 +51,12 @@ class MyLLMBard(AIClient):
         """
         try:
             self.conversation.add_message("user", prompt)
-
-            response = self.client.get_answer(prompt)
-            logger.debug("response {}", response)
             messages = self.conversation.get_messages()
             logger.debug("messages {}", messages)
 
+            response = self.client.get_answer(prompt)
             sleep(self.timeout)
+            logger.debug("response {}", response)
 
             if response:
                 response_content = response["content"]

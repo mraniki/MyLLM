@@ -3,6 +3,22 @@
 
 
 
+## v4.0.17 (2024-01-29)
+
+### Other
+
+* Merge pull request #322 from mraniki/dev
+
+⬆️ 🤖 - So so is good very good very excellent good ([`2c5c812`](https://github.com/mraniki/MyLLM/commit/2c5c812510c7c40b6485bb67efe9517aa81f0658))
+
+### ♻️
+
+* ♻️ ([`189e61c`](https://github.com/mraniki/MyLLM/commit/189e61c60a89df571877163048a08867524c7390))
+
+### ⚡
+
+* ⚡ ([`112cae6`](https://github.com/mraniki/MyLLM/commit/112cae64dd1d53c8e69b49871548f74c89fb2759))
+
 ## v4.0.16 (2024-01-29)
 
 ### Other

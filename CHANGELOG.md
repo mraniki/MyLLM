@@ -3,6 +3,22 @@
 
 
 
+## v4.0.16 (2024-01-29)
+
+### Other
+
+* Merge pull request #321 from mraniki/dev
+
+⬆️ 🤖 - You are a very redundant person thats what kind of person you are ([`7e98436`](https://github.com/mraniki/MyLLM/commit/7e984366106d3ac911ad651587b8eaf7594dfa8e))
+
+### ⚡
+
+* ⚡ ([`6fe9ade`](https://github.com/mraniki/MyLLM/commit/6fe9adee79e9c385553f2064ff3d3849fde68323))
+
+### 🐛
+
+* ♻️ 🐛 ([`2a2d497`](https://github.com/mraniki/MyLLM/commit/2a2d497ec3a4e496de9cd06ac5c87d3e98c4417e))
+
 ## v4.0.15 (2024-01-28)
 
 ### Other

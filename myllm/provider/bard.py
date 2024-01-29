@@ -12,7 +12,7 @@ from loguru import logger
 from myllm.provider.client import AIClient
 
 
-class MyLLMBard(AIClient):
+class BardLLM(AIClient):
     """
     MyLLM class for Bard
 

@@ -8,7 +8,7 @@ from loguru import logger
 
 from myllm import __version__
 from myllm.config import settings
-from myllm.provider import MyLLMBard, MyLLMG4F, MyLLMOpenAI
+from myllm.provider.client import G4F, BardLLM, Ollama, OpenAI
 
 
 class MyLLM:
@@ -96,11 +96,13 @@ class MyLLM:
         """
         logger.debug("Creating client {}", kwargs["llm_library"])
         if kwargs["llm_library"] == "bard":
-            return MyLLMBard(**kwargs)
+            return BardLLM(**kwargs)
         elif kwargs["llm_library"] == "openai":
-            return MyLLMOpenAI(**kwargs)
+            return OpenAI(**kwargs)
+        elif kwargs["llm_library"] == "ollama":
+            return Ollama(**kwargs)
         else:
-            return MyLLMG4F(**kwargs)
+            return G4F(**kwargs)
 
     async def get_info(self):
         """

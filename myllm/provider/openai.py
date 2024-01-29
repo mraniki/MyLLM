@@ -12,7 +12,7 @@ from openai import AsyncOpenAI
 from myllm.provider.client import AIClient
 
 
-class MyLLMOpenAI(AIClient):
+class OpenAI(AIClient):
     """
     MyLLM class for OpenAI
 

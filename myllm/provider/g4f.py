@@ -10,7 +10,7 @@ from loguru import logger
 from myllm.provider.client import AIClient
 
 
-class MyLLMG4F(AIClient):
+class G4F(AIClient):
     """
     MyLLM class for G4F
 

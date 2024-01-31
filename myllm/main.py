@@ -120,15 +120,29 @@ class MyLLM:
         return version_info + client_info.strip()
 
     async def chat(self, prompt):
+        """
+        Asynchronously sends the prompt to each client for a response.
+        Concatenates the library name with the response if
+        multiple clients are present.
+        Returns just the response if a single client is available.
+        """
         _chats = []
         for client in self.clients:
             data = await client.chat(prompt)
             if data:
-                _chats.append(f"{client.llm_library}\n{data}")
+                if len(self.clients) > 1:
+                    _chats.append(f"{client.llm_library}\n{data}")
+                else:
+                    return data
         if _chats:
             return "\n".join(_chats)
 
     async def export_chat_history(self):
+        """
+        Asynchronous function to export chat history for each
+        client in the list of clients.
+        Catches any exceptions and logs them using the logger.
+        """
         try:
             for client in self.clients:
                 await client.export_chat_history()
@@ -136,6 +150,10 @@ class MyLLM:
             logger.error(e)
 
     async def clear_chat_history(self):
+        """
+        Asynchronously clears the chat history for each
+        client in the list of clients.
+        """
         try:
             for client in self.clients:
                 await client.clear_chat_history()

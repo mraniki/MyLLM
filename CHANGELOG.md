@@ -3,6 +3,18 @@
 
 
 
+## v4.0.19 (2024-01-31)
+
+### Other
+
+* Merge pull request #324 from mraniki/dev
+
+⬆️ 🤖 - Q	Whats the difference betweeen USL and the Graf Zeppelin ([`48116e5`](https://github.com/mraniki/MyLLM/commit/48116e56c6836d67fce934627ffb9d7dd05fe0d7))
+
+### ⚡
+
+* ⚡ add a condition to check if there is only one client ([`070ba7d`](https://github.com/mraniki/MyLLM/commit/070ba7d0d66a77bee34184c42c628272965cf9c7))
+
 ## v4.0.18 (2024-01-29)
 
 ### Other

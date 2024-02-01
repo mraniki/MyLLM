@@ -3,6 +3,26 @@
 
 
 
+## v4.0.20 (2024-02-01)
+
+### Other
+
+* Merge pull request #326 from mraniki/dev
+
+🐛 missing g4f lib dep ([`3fb3a40`](https://github.com/mraniki/MyLLM/commit/3fb3a40c8235dbefa397eda8e50146ce517e1613))
+
+* Merge pull request #325 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.0.9 ([`e565897`](https://github.com/mraniki/MyLLM/commit/e565897bc9d457484d81bad39fa14a3ea4e9de3c))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.0.9 ([`59dd19b`](https://github.com/mraniki/MyLLM/commit/59dd19b3542f16c904a947cd72ded7220d03d8ff))
+
+### 🐛
+
+* 🐛 missing g4f lib dep ([`738a360`](https://github.com/mraniki/MyLLM/commit/738a360103fd996384ea7ebb743931bfc71319d4))
+
 ## v4.0.19 (2024-01-31)
 
 ### Other

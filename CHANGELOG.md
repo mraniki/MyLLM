@@ -3,6 +3,20 @@
 
 
 
+## v4.0.21 (2024-02-03)
+
+### Other
+
+* Merge pull request #328 from mraniki/dev
+
+⬆️ 🤖 - You are confused but this is your normal state ([`adc0b33`](https://github.com/mraniki/MyLLM/commit/adc0b339cf84d45fefd477d82eb9be4d5a0b144a))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.11.0 ([`cc73c86`](https://github.com/mraniki/MyLLM/commit/cc73c867545cddb2d407b6b922bee2374e8e7ed5))
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.2.0 ([`4c7dc3a`](https://github.com/mraniki/MyLLM/commit/4c7dc3aa028480a7d71a10d880ed8677a95c0366))
+
 ## v4.0.20 (2024-02-01)
 
 ### Other

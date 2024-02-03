@@ -31,13 +31,13 @@ js2py = "^0.74"
 PyExecJS2="1.6.1"
 g4f = "0.2.0.9"
 curl_cffi = "0.5.10"
-openai = "1.10.0"
+openai = "1.11.0"
 bardapi = "0.1.39"
 
 
 [tool.poetry.group.dev.dependencies]
 python-semantic-release = ">=8.0.8"
-ruff = "^0.1.0"
+ruff = "^0.2.0"
 black = "^23.3.0"
 pre-commit = "^3.3.1"
 

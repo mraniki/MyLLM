@@ -3,6 +3,20 @@
 
 
 
+## v4.0.22 (2024-02-05)
+
+### Other
+
+* Merge pull request #332 from mraniki/dev
+
+⬆️ 🤖 - Stay the curse ([`b537b31`](https://github.com/mraniki/MyLLM/commit/b537b31f70c350d1d0bf6d0cfde90ba70ac5ca3b))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.11.1 ([`8ea9c67`](https://github.com/mraniki/MyLLM/commit/8ea9c675e34f76d5de38de0f82a4ec26e5fd248c))
+
+* ⬆️ 🛠️(deps): update dependency linkify-it-py to v2.0.3 ([`c6f0340`](https://github.com/mraniki/MyLLM/commit/c6f0340ca4eaa929325e3dfe543a7fffbdc96de1))
+
 ## v4.0.21 (2024-02-03)
 
 ### Other

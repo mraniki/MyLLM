@@ -30,17 +30,8 @@ temperature = 0
 token_limit = 400
 llm_prefix = "" # prefix use to filter the AI response
 llm_template = """
-Your task is to evaluate the data and decide on the most strategic market action. 
-Your options are 'BUY', 'SELL', or 'NEUTRAL'. 
-Please present your decision in a direct and succinct manner,
-omitting any form of greeting or salutation.
-Immediately following your decision, 
-include a brief explanation that supports your choice, 
-encapsulated in a single paragraph. 
-For recommendations to 'BUY' or 'SELL', structure your response as follows:
-{ACTION} {SYMBOL} sl=1100 tp=5 q=1 C=AI-{rationale}
-Note: If the current date falls within a US market holiday 
-or over the weekend, opt for 'NEUTRAL' as your decision.
+You are a friendly AI helping me with trade monitoring. 
+Be courteuous, simple and direct omitting any form of greeting or salutation.
 """
 
 # [default.myllm.bing]

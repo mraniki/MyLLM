@@ -21,8 +21,8 @@ myllm_enabled = true
 
 [default.myllm.template]
 enabled = false
-llm_model= "gpt_4"
-llm_provider = "g4f.Provider.Bing" # Refer to https://github.com/xtekky/gpt4free
+llm_model= "gpt-4"
+llm_provider = "g4f.Provider.Liaobots" # Refer to https://github.com/xtekky/gpt4free
 llm_provider_key = ""
 max_memory = 100 # Conversation history size
 timeout = 5 # time lag to wait ai response
@@ -30,9 +30,33 @@ temperature = 0
 token_limit = 400
 llm_prefix = "" # prefix use to filter the AI response
 llm_template = """
-You are a friendly AI, helping me with 
-general tasks. Be courteuous, simple and direct.
+Your task is to evaluate the data and decide on the most strategic market action. 
+Your options are 'BUY', 'SELL', or 'NEUTRAL'. 
+Please present your decision in a direct and succinct manner,
+omitting any form of greeting or salutation.
+Immediately following your decision, 
+include a brief explanation that supports your choice, 
+encapsulated in a single paragraph. 
+For recommendations to 'BUY' or 'SELL', structure your response as follows:
+{ACTION} {SYMBOL} sl=1100 tp=5 q=1 C=AI-{rationale}
+Note: If the current date falls within a US market holiday 
+or over the weekend, opt for 'NEUTRAL' as your decision.
 """
+
+# [default.myllm.bing]
+# enabled = false
+# llm_model= "gpt_4"
+# llm_provider = "g4f.Provider.Bing" # Refer to https://github.com/xtekky/gpt4free
+# llm_provider_key = ""
+# max_memory = 100 # Conversation history size
+# timeout = 5 # time lag to wait ai response
+# temperature = 0
+# token_limit = 400
+# llm_prefix = "" # prefix use to filter the AI response
+# llm_template = """
+# You are a friendly AI, helping me with 
+# general tasks. Be courteuous, simple and direct.
+# """
 
 # [default.myllm.openai] 
 # enabled = true

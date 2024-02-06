@@ -3,6 +3,44 @@
 
 
 
+## v4.0.24 (2024-02-06)
+
+### Other
+
+* Merge pull request #335 from mraniki/dev
+
+⬆️ 🤖 - I dont know half of you half as well as I should like and I like less ([`66a8759`](https://github.com/mraniki/MyLLM/commit/66a8759953f50d22ee2f5819bbf86e87072c7e59))
+
+### ♻️
+
+* ♻️ bard refactor in case of misconfig ([`7b0307b`](https://github.com/mraniki/MyLLM/commit/7b0307bf88dd681aea76b1ba43e9c8595458216b))
+
+* ♻️ ([`bbb2258`](https://github.com/mraniki/MyLLM/commit/bbb225875bfedc8e97f51a8fc240febf4db7bacd))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.0 ([`0f2571d`](https://github.com/mraniki/MyLLM/commit/0f2571dcd3c9f387604ad22ddd3a761c12388cfd))
+
+### 🐛
+
+* 🐛 ([`5331c31`](https://github.com/mraniki/MyLLM/commit/5331c31312096897f400abc745c3fded876acccc))
+
+* 🐛 ([`43b08a6`](https://github.com/mraniki/MyLLM/commit/43b08a6262257b847697f18575a91ed02da07818))
+
+### 🔧
+
+* 🔧 ([`4768630`](https://github.com/mraniki/MyLLM/commit/4768630b2eeb32884e9dd9e38fd87e6a7b8ae52e))
+
+* ✅ Unit Test 🔧 ([`85dfffd`](https://github.com/mraniki/MyLLM/commit/85dfffd32cad9eb434cd58ff29489fad8c39c266))
+
+* 🔧 ([`c7b3a08`](https://github.com/mraniki/MyLLM/commit/c7b3a088e4bd88683dac235f2d1b5cac127d5fc6))
+
+* 🔧 Improve config and allowed multi llm per lib ([`22a345b`](https://github.com/mraniki/MyLLM/commit/22a345b6088fc084f6f31c7c4665ea1d3f490038))
+
+### 🥅
+
+* 🥅 better error handling ([`fdd6fb8`](https://github.com/mraniki/MyLLM/commit/fdd6fb836d248180f65e369859531670faf29f93))
+
 ## v4.0.23 (2024-02-06)
 
 ### Other

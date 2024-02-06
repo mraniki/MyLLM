@@ -95,7 +95,7 @@ class MyLLM:
             return OpenAILLM(**kwargs)
         elif kwargs["llm_library"] == "ollama":
             return Ollama(**kwargs)
-        elif kwargs["llm_library"] == "gf4":
+        elif kwargs["llm_library"] == "g4f":
             return G4FLLM(**kwargs)
         else:
             logger.error("llm_library {} not supported", kwargs["llm_library"])

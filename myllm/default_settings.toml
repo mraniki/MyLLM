@@ -12,7 +12,7 @@
 # [default]
 # myllm_enabled = false
 
-[default]
+# [default]
 # # Dynaconf settings verification
 # VALUE = "On default"
 

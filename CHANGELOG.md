@@ -3,6 +3,20 @@
 
 
 
+## v4.0.23 (2024-02-06)
+
+### Other
+
+* Merge pull request #334 from mraniki/dev
+
+⬆️ 🤖 - Let me put it this way today is going to be a learning experience ([`8fd1040`](https://github.com/mraniki/MyLLM/commit/8fd10407f07196a042a5b6f91c726ede05905bfb))
+
+### 🔧
+
+* 🔧 ([`e98f4d3`](https://github.com/mraniki/MyLLM/commit/e98f4d33a3b287b02f714a4cc52a64d4cc80dfe0))
+
+* 🔧 ([`1871af3`](https://github.com/mraniki/MyLLM/commit/1871af31a03fec350aebb97b99753ce73dc89e6a))
+
 ## v4.0.22 (2024-02-05)
 
 ### Other

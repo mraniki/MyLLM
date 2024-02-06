@@ -3,6 +3,18 @@
 
 
 
+## v4.0.26 (2024-02-06)
+
+### Other
+
+* Merge pull request #337 from mraniki/dev
+
+⬆️ 🤖 - You are fighting for survival in your own sweet and gentle way ([`6fe1faa`](https://github.com/mraniki/MyLLM/commit/6fe1faac920e7f55040cad5bb94ba552dfa721f2))
+
+### ♻️
+
+* ♻️ ([`5c61699`](https://github.com/mraniki/MyLLM/commit/5c61699e044db1743c3027b30110c1c8b0579283))
+
 ## v4.0.25 (2024-02-06)
 
 ### Other

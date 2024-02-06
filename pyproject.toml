@@ -31,6 +31,7 @@ js2py = "^0.74"
 PyExecJS2="1.6.1"
 g4f = "0.2.1.0"
 curl_cffi = "0.5.10"
+Brotli = "1.1.0"
 openai = "1.11.1"
 bardapi = "0.1.39"
 

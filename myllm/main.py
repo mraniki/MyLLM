@@ -8,7 +8,7 @@ from loguru import logger
 
 from myllm import __version__
 from myllm.config import settings
-from myllm.provider import G4FLLM, BardLLM, Ollama, OpenAILLM
+from myllm.provider import G4FLLM, BardLLM, OpenAILLM
 
 
 class MyLLM:
@@ -97,8 +97,8 @@ class MyLLM:
                 return BardLLM(**kwargs)
             elif kwargs["llm_library"] == "openai":
                 return OpenAILLM(**kwargs)
-            elif kwargs["llm_library"] == "ollama":
-                return Ollama(**kwargs)
+            # elif kwargs["llm_library"] == "ollama":
+            #     return Ollama(**kwargs)
             elif kwargs["llm_library"] == "g4f":
                 return G4FLLM(**kwargs)
             else:

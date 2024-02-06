@@ -35,49 +35,46 @@ class MyLLM:
         Args:
             None
         """
+        try:
+            self.enabled = settings.myllm_enabled
+            if not self.enabled:
+                return
+            logger.info("Initializing MyLLM")
+            config = settings.myllm
+            self.clients = []
+            for item in config:
+                logger.debug("Client configuration starting: {}", item)
+                _config = config[item]
+                if item in ["", "template"]:
+                    continue
+                logger.debug("MyLLM client configuration starting: {}", item)
+                if _config.get("enabled") is True:
+                    client = self._create_client(
+                        llm_library=_config.get("llm_library") or item,
+                        enabled=_config.get("enabled") or True,
+                        llm_model=_config.get("llm_model"),
+                        llm_provider=_config.get("llm_provider"),
+                        llm_provider_key=_config.get("llm_provider_key"),
+                        max_memory=_config.get("max_memory") or 5,
+                        timeout=_config.get("timeout") or 10,
+                        temperature=_config.get("temperature") or 0,
+                        token_limit=_config.get("token_limit") or 400,
+                        llm_prefix=_config.get("llm_prefix") or "",
+                        llm_template=_config.get("llm_template")
+                        or "You are an AI assistant.",
+                    )
+                    logger.debug("Client: {}", client)
+                    if client.client:
+                        self.clients.append(client)
+                        logger.debug(f"Loaded {item}")
 
-        self.enabled = settings.myllm_enabled
-        if not self.enabled:
-            return
-        logger.info("Initializing MyLLM")
-        config = settings.myllm
-        self.clients = []
-        for item in config:
-            logger.debug("Client configuration starting: {}", item)
-            _config = config[item]
-            if item in ["", "template"]:
-                continue
-            provider = item
-            if provider not in ["g4f", "openai", "bard"]:
-                logger.warning(
-                    f"Skipping client creation for unsupported provider: {provider}"
-                )
-                continue
-            logger.debug("Client provider: {}", provider)
-            if _config.get("enabled") is True:
-                client = self._create_client(
-                    llm_library=provider,
-                    enabled=_config.get("enabled") or True,
-                    llm_model=_config.get("llm_model"),
-                    llm_provider=_config.get("llm_provider"),
-                    llm_provider_key=_config.get("llm_provider_key"),
-                    max_memory=_config.get("max_memory") or 5,
-                    timeout=_config.get("timeout") or 10,
-                    temperature=_config.get("temperature") or 0,
-                    token_limit=_config.get("token_limit") or 400,
-                    llm_prefix=_config.get("llm_prefix") or "",
-                    llm_template=_config.get("llm_template")
-                    or "You are an AI assistant.",
-                )
-                logger.debug("Client: {}", client)
-                if client.client:
-                    self.clients.append(client)
-                    logger.debug(f"Loaded {item}")
+            if self.clients:
+                logger.info(f"Loaded {len(self.clients)} LLM clients")
+            else:
+                logger.warning("No LLM clients loaded. Verify config")
 
-        if self.clients:
-            logger.info(f"Loaded {len(self.clients)} LLM clients")
-        else:
-            logger.warning("No LLM clients loaded. Verify config")
+        except Exception as e:
+            logger.error(e)
 
     def _create_client(self, **kwargs):
         """
@@ -94,15 +91,21 @@ class MyLLM:
             the specified protocol.
 
         """
-        logger.debug("Creating client {}", kwargs["llm_library"])
-        if kwargs["llm_library"] == "bard":
-            return BardLLM(**kwargs)
-        elif kwargs["llm_library"] == "openai":
-            return OpenAILLM(**kwargs)
-        elif kwargs["llm_library"] == "ollama":
-            return Ollama(**kwargs)
-        else:
-            return G4FLLM(**kwargs)
+        try:
+            logger.debug("Creating client {}", kwargs["llm_library"])
+            if kwargs["llm_library"] == "bard":
+                return BardLLM(**kwargs)
+            elif kwargs["llm_library"] == "openai":
+                return OpenAILLM(**kwargs)
+            elif kwargs["llm_library"] == "ollama":
+                return Ollama(**kwargs)
+            elif kwargs["llm_library"] == "g4f":
+                return G4FLLM(**kwargs)
+            else:
+                logger.error("llm_library {} not supported", kwargs["llm_library"])
+                return None
+        except Exception as error:
+            logger.error(error)
 
     async def get_info(self):
         """

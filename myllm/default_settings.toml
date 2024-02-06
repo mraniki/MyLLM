@@ -9,8 +9,8 @@
 # As an example, to disable the 
 # myllm object:
 # settings.toml
-# [default]
-# myllm_enabled = false
+[default]
+myllm_enabled = false
 
 # [default]
 # # Dynaconf settings verification

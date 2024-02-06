@@ -3,6 +3,18 @@
 
 
 
+## v4.0.25 (2024-02-06)
+
+### Other
+
+* Merge pull request #336 from mraniki/dev
+
+⬆️ 🤖 - You dont become a failure until youre satisfied with being one ([`34f27de`](https://github.com/mraniki/MyLLM/commit/34f27de0a140556f8b57d0e9ff60a611d9629290))
+
+### ♻️
+
+* ♻️ ([`e05584a`](https://github.com/mraniki/MyLLM/commit/e05584a4691f75ed07a0f3f138554c3b8ead7cf3))
+
 ## v4.0.24 (2024-02-06)
 
 ### Other

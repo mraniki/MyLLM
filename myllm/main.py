@@ -47,16 +47,10 @@ class MyLLM:
             _config = config[item]
             if item in ["", "template"]:
                 continue
-            provider = item
-            if provider not in ["g4f", "openai", "bard"]:
-                logger.warning(
-                    f"Skipping client creation for unsupported provider: {provider}"
-                )
-                continue
-            logger.debug("Client provider: {}", provider)
+            logger.debug("MyLLM client configuration starting: {}", item)
             if _config.get("enabled") is True:
                 client = self._create_client(
-                    llm_library=provider,
+                    llm_library=_config.get("llm_library") or item,
                     enabled=_config.get("enabled") or True,
                     llm_model=_config.get("llm_model"),
                     llm_provider=_config.get("llm_provider"),
@@ -101,8 +95,11 @@ class MyLLM:
             return OpenAILLM(**kwargs)
         elif kwargs["llm_library"] == "ollama":
             return Ollama(**kwargs)
-        else:
+        elif kwargs["llm_library"] == "gf4":
             return G4FLLM(**kwargs)
+        else:
+            logger.error("llm_library {} not supported", kwargs["llm_library"])
+            return None
 
     async def get_info(self):
         """

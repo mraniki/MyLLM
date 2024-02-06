@@ -10,11 +10,11 @@
 # myllm object:
 # settings.toml
 [default]
-myllm_enabled = false
+# Dynaconf settings verification
+VALUE = "On default"
 
-# [default]
-# # Dynaconf settings verification
-# VALUE = "On default"
+# Module Enable/Disable
+myllm_enabled = true
 
 [default.myllm.template]
 llm_library = "g4f" # options are bard, openai or g4f

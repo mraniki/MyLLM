@@ -4,6 +4,7 @@ via https://github.com/dsdanielpark/Bard-API
 
 
 """
+
 from time import sleep
 
 from bardapi import BardCookies
@@ -36,10 +37,10 @@ class BardLLM(AIClient):
             if self.enabled:
                 self.client = BardCookies(cookie_dict=self.llm_provider_key)
             else:
-                return None
+                self.client = None
         except Exception as error:
             logger.error("Bard initialization error {}", error)
-            return None
+            self.client = None
 
     async def chat(self, prompt):
         """

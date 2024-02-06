@@ -97,8 +97,6 @@ class MyLLM:
                 return BardLLM(**kwargs)
             elif kwargs["llm_library"] == "openai":
                 return OpenAILLM(**kwargs)
-            # elif kwargs["llm_library"] == "ollama":
-            #     return Ollama(**kwargs)
             elif kwargs["llm_library"] == "g4f":
                 return G4FLLM(**kwargs)
             else:
@@ -134,7 +132,7 @@ class MyLLM:
             data = await client.chat(prompt)
             if data:
                 if len(self.clients) > 1:
-                    _chats.append(f"{client.llm_library}\n{data}")
+                    _chats.append(f"{client.llm_library}-{client.llm_model}\n{data}")
                 else:
                     return data
         if _chats:

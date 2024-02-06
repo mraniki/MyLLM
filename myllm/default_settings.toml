@@ -21,8 +21,8 @@ myllm_enabled = true
 
 [default.myllm.template]
 enabled = false
-llm_model= "gpt_4"
-llm_provider = "g4f.Provider.Bing" # Refer to https://github.com/xtekky/gpt4free
+llm_model= "gpt-4"
+llm_provider = "g4f.Provider.Liaobots" # Refer to https://github.com/xtekky/gpt4free
 llm_provider_key = ""
 max_memory = 100 # Conversation history size
 timeout = 5 # time lag to wait ai response
@@ -30,9 +30,24 @@ temperature = 0
 token_limit = 400
 llm_prefix = "" # prefix use to filter the AI response
 llm_template = """
-You are a friendly AI, helping me with 
-general tasks. Be courteuous, simple and direct.
+You are a friendly AI helping me with trade monitoring. 
+Be courteuous, simple and direct omitting any form of greeting or salutation.
 """
+
+# [default.myllm.bing]
+# enabled = false
+# llm_model= "gpt_4"
+# llm_provider = "g4f.Provider.Bing" # Refer to https://github.com/xtekky/gpt4free
+# llm_provider_key = ""
+# max_memory = 100 # Conversation history size
+# timeout = 5 # time lag to wait ai response
+# temperature = 0
+# token_limit = 400
+# llm_prefix = "" # prefix use to filter the AI response
+# llm_template = """
+# You are a friendly AI, helping me with 
+# general tasks. Be courteuous, simple and direct.
+# """
 
 # [default.myllm.openai] 
 # enabled = true

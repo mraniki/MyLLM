@@ -34,19 +34,18 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 """
 
 # [default.myllm.bing]
-# llm_library = "g4f" 
-# enabled = false
-# llm_model= "gpt_4"
+# enabled = true
+# llm_library = "g4f"
+# llm_model = ""
 # llm_provider = "g4f.Provider.Bing"
 # llm_provider_key = ""
-# max_memory = 100 # Conversation history size
-# timeout = 5 # time lag to wait ai response
-# temperature = 0
-# token_limit = 400
-# llm_prefix = "" # prefix use to filter the AI response
+# max_memory = 10 
+# timeout = 2 
+# llm_prefix = "" 
 # llm_template = """
-# You are a friendly AI, helping me with 
-# general tasks. Be courteuous, simple and direct.
+# You are a friendly AI helping me with 
+# trade monitoring. 
+# Be courteous, simple and direct omitting any form of greeting or salutation.
 # """
 
 # [default.myllm.gpt35] 
@@ -65,20 +64,37 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 # general tasks. Be courteuous, simple and direct.
 # """
 
-# [default.myllm.bard]
+# [default.myllm.gemini]
 # enabled = false
-# llm_model= "" # gpt-3.5-turbo" 
+# llm_library = "bard"
+# llm_model= "" 
 # llm_provider = ""
 # llm_provider_key = { __Secure-1PAPISID = "", __Secure-1PSID = "", __Secure-1PSIDCC = "", __Secure-1PSIDTS = "" }
 # max_memory = 100 # Conversation history size
 # timeout = 5 # time lag to wait ai response
 # temperature = 0
 # token_limit = 1024
-# llm_prefix = "" # prefix use to filter the AI response
+# llm_prefix = ""
 # llm_template = """
 # You are a friendly AI, helping me with 
 # general tasks. Be courteuous, simple and direct.
 # """
+
+# [default.myllm.llama2]
+# enabled = true
+# llm_library = "g4f"
+# llm_model= ""
+# llm_provider = "g4f.Provider.Llama2"
+# llm_provider_key = ""
+# max_memory = 10 
+# timeout = 1 
+# llm_prefix = "" 
+# llm_template = """
+# You are a friendly AI helping me with 
+# trade monitoring. 
+# Be courteous, simple and direct omitting any form of greeting or salutation.
+# """
+
 
 ########################################
 ###     END OF DEFAULT SETTINGS      ###

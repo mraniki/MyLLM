@@ -50,6 +50,7 @@ class MyLLM:
                 logger.debug("MyLLM client configuration starting: {}", item)
                 if _config.get("enabled") is True:
                     client = self._create_client(
+                        name=item,
                         llm_library=_config.get("llm_library") or item,
                         enabled=_config.get("enabled") or True,
                         llm_model=_config.get("llm_model"),
@@ -116,7 +117,7 @@ class MyLLM:
         """
         version_info = f"ℹ️ {type(self).__name__} {__version__}\n"
         client_info = "".join(
-            f"🤖 {client.llm_library} {client.llm_model}\n" for client in self.clients
+            f"🤖 {client.name}\n" for client in self.clients
         )
         return version_info + client_info.strip()
 
@@ -132,7 +133,7 @@ class MyLLM:
             data = await client.chat(prompt)
             if data:
                 if len(self.clients) > 1:
-                    _chats.append(f"{client.llm_library}-{client.llm_model}\n{data}")
+                    _chats.append(f"{client.name}\n{data}")
                 else:
                     return data
         if _chats:

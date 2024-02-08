@@ -3,6 +3,18 @@
 
 
 
+## v4.0.28 (2024-02-08)
+
+### Other
+
+* Merge pull request #339 from mraniki/dev
+
+⬆️ 🤖 - Your own qualities will help prevent your advancement in the world ([`167bd93`](https://github.com/mraniki/MyLLM/commit/167bd93903b0f1a72995f62710d23020a647a472))
+
+### ⚡
+
+* ⚡ ([`a725326`](https://github.com/mraniki/MyLLM/commit/a7253261825e73d0f0f6dce998004ed72dccf476))
+
 ## v4.0.27 (2024-02-08)
 
 ### Other

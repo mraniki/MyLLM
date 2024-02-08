@@ -20,6 +20,7 @@ class AIClient:
 
     def __init__(
         self,
+        name=None,
         enabled=True,
         llm_library=None,
         llm_model=None,
@@ -38,6 +39,7 @@ class AIClient:
         Args:
             None
         """
+        self.name = name
         self.enabled = enabled
         self.llm_library = llm_library
         self.llm_model = llm_model

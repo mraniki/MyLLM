@@ -3,6 +3,22 @@
 
 
 
+## v4.0.27 (2024-02-08)
+
+### Other
+
+* Merge pull request #338 from mraniki/dev
+
+⬆️ 🤖 - Q	How many supplysiders does it take to change a light bulb ([`0bf3990`](https://github.com/mraniki/MyLLM/commit/0bf39900fc9b6add556b683ae584cfbadaa5bec9))
+
+### 🎨
+
+* 🎨 added name for a given llm client ([`52872bc`](https://github.com/mraniki/MyLLM/commit/52872bc3c864571448c3a88727a17b07daadb76b))
+
+### 🔧
+
+* 🔧 ([`65ece07`](https://github.com/mraniki/MyLLM/commit/65ece0722c6d20fc043dd55ab8706a2a1282e79b))
+
 ## v4.0.26 (2024-02-06)
 
 ### Other

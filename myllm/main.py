@@ -56,10 +56,9 @@ class MyLLM:
                         llm_model=_config.get("llm_model"),
                         llm_provider=_config.get("llm_provider"),
                         llm_provider_key=_config.get("llm_provider_key"),
+                        llm_base_url=_config.get("llm_base_url") or None,
                         max_memory=_config.get("max_memory") or 5,
                         timeout=_config.get("timeout") or 10,
-                        temperature=_config.get("temperature") or 0,
-                        token_limit=_config.get("token_limit") or 400,
                         llm_prefix=_config.get("llm_prefix") or "",
                         llm_template=_config.get("llm_template")
                         or "You are an AI assistant.",

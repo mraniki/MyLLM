@@ -1,7 +1,8 @@
 """
-🔗 OpenAI
+🔗 OpenAI and LocalAI
 
 via https://github.com/openai/openai-python
+via https://localai.io
 
 """
 from time import sleep
@@ -14,7 +15,7 @@ from myllm.provider.client import AIClient
 
 class OpenAILLM(AIClient):
     """
-    MyLLM class for OpenAI
+    MyLLM class for OpenAI and LocalAI
 
     """
 
@@ -29,7 +30,7 @@ class OpenAILLM(AIClient):
             super().__init__(**kwargs)
             if self.enabled:
                 self.client = OpenAI(
-                    api_key=self.llm_provider_key,
+                    api_key=self.llm_provider_key, base_url=self.llm_base_url
                 )
             else:
                 return None

@@ -3,6 +3,18 @@
 
 
 
+## v4.0.29 (2024-02-10)
+
+### Other
+
+* Merge pull request #342 from mraniki/dev
+
+⬆️ 🤖 - Beware of a darkhaired man with a loud tie ([`d6fbfe6`](https://github.com/mraniki/MyLLM/commit/d6fbfe69843a011e4c79b8c4e531b92c53148b71))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.12.0 ([`c92d421`](https://github.com/mraniki/MyLLM/commit/c92d4218a38f4d76a2b20003eaf7d75f728a5951))
+
 ## v4.0.28 (2024-02-08)
 
 ### Other

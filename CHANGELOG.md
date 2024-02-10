@@ -3,6 +3,240 @@
 
 
 
+## v4.0.29 (2024-02-10)
+
+### Other
+
+* Merge pull request #342 from mraniki/dev
+
+⬆️ 🤖 - Beware of a darkhaired man with a loud tie ([`d6fbfe6`](https://github.com/mraniki/MyLLM/commit/d6fbfe69843a011e4c79b8c4e531b92c53148b71))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.12.0 ([`c92d421`](https://github.com/mraniki/MyLLM/commit/c92d4218a38f4d76a2b20003eaf7d75f728a5951))
+
+## v4.0.28 (2024-02-08)
+
+### Other
+
+* Merge pull request #339 from mraniki/dev
+
+⬆️ 🤖 - Your own qualities will help prevent your advancement in the world ([`167bd93`](https://github.com/mraniki/MyLLM/commit/167bd93903b0f1a72995f62710d23020a647a472))
+
+### ⚡
+
+* ⚡ ([`a725326`](https://github.com/mraniki/MyLLM/commit/a7253261825e73d0f0f6dce998004ed72dccf476))
+
+## v4.0.27 (2024-02-08)
+
+### Other
+
+* Merge pull request #338 from mraniki/dev
+
+⬆️ 🤖 - Q	How many supplysiders does it take to change a light bulb ([`0bf3990`](https://github.com/mraniki/MyLLM/commit/0bf39900fc9b6add556b683ae584cfbadaa5bec9))
+
+### 🎨
+
+* 🎨 added name for a given llm client ([`52872bc`](https://github.com/mraniki/MyLLM/commit/52872bc3c864571448c3a88727a17b07daadb76b))
+
+### 🔧
+
+* 🔧 ([`65ece07`](https://github.com/mraniki/MyLLM/commit/65ece0722c6d20fc043dd55ab8706a2a1282e79b))
+
+## v4.0.26 (2024-02-06)
+
+### Other
+
+* Merge pull request #337 from mraniki/dev
+
+⬆️ 🤖 - You are fighting for survival in your own sweet and gentle way ([`6fe1faa`](https://github.com/mraniki/MyLLM/commit/6fe1faac920e7f55040cad5bb94ba552dfa721f2))
+
+### ♻️
+
+* ♻️ ([`5c61699`](https://github.com/mraniki/MyLLM/commit/5c61699e044db1743c3027b30110c1c8b0579283))
+
+## v4.0.25 (2024-02-06)
+
+### Other
+
+* Merge pull request #336 from mraniki/dev
+
+⬆️ 🤖 - You dont become a failure until youre satisfied with being one ([`34f27de`](https://github.com/mraniki/MyLLM/commit/34f27de0a140556f8b57d0e9ff60a611d9629290))
+
+### ♻️
+
+* ♻️ ([`e05584a`](https://github.com/mraniki/MyLLM/commit/e05584a4691f75ed07a0f3f138554c3b8ead7cf3))
+
+## v4.0.24 (2024-02-06)
+
+### Other
+
+* Merge pull request #335 from mraniki/dev
+
+⬆️ 🤖 - I dont know half of you half as well as I should like and I like less ([`66a8759`](https://github.com/mraniki/MyLLM/commit/66a8759953f50d22ee2f5819bbf86e87072c7e59))
+
+### ♻️
+
+* ♻️ bard refactor in case of misconfig ([`7b0307b`](https://github.com/mraniki/MyLLM/commit/7b0307bf88dd681aea76b1ba43e9c8595458216b))
+
+* ♻️ ([`bbb2258`](https://github.com/mraniki/MyLLM/commit/bbb225875bfedc8e97f51a8fc240febf4db7bacd))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.0 ([`0f2571d`](https://github.com/mraniki/MyLLM/commit/0f2571dcd3c9f387604ad22ddd3a761c12388cfd))
+
+### 🐛
+
+* 🐛 ([`5331c31`](https://github.com/mraniki/MyLLM/commit/5331c31312096897f400abc745c3fded876acccc))
+
+* 🐛 ([`43b08a6`](https://github.com/mraniki/MyLLM/commit/43b08a6262257b847697f18575a91ed02da07818))
+
+### 🔧
+
+* 🔧 ([`4768630`](https://github.com/mraniki/MyLLM/commit/4768630b2eeb32884e9dd9e38fd87e6a7b8ae52e))
+
+* ✅ Unit Test 🔧 ([`85dfffd`](https://github.com/mraniki/MyLLM/commit/85dfffd32cad9eb434cd58ff29489fad8c39c266))
+
+* 🔧 ([`c7b3a08`](https://github.com/mraniki/MyLLM/commit/c7b3a088e4bd88683dac235f2d1b5cac127d5fc6))
+
+* 🔧 Improve config and allowed multi llm per lib ([`22a345b`](https://github.com/mraniki/MyLLM/commit/22a345b6088fc084f6f31c7c4665ea1d3f490038))
+
+### 🥅
+
+* 🥅 better error handling ([`fdd6fb8`](https://github.com/mraniki/MyLLM/commit/fdd6fb836d248180f65e369859531670faf29f93))
+
+## v4.0.23 (2024-02-06)
+
+### Other
+
+* Merge pull request #334 from mraniki/dev
+
+⬆️ 🤖 - Let me put it this way today is going to be a learning experience ([`8fd1040`](https://github.com/mraniki/MyLLM/commit/8fd10407f07196a042a5b6f91c726ede05905bfb))
+
+### 🔧
+
+* 🔧 ([`e98f4d3`](https://github.com/mraniki/MyLLM/commit/e98f4d33a3b287b02f714a4cc52a64d4cc80dfe0))
+
+* 🔧 ([`1871af3`](https://github.com/mraniki/MyLLM/commit/1871af31a03fec350aebb97b99753ce73dc89e6a))
+
+## v4.0.22 (2024-02-05)
+
+### Other
+
+* Merge pull request #332 from mraniki/dev
+
+⬆️ 🤖 - Stay the curse ([`b537b31`](https://github.com/mraniki/MyLLM/commit/b537b31f70c350d1d0bf6d0cfde90ba70ac5ca3b))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.11.1 ([`8ea9c67`](https://github.com/mraniki/MyLLM/commit/8ea9c675e34f76d5de38de0f82a4ec26e5fd248c))
+
+* ⬆️ 🛠️(deps): update dependency linkify-it-py to v2.0.3 ([`c6f0340`](https://github.com/mraniki/MyLLM/commit/c6f0340ca4eaa929325e3dfe543a7fffbdc96de1))
+
+## v4.0.21 (2024-02-03)
+
+### Other
+
+* Merge pull request #328 from mraniki/dev
+
+⬆️ 🤖 - You are confused but this is your normal state ([`adc0b33`](https://github.com/mraniki/MyLLM/commit/adc0b339cf84d45fefd477d82eb9be4d5a0b144a))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.11.0 ([`cc73c86`](https://github.com/mraniki/MyLLM/commit/cc73c867545cddb2d407b6b922bee2374e8e7ed5))
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.2.0 ([`4c7dc3a`](https://github.com/mraniki/MyLLM/commit/4c7dc3aa028480a7d71a10d880ed8677a95c0366))
+
+## v4.0.20 (2024-02-01)
+
+### Other
+
+* Merge pull request #326 from mraniki/dev
+
+🐛 missing g4f lib dep ([`3fb3a40`](https://github.com/mraniki/MyLLM/commit/3fb3a40c8235dbefa397eda8e50146ce517e1613))
+
+* Merge pull request #325 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.0.9 ([`e565897`](https://github.com/mraniki/MyLLM/commit/e565897bc9d457484d81bad39fa14a3ea4e9de3c))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.0.9 ([`59dd19b`](https://github.com/mraniki/MyLLM/commit/59dd19b3542f16c904a947cd72ded7220d03d8ff))
+
+### 🐛
+
+* 🐛 missing g4f lib dep ([`738a360`](https://github.com/mraniki/MyLLM/commit/738a360103fd996384ea7ebb743931bfc71319d4))
+
+## v4.0.19 (2024-01-31)
+
+### Other
+
+* Merge pull request #324 from mraniki/dev
+
+⬆️ 🤖 - Q	Whats the difference betweeen USL and the Graf Zeppelin ([`48116e5`](https://github.com/mraniki/MyLLM/commit/48116e56c6836d67fce934627ffb9d7dd05fe0d7))
+
+### ⚡
+
+* ⚡ add a condition to check if there is only one client ([`070ba7d`](https://github.com/mraniki/MyLLM/commit/070ba7d0d66a77bee34184c42c628272965cf9c7))
+
+## v4.0.18 (2024-01-29)
+
+### Other
+
+* Merge pull request #323 from mraniki/dev
+
+⬆️ 🤖 - You may my glories and my state dispose ([`5aa386e`](https://github.com/mraniki/MyLLM/commit/5aa386eea7d3b1decd926cde2e9e93ab5e04a6fa))
+
+### ✅
+
+* ✅ Unit Test ([`32803d1`](https://github.com/mraniki/MyLLM/commit/32803d104cee86a82aafa3fc5bce86024f0fb835))
+
+* ✅ Unit Test ([`0f6bb62`](https://github.com/mraniki/MyLLM/commit/0f6bb62d84e421e82d0bc7cdcd59b2ba31aacca6))
+
+## v4.0.17 (2024-01-29)
+
+### Other
+
+* Merge pull request #322 from mraniki/dev
+
+⬆️ 🤖 - So so is good very good very excellent good ([`2c5c812`](https://github.com/mraniki/MyLLM/commit/2c5c812510c7c40b6485bb67efe9517aa81f0658))
+
+### ♻️
+
+* ♻️ ([`189e61c`](https://github.com/mraniki/MyLLM/commit/189e61c60a89df571877163048a08867524c7390))
+
+### ⚡
+
+* ⚡ ([`112cae6`](https://github.com/mraniki/MyLLM/commit/112cae64dd1d53c8e69b49871548f74c89fb2759))
+
+## v4.0.16 (2024-01-29)
+
+### Other
+
+* Merge pull request #321 from mraniki/dev
+
+⬆️ 🤖 - You are a very redundant person thats what kind of person you are ([`7e98436`](https://github.com/mraniki/MyLLM/commit/7e984366106d3ac911ad651587b8eaf7594dfa8e))
+
+### ⚡
+
+* ⚡ ([`6fe9ade`](https://github.com/mraniki/MyLLM/commit/6fe9adee79e9c385553f2064ff3d3849fde68323))
+
+### 🐛
+
+* ♻️ 🐛 ([`2a2d497`](https://github.com/mraniki/MyLLM/commit/2a2d497ec3a4e496de9cd06ac5c87d3e98c4417e))
+
+## v4.0.15 (2024-01-28)
+
+### Other
+
+* Merge pull request #318 from mraniki/dev
+
+⬆️ 🤖 - Good day for a change of scene  Repaper the bedroom wall ([`61a03eb`](https://github.com/mraniki/MyLLM/commit/61a03ebf38d6ab107ba0d647eebc0b62f448b3f9))
+
+### ⚡
+
+* ⚡ ([`3f07dba`](https://github.com/mraniki/MyLLM/commit/3f07dba06691048607b503c5881954d502af00d7))
+
 ## v4.0.14 (2024-01-28)
 
 ### Other

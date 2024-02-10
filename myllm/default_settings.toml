@@ -9,32 +9,47 @@
 # As an example, to disable the 
 # myllm object:
 # settings.toml
-# [default]
-# myllm_enabled = false
-
 [default]
 # Dynaconf settings verification
-VALUE = "On default"
+# use for testing
+VALUE = "On default" 
 
 # Module Enable/Disable
 myllm_enabled = true
 
 [default.myllm.template]
-enabled = true
-llm_model= "gpt_4"
-llm_provider = "g4f.Provider.Bing" # Refer to https://github.com/xtekky/gpt4free
-llm_provider_key = ""
+llm_library = "g4f" # options are bard, openai or g4f
+enabled = false # options are true or false to enable or disable the llm
+llm_model= "gpt-4" # model to use e.g. gpt-3.5-turbo, gpt-4, gpt-4-32k
+llm_provider = "g4f.Provider.Liaobots" # only for g4f. Refer to https://github.com/xtekky/gpt4free
+llm_provider_key = "" # only for bard and openai to pass either the cookie or the api key
 max_memory = 100 # Conversation history size
 timeout = 5 # time lag to wait ai response
-temperature = 0
-token_limit = 400
-llm_prefix = "" # prefix use to filter the AI response
+temperature = 0 # not used
+token_limit = 400 # not used
+llm_prefix = "🐻" # prefix use to filter the AI response
 llm_template = """
-You are a friendly AI, helping me with 
-general tasks. Be courteuous, simple and direct.
+You are a friendly AI helping me with trade monitoring. 
+Be courteuous, simple and direct omitting any form of greeting or salutation.
 """
 
-# [default.myllm.openai] 
+# [default.myllm.bing]
+# enabled = true
+# llm_library = "g4f"
+# llm_model = ""
+# llm_provider = "g4f.Provider.Bing"
+# llm_provider_key = ""
+# max_memory = 10 
+# timeout = 2 
+# llm_prefix = "" 
+# llm_template = """
+# You are a friendly AI helping me with 
+# trade monitoring. 
+# Be courteous, simple and direct omitting any form of greeting or salutation.
+# """
+
+# [default.myllm.gpt35] 
+# llm_library = "openai"
 # enabled = true
 # llm_model= "gpt-3.5-turbo" 
 # llm_provider = "" 
@@ -49,16 +64,32 @@ general tasks. Be courteuous, simple and direct.
 # general tasks. Be courteuous, simple and direct.
 # """
 
-# [default.myllm.bard]
+# [default.myllm.llama2]
+# enabled = true
+# llm_library = "g4f"
+# llm_model= ""
+# llm_provider = "g4f.Provider.Llama2"
+# llm_provider_key = ""
+# max_memory = 10 
+# timeout = 1 
+# llm_prefix = "" 
+# llm_template = """
+# You are a friendly AI helping me with 
+# trade monitoring. 
+# Be courteous, simple and direct omitting any form of greeting or salutation.
+# """
+
+# [default.myllm.gemini]
 # enabled = false
-# llm_model= "" # gpt-3.5-turbo" 
+# llm_library = "bard"
+# llm_model= "" 
 # llm_provider = ""
 # llm_provider_key = { __Secure-1PAPISID = "", __Secure-1PSID = "", __Secure-1PSIDCC = "", __Secure-1PSIDTS = "" }
 # max_memory = 100 # Conversation history size
 # timeout = 5 # time lag to wait ai response
 # temperature = 0
 # token_limit = 1024
-# llm_prefix = "" # prefix use to filter the AI response
+# llm_prefix = ""
 # llm_template = """
 # You are a friendly AI, helping me with 
 # general tasks. Be courteuous, simple and direct.

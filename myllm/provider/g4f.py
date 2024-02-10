@@ -10,7 +10,7 @@ from loguru import logger
 from myllm.provider.client import AIClient
 
 
-class MyLLMG4F(AIClient):
+class G4FLLM(AIClient):
     """
     MyLLM class for G4F
 
@@ -32,10 +32,21 @@ class MyLLMG4F(AIClient):
                     provider_module, provider_module_name.split(".")[-1]
                 )
                 self.provider = provider_class()
+                self.client = self.provider
+                logger.info("G4F provider initialized")
+
+                logger.debug("G4F provider: {}", self.provider)
+                logger.debug("G4F model: {}", self.llm_model)
+                logger.debug("G4F timeout: {}", self.timeout)
+                logger.debug("G4F prefix: {}", self.llm_prefix)
+                logger.debug("G4F conversation: {}", self.conversation)
+                logger.debug("G4F client: {}", self.client)
+                logger.debug("G4F enabled: {}", self.enabled)
             else:
                 return None
         except Exception as error:
             logger.error("G4F initialization error {}", error)
+            return None
 
     async def chat(self, prompt):
         """
@@ -59,7 +70,7 @@ class MyLLMG4F(AIClient):
 
             logger.debug("response {}", response)
             if response:
-                self.conversation.add_message("ai", response)
+                self.conversation.add_message("assistant", response)
                 formatted_response = f"{self.llm_prefix} {response}"
                 logger.debug("User: {}, AI: {}", prompt, response)
                 return formatted_response

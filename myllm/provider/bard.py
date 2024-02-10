@@ -4,6 +4,7 @@ via https://github.com/dsdanielpark/Bard-API
 
 
 """
+
 from time import sleep
 
 from bardapi import BardCookies
@@ -12,7 +13,7 @@ from loguru import logger
 from myllm.provider.client import AIClient
 
 
-class MyLLMBard(AIClient):
+class BardLLM(AIClient):
     """
     MyLLM class for Bard
 
@@ -36,9 +37,10 @@ class MyLLMBard(AIClient):
             if self.enabled:
                 self.client = BardCookies(cookie_dict=self.llm_provider_key)
             else:
-                return None
+                self.client = None
         except Exception as error:
             logger.error("Bard initialization error {}", error)
+            self.client = None
 
     async def chat(self, prompt):
         """
@@ -50,19 +52,16 @@ class MyLLMBard(AIClient):
         """
         try:
             self.conversation.add_message("user", prompt)
-
-            response = self.client.get_answer(prompt)
-            logger.debug("response {}", response)
             messages = self.conversation.get_messages()
             logger.debug("messages {}", messages)
 
-            messages_str = self.get_messages_as_string(separator=" ")
-            logger.debug("messages_str {}", messages_str)
+            response = self.client.get_answer(prompt)
             sleep(self.timeout)
+            logger.debug("response {}", response)
 
             if response:
                 response_content = response["content"]
-                self.conversation.add_message("ai", response_content)
+                self.conversation.add_message("assistant", response_content)
                 formatted_response = f"{self.llm_prefix} {response_content}"
                 logger.debug("User: {}, AI: {}", prompt, response_content)
                 return formatted_response

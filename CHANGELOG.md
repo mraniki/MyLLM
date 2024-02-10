@@ -3,6 +3,28 @@
 
 
 
+## v4.1.0 (2024-02-10)
+
+### :lipstick:
+
+* :lipstick: Remove unused settings and add new settings for local AI provider. ([`a334ba6`](https://github.com/mraniki/MyLLM/commit/a334ba6caf030cf70b6d092d3361304a566a9931))
+
+### Other
+
+* Merge pull request #343 from mraniki/dev
+
+⬆️ 🤖 - ROMEO		Courage man the hurt cannot be much ([`9aa885d`](https://github.com/mraniki/MyLLM/commit/9aa885d91fbf38fa9c875d272d0220deba0aa406))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`d497577`](https://github.com/mraniki/MyLLM/commit/d49757731b4cb9aa97f2dd95abe3450b6a9d68d6))
+
+* Remove llm_model value ([`a9554bf`](https://github.com/mraniki/MyLLM/commit/a9554bfff5693a161e521dc3b5d8c2c6074fd8d9))
+
+* Merge pull request #341 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.1.2 ([`f54ac7f`](https://github.com/mraniki/MyLLM/commit/f54ac7fdcca28644e1df64c435a6aceca1d7c529))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`d4d7bac`](https://github.com/mraniki/MyLLM/commit/d4d7bac9758ff2b2b31ea1fcf45f68716c7dd030))
+
 ## v4.0.29 (2024-02-10)
 
 ### Other
@@ -12,6 +34,8 @@
 ⬆️ 🤖 - Beware of a darkhaired man with a loud tie ([`d6fbfe6`](https://github.com/mraniki/MyLLM/commit/d6fbfe69843a011e4c79b8c4e531b92c53148b71))
 
 ### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.2 ([`c28ce81`](https://github.com/mraniki/MyLLM/commit/c28ce81ff9fddbc13ef5e6ddf7b4ab6c4dded5f2))
 
 * ⬆️ 🛠️(deps): update dependency openai to v1.12.0 ([`c92d421`](https://github.com/mraniki/MyLLM/commit/c92d4218a38f4d76a2b20003eaf7d75f728a5951))
 
@@ -233,6 +257,8 @@
 
 ⬆️ 🤖 - Good day for a change of scene  Repaper the bedroom wall ([`61a03eb`](https://github.com/mraniki/MyLLM/commit/61a03ebf38d6ab107ba0d647eebc0b62f448b3f9))
 
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`b50c8f5`](https://github.com/mraniki/MyLLM/commit/b50c8f59b384669b7cc309c7ed4aa9972e4aeea3))
+
 ### ⚡
 
 * ⚡ ([`3f07dba`](https://github.com/mraniki/MyLLM/commit/3f07dba06691048607b503c5881954d502af00d7))
@@ -293,6 +319,8 @@
 
 ⬆️ 🤖 - All the troubles you have will pass away very quickly ([`40733cc`](https://github.com/mraniki/MyLLM/commit/40733ccc7c5f9bc680e54023deefd868d9006779))
 
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`b09630c`](https://github.com/mraniki/MyLLM/commit/b09630cefc2ff672b66a8ecaf2533358f9364c27))
+
 ### ♻️
 
 * ♻️ ([`2534312`](https://github.com/mraniki/MyLLM/commit/2534312226800b6054d4a29c9e15ca7f2a0f11ca))
@@ -309,15 +337,21 @@
 
 * :zap:History support in Bard and OpenAI providers ([`6fcb0b9`](https://github.com/mraniki/MyLLM/commit/6fcb0b9563f23ac56f5c71ba5dd301e229112e05))
 
+* :zap:History support in Bard and OpenAI providers ([`afea041`](https://github.com/mraniki/MyLLM/commit/afea041215f7df8cbb3fb793db97c212aefb66e1))
+
 ### Other
 
 * Merge pull request #313 from mraniki/dev
 
 ⬆️ 🤖 - One of the most striking differences between a cat and a lie is that a cat has ([`c3aedc9`](https://github.com/mraniki/MyLLM/commit/c3aedc92e5344ff2dc568f8a9930de973596c940))
 
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`eb6e7d9`](https://github.com/mraniki/MyLLM/commit/eb6e7d9c87ecdb9f008456ef2945b5b868064348))
+
 ## v4.0.9 (2024-01-28)
 
 ### Other
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`6528a82`](https://github.com/mraniki/MyLLM/commit/6528a822110867415d34a855a5cc1803b7215a59))
 
 * Merge pull request #312 from mraniki/dev
 
@@ -337,11 +371,17 @@
 
 * :recycle:Refactor OpenAI response handling ([`54c08c0`](https://github.com/mraniki/MyLLM/commit/54c08c0f5f544b062695555a08006245355e9f77))
 
+* :recycle:Refactor OpenAI response handling ([`2232a8e`](https://github.com/mraniki/MyLLM/commit/2232a8e38bf05d1988a7286d1b0b5719c7c6a851))
+
 ### Other
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`32a5dcc`](https://github.com/mraniki/MyLLM/commit/32a5dccec0e20b5ed29465d2421e53e351814e1b))
 
 * Merge pull request #311 from mraniki/dev
 
 ⬆️ 🤖 - Youre growing out of some of your problems but there are others that ([`1f91a66`](https://github.com/mraniki/MyLLM/commit/1f91a662a4bf46865b20dd7b904669f136e4124e))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`ab0c43b`](https://github.com/mraniki/MyLLM/commit/ab0c43bd8af60e92f4ab287dd4567cb5ddf18e68))
 
 ## v4.0.7 (2024-01-27)
 

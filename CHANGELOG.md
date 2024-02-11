@@ -3,6 +3,18 @@
 
 
 
+## v4.1.1 (2024-02-11)
+
+### Other
+
+* Merge pull request #344 from mraniki/dev
+
+⬆️ 🤖 - Lord what fools these mortals be ([`ebf508b`](https://github.com/mraniki/MyLLM/commit/ebf508b98eaba115a173d2196b74c14643d54a55))
+
+### ⬆️
+
+* ⬆️ ([`8d6de0e`](https://github.com/mraniki/MyLLM/commit/8d6de0e8c1e00f7eba5d9ec463a75dd255136ef9))
+
 ## v4.1.0 (2024-02-10)
 
 ### :lipstick:

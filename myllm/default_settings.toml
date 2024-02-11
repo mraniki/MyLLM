@@ -31,21 +31,6 @@ You are a friendly AI helping me with trade monitoring.
 Be courteuous, simple and direct omitting any form of greeting or salutation.
 """
 
-# [default.myllm.bing]
-# enabled = true
-# llm_library = "g4f"
-# llm_model = ""
-# llm_provider = "g4f.Provider.Bing"
-# llm_provider_key = ""
-# max_memory = 10 
-# timeout = 2 
-# llm_prefix = "" 
-# llm_template = """
-# You are a friendly AI helping me with 
-# trade monitoring. 
-# Be courteous, simple and direct omitting any form of greeting or salutation.
-# """
-
 # [default.myllm.localai] 
 # llm_library = "openai"
 # enabled = true
@@ -83,6 +68,21 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 # llm_provider_key = ""
 # max_memory = 10 
 # timeout = 1 
+# llm_prefix = "" 
+# llm_template = """
+# You are a friendly AI helping me with 
+# trade monitoring. 
+# Be courteous, simple and direct omitting any form of greeting or salutation.
+# """
+
+# [default.myllm.bing]
+# enabled = true
+# llm_library = "g4f"
+# llm_model = ""
+# llm_provider = "g4f.Provider.Bing"
+# llm_provider_key = ""
+# max_memory = 10 
+# timeout = 2 
 # llm_prefix = "" 
 # llm_template = """
 # You are a friendly AI helping me with 

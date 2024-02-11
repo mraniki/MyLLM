@@ -1,5 +1,5 @@
 """
-🔗 OpenAI and LocalAI
+🔗 OpenAI and LocalAI Support
 
 via https://github.com/openai/openai-python
 via https://localai.io

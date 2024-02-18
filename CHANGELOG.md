@@ -3,6 +3,18 @@
 
 
 
+## v4.1.2 (2024-02-18)
+
+### Other
+
+* Merge pull request #346 from mraniki/dev
+
+⬆️ 🤖 - You will be recognized and honored as a community leader ([`485b48e`](https://github.com/mraniki/MyLLM/commit/485b48ebfab065d16102f85f8c02588daa8405cf))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.4 ([`2c40c2c`](https://github.com/mraniki/MyLLM/commit/2c40c2c13bad73f78e39f671842884dfb9e7e67e))
+
 ## v4.1.1 (2024-02-11)
 
 ### Other

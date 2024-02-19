@@ -3,6 +3,18 @@
 
 
 
+## v4.1.3 (2024-02-19)
+
+### Other
+
+* Merge pull request #348 from mraniki/dev
+
+⬆️ 🤖 - Clothes make the man  Naked people have little or no influence on society ([`93f8752`](https://github.com/mraniki/MyLLM/commit/93f875274348ff2ad8c852e38701d7c079ac6937))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.5 ([`1a27281`](https://github.com/mraniki/MyLLM/commit/1a272815ec660b323875971f8beac017c947b4e5))
+
 ## v4.1.2 (2024-02-18)
 
 ### Other

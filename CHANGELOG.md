@@ -3,6 +3,18 @@
 
 
 
+## v4.2.1 (2024-02-22)
+
+### Other
+
+* Merge pull request #352 from mraniki/dev
+
+⬆️ 🤖 - Give your very best today  Heaven knows its little enough ([`cd9c53c`](https://github.com/mraniki/MyLLM/commit/cd9c53c02c56eeaeed8a303e2d679193fcd5d7f6))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency curl_cffi to v0.6.0 ([`82652ab`](https://github.com/mraniki/MyLLM/commit/82652abd397befa620b264997069cee95c4f1898))
+
 ## v4.2.0 (2024-02-22)
 
 ### Other

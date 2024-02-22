@@ -58,6 +58,7 @@ class MyLLM:
                         llm_provider_key=_config.get("llm_provider_key"),
                         llm_base_url=_config.get("llm_base_url") or None,
                         max_memory=_config.get("max_memory") or 5,
+                        load_history=_config.get("load_history") or False,
                         timeout=_config.get("timeout") or 10,
                         llm_prefix=_config.get("llm_prefix") or "",
                         llm_template=_config.get("llm_template")

@@ -1,4 +1,5 @@
 import json
+import os
 
 
 class AIClient:
@@ -15,6 +16,7 @@ class AIClient:
         chat(self, prompt)
         clear_chat_history(self)
         export_chat_history(self)
+        import_chat_history(self)
 
     """
 
@@ -28,6 +30,8 @@ class AIClient:
         llm_provider_key=None,
         llm_base_url=None,
         max_memory=None,
+        load_history=False,
+        history_filename="",
         timeout=None,
         llm_prefix=None,
         llm_template=None,
@@ -47,6 +51,8 @@ class AIClient:
         self.llm_base_url = llm_base_url
         self.llm_prefix = llm_prefix
         self.max_memory = max_memory
+        self.load_history = load_history
+        self.history_filename = history_filename or f"history-{self.name}.json"
         self.timeout = timeout
         self.conversation = Conversation(
             max_memory=max_memory, llm_template=llm_template
@@ -74,7 +80,14 @@ class AIClient:
         """
         Clears the chat history
         """
-        self.conversation.export_messages()
+        self.conversation.export_messages(self.history_filename)
+
+    async def import_chat_history(self):
+        """
+        Import chat history
+        """
+        self.conversation.import_messages(self.history_filename)
+
 
 
 class Conversation:
@@ -123,15 +136,31 @@ class Conversation:
         )
         return messages_str
 
-    def export_messages(self):
+    def export_messages(self, filename):
         """
         Export messages to a JSON file.
 
         Parameters:
-            self: the instance of the class
+            filename (str): the name of the file
 
         Returns:
             None
         """
-        with open("history.json", "w") as f:
+        with open(filename, "w") as f:
             json.dump(self.messages, f, indent=4)
+
+    def import_messages(self, filename):
+        """
+        Import messages from a JSON file 
+
+        Parameters:
+            filename (str): the name of the file
+
+        Returns:
+            None
+        """
+        if not os.path.exists(filename):
+            return
+        if self.load_history:
+            with open(filename, "r") as f:
+                self.messages = json.load(f)

@@ -24,6 +24,7 @@ llm_model= "gpt-4" # model to use e.g. gpt-3.5-turbo, gpt-4, gpt-4-32k
 llm_provider = "g4f.Provider.Liaobots" # only for g4f. Refer to https://github.com/xtekky/gpt4free
 llm_provider_key = "" # only for bard and openai to pass either the cookie or the api key
 max_memory = 100 # Conversation history size
+load_history = false # load conversation history via a json file
 timeout = 5 # time lag to wait ai response
 llm_prefix = "🐻" # prefix use to filter the AI response
 llm_template = """
@@ -38,7 +39,8 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 # llm_provider = "" 
 # llm_provider_key = "DEADBE4F"
 # llm_base_url = "http://localhost:8080"
-# max_memory = 100 
+# max_memory = 100
+# load_history = false
 # timeout = 5 
 # llm_prefix = ""
 # llm_template = """
@@ -53,7 +55,8 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 # llm_provider = "" 
 # llm_provider_key = "DEADBE4F"
 # max_memory = 100 
-# timeout = 5 
+# timeout = 5
+# load_history = false
 # llm_prefix = ""
 # llm_template = """
 # You are a friendly AI, helping me with 
@@ -66,7 +69,8 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 # llm_model= ""
 # llm_provider = "g4f.Provider.Llama2"
 # llm_provider_key = ""
-# max_memory = 10 
+# max_memory = 10
+# load_history = false
 # timeout = 1 
 # llm_prefix = "" 
 # llm_template = """
@@ -82,6 +86,7 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 # llm_provider = "g4f.Provider.Bing"
 # llm_provider_key = ""
 # max_memory = 10 
+# load_history = false
 # timeout = 2 
 # llm_prefix = "" 
 # llm_template = """
@@ -97,6 +102,7 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 # llm_provider = ""
 # llm_provider_key = { __Secure-1PAPISID = "", __Secure-1PSID = "", __Secure-1PSIDCC = "", __Secure-1PSIDTS = "" }
 # max_memory = 100 # Conversation history size
+# load_history = false
 # timeout = 5 # time lag to wait ai response
 # llm_prefix = ""
 # llm_template = """

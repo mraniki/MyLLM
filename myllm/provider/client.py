@@ -89,7 +89,6 @@ class AIClient:
         self.conversation.import_messages(self.history_filename)
 
 
-
 class Conversation:
     def __init__(self, max_memory=None, llm_template=None):
         """
@@ -151,7 +150,7 @@ class Conversation:
 
     def import_messages(self, filename):
         """
-        Import messages from a JSON file 
+        Import messages from a JSON file
 
         Parameters:
             filename (str): the name of the file

@@ -3,6 +3,30 @@
 
 
 
+## v4.2.0 (2024-02-22)
+
+### Other
+
+* Merge pull request #350 from mraniki/dev
+
+💄 improve history export, added import capability ([`b1efcf9`](https://github.com/mraniki/MyLLM/commit/b1efcf9ce5f7e2ecc6c4a269b5a7952658aa9ded))
+
+* Merge pull request #349 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.1.6 ([`eacb9a7`](https://github.com/mraniki/MyLLM/commit/eacb9a7d8ebce787b2b342529f06d362a107f6a9))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.6 ([`1a916a3`](https://github.com/mraniki/MyLLM/commit/1a916a3c1d18fa1509574bb11e34a8346e2eb9e4))
+
+### 💄
+
+* 💄 improve history export, added import capability and standardize history filename. ([`ce60b5d`](https://github.com/mraniki/MyLLM/commit/ce60b5dee379cccbe65c55d0ad3e36da68cfe3de))
+
+### 🚨
+
+* 🚨 ([`a5b50d0`](https://github.com/mraniki/MyLLM/commit/a5b50d001b546943e23b348abe019cbdd2971dd4))
+
 ## v4.1.3 (2024-02-19)
 
 ### Other

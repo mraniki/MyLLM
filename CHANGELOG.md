@@ -3,6 +3,22 @@
 
 
 
+## v4.3.0 (2024-02-23)
+
+### :lipstick:
+
+* :lipstick: Remove BardLLM provider (official Gemini to be added) ([`17df122`](https://github.com/mraniki/MyLLM/commit/17df12258d5c8787ccc4cbc5a0a4a15e3598c433))
+
+### Other
+
+* Merge pull request #356 from mraniki/dev
+
+⬆️ 🤖 - He hath eaten me out of house and home ([`528b3fd`](https://github.com/mraniki/MyLLM/commit/528b3fd2a24e09eb95a577936ea23aec42fcfb31))
+
+### Update
+
+* Update README with simple LLM interaction method. ([`b0b39db`](https://github.com/mraniki/MyLLM/commit/b0b39db413f79c0a0d24cce73dcd1f2fa8e35147))
+
 ## v4.2.2 (2024-02-23)
 
 ### Other

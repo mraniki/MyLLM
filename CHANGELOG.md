@@ -3,6 +3,26 @@
 
 
 
+## v4.2.2 (2024-02-23)
+
+### Other
+
+* Merge pull request #355 from mraniki/dev
+
+⬆️ 🤖 - Avert misunderstanding by calm poise and balance ([`e4af635`](https://github.com/mraniki/MyLLM/commit/e4af63562c7f6b0b9f089fc1e1db97c152db63d8))
+
+### ♻️
+
+* ♻️ ✅ Unit Test and refactoring ([`d0cb0c1`](https://github.com/mraniki/MyLLM/commit/d0cb0c10d4311abaafa45448529019f2b3574b62))
+
+### ⬆️
+
+* ⬆️ ([`a1ba7b5`](https://github.com/mraniki/MyLLM/commit/a1ba7b517bc33509e3619d0c7c43f599c2934e61))
+
+### 🙈
+
+* 🙈 ([`2cb1424`](https://github.com/mraniki/MyLLM/commit/2cb14245b9ab0379f873cca89a28b243fd3e8870))
+
 ## v4.2.1 (2024-02-22)
 
 ### Other

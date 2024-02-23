@@ -8,7 +8,7 @@ from loguru import logger
 
 from myllm import __version__
 from myllm.config import settings
-from myllm.provider import G4FLLM, BardLLM, OpenAILLM
+from myllm.provider import G4FLLM, OpenAILLM
 
 
 class MyLLM:
@@ -94,12 +94,12 @@ class MyLLM:
         """
         try:
             logger.debug("Creating client {}", kwargs["llm_library"])
-            if kwargs["llm_library"] == "bard":
-                return BardLLM(**kwargs)
+            if kwargs["llm_library"] == "g4f":
+                return G4FLLM(**kwargs)
             elif kwargs["llm_library"] == "openai":
                 return OpenAILLM(**kwargs)
-            elif kwargs["llm_library"] == "g4f":
-                return G4FLLM(**kwargs)
+            #elif kwargs["llm_library"] == "gemini":
+                #return GeminiLLM(**kwargs)
             else:
                 logger.error("llm_library {} not supported", kwargs["llm_library"])
                 # return None

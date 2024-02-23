@@ -2,6 +2,7 @@
 myllm Unit Testing
 """
 
+import os
 
 import pytest
 
@@ -48,8 +49,21 @@ async def test_myllmclient(talky):
         assert callable(llm.clear_chat_history)
 
 
-
 @pytest.mark.asyncio
 async def test_get_chats(talky):
     result = await talky.chat("tell me a story")
     assert result is not None
+
+
+@pytest.mark.asyncio
+async def test_export_chat_history(talky):
+    await talky.export_chat_history()
+    for llm in talky.clients:
+        assert os.path.isfile(llm.history_filename)
+
+
+@pytest.mark.asyncio
+async def test_clear_chat_history(talky):
+    await talky.clear_chat_history()
+    for llm in talky.clients:
+        assert not llm.conversation.messages

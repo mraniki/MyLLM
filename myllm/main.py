@@ -102,7 +102,7 @@ class MyLLM:
                 return G4FLLM(**kwargs)
             else:
                 logger.error("llm_library {} not supported", kwargs["llm_library"])
-                return None
+                # return None
         except Exception as error:
             logger.error(error)
 

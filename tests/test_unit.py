@@ -2,6 +2,8 @@
 myllm Unit Testing
 """
 
+import os
+
 import pytest
 
 from myllm.config import settings
@@ -13,9 +15,9 @@ def set_test_settings():
     settings.configure(FORCE_ENV_FOR_DYNACONF="testing")
 
 
-# @pytest.mark.asyncio
-# async def test_dynaconf():
-#     assert settings.VALUE == "On Testing"
+@pytest.mark.asyncio
+async def test_dynaconf():
+    assert settings.VALUE == "On Testing"
 
 
 @pytest.fixture(name="talky")
@@ -51,3 +53,17 @@ async def test_myllmclient(talky):
 async def test_get_chats(talky):
     result = await talky.chat("tell me a story")
     assert result is not None
+
+
+@pytest.mark.asyncio
+async def test_export_chat_history(talky):
+    await talky.export_chat_history()
+    for llm in talky.clients:
+        assert os.path.isfile(llm.history_filename)
+
+
+@pytest.mark.asyncio
+async def test_clear_chat_history(talky):
+    await talky.clear_chat_history()
+    for llm in talky.clients:
+        assert not llm.conversation.messages

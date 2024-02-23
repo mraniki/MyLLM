@@ -100,7 +100,8 @@ class Conversation:
         self.messages = []
         self.max_memory = max_memory
         self.template = llm_template
-        self.add_message("user", self.template)
+        if self.template:
+            self.add_message("user", self.template)
 
     def add_message(self, role: str, content: str):
         """

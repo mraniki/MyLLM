@@ -3,6 +3,18 @@
 
 
 
+## v4.3.1 (2024-02-24)
+
+### Other
+
+* Merge pull request #357 from mraniki/dev
+
+⬆️ 🤖 - Q	How does a hacker fix a function which ([`fc9e9b6`](https://github.com/mraniki/MyLLM/commit/fc9e9b69f6b42d33fecda96125de8ed517cf02a7))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.9 ([`c3227d2`](https://github.com/mraniki/MyLLM/commit/c3227d22cfba406e1283c32ef481eec5ed56302e))
+
 ## v4.3.0 (2024-02-23)
 
 ### :lipstick:

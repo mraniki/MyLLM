@@ -1,5 +1,5 @@
 # """
-# 🔗 Google GeminiLLM
+# ♊ Google GeminiLLM
 # via https://ai.google.dev/tutorials/python_quickstart
 
 
@@ -22,9 +22,7 @@
 #     def __init__(self, **kwargs):
 #         """
 #         Initializes the object with the given keyword arguments.
-#         The client is initialized with the given cookie dictionary.
-#         refer to
-#         https://github.com/dsdanielpark/Bard-API/blob/main/documents/README_DEV.md#multi-cookie-bard
+#         
 
 #         Args:
 #             **kwargs: Variable length keyword arguments.

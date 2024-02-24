@@ -33,7 +33,6 @@ class PetalsLLM(AIClient):
               model_name = self.llm_model or "petals-team/StableBeluga2"
               self.client = AutoTokenizer.from_pretrained(model_name)
               self.model = AutoDistributedModelForCausalLM.from_pretrained(model_name)
-                
             else:
                 return None
         except Exception as error:
@@ -53,7 +52,7 @@ class PetalsLLM(AIClient):
             logger.debug("archived_messages {}", archived_messages)
 
             inputs =  self.client(
-              archived_messages, 
+              archived_messages,
               return_tensors="pt"
               )["input_ids"]
             response = self.model.generate(inputs, max_new_tokens=5)

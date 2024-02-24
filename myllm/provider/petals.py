@@ -36,7 +36,7 @@ class PetalsLLM(AIClient):
             else:
                 return None
         except Exception as error:
-            logger.error("OpenAI initialization error {}", error)
+            logger.error("Petals initialization error {}", error)
             return None
 
     async def chat(self, prompt):

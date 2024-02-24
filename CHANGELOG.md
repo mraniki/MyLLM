@@ -3,6 +3,46 @@
 
 
 
+## v4.4.0 (2024-02-24)
+
+### :arrow_up:
+
+* :arrow_up: ([`55559b4`](https://github.com/mraniki/MyLLM/commit/55559b4f431803d8577607a3e617c4615c34277c))
+
+* :arrow_up: ([`82faa52`](https://github.com/mraniki/MyLLM/commit/82faa52222fd280dfa0386c8c16be06beb977418))
+
+### :rotating_light:
+
+* :rotating_light: ([`8635c03`](https://github.com/mraniki/MyLLM/commit/8635c03b3ae0511fceb43432864faee675b09c74))
+
+* :rotating_light: ([`691eff7`](https://github.com/mraniki/MyLLM/commit/691eff777cc59909df76b3f4a7e41832e97ec209))
+
+* :rotating_light: ([`808814e`](https://github.com/mraniki/MyLLM/commit/808814e4d78d20bed523b4f32c1d5bf6c971d458))
+
+### :white_check_mark:
+
+* :white_check_mark: Fix assertion in test_get_chats function. ([`bc4b672`](https://github.com/mraniki/MyLLM/commit/bc4b672097e4eb24f9b55d6e9dd818d9d968e55e))
+
+* :white_check_mark: add new test cases. ([`af27894`](https://github.com/mraniki/MyLLM/commit/af27894bd74c59e42fc95dc56c119d02654c6858))
+
+### Other
+
+* Merge pull request #359 from mraniki/dev
+
+⬆️ 🤖 - Youd like to do it instantaneously but thats too slow ([`6530a4a`](https://github.com/mraniki/MyLLM/commit/6530a4ab26bdcfbe5a60c245a784104f0945d0b9))
+
+### Update
+
+* Update error message in PetalsLLM class. ([`c7542e7`](https://github.com/mraniki/MyLLM/commit/c7542e7b610a170acf706b153d035267d2db4a2d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency transformers to v4.38.1 ([`099ce67`](https://github.com/mraniki/MyLLM/commit/099ce67f4920488dcbdba27bf18354f25b856dc3))
+
+### 🥚
+
+* 🥚 Add PetalsLLM provider ([`14058fe`](https://github.com/mraniki/MyLLM/commit/14058fe9ca5a3c0a425099ed1076ffcb0991203d))
+
 ## v4.3.1 (2024-02-24)
 
 ### Other

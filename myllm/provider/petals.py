@@ -56,7 +56,6 @@ class PetalsLLM(AIClient):
               return_tensors="pt"
               )["input_ids"]
             response = self.model.generate(inputs, max_new_tokens=5)
-            
             sleep(self.timeout)
             logger.debug("response {}", response)
 

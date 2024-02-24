@@ -52,13 +52,18 @@ class PetalsLLM(AIClient):
             archived_messages = self.conversation.get_messages()
             logger.debug("archived_messages {}", archived_messages)
 
-            inputs =  self.client(archived_messages, return_tensors="pt")["input_ids"]
+            inputs =  self.client(
+              archived_messages, 
+              return_tensors="pt"
+              )["input_ids"]
             response = self.model.generate(inputs, max_new_tokens=5)
+            
             sleep(self.timeout)
             logger.debug("response {}", response)
 
             if response:
-                response_content = self.client.decode(response[0]) logger.debug("response_content {}", response_content)
+                response_content = self.client.decode(response[0])
+                logger.debug("response_content {}", response_content)
                 self.conversation.add_message("assistant", response_content)
                 formatted_response = f"{self.llm_prefix} {response_content}"
                 logger.debug("User: {}, AI: {}", prompt, response_content)

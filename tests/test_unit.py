@@ -53,6 +53,9 @@ async def test_myllmclient(talky):
 async def test_get_chats(talky):
     result = await talky.chat("tell me a story")
     assert result is not None
+    assert "bing" in result
+    assert "openai" in result
+    #assert "petals" in result
 
 
 @pytest.mark.asyncio

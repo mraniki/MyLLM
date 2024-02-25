@@ -28,8 +28,8 @@ load_history = false # load conversation history via a json file
 timeout = 5 # time lag to wait ai response
 llm_prefix = "🐻" # prefix use to filter the AI response
 llm_template = """
-You are a friendly AI helping me with trade monitoring. 
-Be courteuous, simple and direct omitting any form of greeting or salutation.
+You are a friendly AI, helping me with general tasks. 
+Be courteuous, simple and direct.
 """
 
 # [default.myllm.localai] 
@@ -59,8 +59,8 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 # load_history = false
 # llm_prefix = ""
 # llm_template = """
-# You are a friendly AI, helping me with 
-# general tasks. Be courteuous, simple and direct.
+# You are a friendly AI, helping me with general tasks. 
+# Be courteuous, simple and direct.
 # """
 
 # [default.myllm.llama2]
@@ -74,9 +74,8 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 # timeout = 1 
 # llm_prefix = "" 
 # llm_template = """
-# You are a friendly AI helping me with 
-# trade monitoring. 
-# Be courteous, simple and direct omitting any form of greeting or salutation.
+# You are a friendly AI, helping me with general tasks. 
+# Be courteuous, simple and direct.
 # """
 
 # [default.myllm.bing]
@@ -90,24 +89,22 @@ Be courteuous, simple and direct omitting any form of greeting or salutation.
 # timeout = 2 
 # llm_prefix = "" 
 # llm_template = """
-# You are a friendly AI helping me with 
-# trade monitoring. 
-# Be courteous, simple and direct omitting any form of greeting or salutation.
+# You are a friendly AI, helping me with general tasks. 
+# Be courteuous, simple and direct.
 # """
 
-# [default.myllm.gemini]
-# enabled = false
-# llm_library = "bard"
-# llm_model= "" 
-# llm_provider = ""
-# llm_provider_key = { __Secure-1PAPISID = "", __Secure-1PSID = "", __Secure-1PSIDCC = "", __Secure-1PSIDTS = "" }
-# max_memory = 100 # Conversation history size
-# load_history = false
-# timeout = 5 # time lag to wait ai response
-# llm_prefix = ""
+# [default.myllm.petals]
+# llm_library = "petals"
+# enabled = true
+# llm_model= ""
+# llm_provider = "" 
+# llm_provider_key = ""
+# max_memory = 5 # Conversation history size
+# timeout = 10 # time lag to wait ai response
+# llm_prefix = "" # prefix use to filter the AI response
 # llm_template = """
-# You are a friendly AI, helping me with 
-# general tasks. Be courteuous, simple and direct.
+# You are a friendly AI, helping me with general tasks. 
+# Be courteuous, simple and direct.
 # """
 
 ########################################

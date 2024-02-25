@@ -3,6 +3,36 @@
 
 
 
+## v4.4.1 (2024-02-25)
+
+### Other
+
+* Merge pull request #363 from mraniki/dev
+
+⬆️ 🤖 - You will be recognized and honored as a community leader ([`3fc2164`](https://github.com/mraniki/MyLLM/commit/3fc2164c6d984e3b6b3b30756d0b18f65325f8a2))
+
+### ♻️
+
+* ♻️ ([`670cb96`](https://github.com/mraniki/MyLLM/commit/670cb96e9f705911f6e5e88057143f7eb67dda91))
+
+### ⬆️
+
+* ⬆️ ([`24e9b9d`](https://github.com/mraniki/MyLLM/commit/24e9b9ded4254148ed5c28c0c9f43fe3e65f154d))
+
+* ⬆️ 🛠️(deps): update dependency black to v24 ([`d80a637`](https://github.com/mraniki/MyLLM/commit/d80a6375718ce8e1ed21a14a53422b36cd194fa2))
+
+### 🔥
+
+* 🔥 removing petals until stabalized ([`5d8bacc`](https://github.com/mraniki/MyLLM/commit/5d8bacc9262be359677c2bb0a520292a5821b90f))
+
+### 🔧
+
+* 💬 🔧 ([`e6e6c4b`](https://github.com/mraniki/MyLLM/commit/e6e6c4bb39607915f84307748b5a577b296b0714))
+
+### 🚨
+
+* 🚨 ([`ab6de7d`](https://github.com/mraniki/MyLLM/commit/ab6de7d58898722a9d81ce53af5f3e60e107292c))
+
 ## v4.4.0 (2024-02-24)
 
 ### :arrow_up:

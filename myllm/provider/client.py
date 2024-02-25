@@ -131,10 +131,9 @@ class Conversation:
         Returns:
             str: A string representation of the messages.
         """
-        messages_str = separator.join(
+        return separator.join(
             f"{message['role']}: {message['content']}" for message in self.messages
         )
-        return messages_str
 
     def export_messages(self, filename):
         """

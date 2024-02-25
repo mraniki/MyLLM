@@ -8,7 +8,7 @@ from loguru import logger
 
 from myllm import __version__
 from myllm.config import settings
-from myllm.provider import G4FLLM, PetalsLLM, OpenAILLM
+from myllm.provider import G4FLLM, OpenAILLM, PetalsLLM
 
 
 class MyLLM:
@@ -102,8 +102,8 @@ class MyLLM:
                 return OpenAILLM(**kwargs)
             elif kwargs["llm_library"] == "petals":
                 return PetalsLLM(**kwargs)
-            #elif kwargs["llm_library"] == "gemini":
-                #return GeminiLLM(**kwargs)
+            # elif kwargs["llm_library"] == "gemini":
+            # return GeminiLLM(**kwargs)
             else:
                 logger.error("llm_library {} not supported", kwargs["llm_library"])
                 # return None
@@ -120,9 +120,7 @@ class MyLLM:
         :rtype: str
         """
         version_info = f"ℹ️ {type(self).__name__} {__version__}\n"
-        client_info = "".join(
-            f"🤖 {client.name}\n" for client in self.clients
-        )
+        client_info = "".join(f"🤖 {client.name}\n" for client in self.clients)
         return version_info + client_info.strip()
 
     async def chat(self, prompt):

@@ -3,15 +3,14 @@
 https://health.petals.dev
 
 """
+
 from time import sleep
 
 from loguru import logger
+from petals import AutoDistributedModelForCausalLM
+from transformers import AutoTokenizer
 
 from myllm.provider.client import AIClient
-
-from transformers import AutoTokenizer
-from petals import AutoDistributedModelForCausalLM
-
 
 
 class PetalsLLM(AIClient):
@@ -30,9 +29,9 @@ class PetalsLLM(AIClient):
         try:
             super().__init__(**kwargs)
             if self.enabled:
-              model_name = self.llm_model or "petals-team/StableBeluga2"
-              self.client = AutoTokenizer.from_pretrained(model_name)
-              self.model = AutoDistributedModelForCausalLM.from_pretrained(model_name)
+                model_name = self.llm_model or "petals-team/StableBeluga2"
+                self.client = AutoTokenizer.from_pretrained(model_name)
+                self.model = AutoDistributedModelForCausalLM.from_pretrained(model_name)
             else:
                 return None
         except Exception as error:
@@ -51,10 +50,7 @@ class PetalsLLM(AIClient):
             archived_messages = self.conversation.get_messages()
             logger.debug("archived_messages {}", archived_messages)
 
-            inputs =  self.client(
-              archived_messages,
-              return_tensors="pt"
-              )["input_ids"]
+            inputs = self.client(archived_messages, return_tensors="pt")["input_ids"]
             response = self.model.generate(inputs, max_new_tokens=5)
             sleep(self.timeout)
             logger.debug("response {}", response)

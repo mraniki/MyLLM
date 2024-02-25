@@ -33,8 +33,8 @@ PyExecJS2="1.6.1"
 curl_cffi = "0.6.1"
 Brotli = "1.1.0"
 openai = "1.12.0"
-petals = "2.2.0.post1"
-transformers = "4.32"
+# petals = "2.2.0.post1"
+# transformers = "4.32"
 
 
 [tool.poetry.group.dev.dependencies]

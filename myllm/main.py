@@ -8,7 +8,7 @@ from loguru import logger
 
 from myllm import __version__
 from myllm.config import settings
-from myllm.provider import G4FLLM, OpenAILLM, PetalsLLM
+from myllm.provider import G4FLLM, OpenAILLM
 
 
 class MyLLM:
@@ -99,10 +99,10 @@ class MyLLM:
                 return G4FLLM(**kwargs)
             elif kwargs["llm_library"] == "openai":
                 return OpenAILLM(**kwargs)
-            elif kwargs["llm_library"] == "petals":
-                return PetalsLLM(**kwargs)
             # elif kwargs["llm_library"] == "gemini":
             # return GeminiLLM(**kwargs)
+            # elif kwargs["llm_library"] == "petals":
+            #     return PetalsLLM(**kwargs)
             else:
                 logger.error("llm_library {} not supported", kwargs["llm_library"])
                 # return None

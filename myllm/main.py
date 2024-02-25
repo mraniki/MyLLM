@@ -24,9 +24,8 @@ class MyLLM:
         _create_client(self, **kwargs)
         get_info(self)
         get_chats(self, prompt)
-        export_chat_history
-        clear_chat_history
-
+        export_chat_history(self)
+        clear_chat_history(self)
 
     """
 

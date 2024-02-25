@@ -1,6 +1,8 @@
 """
 🌸 Petals
-https://health.petals.dev
+Run large language models at home, BitTorrent style
+https://petals.dev
+
 
 """
 

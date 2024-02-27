@@ -3,6 +3,22 @@
 
 
 
+## v4.4.2 (2024-02-27)
+
+### Other
+
+* Merge pull request #367 from mraniki/dev
+
+⬆️ 🤖 - Today is the first day of the rest of the mess ([`84388a4`](https://github.com/mraniki/MyLLM/commit/84388a4ad711ee045bd727df347fd10e521a2e1a))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency pytest to v8 ([`282762e`](https://github.com/mraniki/MyLLM/commit/282762edfc69f351a7918dcb1d89d1fbdc2a1f85))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.2.3 ([`4a74d86`](https://github.com/mraniki/MyLLM/commit/4a74d8681b2fe30a25a9e5257db99a927d586a6e))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.2.1 ([`50ff4a9`](https://github.com/mraniki/MyLLM/commit/50ff4a94c196976c1c9f5e95afcbd31198f946dc))
+
 ## v4.4.1 (2024-02-25)
 
 ### Other

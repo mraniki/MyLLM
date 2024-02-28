@@ -3,6 +3,26 @@
 
 
 
+## v4.4.3 (2024-02-28)
+
+### Other
+
+* Merge pull request #370 from mraniki/dev
+
+⬆️ 🤖 - You will never know hunger ([`edd1ead`](https://github.com/mraniki/MyLLM/commit/edd1eadfc0117ff4d2d702cda37c25b4962bd0a1))
+
+* Merge pull request #368 from mraniki/dev
+
+♻️ ✅ ([`e610988`](https://github.com/mraniki/MyLLM/commit/e61098898ecf7bd1d3d0593d7fcf5a6346267063))
+
+### ♻️
+
+* ♻️ ✅ ([`70a60bd`](https://github.com/mraniki/MyLLM/commit/70a60bde9f31fb0cba645ac89792e5eb53fe9ecc))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.2.5 ([`f3c5343`](https://github.com/mraniki/MyLLM/commit/f3c53435aed8fce2a1dbd29c20f4f32c3a24dfa0))
+
 ## v4.4.2 (2024-02-27)
 
 ### Other

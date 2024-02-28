@@ -90,6 +90,23 @@ class AIClient:
 
 
 class Conversation:
+    """
+    Conversation class to store and retrieve conversation history.
+
+    Attributes:
+        messages (list): list of messages
+        max_memory (int): maximum memory
+        template (str): template
+
+    Methods:
+        add_message(self, role: str, content: str)
+        get_messages(self)
+        export_messages(self, filename)
+        import_messages(self, filename)
+
+    """
+
+
     def __init__(self, max_memory=None, llm_template=None):
         """
         Initialize the class with optional max_memory and llm_template parameters.
@@ -121,19 +138,19 @@ class Conversation:
         """
         return self.messages
 
-    def get_messages_as_string(self, separator="\n"):
-        """
-        Returns the messages stored in the instance variable as a single string.
+    # def get_messages_as_string(self, separator="\n"):
+    #     """
+    #     Returns the messages stored in the instance variable as a single string.
 
-        Args:
-            separator (str): The separator to use between messages.
+    #     Args:
+    #         separator (str): The separator to use between messages.
 
-        Returns:
-            str: A string representation of the messages.
-        """
-        return separator.join(
-            f"{message['role']}: {message['content']}" for message in self.messages
-        )
+    #     Returns:
+    #         str: A string representation of the messages.
+    #     """
+    #     return separator.join(
+    #         f"{message['role']}: {message['content']}" for message in self.messages
+    #     )
 
     def export_messages(self, filename):
         """

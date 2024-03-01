@@ -3,6 +3,20 @@
 
 
 
+## v4.4.5 (2024-03-01)
+
+### Other
+
+* Merge pull request #375 from mraniki/dev
+
+⬆️ 🤖 - You will be a winner today  Pick a fight with a fouryearold ([`de95b7a`](https://github.com/mraniki/MyLLM/commit/de95b7a4fd35543126b0c8ab9b63ae79beb7f655))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.3.0 ([`5a65465`](https://github.com/mraniki/MyLLM/commit/5a65465fa1bc7221fd272292022961e466f5686b))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.2.6 ([`8f527bf`](https://github.com/mraniki/MyLLM/commit/8f527bfeac86a33adf0575bd75518b6e7baaf5e5))
+
 ## v4.4.4 (2024-02-29)
 
 ### Other

@@ -3,6 +3,18 @@
 
 
 
+## v4.4.6 (2024-03-03)
+
+### Other
+
+* Merge pull request #377 from mraniki/dev
+
+⬆️ 🤖 - The only way to keep your health is to eat what you dont want drink what ([`9f97cc2`](https://github.com/mraniki/MyLLM/commit/9f97cc223ac4ca8e88b47118cf96f44650ba613a))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency curl_cffi to v0.6.2 ([`ae3a6a1`](https://github.com/mraniki/MyLLM/commit/ae3a6a11ec71199be99167fc71806c0cd1e63a43))
+
 ## v4.4.5 (2024-03-01)
 
 ### Other

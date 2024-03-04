@@ -3,6 +3,18 @@
 
 
 
+## v4.4.7 (2024-03-04)
+
+### Other
+
+* Merge pull request #379 from mraniki/dev
+
+⬆️ 🤖 - Your object is to save the world while still leading a pleasant life ([`2af4af5`](https://github.com/mraniki/MyLLM/commit/2af4af5d7a919408ef473a00df85c1378c2e2c1e))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.2.7 ([`5a1d623`](https://github.com/mraniki/MyLLM/commit/5a1d623b8dea956c14b88473844dc3edc6c53b86))
+
 ## v4.4.6 (2024-03-03)
 
 ### Other

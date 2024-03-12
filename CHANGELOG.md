@@ -3,6 +3,36 @@
 
 
 
+## v4.4.8 (2024-03-12)
+
+### Other
+
+* Merge pull request #385 from mraniki/dev
+
+⬆️ 🤖 - You may my glories and my state dispose ([`f44c312`](https://github.com/mraniki/MyLLM/commit/f44c31250c1bfaf848ccf30a08d43ea00f78a808))
+
+* Merge pull request #386 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.4.0 ([`f83a131`](https://github.com/mraniki/MyLLM/commit/f83a131fc188a71a5f99d885501f4ac2bae17f14))
+
+* Merge pull request #381 from mraniki/dev
+
+⬆️ 🤖 - You will have a long and unpleasant discussion with your supervisor ([`4893bd3`](https://github.com/mraniki/MyLLM/commit/4893bd3751bb2df75c601aa185cabfbef52bfe1d))
+
+### ✅
+
+* ✅ Fix Unit Test ([`88f430c`](https://github.com/mraniki/MyLLM/commit/88f430c6dd5623aa1c69db497e1b97c3befccf5d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.4.0 ([`16aa5c5`](https://github.com/mraniki/MyLLM/commit/16aa5c5b190eb5c66e6df80bb28951f2647fdee1))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.3.3 ([`40cdb20`](https://github.com/mraniki/MyLLM/commit/40cdb20b142085504bb31f220977d23072a0baa9))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.3.1 ([`76202d4`](https://github.com/mraniki/MyLLM/commit/76202d4cea4a599fb29eee97968d048a62de698f))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.2.8 ([`16dc2b4`](https://github.com/mraniki/MyLLM/commit/16dc2b428576e55b806b7b4386ab9c31fe75f28b))
+
 ## v4.4.7 (2024-03-04)
 
 ### Other

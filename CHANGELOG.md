@@ -3,6 +3,20 @@
 
 
 
+## v4.4.9 (2024-03-14)
+
+### Other
+
+* Merge pull request #389 from mraniki/dev
+
+⬆️ 🤖 - When angry count four when very angry swear ([`415fd4b`](https://github.com/mraniki/MyLLM/commit/415fd4b936d94120148e51b3ca2816b53a8bd641))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.14.0 ([`b87233e`](https://github.com/mraniki/MyLLM/commit/b87233ef3bea2682490e60bad707a00de1c6bc41))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.4.1 ([`87f5a67`](https://github.com/mraniki/MyLLM/commit/87f5a67a41948eb08cb0361b87e9d89221d04df6))
+
 ## v4.4.8 (2024-03-12)
 
 ### Other

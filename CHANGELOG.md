@@ -3,6 +3,18 @@
 
 
 
+## v4.4.10 (2024-03-16)
+
+### Other
+
+* Merge pull request #391 from mraniki/dev
+
+⬆️ 🤖 - You are only young once but you can stay immature indefinitely ([`b264775`](https://github.com/mraniki/MyLLM/commit/b264775d245e6d91bcc9c3528e80e68ea37202db))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.14.1 ([`51f0528`](https://github.com/mraniki/MyLLM/commit/51f05286673b96cab3b87702e7cdc536046ccffe))
+
 ## v4.4.9 (2024-03-14)
 
 ### Other

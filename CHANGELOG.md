@@ -3,6 +3,24 @@
 
 
 
+## v4.4.11 (2024-03-17)
+
+### Other
+
+* Merge pull request #393 from mraniki/dev
+
+⬆️ 🤖 - You will contract a rare disease ([`d180165`](https://github.com/mraniki/MyLLM/commit/d180165310992c9bea6d2bf3dfd39f02fbc9dbdc))
+
+* Merge pull request #394 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.5.3 ([`2e9b1e7`](https://github.com/mraniki/MyLLM/commit/2e9b1e714627b106cfff42051f9afab95b52e906))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.5.3 ([`a9ed3a1`](https://github.com/mraniki/MyLLM/commit/a9ed3a15cb61b0a955aad0a7d21ed4911df14f37))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.5.2 ([`357c26c`](https://github.com/mraniki/MyLLM/commit/357c26c93314701cccf5ddc92c83eefad9bc38ce))
+
 ## v4.4.10 (2024-03-16)
 
 ### Other

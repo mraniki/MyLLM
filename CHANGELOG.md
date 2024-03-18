@@ -3,6 +3,22 @@
 
 
 
+## v4.4.12 (2024-03-18)
+
+### Other
+
+* Merge pull request #396 from mraniki/dev
+
+⬆️ 🤖 - Save energy be apathetic ([`0bd772d`](https://github.com/mraniki/MyLLM/commit/0bd772d8c1f52284db22c228ea8b1b255c252524))
+
+### ✅
+
+* ✅ Unit Test tweak ([`6af039f`](https://github.com/mraniki/MyLLM/commit/6af039fc7347b8d82447e926b10d2539453083c2))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.5.4 ([`287d10f`](https://github.com/mraniki/MyLLM/commit/287d10fd4353515890a2585c6e6c45be067e6949))
+
 ## v4.4.11 (2024-03-17)
 
 ### Other

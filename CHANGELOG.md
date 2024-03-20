@@ -3,6 +3,30 @@
 
 
 
+## v4.4.13 (2024-03-20)
+
+### Other
+
+* Merge pull request #401 from mraniki/dev
+
+⬆️ 🤖 - You will be a winner today  Pick a fight with a fouryearold ([`dd71b6f`](https://github.com/mraniki/MyLLM/commit/dd71b6ff7b65b179d5dfe668fc3b228b8c8777dd))
+
+* Merge pull request #402 from mraniki/renovate/pytest-loguru-0.x
+
+⬆️ 🛠️(deps): update dependency pytest-loguru to ^0.4.0 ([`735ea37`](https://github.com/mraniki/MyLLM/commit/735ea3732f279ff7222157bdfed7f4658814d1ca))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency pytest-loguru to ^0.4.0 ([`b75b789`](https://github.com/mraniki/MyLLM/commit/b75b7896185bb3b6ba74947ff996b2a9e0b9de24))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.6.1 ([`9540a07`](https://github.com/mraniki/MyLLM/commit/9540a07b5df95d13a582f73072c06f206aba3926))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.5.9 ([`b6d910f`](https://github.com/mraniki/MyLLM/commit/b6d910f687359274c4888ff6b5ac2bb8c59a6c64))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.14.2 ([`bc5a1d1`](https://github.com/mraniki/MyLLM/commit/bc5a1d1bd59894b3b4e59f6ae3299bfe128ce5c8))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.5.7 ([`922185d`](https://github.com/mraniki/MyLLM/commit/922185d8afb4408961fda8d0cbe7adaf24c61a2d))
+
 ## v4.4.12 (2024-03-18)
 
 ### Other

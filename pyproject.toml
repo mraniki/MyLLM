@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "MyLLM"
-version = "4.4.2"
+version = "4.4.13"
 description = "A python package to interact with llm model supported by g4f and langchain."
 authors = ["mraniki <8766259+mraniki@users.noreply.github.com>"]
 license = "MIT License"
@@ -27,19 +27,19 @@ uvicorn = ">=0.22.0"
 dynaconf = ">=3.2.0"
 loguru = ">=0.6.0"
 httpx = ">=0.24.1"
-g4f = "0.2.2.3"
+g4f = "0.2.6.2"
 js2py = "^0.74"
 PyExecJS2="1.6.1"
-curl_cffi = "0.6.1"
+curl_cffi = "0.6.2"
 Brotli = "1.1.0"
-openai = "1.12.0"
+openai = "1.14.2"
 # petals = "2.2.0.post1"
 # transformers = "4.32"
 
 
 [tool.poetry.group.dev.dependencies]
 python-semantic-release = ">=8.0.8"
-ruff = "^0.2.0"
+ruff = "^0.3.0"
 black = "^24.0.0"
 pre-commit = "^3.3.1"
 
@@ -137,12 +137,34 @@ overgeneral-exceptions = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 [tool.poetry.group.test.dependencies]
 pytest = "^8.0.0"
 pytest-cov = "^4.1"
 pytest-asyncio = "^0.23.0"
 pytest-mock = "^3.11.1"
-pytest-loguru = "^0.3.0"
+pytest-loguru = "^0.4.0"
+
+
+
+
+
+
+
+
+
+
+
 
 
 

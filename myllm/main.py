@@ -146,19 +146,14 @@ class MyLLM:
         client in the list of clients.
         Catches any exceptions and logs them using the logger.
         """
-        try:
-            for client in self.clients:
-                await client.export_chat_history()
-        except Exception as e:
-            logger.error(e)
+        for client in self.clients:
+            await client.export_chat_history()
+
 
     async def clear_chat_history(self):
         """
         Asynchronously clears the chat history for each
         client in the list of clients.
         """
-        try:
-            for client in self.clients:
-                await client.clear_chat_history()
-        except Exception as e:
-            logger.error(e)
+        for client in self.clients:
+            await client.clear_chat_history()

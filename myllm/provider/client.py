@@ -1,6 +1,8 @@
 import json
 import os
 
+from loguru import logger
+
 
 class AIClient:
     """
@@ -20,42 +22,37 @@ class AIClient:
 
     """
 
-    def __init__(
-        self,
-        name=None,
-        enabled=True,
-        llm_library=None,
-        llm_model=None,
-        llm_provider=None,
-        llm_provider_key=None,
-        llm_base_url=None,
-        max_memory=None,
-        load_history=False,
-        history_filename="",
-        timeout=None,
-        llm_prefix=None,
-        llm_template=None,
-    ):
+    def __init__(self, **kwargs):
         """
         Initialize the MyLLM object
 
         Args:
             None
         """
-        self.name = name
-        self.enabled = enabled
-        self.llm_library = llm_library
-        self.llm_model = llm_model
-        self.llm_provider = llm_provider
-        self.llm_provider_key = llm_provider_key
-        self.llm_base_url = llm_base_url
-        self.llm_prefix = llm_prefix
-        self.max_memory = max_memory
-        self.load_history = load_history
-        self.history_filename = history_filename or f"history-{self.name}.json"
-        self.timeout = timeout
+
+        logger.info("Initializing Client")
+        try:
+            self.name = kwargs.get("name", None)
+            self.enabled = kwargs.get("enabled", True)
+            self.llm_library = kwargs.get("llm_library", None)
+            self.llm_model = kwargs.get("llm_model", None)
+            self.llm_provider = kwargs.get("llm_provider", None)
+            self.llm_provider_key = kwargs.get("llm_provider_key", None)
+            self.llm_base_url = kwargs.get("llm_base_url", None)
+            self.max_memory = kwargs.get("max_memory", 100)
+            self.load_history = kwargs.get("load_history", False)
+            self.timeout = kwargs.get("timeout", 2)
+            self.llm_prefix = kwargs.get("llm_prefix")
+            self.history_filename = (
+                kwargs.get("history_filename")
+                or f"history-{self.name or 'default'}.json"
+            )
+            self.llm_template = kwargs.get("llm_template")
+        except Exception as error:
+            logger.error("Client initialization error {}", error)
+            return None
         self.conversation = Conversation(
-            max_memory=max_memory, llm_template=llm_template
+            max_memory=self.max_memory, llm_template=self.llm_template
         )
         self.client = None
 
@@ -106,7 +103,6 @@ class Conversation:
 
     """
 
-
     def __init__(self, max_memory=None, llm_template=None):
         """
         Initialize the class with optional max_memory and llm_template parameters.
@@ -137,20 +133,6 @@ class Conversation:
         Return the messages stored in the instance variable.
         """
         return self.messages
-
-    # def get_messages_as_string(self, separator="\n"):
-    #     """
-    #     Returns the messages stored in the instance variable as a single string.
-
-    #     Args:
-    #         separator (str): The separator to use between messages.
-
-    #     Returns:
-    #         str: A string representation of the messages.
-    #     """
-    #     return separator.join(
-    #         f"{message['role']}: {message['content']}" for message in self.messages
-    #     )
 
     def export_messages(self, filename):
         """

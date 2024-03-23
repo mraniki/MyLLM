@@ -3,6 +3,18 @@
 
 
 
+## v4.5.0 (2024-03-23)
+
+### Other
+
+* Merge pull request #405 from mraniki/dev
+
+💄 Client Creation Refactoring ([`f886193`](https://github.com/mraniki/MyLLM/commit/f8861936ab29ac05452a2a8025dbb7f35fa498b6))
+
+### 💄
+
+* 💄 Client Creation Refactoring ([`8709e82`](https://github.com/mraniki/MyLLM/commit/8709e82b5bd7047ddc919ad2de8718eeaf3ee1e6))
+
 ## v4.4.14 (2024-03-23)
 
 ### Other

@@ -3,6 +3,18 @@
 
 
 
+## v4.4.14 (2024-03-23)
+
+### Other
+
+* Merge pull request #404 from mraniki/dev
+
+⬆️ 🤖 - Alas how love can trifle with itself ([`296a3f6`](https://github.com/mraniki/MyLLM/commit/296a3f6c6738699cacf9c90023550177303788e4))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.6.2 ([`ef8c202`](https://github.com/mraniki/MyLLM/commit/ef8c2024f497d54d1dbfe5c9d4bcfbc8678261dc))
+
 ## v4.4.13 (2024-03-20)
 
 ### Other

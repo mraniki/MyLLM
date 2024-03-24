@@ -17,11 +17,12 @@ VALUE = "On default"
 # Module Enable/Disable
 myllm_enabled = true
 
+
 [default.myllm.template]
-llm_library = "g4f" # options are bard, openai or g4f
+library = "g4f" # options are openai or g4f
 enabled = false # options are true or false to enable or disable the llm
-llm_model= "gpt-4" # model to use e.g. gpt-3.5-turbo, gpt-4, gpt-4-32k
-llm_provider = "g4f.Provider.Liaobots" # only for g4f. Refer to https://github.com/xtekky/gpt4free
+llm_model= "" # model to use e.g. gpt-3.5-turbo, gpt-4, gpt-4-32k
+llm_provider = "g4f.Provider.Llama2" # only for g4f. Refer to https://github.com/xtekky/gpt4free
 llm_provider_key = "" # only for bard and openai to pass either the cookie or the api key
 max_memory = 100 # Conversation history size
 load_history = false # load conversation history via a json file
@@ -33,7 +34,7 @@ Be courteuous, simple and direct.
 """
 
 # [default.myllm.localai] 
-# llm_library = "openai"
+# library = "openai"
 # enabled = true
 # llm_model= "" 
 # llm_provider = "" 
@@ -49,7 +50,7 @@ Be courteuous, simple and direct.
 # """
 
 # [default.myllm.gpt35] 
-# llm_library = "openai"
+# library = "openai"
 # enabled = true
 # llm_model= "gpt-3.5-turbo-0125" 
 # llm_provider = "" 
@@ -65,7 +66,7 @@ Be courteuous, simple and direct.
 
 # [default.myllm.llama2]
 # enabled = true
-# llm_library = "g4f"
+# library = "g4f"
 # llm_model= ""
 # llm_provider = "g4f.Provider.Llama2"
 # llm_provider_key = ""
@@ -80,7 +81,7 @@ Be courteuous, simple and direct.
 
 # [default.myllm.bing]
 # enabled = true
-# llm_library = "g4f"
+# library = "g4f"
 # llm_model = ""
 # llm_provider = "g4f.Provider.Bing"
 # llm_provider_key = ""
@@ -94,7 +95,7 @@ Be courteuous, simple and direct.
 # """
 
 # [default.myllm.petals]
-# llm_library = "petals"
+# library = "petals"
 # enabled = true
 # llm_model= ""
 # llm_provider = "" 

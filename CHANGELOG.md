@@ -3,6 +3,18 @@
 
 
 
+## v4.7.0 (2024-03-24)
+
+### Other
+
+* Merge pull request #407 from mraniki/dev
+
+💄 _create_client refactor to be more generic ([`a1e873e`](https://github.com/mraniki/MyLLM/commit/a1e873e29a2e766c8f01ae1189491e0b6ccabd8a))
+
+### 💄
+
+* 💄 _create_client refactor to be more generic ([`49d09ec`](https://github.com/mraniki/MyLLM/commit/49d09ec163e5b65db366d69d9bd4de92c575e999))
+
 ## v4.6.0 (2024-03-24)
 
 ### Other

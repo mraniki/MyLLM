@@ -59,6 +59,7 @@ class MyLLM:
         self.enabled = settings.myllm_enabled or True
 
         # Create a mapping of library names to client classes
+        # todo: add mapping for new libraries in settings
         self.library_mapping = {
             "g4f": G4FLLM,
             "openai": OpenAILLM,
@@ -69,6 +70,8 @@ class MyLLM:
             logger.info("Module is disabled. No clients will be created.")
             return
         self.clients = []
+
+        # Create a client for each client in settings.myllm
         for name, client_config in settings.myllm.items():
             # Skip template and empty string client names
             if name in ["", "template"] or not client_config.get("enabled"):

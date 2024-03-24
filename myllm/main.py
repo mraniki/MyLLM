@@ -64,6 +64,7 @@ class MyLLM:
             "g4f": G4FLLM,
             "openai": OpenAILLM,
             # Add mappings here for new libraries
+            # as well as importing them in myllm/provider/__init__.py
         }
 
         if not self.enabled:
@@ -111,6 +112,7 @@ class MyLLM:
             or None if the library is not supported.
 
         """
+        #todo: simplify this or make it more generic
         library = kwargs.get("llm_library") or kwargs.get("library")
         client_class = self.library_mapping.get(library)
 

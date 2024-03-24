@@ -31,65 +31,62 @@ class MyLLM:
 
     def __init__(self):
         """
-        Initialize the MyLLM object which supports multiple LLM libraries
+        Initializes the class instance by creating and appending clients
+        based on the configuration in `settings.myllm`.
+        If `settings.myllm_enabled` is `False`,
+        the class will not create any clients.
 
-        Args:
+        Parameters:
+            None
+
+        Returns:
             None
         """
-        try:
-            self.enabled = settings.myllm_enabled
-            if not self.enabled:
-                return
-            logger.info("Initializing")
-            config = settings.myllm
-            self.clients = []
-            for name, client_config in config.items():
-                if name in ["", "template"] or not client_config.get("enabled"):
-                    continue
+        self.enabled = settings.myllm_enabled
+        if not self.enabled:
+            logger.info("Module is disabled. No clients will be created.")
+            return
+        self.clients = []
 
-                logger.debug("Loading: {}", name)
+        for name, client_config in settings.myllm.items():
+            if name in ["", "template"] or not client_config.get("enabled"):
+                continue
+            try:
                 client = self._create_client(**client_config, name=name)
-
-                if client and getattr(client, 'client', None):
+                if client and getattr(client, "client", None):
                     self.clients.append(client)
-                    logger.debug(f"Loaded {name}")
+            except Exception as e:
+                logger.error(f"Failed to create client {name}: {e}")
 
-            if self.clients:
-                logger.info(f"Loaded {len(self.clients)} clients")
-            else:
-                logger.warning("No clients loaded. Verify config")
-
-        except Exception as e:
-            logger.error(f"Error initializing: {e}")
+        logger.info(f"Loaded {len(self.clients)} clients")
 
     def _create_client(self, **kwargs):
         """
-
         Create a client based on the given protocol.
 
         Parameters:
             **kwargs (dict): Keyword arguments that
             contain the necessary information for creating the client.
-            The "llm_library" key is required.
+            The "library" key is required.
 
         Returns:
             client object based on
             the specified protocol.
 
         """
-        try:
-            library = kwargs.get("llm_library")
-            logger.debug(f"Creating client {library or 'unknown'}")
-            if kwargs["llm_library"] == "g4f":
-                return G4FLLM(**kwargs)
-            elif kwargs["llm_library"] == "openai":
-                return OpenAILLM(**kwargs)
-            else:
-                logger.error(f"library {library} not supported")
-                return None
-        except Exception as error:
-            logger.error(f"An error occurred while creating the client: {error}")
+        library_mapping = {
+            "g4f": G4FLLM,
+            "openai": OpenAILLM,
+            # Add mappings here for new libraries
+        }
+        library = kwargs.get("llm_library") or kwargs.get("library")
+        client_class = library_mapping.get(library)
+
+        if client_class is None:
+            logger.error(f"library {library} not supported")
             return None
+
+        return client_class(**kwargs)
 
     async def get_info(self):
         """
@@ -130,7 +127,6 @@ class MyLLM:
         """
         for client in self.clients:
             await client.export_chat_history()
-
 
     async def clear_chat_history(self):
         """

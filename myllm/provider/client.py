@@ -31,10 +31,11 @@ class AIClient:
         """
 
         logger.info("Initializing Client")
+        logger.debug("Received kwargs: {}", kwargs)
         try:
             self.name = kwargs.get("name", None)
             self.enabled = kwargs.get("enabled", True)
-            self.llm_library = kwargs.get("llm_library", None)
+            self.llm_library = kwargs.get("llm_library", None) or kwargs.get("library", None)
             self.llm_model = kwargs.get("llm_model", None)
             self.llm_provider = kwargs.get("llm_provider", None)
             self.llm_provider_key = kwargs.get("llm_provider_key", None)

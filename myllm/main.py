@@ -33,8 +33,21 @@ class MyLLM:
         """
         Initializes the class instance by creating and appending clients
         based on the configuration in `settings.myllm`.
-        If `settings.myllm_enabled` is `False`,
-        the class will not create any clients.
+
+        Checks if the module is enabled by looking at `settings.myllm_enabled`.
+        If the module is disabled, no clients will be created.
+
+        Creates a mapping of library names to client classes.
+        This mapping is used to create new clients based on the configuration.
+
+        If a client's configuration exists in `settings.myllm` and its "enabled"
+        key is truthy, it will be created.
+        Clients are not created if their name is "template" or empty string.
+
+        If a client is successfully created, it is appended to the `clients` list.
+
+        If a client fails to be created, a message is logged with the name of the
+        client and the error that occurred.
 
         Parameters:
             None
@@ -42,40 +55,57 @@ class MyLLM:
         Returns:
             None
         """
-        self.enabled = settings.myllm_enabled
-        if not self.enabled:
-            logger.info("Module is disabled. No clients will be created.")
-            return
-        self.clients = []
+        # Check if the module is enabled
+        self.enabled = settings.myllm_enabled or True
+
+        # Create a mapping of library names to client classes
         self.library_mapping = {
             "g4f": G4FLLM,
             "openai": OpenAILLM,
             # Add mappings here for new libraries
         }
+
+        if not self.enabled:
+            logger.info("Module is disabled. No clients will be created.")
+            return
+        self.clients = []
         for name, client_config in settings.myllm.items():
+            # Skip template and empty string client names
             if name in ["", "template"] or not client_config.get("enabled"):
                 continue
             try:
+                # Create the client
                 client = self._create_client(**client_config, name=name)
+                # If the client has a valid client attribute, append it to the list
                 if client and getattr(client, "client", None):
                     self.clients.append(client)
             except Exception as e:
+                # Log the error if the client fails to be created
                 logger.error(f"Failed to create client {name}: {e}")
 
+        # Log the number of clients that were created
         logger.info(f"Loaded {len(self.clients)} clients")
 
     def _create_client(self, **kwargs):
         """
         Create a client based on the given protocol.
 
+        This function takes in a dictionary of keyword arguments
+        containing the necessary information to create a client.
+        The "library" key is required and must match one of the
+        libraries supported by MyLLM.
+
+        The function returns a client object based on the specified
+        protocol or None if the library is not supported.
+
         Parameters:
-            **kwargs (dict): Keyword arguments that
-            contain the necessary information for creating the client.
+            **kwargs (dict): A dictionary of keyword arguments
+            containing the necessary information for creating the client.
             The "library" key is required.
 
         Returns:
-            client object based on
-            the specified protocol.
+            A client object based on the specified protocol
+            or None if the library is not supported.
 
         """
         library = kwargs.get("llm_library") or kwargs.get("library")

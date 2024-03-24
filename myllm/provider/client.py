@@ -31,7 +31,6 @@ class AIClient:
         """
 
         logger.info("Initializing Client")
-        logger.debug("Received kwargs: {}", kwargs)
         try:
             self.name = kwargs.get("name", None)
             self.enabled = kwargs.get("enabled", True)

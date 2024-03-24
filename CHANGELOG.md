@@ -3,6 +3,32 @@
 
 
 
+## v4.6.0 (2024-03-24)
+
+### Other
+
+* Merge pull request #406 from mraniki/dev
+
+💄 Further refactoring of client creation ([`315387c`](https://github.com/mraniki/MyLLM/commit/315387c899bf687d7ea20c6632a5b902834cc8b2))
+
+### ♻️
+
+* ♻️ ([`c23ef84`](https://github.com/mraniki/MyLLM/commit/c23ef84283bc0191659e1dc8a5c2d8fa2a9e390d))
+
+### 💄
+
+* 💄 Further refactoring of client creation ([`206fa51`](https://github.com/mraniki/MyLLM/commit/206fa51e970cda594b8d0b81c0a5089ca865177d))
+
+### 💬
+
+* 💬 ([`b33b8c6`](https://github.com/mraniki/MyLLM/commit/b33b8c68a9424f05495ca8aafea880a79a206ae9))
+
+* 💬 ([`21da881`](https://github.com/mraniki/MyLLM/commit/21da881ba19897ab6a320f027b70bc316e69f820))
+
+### 🚨
+
+* 🚨 ([`f5a94ae`](https://github.com/mraniki/MyLLM/commit/f5a94aed2e56e35532e8e8f4206f629aead25721))
+
 ## v4.5.0 (2024-03-23)
 
 ### Other

@@ -47,7 +47,11 @@ class MyLLM:
             logger.info("Module is disabled. No clients will be created.")
             return
         self.clients = []
-
+        self.library_mapping = {
+            "g4f": G4FLLM,
+            "openai": OpenAILLM,
+            # Add mappings here for new libraries
+        }
         for name, client_config in settings.myllm.items():
             if name in ["", "template"] or not client_config.get("enabled"):
                 continue
@@ -74,13 +78,8 @@ class MyLLM:
             the specified protocol.
 
         """
-        library_mapping = {
-            "g4f": G4FLLM,
-            "openai": OpenAILLM,
-            # Add mappings here for new libraries
-        }
         library = kwargs.get("llm_library") or kwargs.get("library")
-        client_class = library_mapping.get(library)
+        client_class = self.library_mapping.get(library)
 
         if client_class is None:
             logger.error(f"library {library} not supported")

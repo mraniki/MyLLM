@@ -34,7 +34,7 @@ Be courteuous, simple and direct.
 """
 
 # [default.myllm.localai] 
-# llm_library = "openai"
+# library = "openai"
 # enabled = true
 # llm_model= "" 
 # llm_provider = "" 
@@ -50,7 +50,7 @@ Be courteuous, simple and direct.
 # """
 
 # [default.myllm.gpt35] 
-# llm_library = "openai"
+# library = "openai"
 # enabled = true
 # llm_model= "gpt-3.5-turbo-0125" 
 # llm_provider = "" 
@@ -66,7 +66,7 @@ Be courteuous, simple and direct.
 
 # [default.myllm.llama2]
 # enabled = true
-# llm_library = "g4f"
+# library = "g4f"
 # llm_model= ""
 # llm_provider = "g4f.Provider.Llama2"
 # llm_provider_key = ""
@@ -81,7 +81,7 @@ Be courteuous, simple and direct.
 
 # [default.myllm.bing]
 # enabled = true
-# llm_library = "g4f"
+# library = "g4f"
 # llm_model = ""
 # llm_provider = "g4f.Provider.Bing"
 # llm_provider_key = ""
@@ -95,7 +95,7 @@ Be courteuous, simple and direct.
 # """
 
 # [default.myllm.petals]
-# llm_library = "petals"
+# library = "petals"
 # enabled = true
 # llm_model= ""
 # llm_provider = "" 

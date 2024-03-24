@@ -4,11 +4,12 @@ MYLLM Main 🤖
 
 """
 
+import importlib
+
 from loguru import logger
 
 from myllm import __version__
 from myllm.config import settings
-from myllm.provider import G4FLLM, OpenAILLM
 
 
 class MyLLM:
@@ -59,13 +60,8 @@ class MyLLM:
         self.enabled = settings.myllm_enabled or True
 
         # Create a mapping of library names to client classes
-        # todo: add mapping for new libraries in settings
-        self.library_mapping = {
-            "g4f": G4FLLM,
-            "openai": OpenAILLM,
-            # Add mappings here for new libraries
-            # as well as importing them in myllm/provider/__init__.py
-        }
+        self.client_classes = self.get_all_client_classes()
+        logger.debug("client_classes available {}", self.client_classes)
 
         if not self.enabled:
             logger.info("Module is disabled. No clients will be created.")
@@ -94,33 +90,65 @@ class MyLLM:
         """
         Create a client based on the given protocol.
 
-        This function takes in a dictionary of keyword arguments
-        containing the necessary information to create a client.
-        The "library" key is required and must match one of the
+        This function takes in a dictionary of keyword arguments, `kwargs`,
+        containing the necessary information to create a client. The required
+        key in `kwargs` is "library", which specifies the protocol to use for
+        communication with the LLM. The value of "library" must match one of the
         libraries supported by MyLLM.
 
-        The function returns a client object based on the specified
-        protocol or None if the library is not supported.
+        This function retrieves the class used to create the client based on the
+        value of "library" from the mapping of library names to client classes
+        stored in `self.client_classes`. If the value of "library" does not
+        match any of the libraries supported, the function logs an error message
+        and returns None.
+
+        If the class used to create the client is found, the function creates a
+        new instance of the class using the keyword arguments in `kwargs` and
+        returns it.
+
+        The function returns a client object based on the specified protocol
+        or None if the library is not supported.
 
         Parameters:
-            **kwargs (dict): A dictionary of keyword arguments
-            containing the necessary information for creating the client.
-            The "library" key is required.
+            **kwargs (dict): A dictionary of keyword arguments containing the
+            necessary information for creating the client. The required key is
+            "library".
 
         Returns:
-            A client object based on the specified protocol
-            or None if the library is not supported.
+            A client object based on the specified protocol or None if the
+            library is not supported.
 
         """
-        #todo: simplify this or make it more generic
         library = kwargs.get("llm_library") or kwargs.get("library")
-        client_class = self.library_mapping.get(library)
+        client_class = self.client_classes.get(f"{library.upper()}LLM")
 
         if client_class is None:
             logger.error(f"library {library} not supported")
             return None
 
         return client_class(**kwargs)
+
+    def get_all_client_classes(self):
+        """
+        Retrieves all client classes from the `myllm.provider` module.
+
+        This function imports the `myllm.provider` module and retrieves
+        all the classes defined in it.
+
+        The function returns a dictionary where the keys are the
+        names of the classes and the values are the corresponding
+        class objects.
+
+        Returns:
+            dict: A dictionary containing all the client classes
+            from the `myllm.provider` module.
+        """
+        provider_module = importlib.import_module("myllm.provider")
+        return {
+            name: cls
+            for name, cls in provider_module.__dict__.items()
+            if isinstance(cls, type)
+        }
 
     async def get_info(self):
         """

@@ -25,6 +25,7 @@ class G4FLLM(AIClient):
         """
         try:
             super().__init__(**kwargs)
+            logger.debug("G4F provider initializing")
             if self.enabled:
                 provider_module_name = self.llm_provider
                 provider_module = importlib.import_module(provider_module_name)
@@ -33,15 +34,7 @@ class G4FLLM(AIClient):
                 )
                 self.provider = provider_class()
                 self.client = self.provider
-                logger.info("G4F provider initialized")
-
-                logger.debug("G4F provider: {}", self.provider)
-                logger.debug("G4F model: {}", self.llm_model)
-                logger.debug("G4F timeout: {}", self.timeout)
-                logger.debug("G4F prefix: {}", self.llm_prefix)
-                logger.debug("G4F conversation: {}", self.conversation)
-                logger.debug("G4F client: {}", self.client)
-                logger.debug("G4F enabled: {}", self.enabled)
+                logger.info("Provider {} initialized ", self.provider)
             else:
                 return None
         except Exception as error:

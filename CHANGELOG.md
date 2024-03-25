@@ -3,6 +3,68 @@
 
 
 
+## v4.7.0 (2024-03-24)
+
+### Other
+
+* Merge pull request #407 from mraniki/dev
+
+💄 _create_client refactor to be more generic ([`a1e873e`](https://github.com/mraniki/MyLLM/commit/a1e873e29a2e766c8f01ae1189491e0b6ccabd8a))
+
+### 💄
+
+* 💄 _create_client refactor to be more generic ([`49d09ec`](https://github.com/mraniki/MyLLM/commit/49d09ec163e5b65db366d69d9bd4de92c575e999))
+
+## v4.6.0 (2024-03-24)
+
+### Other
+
+* Merge pull request #406 from mraniki/dev
+
+💄 Further refactoring of client creation ([`315387c`](https://github.com/mraniki/MyLLM/commit/315387c899bf687d7ea20c6632a5b902834cc8b2))
+
+### ♻️
+
+* ♻️ ([`c23ef84`](https://github.com/mraniki/MyLLM/commit/c23ef84283bc0191659e1dc8a5c2d8fa2a9e390d))
+
+### 💄
+
+* 💄 Further refactoring of client creation ([`206fa51`](https://github.com/mraniki/MyLLM/commit/206fa51e970cda594b8d0b81c0a5089ca865177d))
+
+### 💬
+
+* 💬 ([`b33b8c6`](https://github.com/mraniki/MyLLM/commit/b33b8c68a9424f05495ca8aafea880a79a206ae9))
+
+* 💬 ([`21da881`](https://github.com/mraniki/MyLLM/commit/21da881ba19897ab6a320f027b70bc316e69f820))
+
+### 🚨
+
+* 🚨 ([`f5a94ae`](https://github.com/mraniki/MyLLM/commit/f5a94aed2e56e35532e8e8f4206f629aead25721))
+
+## v4.5.0 (2024-03-23)
+
+### Other
+
+* Merge pull request #405 from mraniki/dev
+
+💄 Client Creation Refactoring ([`f886193`](https://github.com/mraniki/MyLLM/commit/f8861936ab29ac05452a2a8025dbb7f35fa498b6))
+
+### 💄
+
+* 💄 Client Creation Refactoring ([`8709e82`](https://github.com/mraniki/MyLLM/commit/8709e82b5bd7047ddc919ad2de8718eeaf3ee1e6))
+
+## v4.4.14 (2024-03-23)
+
+### Other
+
+* Merge pull request #404 from mraniki/dev
+
+⬆️ 🤖 - Alas how love can trifle with itself ([`296a3f6`](https://github.com/mraniki/MyLLM/commit/296a3f6c6738699cacf9c90023550177303788e4))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.6.2 ([`ef8c202`](https://github.com/mraniki/MyLLM/commit/ef8c2024f497d54d1dbfe5c9d4bcfbc8678261dc))
+
 ## v4.4.13 (2024-03-20)
 
 ### Other

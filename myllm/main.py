@@ -4,11 +4,12 @@ MYLLM Main 🤖
 
 """
 
+import importlib
+
 from loguru import logger
 
 from myllm import __version__
 from myllm.config import settings
-from myllm.provider import G4FLLM, OpenAILLM
 
 
 class MyLLM:
@@ -31,83 +32,123 @@ class MyLLM:
 
     def __init__(self):
         """
-        Initialize the MyLLM object which supports multiple LLM libraries
+        Initializes the class instance by creating and appending clients
+        based on the configuration in `settings.myllm`.
 
-        Args:
+        Checks if the module is enabled by looking at `settings.myllm_enabled`.
+        If the module is disabled, no clients will be created.
+
+        Creates a mapping of library names to client classes.
+        This mapping is used to create new clients based on the configuration.
+
+        If a client's configuration exists in `settings.myllm` and its "enabled"
+        key is truthy, it will be created.
+        Clients are not created if their name is "template" or empty string.
+
+        If a client is successfully created, it is appended to the `clients` list.
+
+        If a client fails to be created, a message is logged with the name of the
+        client and the error that occurred.
+
+        Parameters:
+            None
+
+        Returns:
             None
         """
-        try:
-            self.enabled = settings.myllm_enabled
-            if not self.enabled:
-                return
-            logger.info("Initializing MyLLM")
-            config = settings.myllm
-            self.clients = []
-            for item in config:
-                logger.debug("Client configuration starting: {}", item)
-                _config = config[item]
-                if item in ["", "template"]:
-                    continue
-                logger.debug("MyLLM client configuration starting: {}", item)
-                if _config.get("enabled") is True:
-                    client = self._create_client(
-                        name=item,
-                        llm_library=_config.get("llm_library") or item,
-                        enabled=_config.get("enabled") or True,
-                        llm_model=_config.get("llm_model"),
-                        llm_provider=_config.get("llm_provider"),
-                        llm_provider_key=_config.get("llm_provider_key"),
-                        llm_base_url=_config.get("llm_base_url") or None,
-                        max_memory=_config.get("max_memory") or 5,
-                        load_history=_config.get("load_history") or False,
-                        timeout=_config.get("timeout") or 10,
-                        llm_prefix=_config.get("llm_prefix") or "",
-                        llm_template=_config.get("llm_template")
-                        or "You are an AI assistant.",
-                    )
-                    logger.debug("Client: {}", client)
-                    if client.client:
-                        self.clients.append(client)
-                        logger.debug(f"Loaded {item}")
+        # Check if the module is enabled
+        self.enabled = settings.myllm_enabled or True
 
-            if self.clients:
-                logger.info(f"Loaded {len(self.clients)} LLM clients")
-            else:
-                logger.warning("No LLM clients loaded. Verify config")
+        # Create a mapping of library names to client classes
+        self.client_classes = self.get_all_client_classes()
+        logger.debug("client_classes available {}", self.client_classes)
 
-        except Exception as e:
-            logger.error(e)
+        if not self.enabled:
+            logger.info("Module is disabled. No clients will be created.")
+            return
+        self.clients = []
+
+        # Create a client for each client in settings.myllm
+        for name, client_config in settings.myllm.items():
+            # Skip template and empty string client names
+            if name in ["", "template"] or not client_config.get("enabled"):
+                continue
+            try:
+                # Create the client
+                client = self._create_client(**client_config, name=name)
+                # If the client has a valid client attribute, append it to the list
+                if client and getattr(client, "client", None):
+                    self.clients.append(client)
+            except Exception as e:
+                # Log the error if the client fails to be created
+                logger.error(f"Failed to create client {name}: {e}")
+
+        # Log the number of clients that were created
+        logger.info(f"Loaded {len(self.clients)} clients")
 
     def _create_client(self, **kwargs):
         """
-
         Create a client based on the given protocol.
 
+        This function takes in a dictionary of keyword arguments, `kwargs`,
+        containing the necessary information to create a client. The required
+        key in `kwargs` is "library", which specifies the protocol to use for
+        communication with the LLM. The value of "library" must match one of the
+        libraries supported by MyLLM.
+
+        This function retrieves the class used to create the client based on the
+        value of "library" from the mapping of library names to client classes
+        stored in `self.client_classes`. If the value of "library" does not
+        match any of the libraries supported, the function logs an error message
+        and returns None.
+
+        If the class used to create the client is found, the function creates a
+        new instance of the class using the keyword arguments in `kwargs` and
+        returns it.
+
+        The function returns a client object based on the specified protocol
+        or None if the library is not supported.
+
         Parameters:
-            **kwargs (dict): Keyword arguments that
-            contain the necessary information for creating the client.
-            The "llm_library" key is required.
+            **kwargs (dict): A dictionary of keyword arguments containing the
+            necessary information for creating the client. The required key is
+            "library".
 
         Returns:
-            client object based on
-            the specified protocol.
+            A client object based on the specified protocol or None if the
+            library is not supported.
 
         """
-        try:
-            logger.debug("Creating client {}", kwargs["llm_library"])
-            if kwargs["llm_library"] == "g4f":
-                return G4FLLM(**kwargs)
-            elif kwargs["llm_library"] == "openai":
-                return OpenAILLM(**kwargs)
-            # elif kwargs["llm_library"] == "gemini":
-            # return GeminiLLM(**kwargs)
-            # elif kwargs["llm_library"] == "petals":
-            #     return PetalsLLM(**kwargs)
-            else:
-                logger.error("llm_library {} not supported", kwargs["llm_library"])
-                # return None
-        except Exception as error:
-            logger.error(error)
+        library = kwargs.get("llm_library") or kwargs.get("library")
+        client_class = self.client_classes.get(f"{library.upper()}LLM")
+
+        if client_class is None:
+            logger.error(f"library {library} not supported")
+            return None
+
+        return client_class(**kwargs)
+
+    def get_all_client_classes(self):
+        """
+        Retrieves all client classes from the `myllm.provider` module.
+
+        This function imports the `myllm.provider` module and retrieves
+        all the classes defined in it.
+
+        The function returns a dictionary where the keys are the
+        names of the classes and the values are the corresponding
+        class objects.
+
+        Returns:
+            dict: A dictionary containing all the client classes
+            from the `myllm.provider` module.
+        """
+        provider_module = importlib.import_module("myllm.provider")
+        return {
+            name: cls
+            for name, cls in provider_module.__dict__.items()
+            if isinstance(cls, type)
+        }
 
     async def get_info(self):
         """
@@ -148,7 +189,6 @@ class MyLLM:
         """
         for client in self.clients:
             await client.export_chat_history()
-
 
     async def clear_chat_history(self):
         """

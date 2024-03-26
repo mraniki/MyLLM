@@ -3,6 +3,20 @@
 
 
 
+## v4.7.1 (2024-03-26)
+
+### Other
+
+* Merge pull request #411 from mraniki/dev
+
+⬆️ 🤖 - You may get an opportunity for advancement today  Watch it ([`66f8bf0`](https://github.com/mraniki/MyLLM/commit/66f8bf0cdcf62a365ce37100cebc6ed7c0e324dd))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.7.0 ([`9237da9`](https://github.com/mraniki/MyLLM/commit/9237da93183c687c9b98624f45a1be482bffbb4b))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.14.3 ([`99cc877`](https://github.com/mraniki/MyLLM/commit/99cc8770a3ef7f52a559a19891b4f999ea865438))
+
 ## v4.7.0 (2024-03-24)
 
 ### Other

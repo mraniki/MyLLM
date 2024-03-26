@@ -3,6 +3,20 @@
 
 
 
+## v4.7.2 (2024-03-26)
+
+### Fix
+
+* :ambulance:Update provider module with OPENAILLM class and fix import casing. ([`63a233d`](https://github.com/mraniki/MyLLM/commit/63a233d0bf96a58267871e050730604285e9dc0f))
+
+### Other
+
+* Merge pull request #412 from mraniki/dev
+
+🚑Update provider module with OPENAILLM class and fix import casing. ([`84363f7`](https://github.com/mraniki/MyLLM/commit/84363f7f35b6b7075290878e0bc5719f8acdb629))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`ffac381`](https://github.com/mraniki/MyLLM/commit/ffac381871ce1d046aaaf234ab49301d3a5ec3a6))
+
 ## v4.7.1 (2024-03-26)
 
 ### Other
@@ -10,6 +24,10 @@
 * Merge pull request #411 from mraniki/dev
 
 ⬆️ 🤖 - You may get an opportunity for advancement today  Watch it ([`66f8bf0`](https://github.com/mraniki/MyLLM/commit/66f8bf0cdcf62a365ce37100cebc6ed7c0e324dd))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`49f945a`](https://github.com/mraniki/MyLLM/commit/49f945a2b75c73e89b13af62a3ae31e2f7f9314d))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`2796636`](https://github.com/mraniki/MyLLM/commit/2796636231d7867cef722cf6d050d0c7eb5f10ae))
 
 ### ⬆️
 
@@ -74,6 +92,12 @@
 * Merge pull request #404 from mraniki/dev
 
 ⬆️ 🤖 - Alas how love can trifle with itself ([`296a3f6`](https://github.com/mraniki/MyLLM/commit/296a3f6c6738699cacf9c90023550177303788e4))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`e05659c`](https://github.com/mraniki/MyLLM/commit/e05659c29d9a8f45fa0b2536d016291bfb26008b))
+
+* Merge pull request #403 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.6.2 ([`81d7e73`](https://github.com/mraniki/MyLLM/commit/81d7e7388a865639c3b1afbc48e8b0aea6db69bb))
 
 ### ⬆️
 
@@ -255,6 +279,8 @@
 
 ♻️ ✅ ([`e610988`](https://github.com/mraniki/MyLLM/commit/e61098898ecf7bd1d3d0593d7fcf5a6346267063))
 
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`d26ff51`](https://github.com/mraniki/MyLLM/commit/d26ff51542b7ca84bbd7a7bf8a9aee5d82e3682d))
+
 ### ♻️
 
 * ♻️ ✅ ([`70a60bd`](https://github.com/mraniki/MyLLM/commit/70a60bde9f31fb0cba645ac89792e5eb53fe9ecc))
@@ -270,6 +296,10 @@
 * Merge pull request #367 from mraniki/dev
 
 ⬆️ 🤖 - Today is the first day of the rest of the mess ([`84388a4`](https://github.com/mraniki/MyLLM/commit/84388a4ad711ee045bd727df347fd10e521a2e1a))
+
+* Merge pull request #361 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.2.2.1 ([`7c45507`](https://github.com/mraniki/MyLLM/commit/7c45507e7c1470e446810186e68a0a46cd454d7f))
 
 ### ⬆️
 

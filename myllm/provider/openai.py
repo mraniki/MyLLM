@@ -13,7 +13,7 @@ from openai import OpenAI
 from myllm.provider.client import AIClient
 
 
-class OpenAILLM(AIClient):
+class OPENAILLM(AIClient):
     """
     MyLLM class for OpenAI and LocalAI
 

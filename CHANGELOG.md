@@ -3,6 +3,18 @@
 
 
 
+## v4.7.3 (2024-03-27)
+
+### Other
+
+* Merge pull request #414 from mraniki/dev
+
+⬆️ 🤖 - You will gain money by an immoral action ([`6f6568e`](https://github.com/mraniki/MyLLM/commit/6f6568ef1955dcbfc3364ea606ac810269d40e3c))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.7.1 ([`ade8a7f`](https://github.com/mraniki/MyLLM/commit/ade8a7f85d2dbb14931310d02320b187c340846b))
+
 ## v4.7.2 (2024-03-26)
 
 ### Fix

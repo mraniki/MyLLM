@@ -3,6 +3,18 @@
 
 
 
+## v4.7.4 (2024-03-28)
+
+### Other
+
+* Merge pull request #415 from mraniki/dev
+
+Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https://github.com/mraniki/MyLLM/commit/52f299db129daf51fa2124b57744f3afdf5a7224))
+
+### Update
+
+* Update installation commands for poetry in readthedocs.yaml ([`4842626`](https://github.com/mraniki/MyLLM/commit/48426260d83b7d2b9b04e7b08ac241fe9e7c2c57))
+
 ## v4.7.3 (2024-03-27)
 
 ### Other

@@ -3,6 +3,22 @@
 
 
 
+## v4.7.5 (2024-03-29)
+
+### Other
+
+* Merge pull request #416 from mraniki/dev
+
+🔊 Improve log when no clients loaded ([`e73b394`](https://github.com/mraniki/MyLLM/commit/e73b394bbdec572d68fb08a961e8a6a2e1001be8))
+
+### 🔇
+
+* 🔇 ([`322b50c`](https://github.com/mraniki/MyLLM/commit/322b50c616df8c162da4fc35f6cbed2b6fa45fda))
+
+### 🔊
+
+* 🔊 Improve log when no clients loaded ([`941382b`](https://github.com/mraniki/MyLLM/commit/941382b1c13233644b3ee4d55cfbbc65d0446beb))
+
 ## v4.7.4 (2024-03-28)
 
 ### Other

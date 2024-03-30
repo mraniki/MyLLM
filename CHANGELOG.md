@@ -3,6 +3,18 @@
 
 
 
+## v4.7.6 (2024-03-30)
+
+### Other
+
+* Merge pull request #417 from mraniki/dev
+
+⬆️ 🤖 - Dont kiss an elephant on the lips today ([`0efab2a`](https://github.com/mraniki/MyLLM/commit/0efab2a99250241d20c3259a212026a7b227529d))
+
+### 🔊
+
+* 🔊 update  main.py ([`208547d`](https://github.com/mraniki/MyLLM/commit/208547d1d30a63b37e739099c0caeec98fbb8f42))
+
 ## v4.7.5 (2024-03-29)
 
 ### Other

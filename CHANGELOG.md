@@ -3,6 +3,22 @@
 
 
 
+## v4.7.7 (2024-04-03)
+
+### Other
+
+* Merge pull request #421 from mraniki/dev
+
+⬆️ 🤖 - Artistic ventures highlighted  Rob a museum ([`4d0e769`](https://github.com/mraniki/MyLLM/commit/4d0e7699c3d610abb79fbe75de54469a3622bbfa))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.16.1 ([`1aa9df7`](https://github.com/mraniki/MyLLM/commit/1aa9df73c89704805fd9923fd49bbc7aa2da0cd2))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.7.2 ([`645f355`](https://github.com/mraniki/MyLLM/commit/645f355b8c33866fcaba6d0bbca8a1161f7a71cd))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.16.0 ([`90bd2ce`](https://github.com/mraniki/MyLLM/commit/90bd2cedbe803fbd2074e2a2c423cb03c8a4e098))
+
 ## v4.7.6 (2024-03-30)
 
 ### Other

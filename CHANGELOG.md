@@ -3,6 +3,18 @@
 
 
 
+## v4.7.8 (2024-04-05)
+
+### Other
+
+* Merge pull request #423 from mraniki/dev
+
+⬆️ 🤖 - Q	What do you call a blind prehistoric animal ([`b1fcd1b`](https://github.com/mraniki/MyLLM/commit/b1fcd1b49847b7daf671cd6fc8482e55044a98b9))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.16.2 ([`09f3843`](https://github.com/mraniki/MyLLM/commit/09f384391cccebdf9573996eb607a2e8eb81a9f2))
+
 ## v4.7.7 (2024-04-03)
 
 ### Other

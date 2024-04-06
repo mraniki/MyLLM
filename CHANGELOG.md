@@ -3,6 +3,24 @@
 
 
 
+## v4.8.0 (2024-04-06)
+
+### Other
+
+* Merge pull request #426 from mraniki/dev
+
+⬆️ 🤖 - Youre not my type  For that matter youre not even my species ([`ab57e30`](https://github.com/mraniki/MyLLM/commit/ab57e30bb1bea166efe4251d5a0801bc09bbe83e))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.8.0 ([`97113fe`](https://github.com/mraniki/MyLLM/commit/97113fe25ebe7c98cc003097072a0f0d1bdb385b))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.7.3 ([`e4526de`](https://github.com/mraniki/MyLLM/commit/e4526decd8b79325d88db23780758d4f2baa906e))
+
+### 🚀
+
+* 🚀 new version Class name standardization ([`b0071a2`](https://github.com/mraniki/MyLLM/commit/b0071a227e6d3763ddd4f09ed8af8087b2c39b15))
+
 ## v4.7.8 (2024-04-05)
 
 ### Other

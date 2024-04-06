@@ -12,7 +12,7 @@
 # from petals import AutoDistributedModelForCausalLM
 # from transformers import AutoTokenizer
 
-# from myllm.provider.client import AIClient
+# from .client import AIClient
 
 
 # class PetalsLLM(AIClient):

@@ -10,10 +10,10 @@
 # import google.generativeai as genai
 # from loguru import logger
 
-# from myllm.provider.client import AIClient
+# from .client import AIClient
 
 
-# class GeminiLLM(AIClient):
+# class GeminiHandler(AIClient):
 #     """
 #     MyLLM class for Bard
 
@@ -22,7 +22,7 @@
 #     def __init__(self, **kwargs):
 #         """
 #         Initializes the object with the given keyword arguments.
-#         
+#
 
 #         Args:
 #             **kwargs: Variable length keyword arguments.

@@ -7,10 +7,10 @@ from time import sleep
 
 from loguru import logger
 
-from myllm.provider.client import AIClient
+from .client import AIClient
 
 
-class G4FLLM(AIClient):
+class G4fHandler(AIClient):
     """
     MyLLM class for G4F
 

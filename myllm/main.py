@@ -128,7 +128,7 @@ class MyLLM:
 
         """
         library = kwargs.get("llm_library") or kwargs.get("library")
-        client_class = self.client_classes.get(f"{library.upper()}LLM")
+        client_class = self.client_classes.get(f"{library.capitalize()}Handler")
 
         if client_class is None:
             logger.error(f"library {library} not supported")
@@ -151,7 +151,7 @@ class MyLLM:
             dict: A dictionary containing all the client classes
             from the `myllm.provider` module.
         """
-        provider_module = importlib.import_module("myllm.provider")
+        provider_module = importlib.import_module("myllm.handler")
         return {
             name: cls
             for name, cls in provider_module.__dict__.items()

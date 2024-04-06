@@ -10,10 +10,10 @@ from time import sleep
 from loguru import logger
 from openai import OpenAI
 
-from myllm.provider.client import AIClient
+from .client import AIClient
 
 
-class OPENAILLM(AIClient):
+class OpenaiHandler(AIClient):
     """
     MyLLM class for OpenAI and LocalAI
 

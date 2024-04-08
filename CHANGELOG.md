@@ -3,6 +3,20 @@
 
 
 
+## v4.8.1 (2024-04-08)
+
+### Other
+
+* Merge pull request #429 from mraniki/dev
+
+⬆️ 🤖 - Give him an evasive answer ([`952ceb4`](https://github.com/mraniki/MyLLM/commit/952ceb42b23bdcfe74e564069ba65b0f9f527090))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.8.2 ([`97b2a64`](https://github.com/mraniki/MyLLM/commit/97b2a64f5351f9417d2c45b6ef3087dcab250985))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.8.1 ([`1d9e78c`](https://github.com/mraniki/MyLLM/commit/1d9e78c0d09ef32a7a5ed141d6a6193a82005b71))
+
 ## v4.8.0 (2024-04-06)
 
 ### Other

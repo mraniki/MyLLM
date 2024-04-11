@@ -3,6 +3,24 @@
 
 
 
+## v4.8.2 (2024-04-11)
+
+### Other
+
+* Merge pull request #435 from mraniki/dev
+
+⬆️ 🤖 - Fame is a vapor popularity an accident the only earthly certainty is ([`07012f8`](https://github.com/mraniki/MyLLM/commit/07012f8de3c0f64fec511f0086543871c33bb1a2))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.17.0 ([`add7717`](https://github.com/mraniki/MyLLM/commit/add7717247a2e84fce0c60190fec1db21f9d8e3c))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.9.3 ([`2769d94`](https://github.com/mraniki/MyLLM/commit/2769d94536173d395251a8a7b9f6c9fe5ae8db1e))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.9.2 ([`6276779`](https://github.com/mraniki/MyLLM/commit/6276779add5a85694dc517696ef54a31ce09defc))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.9.1 ([`796d0f5`](https://github.com/mraniki/MyLLM/commit/796d0f598fc22d914312cc82e7386a96c1209cdc))
+
 ## v4.8.1 (2024-04-08)
 
 ### Other

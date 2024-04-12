@@ -3,6 +3,18 @@
 
 
 
+## v4.8.3 (2024-04-12)
+
+### Other
+
+* Merge pull request #437 from mraniki/dev
+
+⬆️ 🤖 - Dont read everything you believe ([`770809e`](https://github.com/mraniki/MyLLM/commit/770809eb3cca91896b58ecffff4f27bd30dd29d7))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.9.4 ([`10a4422`](https://github.com/mraniki/MyLLM/commit/10a4422da67baa9b91a65d9ec76be1d67e3a7bed))
+
 ## v4.8.2 (2024-04-11)
 
 ### Other

@@ -3,6 +3,22 @@
 
 
 
+## v4.8.4 (2024-04-13)
+
+### Other
+
+* Merge pull request #441 from mraniki/dev
+
+⬆️ 🤖 - O it is excellent ([`0595a72`](https://github.com/mraniki/MyLLM/commit/0595a72959b17379aa1d87430b70ba1a13f1ad4b))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.9.8 ([`0e90c08`](https://github.com/mraniki/MyLLM/commit/0e90c083db2e5d55fc43c6e1f654364abc46323b))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.9.6 ([`4fa501a`](https://github.com/mraniki/MyLLM/commit/4fa501a90e248559814e87d07bb4b35bda4f514b))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.9.5 ([`943573d`](https://github.com/mraniki/MyLLM/commit/943573d10b0508dfe762a82f27b38bf97dd8ca42))
+
 ## v4.8.3 (2024-04-12)
 
 ### Other

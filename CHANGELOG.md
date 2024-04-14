@@ -3,6 +3,18 @@
 
 
 
+## v4.8.5 (2024-04-14)
+
+### Other
+
+* Merge pull request #443 from mraniki/dev
+
+⬆️ 🤖 - Someone is speaking well of you ([`7a5c64b`](https://github.com/mraniki/MyLLM/commit/7a5c64b13cbd1c770a11c7c702a6d778851817a1))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.17.1 ([`654258d`](https://github.com/mraniki/MyLLM/commit/654258dabf153e3fd09099174c4cd2996519891e))
+
 ## v4.8.4 (2024-04-13)
 
 ### Other

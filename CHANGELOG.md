@@ -3,6 +3,22 @@
 
 
 
+## v4.8.7 (2024-04-17)
+
+### Other
+
+* Merge pull request #448 from mraniki/dev
+
+⬆️ 🤖 - You will pay for your sins  If you have already paid please disregard ([`91d302e`](https://github.com/mraniki/MyLLM/commit/91d302e1311749d964581d909d76db7f87214b60))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.3.4 ([`5c825c9`](https://github.com/mraniki/MyLLM/commit/5c825c98b2f5eb0bbadcbbd99610a9ebd595e77e))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.3.3 ([`5ad64ba`](https://github.com/mraniki/MyLLM/commit/5ad64bacaa8cb43bfb903edb6c2dc014c292560c))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.20.0 ([`262a23b`](https://github.com/mraniki/MyLLM/commit/262a23b04ae9b44d94d7786da993e3214068657a))
+
 ## v4.8.6 (2024-04-16)
 
 ### Other

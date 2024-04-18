@@ -3,6 +3,28 @@
 
 
 
+## v4.8.8 (2024-04-18)
+
+### Other
+
+* Merge pull request #457 from mraniki/dev
+
+⬆️ 🤖 - Q	What do agnostic insomniac dyslexics do at night ([`bcbc50a`](https://github.com/mraniki/MyLLM/commit/bcbc50a60355450f81bf0501d6586ef12745342e))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.3.6 ([`a3abae2`](https://github.com/mraniki/MyLLM/commit/a3abae2880e09370b8de27bd77be41ff9526eff1))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.21.2 ([`b7e317a`](https://github.com/mraniki/MyLLM/commit/b7e317a6b23df5725c11fc4c43740a6dbffba09e))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.21.0 ([`1b7bae9`](https://github.com/mraniki/MyLLM/commit/1b7bae90e0f273b68dded5b117dd4f496736d953))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.9.11 ([`ad03233`](https://github.com/mraniki/MyLLM/commit/ad0323349495e44140abe5e1ea2f643ba2f7d263))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.9.10 ([`2707100`](https://github.com/mraniki/MyLLM/commit/2707100c5fad86419e32364255ec5b8bb5b2a021))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.3.5 ([`01bfc71`](https://github.com/mraniki/MyLLM/commit/01bfc711a3f1818f451718a586abd2de43324d2d))
+
 ## v4.8.7 (2024-04-17)
 
 ### Other

@@ -3,6 +3,24 @@
 
 
 
+## v4.8.9 (2024-04-19)
+
+### Other
+
+* Merge pull request #462 from mraniki/dev
+
+⬆️ 🤖 - A gift of a flower will soon be made to you ([`bb8a163`](https://github.com/mraniki/MyLLM/commit/bb8a163c9c84a8b33c095b8df0feee5b28bff8dd))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.23.1 ([`4a73be9`](https://github.com/mraniki/MyLLM/commit/4a73be9a73a8a81779a22ecaf11b86f3efdbb3bf))
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.4.0 ([`1c28e3b`](https://github.com/mraniki/MyLLM/commit/1c28e3b8fa95e9aa78f9459aa290829e5bbc48ac))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.0 ([`e524a3a`](https://github.com/mraniki/MyLLM/commit/e524a3a3d44ece768334f7778d823ad58cee5bd4))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.22.0 ([`7bf643e`](https://github.com/mraniki/MyLLM/commit/7bf643e97882190dedd7558fdf0f4d34fcf60268))
+
 ## v4.8.8 (2024-04-18)
 
 ### Other

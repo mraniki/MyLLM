@@ -3,6 +3,22 @@
 
 
 
+## v4.8.10 (2024-04-20)
+
+### Other
+
+* Merge pull request #466 from mraniki/dev
+
+⬆️ 🤖 - Q	How many WASPs does it take to change a light bulb ([`2418dd5`](https://github.com/mraniki/MyLLM/commit/2418dd56c6e3de1419193087eccd73daddaa012c))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.23.2 ([`f5ee75b`](https://github.com/mraniki/MyLLM/commit/f5ee75b410a4aefb2e62abdf54e62bace5532abc))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.1 ([`a5d9491`](https://github.com/mraniki/MyLLM/commit/a5d9491bcd3f2907b33c59a0150b330a3668650d))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.3.7 ([`51e86ba`](https://github.com/mraniki/MyLLM/commit/51e86ba3b06a8618b34d6917b3c812773fce7efe))
+
 ## v4.8.9 (2024-04-19)
 
 ### Other

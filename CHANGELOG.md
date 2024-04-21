@@ -3,6 +3,24 @@
 
 
 
+## v4.8.11 (2024-04-21)
+
+### Other
+
+* Merge pull request #468 from mraniki/dev
+
+⬆️ 🤖 - You will be awarded a medal for disregarding safety in saving someone ([`6364a4f`](https://github.com/mraniki/MyLLM/commit/6364a4f5fe5e5176d3235076a665d0fada90014a))
+
+* Merge pull request #469 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.3.0.3 ([`74da48d`](https://github.com/mraniki/MyLLM/commit/74da48d20d3248364390cfad7f2a43b9f3564ac7))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.3 ([`7a56755`](https://github.com/mraniki/MyLLM/commit/7a567559cbaee589565b808780327861e6167d32))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.2 ([`cce6c9e`](https://github.com/mraniki/MyLLM/commit/cce6c9ecafe14291d98f44a72719649b35e66535))
+
 ## v4.8.10 (2024-04-20)
 
 ### Other

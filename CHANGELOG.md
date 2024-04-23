@@ -3,6 +3,22 @@
 
 
 
+## v4.8.12 (2024-04-23)
+
+### Other
+
+* Merge pull request #473 from mraniki/dev
+
+⬆️ 🤖 - You will always get the greatest recognition for the job you least like ([`246995c`](https://github.com/mraniki/MyLLM/commit/246995c9ac0dffdc3d56cdbbe5a2e2dc790e9e27))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.5 ([`02444f0`](https://github.com/mraniki/MyLLM/commit/02444f0b1f3f2f1f09172c505169abc6c3b8b838))
+
+* ⬆️ 🛠️(deps): update dependency curl_cffi to v0.6.3 ([`25da793`](https://github.com/mraniki/MyLLM/commit/25da793688f50cbd92b6c9686ef57fcfabf72b84))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.4 ([`ce7d6a6`](https://github.com/mraniki/MyLLM/commit/ce7d6a6244ec661bb3cddf22361e5be4e237e5f8))
+
 ## v4.8.11 (2024-04-21)
 
 ### Other

@@ -3,6 +3,22 @@
 
 
 
+## v4.8.13 (2024-04-24)
+
+### Other
+
+* Merge pull request #476 from mraniki/dev
+
+⬆️ 🤖 - Chicken Little was right ([`1ae11e7`](https://github.com/mraniki/MyLLM/commit/1ae11e7e0a0e549d82ca1946f25925cf868793f9))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.23.3 ([`c7ff0ef`](https://github.com/mraniki/MyLLM/commit/c7ff0ef2507cb857f6d99540f9b84ad2f6213653))
+
+* ⬆️ 🛠️(deps): update dependency pytest-cov to v5 ([`b8661c7`](https://github.com/mraniki/MyLLM/commit/b8661c7f8be2ec6c2500d175b97d89fd38039842))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.6 ([`0bf5fb9`](https://github.com/mraniki/MyLLM/commit/0bf5fb982ae30edb9da5cb7646c6c9708ea69e2d))
+
 ## v4.8.12 (2024-04-23)
 
 ### Other

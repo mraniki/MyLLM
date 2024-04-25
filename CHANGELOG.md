@@ -3,6 +3,20 @@
 
 
 
+## v4.8.14 (2024-04-25)
+
+### Other
+
+* Merge pull request #479 from mraniki/dev
+
+⬆️ 🤖 - Q	What does it say on the bottom of Coke cans in North Dakota ([`c2d3ca4`](https://github.com/mraniki/MyLLM/commit/c2d3ca4333789a1b4304f52d0856a2195f93a3f8))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.23.5 ([`01d37de`](https://github.com/mraniki/MyLLM/commit/01d37de5b3c0e26d0d6d413af9a4208e664a6e09))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.23.4 ([`d56928c`](https://github.com/mraniki/MyLLM/commit/d56928ccbd305249014a5cb8c2104569ae81721d))
+
 ## v4.8.13 (2024-04-24)
 
 ### Other

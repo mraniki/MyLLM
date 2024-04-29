@@ -3,6 +3,18 @@
 
 
 
+## v4.8.16 (2024-04-29)
+
+### Other
+
+* Merge pull request #484 from mraniki/dev
+
+⬆️ 🤖 - You have no real enemies ([`7550fbf`](https://github.com/mraniki/MyLLM/commit/7550fbfc6686d8cde58ec5b94610253e23a70a96))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.7 ([`8d25b13`](https://github.com/mraniki/MyLLM/commit/8d25b1314b85f72937016d089a50a8f9e0758786))
+
 ## v4.8.15 (2024-04-26)
 
 ### Other

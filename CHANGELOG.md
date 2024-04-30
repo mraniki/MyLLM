@@ -3,6 +3,18 @@
 
 
 
+## v4.8.17 (2024-04-30)
+
+### Other
+
+* Merge pull request #487 from mraniki/dev
+
+⬆️ 🤖 - You will gain money by an immoral action ([`7b5d6cd`](https://github.com/mraniki/MyLLM/commit/7b5d6cd3d60dd6f026ad4e41a117fe517e2e94b7))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.24.0 ([`dedffa4`](https://github.com/mraniki/MyLLM/commit/dedffa4093ab363db2fcfdfe0a45125c3d554be2))
+
 ## v4.8.16 (2024-04-29)
 
 ### Other

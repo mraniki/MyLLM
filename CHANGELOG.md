@@ -3,6 +3,20 @@
 
 
 
+## v4.8.19 (2024-05-03)
+
+### Other
+
+* Merge pull request #493 from mraniki/dev
+
+⬆️ 🤖 - Keep emotionally active  Cater to your favorite neurosis ([`be6b04b`](https://github.com/mraniki/MyLLM/commit/be6b04b59347e5bcbbe32512c12d2894a8898f47))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.8 ([`e4c4fcd`](https://github.com/mraniki/MyLLM/commit/e4c4fcdf98faa67eff1f0f7ec9cda59500e16fbb))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.25.1 ([`04ec427`](https://github.com/mraniki/MyLLM/commit/04ec4277f6bec4bd8ef2cad941787daf8d107a5e))
+
 ## v4.8.18 (2024-05-02)
 
 ### Other

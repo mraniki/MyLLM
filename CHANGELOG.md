@@ -3,6 +3,20 @@
 
 
 
+## v4.8.20 (2024-05-06)
+
+### Other
+
+* Merge pull request #496 from mraniki/dev
+
+⬆️ 🤖 - You have the body of a  year old  Please return it before it gets wrinkled ([`c732584`](https://github.com/mraniki/MyLLM/commit/c73258400f68b1d3fa79c54ce0478b9c7c492999))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.9 ([`a090abf`](https://github.com/mraniki/MyLLM/commit/a090abfbd2d99c80929f8accd6a41c9e0e0ed908))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.25.2 ([`0a3647a`](https://github.com/mraniki/MyLLM/commit/0a3647afde12d5a5a6142f786dd9ffcc7b1bcf98))
+
 ## v4.8.19 (2024-05-03)
 
 ### Other

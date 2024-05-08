@@ -3,6 +3,22 @@
 
 
 
+## v4.8.21 (2024-05-08)
+
+### Other
+
+* Merge pull request #501 from mraniki/dev
+
+⬆️ 🤖 - Good day for overcoming obstacles  Try a steeplechase ([`e29ce11`](https://github.com/mraniki/MyLLM/commit/e29ce114e02271cd3f029cf094d933001398f1c8))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.1.0 ([`f28a967`](https://github.com/mraniki/MyLLM/commit/f28a967342f62b294c7a21b6840d6dc8031c8f2a))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.26.0 ([`6c4061c`](https://github.com/mraniki/MyLLM/commit/6c4061c13ad7c8d58534b456d2ba6db55c46acad))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.0.10 ([`99924ad`](https://github.com/mraniki/MyLLM/commit/99924ad90373fc55dbfa125a4d174e3a780cae39))
+
 ## v4.8.20 (2024-05-06)
 
 ### Other

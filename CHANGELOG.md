@@ -3,6 +3,18 @@
 
 
 
+## v4.8.22 (2024-05-09)
+
+### Other
+
+* Merge pull request #503 from mraniki/dev
+
+⬆️ 🤖 - Youre currently going through a difficult transition period called Life ([`94a4e2e`](https://github.com/mraniki/MyLLM/commit/94a4e2e2bbc3dbfd1160c808587ce3e6a6f1363f))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.27.0 ([`44e4e43`](https://github.com/mraniki/MyLLM/commit/44e4e430e88721a3751faf3ac7fab1222e530b35))
+
 ## v4.8.21 (2024-05-08)
 
 ### Other

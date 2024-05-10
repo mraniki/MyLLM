@@ -3,6 +3,18 @@
 
 
 
+## v4.8.23 (2024-05-10)
+
+### Other
+
+* Merge pull request #505 from mraniki/dev
+
+⬆️ 🤖 - The mind is its own place and in itself ([`72f02ea`](https://github.com/mraniki/MyLLM/commit/72f02eaa5b69341ddd3ba9f52828fc1053ecef30))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.28.0 ([`4869ce3`](https://github.com/mraniki/MyLLM/commit/4869ce311a1a43a18a7fd3149eb2df30f3e4c64f))
+
 ## v4.8.22 (2024-05-09)
 
 ### Other

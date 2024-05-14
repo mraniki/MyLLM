@@ -3,6 +3,20 @@
 
 
 
+## v4.8.25 (2024-05-14)
+
+### Other
+
+* Merge pull request #510 from mraniki/dev
+
+⬆️ 🤖 - Q	Why havent you graduated yet ([`9e6997b`](https://github.com/mraniki/MyLLM/commit/9e6997bac2f052d1cd7d8371644a432654ab7a8c))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.29.0 ([`2c768ce`](https://github.com/mraniki/MyLLM/commit/2c768cef97619963e8064bdbef3fc5d83bacaf9e))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.28.2 ([`ec50a3e`](https://github.com/mraniki/MyLLM/commit/ec50a3e25b1c16f0eb630cf53ca3f2d08630a2a8))
+
 ## v4.8.24 (2024-05-12)
 
 ### Other

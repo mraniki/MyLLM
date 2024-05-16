@@ -3,6 +3,24 @@
 
 
 
+## v4.8.26 (2024-05-16)
+
+### Other
+
+* Merge pull request #516 from mraniki/dev
+
+⬆️ 🤖 - Chicken Little was right ([`6037ad3`](https://github.com/mraniki/MyLLM/commit/6037ad365e599a87b367f1f1cd7b473bbfbe4ef6))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.1.1 ([`d4dab03`](https://github.com/mraniki/MyLLM/commit/d4dab03ce92e65deefedbb63d5a94b034da21ebd))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.30.1 ([`c9d17f8`](https://github.com/mraniki/MyLLM/commit/c9d17f80e738f80d8fc05ca0dc99d2e406f02754))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.30.0 ([`6845790`](https://github.com/mraniki/MyLLM/commit/6845790d316936b5a5af69048bc828cb2b5456be))
+
+* ⬆️ 🛠️(deps): update dependency curl_cffi to v0.6.4 ([`13d7c6b`](https://github.com/mraniki/MyLLM/commit/13d7c6b7563f30031726348012b832662a5a8b45))
+
 ## v4.8.25 (2024-05-14)
 
 ### Other

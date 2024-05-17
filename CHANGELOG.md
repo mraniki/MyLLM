@@ -3,6 +3,18 @@
 
 
 
+## v4.8.27 (2024-05-17)
+
+### Other
+
+* Merge pull request #518 from mraniki/dev
+
+⬆️ 🤖 - Q	How many psychiatrists does it take to change a light bulb ([`90d27c3`](https://github.com/mraniki/MyLLM/commit/90d27c37c87e442054e099b3351681a80c77440b))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.1.2 ([`f98e466`](https://github.com/mraniki/MyLLM/commit/f98e466d45e1ce7c85911090bac0589d9a40668a))
+
 ## v4.8.26 (2024-05-16)
 
 ### Other

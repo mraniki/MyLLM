@@ -3,6 +3,18 @@
 
 
 
+## v4.8.28 (2024-05-18)
+
+### Other
+
+* Merge pull request #520 from mraniki/dev
+
+⬆️ 🤖 - Save energy be apathetic ([`7fd3082`](https://github.com/mraniki/MyLLM/commit/7fd308205f08f45175ab450fa8155c2b906f3bef))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.1.3 ([`6d71321`](https://github.com/mraniki/MyLLM/commit/6d713212b0c6d32e7ebe6fcd12be76aa172f6ca9))
+
 ## v4.8.27 (2024-05-17)
 
 ### Other

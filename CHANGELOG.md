@@ -3,6 +3,20 @@
 
 
 
+## v4.8.29 (2024-05-19)
+
+### Other
+
+* Merge pull request #523 from mraniki/dev
+
+⬆️ 🤖 - The smallest worm will turn being trodden on ([`3aee58c`](https://github.com/mraniki/MyLLM/commit/3aee58cc4682deebe8a18565a18eff507beba14e))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.1.5 ([`6bb758d`](https://github.com/mraniki/MyLLM/commit/6bb758dfa12cdad8e4fd75c723435a9dcc932670))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.1.4 ([`5c2057f`](https://github.com/mraniki/MyLLM/commit/5c2057fb828a767eeb54b522276b6474ba571101))
+
 ## v4.8.28 (2024-05-18)
 
 ### Other

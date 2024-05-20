@@ -3,6 +3,26 @@
 
 
 
+## v4.8.30 (2024-05-20)
+
+### Other
+
+* Merge pull request #526 from mraniki/dev
+
+⬆️ 🤖 - You will live to see your grandchildren ([`b11d37d`](https://github.com/mraniki/MyLLM/commit/b11d37dbb493eb2ced362b895f6f8ec4b67563de))
+
+* Merge pull request #527 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.3.1.8 ([`e5637fc`](https://github.com/mraniki/MyLLM/commit/e5637fc16ba321618a9dc07d71d8adaa3731a2e8))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.1.8 ([`42d8be8`](https://github.com/mraniki/MyLLM/commit/42d8be8f348c72871af27ce8d1995d6fc0f646b7))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.1.7 ([`b86f651`](https://github.com/mraniki/MyLLM/commit/b86f65111293e9b543c8963249c8f85884bcf431))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.1.6 ([`5d257bd`](https://github.com/mraniki/MyLLM/commit/5d257bde04b10ac386e47e980927be6e3dca3a23))
+
 ## v4.8.29 (2024-05-19)
 
 ### Other

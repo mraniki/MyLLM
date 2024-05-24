@@ -3,6 +3,24 @@
 
 
 
+## v4.8.31 (2024-05-24)
+
+### Other
+
+* Merge pull request #530 from mraniki/dev
+
+⬆️ 🤖 - ROMEO		Courage man the hurt cannot be much ([`c984d31`](https://github.com/mraniki/MyLLM/commit/c984d319bccf8628f262cd001c0709b12c9adfb1))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency myst_parser to v3 ([`324a51a`](https://github.com/mraniki/MyLLM/commit/324a51ac52a39dd3e109bb64c3f53ae26dd65944))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.30.2 ([`2df6e4b`](https://github.com/mraniki/MyLLM/commit/2df6e4b5e30f26073785531a6faa28e9e841bca3))
+
+* ⬆️ 🛠️(deps): update dependency sphinx_design to ^0.6.0 ([`fced5ce`](https://github.com/mraniki/MyLLM/commit/fced5ce017d64807a8a78288e6c7d1ce8c4e6cff))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.1.9 ([`3d20e23`](https://github.com/mraniki/MyLLM/commit/3d20e23c5b9e0f866c342768196b73a95d0cf488))
+
 ## v4.8.30 (2024-05-20)
 
 ### Other

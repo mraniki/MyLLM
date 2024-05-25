@@ -3,6 +3,18 @@
 
 
 
+## v4.8.32 (2024-05-25)
+
+### Other
+
+* Merge pull request #534 from mraniki/dev
+
+⬆️ 🤖 - You will be held hostage by a radical group ([`5952d35`](https://github.com/mraniki/MyLLM/commit/5952d350b1903db6f354b9d67e1b693d42b3094d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.30.3 ([`5f7bc6a`](https://github.com/mraniki/MyLLM/commit/5f7bc6a22a4157d56a51492819941fa35448404b))
+
 ## v4.8.31 (2024-05-24)
 
 ### Other

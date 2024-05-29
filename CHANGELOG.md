@@ -3,6 +3,18 @@
 
 
 
+## v4.8.33 (2024-05-29)
+
+### Other
+
+* Merge pull request #536 from mraniki/dev
+
+⬆️ 🤖 - Truth is the most valuable thing we have  so let us economize it ([`0e5de83`](https://github.com/mraniki/MyLLM/commit/0e5de8303d273dc8d34ffbe7ae19446348f85a6d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.30.4 ([`638c42b`](https://github.com/mraniki/MyLLM/commit/638c42b02dbdc6660056a3d1a190b580ae8d8e30))
+
 ## v4.8.32 (2024-05-25)
 
 ### Other

@@ -3,6 +3,18 @@
 
 
 
+## v4.8.35 (2024-06-05)
+
+### Other
+
+* Merge pull request #540 from mraniki/dev
+
+⬆️ 🤖 - Theres small choice in rotten apples ([`6399f52`](https://github.com/mraniki/MyLLM/commit/6399f52c495b021bd445b330e9cca4229adbc1f7))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.31.0 ([`02afaed`](https://github.com/mraniki/MyLLM/commit/02afaed8ffad24e860400bffd811a61ce9068cef))
+
 ## v4.8.34 (2024-05-31)
 
 ### Other

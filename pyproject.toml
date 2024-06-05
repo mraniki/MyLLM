@@ -32,7 +32,7 @@ js2py = "^0.74"
 PyExecJS2="1.6.1"
 curl_cffi = "0.6.4"
 Brotli = "1.1.0"
-openai = "1.31.0"
+openai = "1.31.1"
 # petals = "2.2.0.post1"
 # transformers = "4.32"
 

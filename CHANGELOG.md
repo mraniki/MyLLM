@@ -3,6 +3,24 @@
 
 
 
+## v4.8.36 (2024-06-08)
+
+### Other
+
+* Merge pull request #542 from mraniki/dev
+
+⬆️ 🤖 - Q	How many Martians does it take to screw in a light bulb ([`3dd09e0`](https://github.com/mraniki/MyLLM/commit/3dd09e0eb957f5712f624c3f7e508e46aeb6157d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.33.0 ([`ece222d`](https://github.com/mraniki/MyLLM/commit/ece222d0193410e4802db77c6dd3911b5ec07b31))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.32.0 ([`fe205b9`](https://github.com/mraniki/MyLLM/commit/fe205b9960e2983b1a87356e3b4810f767b1df85))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.31.2 ([`d32fb27`](https://github.com/mraniki/MyLLM/commit/d32fb27ede039892787e5fa2411dbd53d120d75e))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.31.1 ([`c1e185b`](https://github.com/mraniki/MyLLM/commit/c1e185b2188e40fb504ff365223a52ed90b87c00))
+
 ## v4.8.35 (2024-06-05)
 
 ### Other

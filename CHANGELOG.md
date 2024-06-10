@@ -3,6 +3,18 @@
 
 
 
+## v4.8.37 (2024-06-10)
+
+### Other
+
+* Merge pull request #547 from mraniki/dev
+
+⬆️ 🤖 - Your love life will be happy and harmonious ([`ab9cca1`](https://github.com/mraniki/MyLLM/commit/ab9cca1d84042a11a91c8475a76846f73b3bde61))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.2.0 ([`fd0c87b`](https://github.com/mraniki/MyLLM/commit/fd0c87bb3303a1cb510efe30cbe6a0e9bebf66ae))
+
 ## v4.8.36 (2024-06-08)
 
 ### Other

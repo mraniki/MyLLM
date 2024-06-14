@@ -5,6 +5,7 @@ via https://github.com/openai/openai-python
 via https://localai.io
 
 """
+
 from time import sleep
 
 from loguru import logger
@@ -53,6 +54,7 @@ class OpenaiHandler(AIClient):
             response = self.client.chat.completions.create(
                 model=self.llm_model,
                 messages=archived_messages,
+                stream=self. v,
             )
             sleep(self.timeout)
             logger.debug("response {}", response)

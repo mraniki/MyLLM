@@ -59,7 +59,15 @@ class OpenaiHandler(AIClient):
             sleep(self.timeout)
             logger.debug("response {}", response)
 
-            if response:
+            if self.stream_mode:
+                for chunk in response:
+                    response_content = chunk.choices[0].delta.content
+                    logger.debug("response_content {}", response_content)
+                    self.conversation.add_message("assistant", response_content)
+                    formatted_response = f"{self.llm_prefix} {response_content}"
+                    logger.debug("User: {}, AI: {}", prompt, response_content)
+                    return formatted_response
+            else:
                 response_content = response.choices[0].message.content
                 logger.debug("response_content {}", response_content)
                 self.conversation.add_message("assistant", response_content)

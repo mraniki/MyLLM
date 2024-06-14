@@ -50,6 +50,7 @@ class AIClient:
                 or f"history-{self.name or 'default'}.json"
             )
             self.llm_template = kwargs.get("llm_template")
+            self.stream_mode = kwargs.get("stream_mode", False)
         except Exception as error:
             logger.error("Client initialization error {}", error)
             return None

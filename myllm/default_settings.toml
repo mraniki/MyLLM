@@ -27,11 +27,31 @@ llm_provider_key = "" # only for bard and openai to pass either the cookie or th
 max_memory = 100 # Conversation history size
 load_history = false # load conversation history via a json file
 timeout = 5 # time lag to wait ai response
+stream_mode = false # enable streaming mode
 llm_prefix = "🐻" # prefix use to filter the AI response
 llm_template = """
 You are a friendly AI, helping me with general tasks. 
 Be courteuous, simple and direct.
 """
+
+
+
+# [default.myllm.gpt] 
+# enabled = true
+# llm_library = "openai"
+# llm_model= "gpt-4o"
+# llm_provider = "" 
+# llm_provider_key = "DEADBE4F"
+# max_memory = 100 
+# timeout = 5
+# load_history = false
+# stream_mode = false # enable streaming mode
+# llm_prefix = ""
+# llm_template = """
+# You are a friendly AI, helping me with general tasks. 
+# Be courteuous, simple and direct.
+# """
+
 
 # [default.myllm.localai] 
 # library = "openai"
@@ -43,69 +63,11 @@ Be courteuous, simple and direct.
 # max_memory = 100
 # load_history = false
 # timeout = 5 
+# stream_mode = false # enable streaming mode
 # llm_prefix = ""
 # llm_template = """
 # You are a friendly AI, helping me with 
 # general tasks. Be courteuous, simple and direct.
-# """
-
-# [default.myllm.gpt35] 
-# library = "openai"
-# enabled = true
-# llm_model= "gpt-3.5-turbo-0125" 
-# llm_provider = "" 
-# llm_provider_key = "DEADBE4F"
-# max_memory = 100 
-# timeout = 5
-# load_history = false
-# llm_prefix = ""
-# llm_template = """
-# You are a friendly AI, helping me with general tasks. 
-# Be courteuous, simple and direct.
-# """
-
-# [default.myllm.llama2]
-# enabled = true
-# library = "g4f"
-# llm_model= ""
-# llm_provider = "g4f.Provider.Llama2"
-# llm_provider_key = ""
-# max_memory = 10
-# load_history = false
-# timeout = 1 
-# llm_prefix = "" 
-# llm_template = """
-# You are a friendly AI, helping me with general tasks. 
-# Be courteuous, simple and direct.
-# """
-
-# [default.myllm.bing]
-# enabled = true
-# library = "g4f"
-# llm_model = ""
-# llm_provider = "g4f.Provider.Bing"
-# llm_provider_key = ""
-# max_memory = 10 
-# load_history = false
-# timeout = 2 
-# llm_prefix = "" 
-# llm_template = """
-# You are a friendly AI, helping me with general tasks. 
-# Be courteuous, simple and direct.
-# """
-
-# [default.myllm.petals]
-# library = "petals"
-# enabled = true
-# llm_model= ""
-# llm_provider = "" 
-# llm_provider_key = ""
-# max_memory = 5 # Conversation history size
-# timeout = 10 # time lag to wait ai response
-# llm_prefix = "" # prefix use to filter the AI response
-# llm_template = """
-# You are a friendly AI, helping me with general tasks. 
-# Be courteuous, simple and direct.
 # """
 
 ########################################

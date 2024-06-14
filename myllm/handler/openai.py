@@ -54,7 +54,7 @@ class OpenaiHandler(AIClient):
             response = self.client.chat.completions.create(
                 model=self.llm_model,
                 messages=archived_messages,
-                stream=self. v,
+                stream=self.stream_mode,
             )
             sleep(self.timeout)
             logger.debug("response {}", response)

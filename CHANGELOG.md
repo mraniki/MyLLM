@@ -3,6 +3,22 @@
 
 
 
+## v4.9.0 (2024-06-14)
+
+### Other
+
+* Merge pull request #550 from mraniki/dev
+
+🥚 self.stream_mode ([`9d0010d`](https://github.com/mraniki/MyLLM/commit/9d0010d68543cbfc211f027e485bfaaa4f6458af))
+
+* update openai.py ([`fb4c8c3`](https://github.com/mraniki/MyLLM/commit/fb4c8c36585b207eeec1a44af7aa12441678807a))
+
+* update __local__.json and openai.py ([`386a612`](https://github.com/mraniki/MyLLM/commit/386a612556cd20d70ae9072e8a0e61afac302596))
+
+### 🥚
+
+* 🥚  self.stream_mode. Change in client.py and openai.py ([`918c12d`](https://github.com/mraniki/MyLLM/commit/918c12d0c3386a3b3a2d73f6422c51c079bf22e8))
+
 ## v4.8.38 (2024-06-13)
 
 ### Other

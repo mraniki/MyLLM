@@ -3,6 +3,22 @@
 
 
 
+## v4.9.1 (2024-06-15)
+
+### Other
+
+* Merge pull request #551 from mraniki/dev
+
+⬆️ 🤖 - You have a strong desire for a home and your family interests come first ([`e43a81e`](https://github.com/mraniki/MyLLM/commit/e43a81e235ee9753889bfddce9e14c882971799a))
+
+### 🐛
+
+* 🐛 update stream mode openai.py ([`1315779`](https://github.com/mraniki/MyLLM/commit/13157795b8298a7c884b2475b7dbba0c2c4d30d8))
+
+### 🔧
+
+* 🔧 ([`0eaf8b8`](https://github.com/mraniki/MyLLM/commit/0eaf8b841f418e92e5eefc79821c7e29f27c3692))
+
 ## v4.9.0 (2024-06-14)
 
 ### Other

@@ -58,6 +58,7 @@ class MyLLM:
         """
         # Check if the module is enabled
         self.enabled = settings.myllm_enabled or True
+        self.ai_agent_prefix = settings.ai_agent_prefix or None
 
         # Create a mapping of library names to client classes
         self.client_classes = self.get_all_client_classes()

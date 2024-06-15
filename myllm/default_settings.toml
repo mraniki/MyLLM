@@ -16,7 +16,7 @@ VALUE = "On default"
 
 # Module Enable/Disable
 myllm_enabled = true
-
+ai_agent_prefix = "🧠" # prefix use to filter the AI response
 
 [default.myllm.template]
 library = "g4f" # options are openai or g4f
@@ -27,7 +27,7 @@ llm_provider_key = "" # only for bard and openai to pass either the cookie or th
 max_memory = 100 # Conversation history size
 load_history = false # load conversation history via a json file
 timeout = 5 # time lag to wait ai response
-stream_mode = false # enable streaming mode
+stream_mode = false # enable streaming mode NOT IMPLEMENTED
 llm_prefix = "🐻" # prefix use to filter the AI response
 llm_template = """
 You are a friendly AI, helping me with general tasks. 

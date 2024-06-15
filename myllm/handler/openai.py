@@ -60,6 +60,7 @@ class OpenaiHandler(AIClient):
             logger.debug("response {}", response)
 
             if self.stream_mode:
+                # TODO fix this
                 logger.debug("stream_mode on")
                 for chunk in response:
                     response_content = chunk.choices[0].delta.content

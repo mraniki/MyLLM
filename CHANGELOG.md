@@ -3,6 +3,18 @@
 
 
 
+## v4.9.2 (2024-06-15)
+
+### Other
+
+* Merge pull request #552 from mraniki/dev
+
+♻️ update default_settings.toml, openai.py and main.py ([`90b57b7`](https://github.com/mraniki/MyLLM/commit/90b57b7dbd486874f264ffc1bd9473ae03a05067))
+
+### ♻️
+
+* ♻️ update default_settings.toml, openai.py and main.py ([`a01e506`](https://github.com/mraniki/MyLLM/commit/a01e506a9be5eb8566c0c5216a39bf07df7e2b2e))
+
 ## v4.9.1 (2024-06-15)
 
 ### Other

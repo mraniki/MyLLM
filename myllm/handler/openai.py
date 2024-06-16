@@ -49,7 +49,7 @@ class OpenaiHandler(AIClient):
         try:
             self.conversation.add_message("user", prompt)
             archived_messages = self.conversation.get_messages()
-            logger.debug("archived_messages {}", archived_messages)
+            # logger.debug("archived_messages {}", archived_messages)
 
             response = self.client.chat.completions.create(
                 model=self.llm_model,
@@ -57,22 +57,22 @@ class OpenaiHandler(AIClient):
                 stream=self.stream_mode,
             )
             sleep(self.timeout)
-            logger.debug("response {}", response)
+            # logger.debug("response {}", response)
 
             if self.stream_mode:
                 # TODO fix this
-                logger.debug("stream_mode on")
-                for chunk in response:
-                    response_content = chunk.choices[0].delta.content
-                    logger.debug("response_content {}", response_content)
-                    self.conversation.add_message("assistant", response_content)
+                logger.debug("stream_mode not supported yet")
+                # for chunk in response:
+                #     response_content = chunk.choices[0].delta.content
+                #     logger.debug("response_content {}", response_content)
+                #     self.conversation.add_message("assistant", response_content)
 
             else:
                 response_content = response.choices[0].message.content
-                logger.debug("response_content {}", response_content)
+                # logger.debug("response_content {}", response_content)
                 self.conversation.add_message("assistant", response_content)
             formatted_response = f"{self.llm_prefix} {response_content}"
-            logger.debug("User: {}, AI: {}", prompt, response_content)
+            # logger.debug("User: {}, AI: {}", prompt, response_content)
             return formatted_response
         except Exception as error:
             logger.error("No response {}", error)

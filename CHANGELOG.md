@@ -3,6 +3,26 @@
 
 
 
+## v4.9.3 (2024-06-16)
+
+### Other
+
+* Merge pull request #554 from mraniki/dev
+
+🔧 ([`b228d11`](https://github.com/mraniki/MyLLM/commit/b228d11a4bdd86a3ca59119fb4430b4e20e987fe))
+
+* Merge pull request #553 from mraniki/dev
+
+🔇 ([`f4363c3`](https://github.com/mraniki/MyLLM/commit/f4363c313c2bdd350b2b24759ba7d8636fafb83e))
+
+### 🔇
+
+* 🔇 ([`c0d8c2b`](https://github.com/mraniki/MyLLM/commit/c0d8c2b8aa87c333ec118727316abb4dca4d3e6f))
+
+### 🔧
+
+* 🔧 ([`c457c02`](https://github.com/mraniki/MyLLM/commit/c457c025b86e5fc133fb7cec80167aea2861de79))
+
 ## v4.9.2 (2024-06-15)
 
 ### Other

@@ -3,6 +3,24 @@
 
 
 
+## v4.9.4 (2024-06-22)
+
+### Other
+
+* Merge pull request #557 from mraniki/dev
+
+⬆️ 🤖 - Zounds  I was never so bethumped with words ([`37758ce`](https://github.com/mraniki/MyLLM/commit/37758ce21993b90d665a4f6cd33bd04ce9798b71))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.3 ([`2f9a970`](https://github.com/mraniki/MyLLM/commit/2f9a9704cd54738efc9a5badf4fe46867801d2af))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.2 ([`af58af5`](https://github.com/mraniki/MyLLM/commit/af58af507f0930354030cf5f142f369bcb0e7169))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.1 ([`fd41235`](https://github.com/mraniki/MyLLM/commit/fd41235d53162edd7c279bcb9f6edb81d71f71c3))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.0 ([`efc52be`](https://github.com/mraniki/MyLLM/commit/efc52be9be95997bf71d43945a7bb0219e2dde74))
+
 ## v4.9.3 (2024-06-16)
 
 ### Other

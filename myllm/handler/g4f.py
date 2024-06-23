@@ -70,4 +70,4 @@ class G4fHandler(AIClient):
                 return formatted_response
         except Exception as error:
             logger.error("No response {}", error)
-            return error
+            return f"Error with {self.name}"

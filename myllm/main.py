@@ -60,7 +60,7 @@ class MyLLM:
         self.enabled = settings.myllm_enabled or True
 
         # Set the prefix for AI agents
-        self.ai_agent = settings.ai_agent_mode or None
+        self.ai_agent = settings.ai_agent_mode or False
         self.ai_agent_prefix = settings.ai_agent_prefix or None
 
         # Create a mapping of library names to client classes

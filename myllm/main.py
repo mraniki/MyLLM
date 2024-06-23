@@ -58,6 +58,9 @@ class MyLLM:
         """
         # Check if the module is enabled
         self.enabled = settings.myllm_enabled or True
+
+        # Set the prefix for AI agents
+        self.ai_agent = settings.ai_agent_mode or None
         self.ai_agent_prefix = settings.ai_agent_prefix or None
 
         # Create a mapping of library names to client classes
@@ -179,16 +182,20 @@ class MyLLM:
         multiple clients are present.
         Returns just the response if a single client is available.
         """
-        _chats = []
-        for client in self.clients:
-            data = await client.chat(prompt)
-            if data:
-                if len(self.clients) > 1:
-                    _chats.append(f"{client.name}\n{data}")
-                else:
-                    return data
-        if _chats:
+        if prompt.startswith(self.ai_agent_prefix):
+            # If the prompt starts with the AI agent prefix, exit early
+            return
+        _chats = [
+            self.ai_agent_prefix + data
+            for client in self.clients
+            if (data := await client.chat(prompt))
+        ]
+        if len(self.clients) > 1:
             return "\n".join(_chats)
+        elif _chats:
+            return _chats[0]
+        else:
+            return ""
 
     async def export_chat_history(self):
         """

@@ -3,6 +3,62 @@
 
 
 
+## v4.10.0 (2024-06-23)
+
+### Fix
+
+* ♻️ refactor chat for ai_agent_prefix ([`029822a`](https://github.com/mraniki/MyLLM/commit/029822aa1aeebd43d831fc3c34c64d041a618a84))
+
+### Other
+
+* Merge pull request #560 from mraniki/dev
+
+✨ Added Groq.com handler + prefix/suffix for Agent ([`0300419`](https://github.com/mraniki/MyLLM/commit/030041938ccf17d8332397cfb865c124ee704bfd))
+
+* update __local__.json and main.py ([`480a935`](https://github.com/mraniki/MyLLM/commit/480a93507fc538ac704dcbf42935abd78cbb865a))
+
+* update g4f.py ([`bafa56b`](https://github.com/mraniki/MyLLM/commit/bafa56b729fd3b490aa5efe12e83240296fc3f08))
+
+* Refactor error handling in G4fHandler class. ([`1126bb9`](https://github.com/mraniki/MyLLM/commit/1126bb960745e5281eeeea8223e7d00ad3d522ee))
+
+* Remove unnecessary loop and chat functionality in MyLLM class. ([`569d913`](https://github.com/mraniki/MyLLM/commit/569d913dde3417294e799bed42509b24e5a4e376))
+
+* update __local__.json and main.py ([`f30d999`](https://github.com/mraniki/MyLLM/commit/f30d999c28516296a856b2980646c471d47dadfe))
+
+* update main.py ([`2e61491`](https://github.com/mraniki/MyLLM/commit/2e61491c0adefb4d6086d9692cd3367d944702aa))
+
+### Update
+
+* Update default_settings.toml and add Gemini handler for MyLLM. ([`5c5ebfc`](https://github.com/mraniki/MyLLM/commit/5c5ebfc28caf699fb8d4925cf3b3005dc344a4c4))
+
+### ♻️
+
+* ♻️ update default_settings.toml and main.py ([`0f562be`](https://github.com/mraniki/MyLLM/commit/0f562beb1b044607af595905d7af179ed9fd49ed))
+
+### ✅
+
+* ✅ Unit Test ([`09f129f`](https://github.com/mraniki/MyLLM/commit/09f129f8073e286d0dc009c0a3b4320838564304))
+
+* ✅ Unit Test ([`3b132eb`](https://github.com/mraniki/MyLLM/commit/3b132eb3f6dac199c3d41e32d745f281a66d9dc0))
+
+### ✨
+
+* ✨ Added Groq.com  handler ([`436367c`](https://github.com/mraniki/MyLLM/commit/436367c54c6d08dd0b9a5999c27ccb8dc4d2cb89))
+
+### 🐛
+
+* 🐛  main.py ([`0cebfc9`](https://github.com/mraniki/MyLLM/commit/0cebfc9e5cb76b447dfb75c415e4c01889d88f14))
+
+* 🐛 update __local__.json and g4f.py ([`c9fb31c`](https://github.com/mraniki/MyLLM/commit/c9fb31c3ae8e2bd3de6ec93cc3df7aa5d252836a))
+
+* 🐛 ([`4569bf8`](https://github.com/mraniki/MyLLM/commit/4569bf8227828221e075d56d3e0945e728346f55))
+
+* 🐛 ([`82def5d`](https://github.com/mraniki/MyLLM/commit/82def5de2dcd09bec7d150eabf632141ad9ef2c7))
+
+* 🐛 update __local__.json and main.py ([`38ccd84`](https://github.com/mraniki/MyLLM/commit/38ccd844c39e0d07bcfcd5003c5df7fc4efcbea5))
+
+* 🐛 ([`e6b248e`](https://github.com/mraniki/MyLLM/commit/e6b248ee4e47d74797a363aa7d86313a38e6113f))
+
 ## v4.9.4 (2024-06-22)
 
 ### Other

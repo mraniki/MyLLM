@@ -135,7 +135,7 @@ class MyLLM:
         client_class = self.client_classes.get(f"{library.capitalize()}Handler")
 
         if client_class is None:
-            logger.error(f"library {library} not supported")
+            logger.warning(f"library {library} not supported")
             return None
 
         return client_class(**kwargs)

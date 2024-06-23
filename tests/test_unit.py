@@ -53,8 +53,10 @@ async def test_myllmclient(talky):
 async def test_get_chats(talky):
     result = await talky.chat("tell me a story")
     assert result is not None
-    assert "llama" in result or "bing" in result or "openai" in result
-    #assert "petals" in result
+    found_keywords = [
+        keyword for keyword in ["llama", "bing", "openai", "groq"] if keyword in result
+    ]
+    assert found_keywords
 
 
 @pytest.mark.asyncio

@@ -58,7 +58,11 @@ class MyLLM:
         """
         # Check if the module is enabled
         self.enabled = settings.myllm_enabled or True
-        self.ai_agent_prefix = settings.ai_agent_prefix or None
+
+        # Set the prefix for AI agents
+        self.ai_agent_mode = settings.ai_agent_mode or False
+        self.ai_agent_prefix = settings.ai_agent_prefix or ""
+        self.ai_agent_suffix = settings.ai_agent_suffix or ""
 
         # Create a mapping of library names to client classes
         self.client_classes = self.get_all_client_classes()
@@ -128,11 +132,11 @@ class MyLLM:
             library is not supported.
 
         """
-        library = kwargs.get("llm_library") or kwargs.get("library")
+        library = kwargs.get("llm_library") or kwargs.get("library") or "notset"
         client_class = self.client_classes.get(f"{library.capitalize()}Handler")
 
         if client_class is None:
-            logger.error(f"library {library} not supported")
+            logger.warning(f"library {library} not supported")
             return None
 
         return client_class(**kwargs)
@@ -189,6 +193,23 @@ class MyLLM:
                     return data
         if _chats:
             return "\n".join(_chats)
+
+        # if self.ai_agent_mode and (
+        #     self.ai_agent_suffix in prompt or self.ai_agent_prefix in prompt
+        # ):
+        #     # If the prompt starts with the AI agent prefix, exit early
+        #     return
+        # _chats = [
+        #     self.ai_agent_prefix + data + self.ai_agent_suffix
+        #     for client in self.clients
+        #     if (data := await client.chat(prompt))
+        # ]
+        # if len(self.clients) > 1:
+        #     return "\n".join(_chats)
+        # elif _chats:
+        #     return _chats[0]
+        # else:
+        #     return ""
 
     async def export_chat_history(self):
         """

@@ -2,6 +2,7 @@
 🔗 G4F
 
 """
+
 import importlib
 from time import sleep
 
@@ -69,3 +70,4 @@ class G4fHandler(AIClient):
                 return formatted_response
         except Exception as error:
             logger.error("No response {}", error)
+            return "Error with client"

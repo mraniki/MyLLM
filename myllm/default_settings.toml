@@ -16,6 +16,7 @@ VALUE = "On default"
 
 # Module Enable/Disable
 myllm_enabled = true
+ai_agent_mode = false
 ai_agent_prefix = "🧠" # prefix use to filter the AI response
 
 [default.myllm.template]

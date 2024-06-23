@@ -182,7 +182,7 @@ class MyLLM:
         multiple clients are present.
         Returns just the response if a single client is available.
         """
-        if prompt.startswith(self.ai_agent_prefix):
+        if self.ai_agent_mode and prompt.startswith(self.ai_agent_prefix):
             # If the prompt starts with the AI agent prefix, exit early
             return
         _chats = [

@@ -182,20 +182,30 @@ class MyLLM:
         multiple clients are present.
         Returns just the response if a single client is available.
         """
-        if self.ai_agent_mode and prompt.startswith(self.ai_agent_prefix):
-            # If the prompt starts with the AI agent prefix, exit early
-            return
-        _chats = [
-            self.ai_agent_prefix + data
-            for client in self.clients
-            if (data := await client.chat(prompt))
-        ]
-        if len(self.clients) > 1:
+        _chats = []
+        for client in self.clients:
+            data = await client.chat(prompt)
+            if data:
+                if len(self.clients) > 1:
+                    _chats.append(f"{client.name}\n{data}")
+                else:
+                    return data
+        if _chats:
             return "\n".join(_chats)
-        elif _chats:
-            return _chats[0]
-        else:
-            return ""
+        # if self.ai_agent_mode and prompt.startswith(self.ai_agent_prefix):
+        #     # If the prompt starts with the AI agent prefix, exit early
+        #     return
+        # _chats = [
+        #     self.ai_agent_prefix + data
+        #     for client in self.clients
+        #     if (data := await client.chat(prompt))
+        # ]
+        # if len(self.clients) > 1:
+        #     return "\n".join(_chats)
+        # elif _chats:
+        #     return _chats[0]
+        # else:
+        #     return ""
 
     async def export_chat_history(self):
         """

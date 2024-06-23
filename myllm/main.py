@@ -61,8 +61,8 @@ class MyLLM:
 
         # Set the prefix for AI agents
         self.ai_agent_mode = settings.ai_agent_mode or False
-        self.ai_agent_prefix = settings.ai_agent_prefix or None
-        self.ai_agent_suffix = settings.ai_agent_suffix or None
+        self.ai_agent_prefix = settings.ai_agent_prefix or ""
+        self.ai_agent_suffix = settings.ai_agent_suffix or ""
 
         # Create a mapping of library names to client classes
         self.client_classes = self.get_all_client_classes()

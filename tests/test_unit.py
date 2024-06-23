@@ -51,15 +51,12 @@ async def test_myllmclient(talky):
 
 @pytest.mark.asyncio
 async def test_get_chats(talky):
-    try:
-        result = await talky.chat("tell me a story")
-        assert result is not None
-        assert any(keyword in result for keyword in ["llama", "bing", "openai", "groq"])
-    except Exception as e:
-        # Log the exception or print it out for debugging purposes
-        print(f"Exception occurred: {e}")
-        # Optionally, you can also fail the test explicitly
-        pytest.fail(f"Test failed due to an exception: {e}")
+    result = await talky.chat("tell me a story")
+    assert result is not None
+    found_keywords = [
+        keyword for keyword in ["llama", "bing", "openai", "groq"] if keyword in result
+    ]
+    assert found_keywords
 
 
 @pytest.mark.asyncio

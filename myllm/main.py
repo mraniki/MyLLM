@@ -131,7 +131,7 @@ class MyLLM:
             library is not supported.
 
         """
-        library = kwargs.get("llm_library") or kwargs.get("library")
+        library = kwargs.get("llm_library") or kwargs.get("library") or "notset"
         client_class = self.client_classes.get(f"{library.capitalize()}Handler")
 
         if client_class is None:

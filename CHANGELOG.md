@@ -3,6 +3,18 @@
 
 
 
+## v4.10.1 (2024-06-24)
+
+### Fix
+
+* update chat in main.py for ai agent prefix/suffix ([`f336abb`](https://github.com/mraniki/MyLLM/commit/f336abb73f962c15f385c5c825cd10d6f6659b58))
+
+### Other
+
+* Merge pull request #561 from mraniki/dev
+
+⬆️ 🤖 - You need more time and you probably always will ([`9a8ed21`](https://github.com/mraniki/MyLLM/commit/9a8ed214ee094865104d72d25cf06c154ae79fcc))
+
 ## v4.10.0 (2024-06-23)
 
 ### Fix

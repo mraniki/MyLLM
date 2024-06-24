@@ -199,11 +199,15 @@ class MyLLM:
         # ):
         #     # If the prompt starts with the AI agent prefix, exit early
         #     return
+
         # _chats = [
         #     self.ai_agent_prefix + data + self.ai_agent_suffix
         #     for client in self.clients
         #     if (data := await client.chat(prompt))
+        #     and self.ai_agent_prefix
+        #     and self.ai_agent_suffix
         # ]
+
         # if len(self.clients) > 1:
         #     return "\n".join(_chats)
         # elif _chats:

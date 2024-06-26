@@ -3,6 +3,30 @@
 
 
 
+## v4.10.2 (2024-06-26)
+
+### Other
+
+* Merge pull request #563 from mraniki/dev
+
+Refactor Chat main function ([`4e9c52f`](https://github.com/mraniki/MyLLM/commit/4e9c52f00992044cb4b25fbe0244c2e9ea99ccec))
+
+### Update
+
+* Update  main.py ([`9d5876d`](https://github.com/mraniki/MyLLM/commit/9d5876d246a895b30b8ee4c9e291b7c1e443c976))
+
+### ♻️
+
+* ♻️  main.py ([`ea95137`](https://github.com/mraniki/MyLLM/commit/ea951376eac6d64cfcf598d2f1a802ab0ef2af58))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.4 ([`8593dad`](https://github.com/mraniki/MyLLM/commit/8593dadf9cb98ae9a29b8fdf276eb69a3aae159f))
+
+### 🐛
+
+* 🐛 ([`714fd90`](https://github.com/mraniki/MyLLM/commit/714fd900dfe82603abc8ebd4b7cf00a1eb4e3e1f))
+
 ## v4.10.1 (2024-06-24)
 
 ### Fix

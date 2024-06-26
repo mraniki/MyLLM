@@ -195,7 +195,7 @@ class MyLLM:
         #     return "\n".join(_chats)
 
         _chats = [
-            f"{client.ai_agent_prefix} {client.name}\n{data} {client.ai_agent_suffix}"
+            f"{self.ai_agent_prefix} {client.name}\n{data} {self.ai_agent_suffix}"
             for client in self.clients
             if (data := await client.chat(prompt))
         ]

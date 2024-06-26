@@ -183,14 +183,23 @@ class MyLLM:
         multiple clients are present.
         Returns just the response if a single client is available.
         """
-        _chats = []
-        for client in self.clients:
-            data = await client.chat(prompt)
-            if data:
-                if len(self.clients) > 1:
-                    _chats.append(f"{client.name}\n{data}")
-                else:
-                    return data
+        # _chats = []
+        # for client in self.clients:
+        #     data = await client.chat(prompt)
+        #     if data:
+        #         if len(self.clients) > 1:
+        #             _chats.append(f"{client.name}\n{data}")
+        #         else:
+        #             return data
+        # if _chats:
+        #     return "\n".join(_chats)
+
+        _chats = [
+            f"{client.ai_agent_prefix}{client.name}\n{data} {client.ai_agent_suffix}"
+            for client in self.clients
+            if (data := await client.chat(prompt))
+        ]
+
         if _chats:
             return "\n".join(_chats)
 

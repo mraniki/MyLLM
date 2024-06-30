@@ -3,6 +3,22 @@
 
 
 
+## v4.10.4 (2024-06-30)
+
+### Other
+
+* Merge pull request #573 from mraniki/dev
+
+⬆️ 🤖 - All the troubles you have will pass away very quickly ([`ace70ef`](https://github.com/mraniki/MyLLM/commit/ace70efc4494991636fb771687577999e99e50c8))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.2.1 ([`e1bf1b2`](https://github.com/mraniki/MyLLM/commit/e1bf1b27de6610187b102e89402f08a21043cf51))
+
+* ⬆️ 🛠️(deps): update python docker tag to v3.12 ([`e986580`](https://github.com/mraniki/MyLLM/commit/e986580addcd23cbebee01384f2d526911d7dae9))
+
+* ⬆️ 🛠️(deps): update python docker tag to v3.10 ([`41a1aca`](https://github.com/mraniki/MyLLM/commit/41a1acad7bfb637653e05be1b499cb99ea4d66f7))
+
 ## v4.10.3 (2024-06-28)
 
 ### Other

@@ -172,7 +172,9 @@ class MyLLM:
         the exchange name and the account information.
         :rtype: str
         """
-        version_info = f"ℹ️ {type(self).__name__} {__version__}\n"
+        version_info = (
+            f"ℹ️ {type(self).__name__} {__version__}\n AImode {self.ai_agent_mode}\n"
+        )
         client_info = "".join(f"🤖 {client.name}\n" for client in self.clients)
         return version_info + client_info.strip()
 
@@ -183,46 +185,15 @@ class MyLLM:
         multiple clients are present.
         Returns just the response if a single client is available.
         """
-        # _chats = []
-        # for client in self.clients:
-        #     data = await client.chat(prompt)
-        #     if data:
-        #         if len(self.clients) > 1:
-        #             _chats.append(f"{client.name}\n{data}")
-        #         else:
-        #             return data
-        # if _chats:
-        #     return "\n".join(_chats)
 
         _chats = [
             f"{self.ai_agent_prefix} {client.name}\n{data} {self.ai_agent_suffix}"
             for client in self.clients
-            if (data := await client.chat(prompt))
+            if (data := await client.chat(prompt)) is not None and data.strip()
         ]
 
         if _chats:
             return "\n".join(_chats)
-
-        # if self.ai_agent_mode and (
-        #     self.ai_agent_suffix in prompt or self.ai_agent_prefix in prompt
-        # ):
-        #     # If the prompt starts with the AI agent prefix, exit early
-        #     return
-
-        # _chats = [
-        #     self.ai_agent_prefix + data + self.ai_agent_suffix
-        #     for client in self.clients
-        #     if (data := await client.chat(prompt))
-        #     and self.ai_agent_prefix
-        #     and self.ai_agent_suffix
-        # ]
-
-        # if len(self.clients) > 1:
-        #     return "\n".join(_chats)
-        # elif _chats:
-        #     return _chats[0]
-        # else:
-        #     return ""
 
     async def export_chat_history(self):
         """

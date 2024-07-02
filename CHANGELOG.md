@@ -3,6 +3,18 @@
 
 
 
+## v4.10.5 (2024-07-02)
+
+### Other
+
+* Merge pull request #574 from mraniki/dev
+
+⬆️ 🤖 - Q	Whats the difference between an Irish wedding and an Irish wake ([`5dd1437`](https://github.com/mraniki/MyLLM/commit/5dd14378e874e538680e383790a0ea48ac19e597))
+
+### 🐛
+
+* 🐛 Improving error handling in case of empty response from model ([`6d7fcdd`](https://github.com/mraniki/MyLLM/commit/6d7fcdd93d64167b04c532baf85eee56a9321db6))
+
 ## v4.10.4 (2024-06-30)
 
 ### Other

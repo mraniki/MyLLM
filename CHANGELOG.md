@@ -3,6 +3,20 @@
 
 
 
+## v4.10.6 (2024-07-03)
+
+### Other
+
+* Merge pull request #576 from mraniki/dev
+
+⬆️ 🤖 - Familiarity breeds contempt  and children ([`43d9ceb`](https://github.com/mraniki/MyLLM/commit/43d9cebe6fed308f8ed90f8c3f2a91629fab252c))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.9 ([`7525c6e`](https://github.com/mraniki/MyLLM/commit/7525c6e9c67e55158da120b647715975b43a8006))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.8 ([`7f6e2a9`](https://github.com/mraniki/MyLLM/commit/7f6e2a9b8d732ea518b8b785770679e79eaf027f))
+
 ## v4.10.5 (2024-07-02)
 
 ### Other

@@ -3,6 +3,20 @@
 
 
 
+## v4.10.7 (2024-07-05)
+
+### Other
+
+* Merge pull request #579 from mraniki/dev
+
+⬆️ 🤖 - You will be Told about it Tomorrow  Go Home and Prepare Thyself ([`8cf6b5e`](https://github.com/mraniki/MyLLM/commit/8cf6b5e19cf5ff401ab67fadf4c30b8942b775ad))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.10 ([`f2d1bcf`](https://github.com/mraniki/MyLLM/commit/f2d1bcf88c4e9a8c4bcade93853bd8421aff83fc))
+
+* ⬆️ 🛠️(deps): update dependency curl_cffi to v0.7.0 ([`4785d32`](https://github.com/mraniki/MyLLM/commit/4785d32a1baa75351d93971fc3663fa97779681e))
+
 ## v4.10.6 (2024-07-03)
 
 ### Other

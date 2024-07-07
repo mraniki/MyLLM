@@ -130,14 +130,9 @@ class MyLLM:
             library is not supported.
 
         """
-        library = kwargs.get("llm_library") or kwargs.get("library") or "notset"
-        client_class = self.client_classes.get(f"{library.capitalize()}Handler")
-
-        if client_class is None:
-            logger.warning(f"library {library} not supported")
-            return None
-
-        return client_class(**kwargs)
+        library = kwargs.get("llm_library") or kwargs.get("library") or "g4f"
+        cls = self.client_classes.get((f"{library.capitalize()}Handler"))
+        return None if cls is None else cls(**kwargs)
 
     def get_all_client_classes(self):
         """

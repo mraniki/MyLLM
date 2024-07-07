@@ -75,18 +75,23 @@ class MyLLM:
 
         # Create a client for each client in settings.myllm
         for name, client_config in settings.myllm.items():
-            # Skip template and empty string client names
-            if name in ["", "template"] or not client_config.get("enabled"):
+            if (
+                # Skip empty client configs
+                client_config is None
+                # Skip non-dict client configs
+                or not isinstance(client_config, dict)
+                # Skip template and empty string client names
+                or name in ["", "template"]
+                # Skip disabled clients
+                or not client_config.get("enabled")
+            ):
                 continue
-            try:
                 # Create the client
-                client = self._create_client(**client_config, name=name)
-                # If the client has a valid client attribute, append it to the list
-                if client and getattr(client, "client", None):
-                    self.clients.append(client)
-            except Exception as e:
-                # Log the error if the client fails to be created
-                logger.error(f"Failed to create client {name}: {e}")
+            logger.debug("Creating client {}", name)
+            client = self._create_client(**client_config, name=name)
+            # If the client has a valid client attribute, append it to the list
+            if client and getattr(client, "client", None):
+                self.clients.append(client)
 
         # Log the number of clients that were created
         logger.info(f"Loaded {len(self.clients)} clients")

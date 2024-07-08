@@ -76,7 +76,7 @@ async def test_import_chat_history(talky):
     for llm in talky.clients:
         assert llm.conversation is not None
         assert (
-            talky.llm.conversation.import_chat_history(filename="notafile.json") is None
+            llm.conversation.import_chat_history(filename="notafile.json") is None
         )
 
 

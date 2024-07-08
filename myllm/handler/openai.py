@@ -39,12 +39,7 @@ class OpenaiHandler(AIClient):
 
         :param prompt: The prompt for the chat.
         :return: The response from the chat.
-        """
-        """
-        Asynchronously chats with the client based on the given prompt.
 
-        :param prompt: The prompt for the chat.
-        :return: The response from the chat.
         """
         self.conversation.add_message("user", prompt)
         archived_messages = self.conversation.get_messages()

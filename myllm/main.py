@@ -27,6 +27,7 @@ class MyLLM:
         get_chats(self, prompt)
         export_chat_history(self)
         clear_chat_history(self)
+        import_chat_history(self)
 
     """
 

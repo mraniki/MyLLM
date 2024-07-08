@@ -29,7 +29,9 @@ class OpenaiHandler(AIClient):
 
         super().__init__(**kwargs)
         if self.enabled and self.llm_provider_key:
-            self.client = OpenAI(self.llm_provider_key, base_url=self.llm_base_url)
+            self.client = OpenAI(
+                api_key=self.llm_provider_key, base_url=self.llm_base_url
+            )
 
     async def chat(self, prompt):
         """

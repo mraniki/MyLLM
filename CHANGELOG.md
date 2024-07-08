@@ -3,6 +3,76 @@
 
 
 
+## v4.11.0 (2024-07-08)
+
+### :rotating_light:
+
+* :rotating_light: ([`f5df3d1`](https://github.com/mraniki/MyLLM/commit/f5df3d17440f3ac3534f957cf834d3bcb05b8e36))
+
+### Other
+
+* Merge pull request #581 from mraniki/dev
+
+✅ Unit Test ([`9c974a5`](https://github.com/mraniki/MyLLM/commit/9c974a5c6ac925891273a9a400e2a9ef7ea82a3f))
+
+* update __local__.json and client.py ([`c90dc72`](https://github.com/mraniki/MyLLM/commit/c90dc72ff24062dc8bd09ab2e2f99028df002235))
+
+* update __local__.json, g4f.py and groq.py ([`403db92`](https://github.com/mraniki/MyLLM/commit/403db92c390a93f2aa97d1da61ed1cfe1f1e8a45))
+
+* update __local__.json and g4f.py ([`da0e5e4`](https://github.com/mraniki/MyLLM/commit/da0e5e469505ab894bad83b056e311ec2d2fc17e))
+
+* update openai.py ([`c5aaae0`](https://github.com/mraniki/MyLLM/commit/c5aaae0cc7d444e3d140a3f61d249e225b952238))
+
+* build(deps): update __local__.json and pyproject.toml ([`eca22a9`](https://github.com/mraniki/MyLLM/commit/eca22a9ab9c8efce5ef4f2659b6b0956108a14f2))
+
+### ♻️
+
+* ♻️ ([`d52c181`](https://github.com/mraniki/MyLLM/commit/d52c1813cd01754285e78cab4d5102398800b0c9))
+
+* ♻️ ✅ Unit Test update 6 files ([`87e7c63`](https://github.com/mraniki/MyLLM/commit/87e7c63131b9d2bc10cb39c21f0a5329d3bb2667))
+
+* ♻️ ([`6eb5d3d`](https://github.com/mraniki/MyLLM/commit/6eb5d3dabb131821cf4795122f4d6000dc683c20))
+
+* ♻️ ([`ba9727d`](https://github.com/mraniki/MyLLM/commit/ba9727d04bbf303a74750efa44ece8862ab3a4c8))
+
+### ✅
+
+* ✅ Unit Test ([`ca3b55a`](https://github.com/mraniki/MyLLM/commit/ca3b55afabdcc4bed89ed031b37bc089be85760e))
+
+* ✅ Unit Test ([`b6c1a69`](https://github.com/mraniki/MyLLM/commit/b6c1a69d263b9291ae632f3a5c9a5b0653265f49))
+
+* ✅ Unit Test ([`072476d`](https://github.com/mraniki/MyLLM/commit/072476d520ae2c5d4bd2d6f232c947c043ae99d2))
+
+### 🎨
+
+* 🎨 ([`f3d2fd2`](https://github.com/mraniki/MyLLM/commit/f3d2fd2d6e5d36b0e24bc3209b1cb3ad8680c00e))
+
+### 🐛
+
+* 🐛 ([`2a79cac`](https://github.com/mraniki/MyLLM/commit/2a79cacc7bf37eb70b8a34e8f3d923aaaddae5f4))
+
+* 🐛 ([`b366b3b`](https://github.com/mraniki/MyLLM/commit/b366b3bdd2b4336d65e2311e70f7c3b7fd79ae5c))
+
+* 🐛 ([`aa9bfe7`](https://github.com/mraniki/MyLLM/commit/aa9bfe7fa52aa157e763e14ea37c4ca1aa3ec41c))
+
+### 💄
+
+* 💄 Added import at the class level ([`7a83fde`](https://github.com/mraniki/MyLLM/commit/7a83fde754af1b79f94c9f077e558a148d9aa309))
+
+* 💄 _create_client update ([`d5b8c51`](https://github.com/mraniki/MyLLM/commit/d5b8c51ac7047527eb33493b6696f9d60a696897))
+
+### 💬
+
+* 💬 ([`b51fab2`](https://github.com/mraniki/MyLLM/commit/b51fab2d8d396ca67f53425cc1e72b3a2b23412c))
+
+### 📝
+
+* 📝 ([`4d99ca1`](https://github.com/mraniki/MyLLM/commit/4d99ca1f7ff850e26c6fa8d2427b4685e82ca901))
+
+### 🚨
+
+* 🚨 ([`7c97975`](https://github.com/mraniki/MyLLM/commit/7c979755be73164e3365da2e9d7ce78e349d5b67))
+
 ## v4.10.7 (2024-07-05)
 
 ### Other

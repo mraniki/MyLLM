@@ -24,24 +24,18 @@ class G4fHandler(AIClient):
         Args:
             None
         """
-        try:
-            super().__init__(**kwargs)
-            if self.llm_provider is None:
-                return None
-            logger.debug("G4F provider initializing")
-            if self.enabled:
-                provider_module_name = self.llm_provider
-                provider_module = importlib.import_module(provider_module_name)
-                provider_class = getattr(
-                    provider_module, provider_module_name.split(".")[-1]
-                )
-                self.provider = provider_class()
-                self.client = self.provider
-                logger.info("Provider {} initialized ", self.provider)
-            else:
-                return None
-        except Exception as error:
-            logger.error("G4F initialization error {}", error)
+        super().__init__(**kwargs)
+        logger.debug("G4F provider initializing")
+        if self.enabled and self.llm_provider:
+            provider_module_name = self.llm_provider
+            provider_module = importlib.import_module(provider_module_name)
+            provider_class = getattr(
+                provider_module, provider_module_name.split(".")[-1]
+            )
+            self.provider = provider_class()
+            self.client = self.provider
+            logger.info("Provider {} initialized ", self.provider)
+        else:
             return None
 
     async def chat(self, prompt):

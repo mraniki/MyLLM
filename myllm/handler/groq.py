@@ -26,17 +26,13 @@ class GroqHandler(AIClient):
         :param kwargs: keyword arguments
         :return: None
         """
-        try:
-            super().__init__(**kwargs)
-            if self.enabled:
-                self.client = Groq(
-                    api_key=self.llm_provider_key,
-                )
+        super().__init__(**kwargs)
+        if self.enabled and self.llm_provider_key:
+            self.client = Groq(
+                api_key=self.llm_provider_key,
+            )
 
-            else:
-                return None
-        except Exception as error:
-            logger.error("Groq initialization error {}", error)
+        else:
             return None
 
     async def chat(self, prompt):

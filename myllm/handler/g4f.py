@@ -35,8 +35,6 @@ class G4fHandler(AIClient):
             self.provider = provider_class()
             self.client = self.provider
             logger.info("Provider {} initialized ", self.provider)
-        else:
-            return None
 
     async def chat(self, prompt):
         """

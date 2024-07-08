@@ -31,9 +31,6 @@ class GroqHandler(AIClient):
                 api_key=self.llm_provider_key,
             )
 
-        else:
-            return None
-
     async def chat(self, prompt):
         """
         Asynchronously chats with the client based on the given prompt.

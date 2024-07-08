@@ -213,3 +213,11 @@ class MyLLM:
         """
         for client in self.clients:
             await client.clear_chat_history()
+
+    async def import_chat_history(self):
+        """
+        Asynchronously clears the chat history for each
+        client in the list of clients.
+        """
+        for client in self.clients:
+            await client.import_chat_history()

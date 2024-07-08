@@ -11,7 +11,7 @@ class AIClient:
     with a given model and a given llm provider
 
     Attributes:
-        llm (LLM): LLM
+        llm (LLM): LLM class object
         conversation (ConversationChain): Conversation
 
     Methods:

@@ -47,6 +47,7 @@ async def test_myllmclient(talky):
         assert llm.conversation is not None
         assert callable(llm.export_chat_history)
         assert callable(llm.clear_chat_history)
+        assert callable(llm.import_chat_history)
 
 
 @pytest.mark.asyncio
@@ -64,6 +65,17 @@ async def test_export_chat_history(talky):
     await talky.export_chat_history()
     for llm in talky.clients:
         assert os.path.isfile(llm.history_filename)
+        assert callable(llm.import_chat_history)
+
+
+@pytest.mark.asyncio
+async def test_import_chat_history(talky):
+    for llm in talky.clients:
+        llm.load_history = True
+    await talky.import_chat_history()
+    for llm in talky.clients:
+        assert llm.conversation is not None
+        assert llm.conversation.import_messages(filename="notafile.json") is None
 
 
 @pytest.mark.asyncio

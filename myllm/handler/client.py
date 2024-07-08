@@ -8,10 +8,10 @@ class AIClient:
     """
 
     MyLLM generic client class use to initiate a LLM client
-    with a given model and a given provider
+    with a given model and a given llm provider
 
     Attributes:
-        llm (LLM): LLM
+        llm (LLM): LLM class object
         conversation (ConversationChain): Conversation
 
     Methods:
@@ -31,29 +31,25 @@ class AIClient:
         """
 
         logger.info("Initializing Client")
-        try:
-            self.name = kwargs.get("name", None)
-            self.enabled = kwargs.get("enabled", True)
-            self.llm_library = kwargs.get("llm_library", None) or kwargs.get(
-                "library", None
-            )
-            self.llm_model = kwargs.get("llm_model", None)
-            self.llm_provider = kwargs.get("llm_provider", None)
-            self.llm_provider_key = kwargs.get("llm_provider_key", None)
-            self.llm_base_url = kwargs.get("llm_base_url", None)
-            self.max_memory = kwargs.get("max_memory", 100)
-            self.load_history = kwargs.get("load_history", False)
-            self.timeout = kwargs.get("timeout", 2)
-            self.llm_prefix = kwargs.get("llm_prefix")
-            self.history_filename = (
-                kwargs.get("history_filename")
-                or f"history-{self.name or 'default'}.json"
-            )
-            self.llm_template = kwargs.get("llm_template")
-            self.stream_mode = kwargs.get("stream_mode", False)
-        except Exception as error:
-            logger.error("Client initialization error {}", error)
-            return None
+        self.name = kwargs.get("name", None)
+        self.enabled = kwargs.get("enabled", True)
+        self.llm_library = kwargs.get("llm_library", None) or kwargs.get(
+            "library", None
+        )
+        self.llm_model = kwargs.get("llm_model", None)
+        self.llm_provider = kwargs.get("llm_provider", None)
+        self.llm_provider_key = kwargs.get("llm_provider_key", None)
+        self.llm_base_url = kwargs.get("llm_base_url", None)
+        self.max_memory = kwargs.get("max_memory", 100)
+        self.load_history = kwargs.get("load_history", False)
+        self.timeout = kwargs.get("timeout", 0)
+        self.llm_prefix = kwargs.get("llm_prefix", None)
+        self.llm_suffix = kwargs.get("llm_suffix", None)
+        self.history_filename = (
+            kwargs.get("history_filename") or f"history-{self.name or 'default'}.json"
+        )
+        self.llm_template = kwargs.get("llm_template")
+        self.stream_mode = kwargs.get("stream_mode", False)
         self.conversation = Conversation(
             max_memory=self.max_memory, llm_template=self.llm_template
         )
@@ -86,7 +82,8 @@ class AIClient:
         """
         Import chat history
         """
-        self.conversation.import_messages(self.history_filename)
+        if self.load_history:
+            self.conversation.import_messages(self.history_filename)
 
 
 class Conversation:
@@ -162,6 +159,5 @@ class Conversation:
         """
         if not os.path.exists(filename):
             return
-        if self.load_history:
-            with open(filename, "r") as f:
-                self.messages = json.load(f)
+        with open(filename, "r") as f:
+            self.messages = json.load(f)

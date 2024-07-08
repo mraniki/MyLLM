@@ -27,6 +27,7 @@ class MyLLM:
         get_chats(self, prompt)
         export_chat_history(self)
         clear_chat_history(self)
+        import_chat_history(self)
 
     """
 
@@ -57,7 +58,7 @@ class MyLLM:
             None
         """
         # Check if the module is enabled
-        self.enabled = settings.myllm_enabled or True
+        self.enabled = settings.myllm_enabled
 
         # Set the prefix for AI agents
         self.ai_agent_mode = settings.ai_agent_mode or False
@@ -69,34 +70,35 @@ class MyLLM:
         # logger.debug("client_classes available {}", self.client_classes)
 
         if not self.enabled:
-            logger.info("Module is disabled. No clients will be created.")
+            logger.info("Module is disabled. No Client will be created.")
             return
         self.clients = []
 
         # Create a client for each client in settings.myllm
         for name, client_config in settings.myllm.items():
-            # Skip template and empty string client names
-            if name in ["", "template"] or not client_config.get("enabled"):
+            if (
+                # Skip empty client configs
+                client_config is None
+                # Skip non-dict client configs
+                or not isinstance(client_config, dict)
+                # Skip template and empty string client names
+                or name in ["", "template"]
+                # Skip disabled clients
+                or not client_config.get("enabled")
+            ):
                 continue
-            try:
                 # Create the client
-                client = self._create_client(**client_config, name=name)
-                # If the client has a valid client attribute, append it to the list
-                if client and getattr(client, "client", None):
-                    self.clients.append(client)
-            except Exception as e:
-                # Log the error if the client fails to be created
-                logger.error(f"Failed to create client {name}: {e}")
+            logger.debug("Creating client {}", name)
+            client = self._create_client(**client_config, name=name)
+            # If the client has a valid client attribute, append it to the list
+            if client and getattr(client, "client", None):
+                self.clients.append(client)
 
         # Log the number of clients that were created
         logger.info(f"Loaded {len(self.clients)} clients")
         if not self.clients:
             logger.warning(
-                """
-                No clients were created.
-                Check your settings or disable the module.
-                https://talky.readthedocs.io/en/latest/02_config.html
-                """
+                "No Client were created. Check your settings or disable the module."
             )
 
     def _create_client(self, **kwargs):
@@ -132,14 +134,15 @@ class MyLLM:
             library is not supported.
 
         """
-        library = kwargs.get("llm_library") or kwargs.get("library") or "notset"
-        client_class = self.client_classes.get(f"{library.capitalize()}Handler")
-
-        if client_class is None:
-            logger.warning(f"library {library} not supported")
-            return None
-
-        return client_class(**kwargs)
+        library = (
+            kwargs.get("library")
+            or kwargs.get("platform")
+            or kwargs.get("protocol")
+            or kwargs.get("parser_library")
+            or "g4f"
+        )
+        cls = self.client_classes.get((f"{library.capitalize()}Handler"))
+        return None if cls is None else cls(**kwargs)
 
     def get_all_client_classes(self):
         """
@@ -187,7 +190,14 @@ class MyLLM:
         """
 
         _chats = [
-            f"{self.ai_agent_prefix} {client.name}\n{data} {self.ai_agent_suffix}"
+            (
+                data
+                if len(self.clients) == 1 and not self.ai_agent
+                else (
+                    f"{self.ai_agent_prefix} {client.name}\n"
+                    f"{data} {self.ai_agent_suffix}"
+                )
+            )
             for client in self.clients
             if (data := await client.chat(prompt)) is not None and data.strip()
         ]
@@ -211,3 +221,11 @@ class MyLLM:
         """
         for client in self.clients:
             await client.clear_chat_history()
+
+    async def import_chat_history(self):
+        """
+        Asynchronously clears the chat history for each
+        client in the list of clients.
+        """
+        for client in self.clients:
+            await client.import_chat_history()

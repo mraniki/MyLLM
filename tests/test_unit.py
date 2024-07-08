@@ -75,9 +75,7 @@ async def test_import_chat_history(talky):
     await talky.import_chat_history()
     for llm in talky.clients:
         assert llm.conversation is not None
-        assert (
-            llm.conversation.import_chat_history(filename="notafile.json") is None
-        )
+        assert llm.conversation.import_messages(filename="notafile.json") is None
 
 
 @pytest.mark.asyncio

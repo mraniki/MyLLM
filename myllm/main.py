@@ -189,7 +189,16 @@ class MyLLM:
         """
 
         _chats = [
-            f"{self.ai_agent_prefix} {client.name}\n{data} {self.ai_agent_suffix}"
+            (
+                data
+                if len(self.clients) == 1
+                and not self.ai_agent_prefix
+                and not self.ai_agent_suffix
+                else (
+                    f"{self.ai_agent_prefix} {client.name}\n"
+                    f"{data} {self.ai_agent_suffix}"
+                )
+            )
             for client in self.clients
             if (data := await client.chat(prompt)) is not None and data.strip()
         ]

@@ -31,6 +31,7 @@ load_history = false # load conversation history via a json file
 timeout = 2 # time lag to wait ai response
 stream_mode = false # enable streaming mode NOT IMPLEMENTED
 llm_prefix = "🐻" # prefix use to filter the AI response
+llm_suffix = "" # suffix use to filter the AI response
 llm_template = """
 You are a friendly AI, helping me with general tasks. 
 Be simple and direct.
@@ -47,6 +48,7 @@ Be simple and direct.
 # load_history = false
 # stream_mode = false # enable streaming mode
 # llm_prefix = ""
+# llm_suffix = "" 
 # llm_template = """
 # You are a friendly AI, helping me with general tasks. 
 # """
@@ -62,6 +64,7 @@ Be simple and direct.
 # timeout = 1 # time lag to wait ai response
 # stream_mode = false # enable streaming mode NOT IMPLEMENTED
 # llm_prefix = "🐻" # prefix use to filter the AI response
+# llm_suffix = "" 
 # llm_template = """
 # You are a friendly AI, helping me with general tasks. 
 # """
@@ -78,6 +81,7 @@ Be simple and direct.
 # timeout = 1 
 # stream_mode = false # enable streaming mode
 # llm_prefix = ""
+# llm_suffix = "" 
 # llm_template = """
 # You are a friendly AI, helping me with 
 # general tasks.

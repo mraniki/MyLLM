@@ -48,22 +48,18 @@ class G4fHandler(AIClient):
         Returns:
             str: The response from the conversation model.
         """
-        try:
-            self.conversation.add_message("user", prompt)
+        self.conversation.add_message("user", prompt)
 
-            response = await self.provider.create_async(
-                model=self.llm_model,
-                messages=self.conversation.get_messages(),
-            )
+        response = await self.provider.create_async(
+            model=self.llm_model,
+            messages=self.conversation.get_messages(),
+        )
 
-            sleep(self.timeout)
+        sleep(self.timeout)
 
-            logger.debug("response {}", response)
-            if response:
-                self.conversation.add_message("assistant", response)
-                formatted_response = f"{self.llm_prefix} {response}"
-                logger.debug("User: {}, AI: {}", prompt, response)
-                return formatted_response
-        except Exception as error:
-            logger.error("No response {}", error)
-            return "Error with client"
+        logger.debug("response {}", response)
+        if response:
+            self.conversation.add_message("assistant", response)
+            formatted_response = f"{self.llm_prefix} {response} {self.llm_suffix}"
+            logger.debug("User: {}, AI: {}", prompt, response)
+            return formatted_response

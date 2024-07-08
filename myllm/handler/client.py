@@ -8,7 +8,7 @@ class AIClient:
     """
 
     MyLLM generic client class use to initiate a LLM client
-    with a given model and a given provider
+    with a given model and a given llm provider
 
     Attributes:
         llm (LLM): LLM

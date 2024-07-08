@@ -81,7 +81,8 @@ class AIClient:
         """
         Import chat history
         """
-        self.conversation.import_messages(self.history_filename)
+        if self.load_history:
+            self.conversation.import_messages(self.history_filename)
 
 
 class Conversation:
@@ -157,6 +158,5 @@ class Conversation:
         """
         if not os.path.exists(filename):
             return
-        if self.load_history:
-            with open(filename, "r") as f:
-                self.messages = json.load(f)
+        with open(filename, "r") as f:
+            self.messages = json.load(f)

@@ -193,7 +193,7 @@ class MyLLM:
         _chats = [
             (
                 data
-                if len(self.clients) == 1 and not self.ai_agent
+                if len(self.clients) == 1 and not self.ai_agent_mode
                 else (
                     f"{self.ai_agent_prefix} {client.name}\n"
                     f"{data} {self.ai_agent_suffix}"

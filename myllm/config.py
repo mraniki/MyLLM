@@ -1,6 +1,7 @@
 """
  MyLLM Config
 """
+
 import os
 
 from dynaconf import Dynaconf
@@ -16,8 +17,6 @@ settings = Dynaconf(
     # Load the default settings file
     settings_files=[
         os.path.join(ROOT, "default_settings.toml"),
-        # experiment
-        #"myllm_settings.toml",
         "talky_settings.toml",
         "settings.toml",
         ".secrets.toml",
@@ -32,4 +31,3 @@ settings = Dynaconf(
     # Set the default environment
     default_env="default",
 )
-

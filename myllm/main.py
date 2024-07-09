@@ -139,6 +139,7 @@ class MyLLM:
             or kwargs.get("platform")
             or kwargs.get("protocol")
             or kwargs.get("parser_library")
+            or kwargs.get("llm_library")
             or "g4f"
         )
         cls = self.client_classes.get((f"{library.capitalize()}Handler"))
@@ -192,7 +193,7 @@ class MyLLM:
         _chats = [
             (
                 data
-                if len(self.clients) == 1 and not self.ai_agent
+                if len(self.clients) == 1 and not self.ai_agent_mode
                 else (
                     f"{self.ai_agent_prefix} {client.name}\n"
                     f"{data} {self.ai_agent_suffix}"

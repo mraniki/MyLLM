@@ -3,6 +3,24 @@
 
 
 
+## v4.11.1 (2024-07-09)
+
+### Other
+
+* Merge pull request #582 from mraniki/dev
+
+🚑 ai_agent_mode typo and 🐛 for back compatibility ([`e3be9dd`](https://github.com/mraniki/MyLLM/commit/e3be9dd1115780dcb25dff550bbd0c17f46708ec))
+
+* update config.py ([`8e95b73`](https://github.com/mraniki/MyLLM/commit/8e95b73e077424bf21d0665311ad1bfb17dfa2ec))
+
+### 🐛
+
+* 🐛 for back compatibility ([`05d879b`](https://github.com/mraniki/MyLLM/commit/05d879b93e5c1618000d26f3651c1d32a4ed6029))
+
+### 🚑
+
+* 🚑 ai_agent_mode typo ([`642a7a9`](https://github.com/mraniki/MyLLM/commit/642a7a95bc3e0259cc0663751007f40895cbf0ff))
+
 ## v4.11.0 (2024-07-08)
 
 ### :rotating_light:

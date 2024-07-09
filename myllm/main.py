@@ -139,6 +139,7 @@ class MyLLM:
             or kwargs.get("platform")
             or kwargs.get("protocol")
             or kwargs.get("parser_library")
+            or kwargs.get("llm_library")
             or "g4f"
         )
         cls = self.client_classes.get((f"{library.capitalize()}Handler"))

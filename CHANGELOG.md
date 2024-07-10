@@ -3,6 +3,20 @@
 
 
 
+## v4.11.2 (2024-07-10)
+
+### Other
+
+* Merge pull request #584 from mraniki/dev
+
+⬆️ 🤖 - Your goose is cooked ([`68fefc5`](https://github.com/mraniki/MyLLM/commit/68fefc554db993038ae3a36c2fb796b8bb714618))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.13 ([`ed43248`](https://github.com/mraniki/MyLLM/commit/ed43248e3d3f5b61b45fdc930994b41e5dbaec62))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.12 ([`83a580e`](https://github.com/mraniki/MyLLM/commit/83a580ef619a550040b1f25389202548096eab0a))
+
 ## v4.11.1 (2024-07-09)
 
 ### Other
@@ -1497,13 +1511,17 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 * Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`d497577`](https://github.com/mraniki/MyLLM/commit/d49757731b4cb9aa97f2dd95abe3450b6a9d68d6))
 
-* Remove llm_model value ([`a9554bf`](https://github.com/mraniki/MyLLM/commit/a9554bfff5693a161e521dc3b5d8c2c6074fd8d9))
-
 * Merge pull request #341 from mraniki/renovate/g4f-0.x
 
 ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.2 ([`f54ac7f`](https://github.com/mraniki/MyLLM/commit/f54ac7fdcca28644e1df64c435a6aceca1d7c529))
 
+* Remove llm_model value ([`a9554bf`](https://github.com/mraniki/MyLLM/commit/a9554bfff5693a161e521dc3b5d8c2c6074fd8d9))
+
 * Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`d4d7bac`](https://github.com/mraniki/MyLLM/commit/d4d7bac9758ff2b2b31ea1fcf45f68716c7dd030))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.2 ([`c28ce81`](https://github.com/mraniki/MyLLM/commit/c28ce81ff9fddbc13ef5e6ddf7b4ab6c4dded5f2))
 
 ## v4.0.29 (2024-02-10)
 
@@ -1514,8 +1532,6 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 ⬆️ 🤖 - Beware of a darkhaired man with a loud tie ([`d6fbfe6`](https://github.com/mraniki/MyLLM/commit/d6fbfe69843a011e4c79b8c4e531b92c53148b71))
 
 ### ⬆️
-
-* ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.2 ([`c28ce81`](https://github.com/mraniki/MyLLM/commit/c28ce81ff9fddbc13ef5e6ddf7b4ab6c4dded5f2))
 
 * ⬆️ 🛠️(deps): update dependency openai to v1.12.0 ([`c92d421`](https://github.com/mraniki/MyLLM/commit/c92d4218a38f4d76a2b20003eaf7d75f728a5951))
 
@@ -1831,11 +1847,11 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 ### Other
 
-* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`6528a82`](https://github.com/mraniki/MyLLM/commit/6528a822110867415d34a855a5cc1803b7215a59))
-
 * Merge pull request #312 from mraniki/dev
 
 ⬆️ 🤖 - Q	What is printed on the bottom of beer bottles in Minnesota ([`5305f7c`](https://github.com/mraniki/MyLLM/commit/5305f7cbc11d34aee8610d96bbfbef9c377828d5))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`6528a82`](https://github.com/mraniki/MyLLM/commit/6528a822110867415d34a855a5cc1803b7215a59))
 
 ### 🐛
 
@@ -1851,15 +1867,13 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 * :recycle:Refactor OpenAI response handling ([`54c08c0`](https://github.com/mraniki/MyLLM/commit/54c08c0f5f544b062695555a08006245355e9f77))
 
-* :recycle:Refactor OpenAI response handling ([`2232a8e`](https://github.com/mraniki/MyLLM/commit/2232a8e38bf05d1988a7286d1b0b5719c7c6a851))
-
 ### Other
-
-* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`32a5dcc`](https://github.com/mraniki/MyLLM/commit/32a5dccec0e20b5ed29465d2421e53e351814e1b))
 
 * Merge pull request #311 from mraniki/dev
 
 ⬆️ 🤖 - Youre growing out of some of your problems but there are others that ([`1f91a66`](https://github.com/mraniki/MyLLM/commit/1f91a662a4bf46865b20dd7b904669f136e4124e))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`32a5dcc`](https://github.com/mraniki/MyLLM/commit/32a5dccec0e20b5ed29465d2421e53e351814e1b))
 
 * Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`ab0c43b`](https://github.com/mraniki/MyLLM/commit/ab0c43bd8af60e92f4ab287dd4567cb5ddf18e68))
 
@@ -1868,6 +1882,10 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 ### :bug:
 
 * :bug::loud_sound:Add debug log for Bard key ([`2431448`](https://github.com/mraniki/MyLLM/commit/2431448dbbc51fd820ffc76da7ff308a8a1fb772))
+
+### :recycle:
+
+* :recycle:Refactor OpenAI response handling ([`2232a8e`](https://github.com/mraniki/MyLLM/commit/2232a8e38bf05d1988a7286d1b0b5719c7c6a851))
 
 ### Other
 
@@ -1903,11 +1921,11 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 * Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`f6f1dda`](https://github.com/mraniki/MyLLM/commit/f6f1dda768b52722b5053746a8fc15d070f10924))
 
-* Add client.llm_library to chat messages ([`5d34f0a`](https://github.com/mraniki/MyLLM/commit/5d34f0ad234cd840566bb690e7304754a294825c))
-
 * Merge pull request #306 from mraniki/dev
 
 🐛 Refactor code to  add debug logging and check for response before addi… ([`dcfba8c`](https://github.com/mraniki/MyLLM/commit/dcfba8c5aa588f0dd85722325f819e8aa3c3d4a6))
+
+* Add client.llm_library to chat messages ([`5d34f0a`](https://github.com/mraniki/MyLLM/commit/5d34f0ad234cd840566bb690e7304754a294825c))
 
 * Refactor code to add debug logging and check for response before adding message. ([`fabd746`](https://github.com/mraniki/MyLLM/commit/fabd7468b1dafa7419c1992d58732d61f372ba32))
 
@@ -1955,6 +1973,10 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 ♻️ backward compatible ([`251f01e`](https://github.com/mraniki/MyLLM/commit/251f01eda4ba197c8ef342e415348a28cc7d16f2))
 
+### ♻️
+
+* ♻️ backward compatible ([`df175b0`](https://github.com/mraniki/MyLLM/commit/df175b040696191ab3b96a59deda1fcc6c4e2e91))
+
 ## v4.0.1 (2024-01-26)
 
 ### Other
@@ -1964,8 +1986,6 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 ✅ Unit Test ([`b048ccd`](https://github.com/mraniki/MyLLM/commit/b048ccd8654376cdf6f7a4eede120ccc900bb407))
 
 ### ♻️
-
-* ♻️ backward compatible ([`df175b0`](https://github.com/mraniki/MyLLM/commit/df175b040696191ab3b96a59deda1fcc6c4e2e91))
 
 * ♻️ ([`81b126a`](https://github.com/mraniki/MyLLM/commit/81b126a4a8eec5eeab5689db735d290b1d41b67c))
 
@@ -2129,23 +2149,23 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 * Merge ; commit &#39;13ac280e3ed4c7ea245d04d7f1fe4b03b5abca5f&#39; ([`527e45d`](https://github.com/mraniki/MyLLM/commit/527e45dc2ba773c22c7a62bdfd33dfecd656ef43))
 
-* Merge pull request #280 from mraniki/dev
-
-⬆️ 🤖 - Q	What do monsters eat ([`dfc7bf3`](https://github.com/mraniki/MyLLM/commit/dfc7bf31c308cef743bfd5541db01f6acd02646d))
-
 * Merge pull request #276 from mraniki/renovate/g4f-0.x
 
 ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.7 ([`0c49c6e`](https://github.com/mraniki/MyLLM/commit/0c49c6e739d475ac557b1b3e8770cc5676b328ed))
 
+* Merge pull request #280 from mraniki/dev
+
+⬆️ 🤖 - Q	What do monsters eat ([`dfc7bf3`](https://github.com/mraniki/MyLLM/commit/dfc7bf31c308cef743bfd5541db01f6acd02646d))
+
 ### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.7 ([`71e26b9`](https://github.com/mraniki/MyLLM/commit/71e26b94e19139772e446cec64c01f5b4466dc76))
 
 * ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.8 ([`13ac280`](https://github.com/mraniki/MyLLM/commit/13ac280e3ed4c7ea245d04d7f1fe4b03b5abca5f))
 
 * ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.7 (#278)
 
 Co-authored-by: renovate[bot] &lt;29139614+renovate[bot]@users.noreply.github.com&gt; ([`e6cfbf6`](https://github.com/mraniki/MyLLM/commit/e6cfbf6b32130136aa7e1f19162f0a0cd285e883))
-
-* ⬆️ 🛠️(deps): update dependency g4f to v0.1.9.7 ([`71e26b9`](https://github.com/mraniki/MyLLM/commit/71e26b94e19139772e446cec64c01f5b4466dc76))
 
 ## v3.1.61 (2023-12-26)
 
@@ -2391,13 +2411,13 @@ Dev ([`a0465e1`](https://github.com/mraniki/MyLLM/commit/a0465e144b9d8fbca33eb0f
 
 ### Other
 
-* Merge pull request #228 from mraniki/renovate/fastapi-0.x-lockfile
-
-⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`7ed3856`](https://github.com/mraniki/MyLLM/commit/7ed3856112cff28ae6ef240c097c440c43066a2a))
-
 * Merge pull request #227 from mraniki/dev
 
 ⬆️ 🤖 - Auto Release ([`0eb1ad1`](https://github.com/mraniki/MyLLM/commit/0eb1ad14558c52e80b1f3e7bd9b750e3dd0c7ab7))
+
+* Merge pull request #228 from mraniki/renovate/fastapi-0.x-lockfile
+
+⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`7ed3856`](https://github.com/mraniki/MyLLM/commit/7ed3856112cff28ae6ef240c097c440c43066a2a))
 
 * Merge pull request #226 from mraniki/renovate/g4f-0.x
 
@@ -2449,13 +2469,13 @@ Dev ([`a0465e1`](https://github.com/mraniki/MyLLM/commit/a0465e144b9d8fbca33eb0f
 
 ### Other
 
-* Merge pull request #222 from mraniki/renovate/fastapi-0.x-lockfile
-
-⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`5962b08`](https://github.com/mraniki/MyLLM/commit/5962b088d6b72703bd42b4700e8608d0392493cb))
-
 * Merge pull request #221 from mraniki/dev
 
 ⬆️ 🤖 - Auto Release ([`a153728`](https://github.com/mraniki/MyLLM/commit/a15372833312e75e316606ea8009fd817495a24c))
+
+* Merge pull request #222 from mraniki/renovate/fastapi-0.x-lockfile
+
+⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`5962b08`](https://github.com/mraniki/MyLLM/commit/5962b088d6b72703bd42b4700e8608d0392493cb))
 
 * Merge pull request #220 from mraniki/renovate/fastapi-0.x-lockfile
 
@@ -2521,27 +2541,27 @@ Dev ([`a0465e1`](https://github.com/mraniki/MyLLM/commit/a0465e144b9d8fbca33eb0f
 
 * Merge branch &#39;main&#39; into dev ([`54762e7`](https://github.com/mraniki/MyLLM/commit/54762e7a11e328e3481f56787dcddcbd15105f4a))
 
-* Auto ([`41046cc`](https://github.com/mraniki/MyLLM/commit/41046ccfb33da6050807f1ce3c13ed9d6a8300fc))
-
 * Merge pull request #214 from mraniki/dev
 
 ⬆️ 🤖 - Auto Release ([`0dc16f5`](https://github.com/mraniki/MyLLM/commit/0dc16f573b2f20702b6e01a4511570ada71f1d73))
 
-* Merge branch &#39;main&#39; into dev ([`b6040e1`](https://github.com/mraniki/MyLLM/commit/b6040e1f8b2ca23e95aa1906d9c32d149f0bb7a8))
+* Auto ([`41046cc`](https://github.com/mraniki/MyLLM/commit/41046ccfb33da6050807f1ce3c13ed9d6a8300fc))
 
-* Auto ([`08b1a80`](https://github.com/mraniki/MyLLM/commit/08b1a8018edafd61b53ee04beb379b448807f42b))
+* Merge branch &#39;main&#39; into dev ([`b6040e1`](https://github.com/mraniki/MyLLM/commit/b6040e1f8b2ca23e95aa1906d9c32d149f0bb7a8))
 
 * Merge pull request #213 from mraniki/dev
 
 ⬆️ 🤖 - Auto Release ([`2f6d8db`](https://github.com/mraniki/MyLLM/commit/2f6d8db40f74bf968e5e2367738a16fe2fde07ec))
 
-* Merge branch &#39;main&#39; into dev ([`8fbc7f9`](https://github.com/mraniki/MyLLM/commit/8fbc7f92e2882d7587397e99ec6e8bfe96073139))
+* Auto ([`08b1a80`](https://github.com/mraniki/MyLLM/commit/08b1a8018edafd61b53ee04beb379b448807f42b))
 
-* Auto ([`02e6f96`](https://github.com/mraniki/MyLLM/commit/02e6f960fc9432d4ac141025522366a2f31b425f))
+* Merge branch &#39;main&#39; into dev ([`8fbc7f9`](https://github.com/mraniki/MyLLM/commit/8fbc7f92e2882d7587397e99ec6e8bfe96073139))
 
 * Merge pull request #212 from mraniki/dev
 
 ⬆️ 🤖 - Auto Release ([`3ca3a0e`](https://github.com/mraniki/MyLLM/commit/3ca3a0ea2d2001fa715fd82fd811a7270ed18572))
+
+* Auto ([`02e6f96`](https://github.com/mraniki/MyLLM/commit/02e6f960fc9432d4ac141025522366a2f31b425f))
 
 * Merge branch &#39;main&#39; into dev ([`9967080`](https://github.com/mraniki/MyLLM/commit/99670808df1032027fb6fa297f0c16e92e1ea0b7))
 
@@ -2573,10 +2593,6 @@ Merge pull request #209 from mraniki/dev ([`7fabaa0`](https://github.com/mraniki
 
 ## v3.1.48 (2023-10-23)
 
-### :memo:
-
-* :memo:Add linkify-it-py 2.0.2 ([`22f547e`](https://github.com/mraniki/MyLLM/commit/22f547eff6bd4ce8d1f84d83cd55bb143f20a0a3))
-
 ### Other
 
 * Auto ([`a644994`](https://github.com/mraniki/MyLLM/commit/a64499409e5d50e9ba451a17345a998aad23d3ed))
@@ -2587,13 +2603,13 @@ Merge pull request #209 from mraniki/dev ([`7fabaa0`](https://github.com/mraniki
 
 * Merge branch &#39;main&#39; into dev ([`35472e5`](https://github.com/mraniki/MyLLM/commit/35472e59551e88c4bcd0f5ec2fe3d147b0aea155))
 
-* Auto ([`f8dac71`](https://github.com/mraniki/MyLLM/commit/f8dac71d24a552fe9affa1e7f710666d1fd510b9))
-
-* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`6c2e512`](https://github.com/mraniki/MyLLM/commit/6c2e512794578d4ea532e548bab5ae2a568f8a3c))
-
 * Merge pull request #206 from mraniki/dev
 
 ⬆️ 🤖 - Auto Release - ([`54f0342`](https://github.com/mraniki/MyLLM/commit/54f03422dbe853950b70f345f377ac4ccec00427))
+
+* Auto ([`f8dac71`](https://github.com/mraniki/MyLLM/commit/f8dac71d24a552fe9affa1e7f710666d1fd510b9))
+
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`6c2e512`](https://github.com/mraniki/MyLLM/commit/6c2e512794578d4ea532e548bab5ae2a568f8a3c))
 
 * Auto ([`d1951c5`](https://github.com/mraniki/MyLLM/commit/d1951c548b759240884f5462ef0a74eb9a073dad))
 
@@ -2643,7 +2659,13 @@ Merge pull request #204 from mraniki/dev ([`f4db429`](https://github.com/mraniki
 
 * Update README.md ([`d0a98f9`](https://github.com/mraniki/MyLLM/commit/d0a98f970cb62c52816b9e5d0a443a8ddacc47f9))
 
+* Update README.md ([`fb9843f`](https://github.com/mraniki/MyLLM/commit/fb9843fbc80f1f58cd1286064bdaa5bcaba64705))
+
 ## v3.1.44 (2023-10-23)
+
+### :memo:
+
+* :memo:Add linkify-it-py 2.0.2 ([`22f547e`](https://github.com/mraniki/MyLLM/commit/22f547eff6bd4ce8d1f84d83cd55bb143f20a0a3))
 
 ### :recycle:
 
@@ -2652,10 +2674,6 @@ Merge pull request #204 from mraniki/dev ([`f4db429`](https://github.com/mraniki
 ### Other
 
 * Merge remote-tracking branch &#39;origin/dev&#39; ([`2ce749d`](https://github.com/mraniki/MyLLM/commit/2ce749d3167d6ce547eb18e55072a24ea3051557))
-
-### Update
-
-* Update README.md ([`fb9843f`](https://github.com/mraniki/MyLLM/commit/fb9843fbc80f1f58cd1286064bdaa5bcaba64705))
 
 ## v3.1.43 (2023-10-23)
 
@@ -2829,6 +2847,14 @@ Dev ([`66f06f1`](https://github.com/mraniki/MyLLM/commit/66f06f1ee5eac1d1f3b4ad5
 
 ⬆️ 🛠️(deps): update dependency ruff to ^0.1.0 ([`bc0b314`](https://github.com/mraniki/MyLLM/commit/bc0b314641b110db7524a35349694e409e4506c7))
 
+### Update
+
+* Update Requirements ([`156b676`](https://github.com/mraniki/MyLLM/commit/156b676a6e1920b224b6b8330259fee6ef164255))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.1.0 ([`036c5a9`](https://github.com/mraniki/MyLLM/commit/036c5a9d45c06495b9a9b36c2e842a5e0c728d49))
+
 ## v3.1.37 (2023-10-17)
 
 ### Other
@@ -2839,13 +2865,7 @@ Dev ([`66f06f1`](https://github.com/mraniki/MyLLM/commit/66f06f1ee5eac1d1f3b4ad5
 
 ### Update
 
-* Update Requirements ([`156b676`](https://github.com/mraniki/MyLLM/commit/156b676a6e1920b224b6b8330259fee6ef164255))
-
 * Update Requirements ([`365dac5`](https://github.com/mraniki/MyLLM/commit/365dac5b2b86f9bfe81b9e61470ab0e8e17a1290))
-
-### ⬆️
-
-* ⬆️ 🛠️(deps): update dependency ruff to ^0.1.0 ([`036c5a9`](https://github.com/mraniki/MyLLM/commit/036c5a9d45c06495b9a9b36c2e842a5e0c728d49))
 
 ### 👷
 
@@ -2903,6 +2923,14 @@ Update README.md ([`8424f67`](https://github.com/mraniki/MyLLM/commit/8424f6733c
 
 ⬆️ 🛠️(deps): update dependency g4f to v0.1.6.4 ([`06c8436`](https://github.com/mraniki/MyLLM/commit/06c84366a5d7466bb25b2696f782293bcea39542))
 
+### Update
+
+* Update Requirements ([`9401127`](https://github.com/mraniki/MyLLM/commit/940112786b5207c3ec072ddaea71c4a8853c04a3))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.6.4 ([`4f0f639`](https://github.com/mraniki/MyLLM/commit/4f0f6390fbe6a8ead7b685ac73f77005b777fdb8))
+
 ## v3.1.33 (2023-10-15)
 
 ### Other
@@ -2911,17 +2939,9 @@ Update README.md ([`8424f67`](https://github.com/mraniki/MyLLM/commit/8424f6733c
 
 ⚡ ([`115938b`](https://github.com/mraniki/MyLLM/commit/115938b4e3ce7ae9d5e44d6e9986ba916ba7d864))
 
-### Update
-
-* Update Requirements ([`9401127`](https://github.com/mraniki/MyLLM/commit/940112786b5207c3ec072ddaea71c4a8853c04a3))
-
 ### ⚡
 
 * ⚡ ([`6cda855`](https://github.com/mraniki/MyLLM/commit/6cda855425f4e50056ad06bd5a0a7a01e9dde112))
-
-### ⬆️
-
-* ⬆️ 🛠️(deps): update dependency g4f to v0.1.6.4 ([`4f0f639`](https://github.com/mraniki/MyLLM/commit/4f0f6390fbe6a8ead7b685ac73f77005b777fdb8))
 
 ## v3.1.32 (2023-10-13)
 
@@ -2957,15 +2977,13 @@ Add merge workflow for automerging releases ([`51fb7d8`](https://github.com/mran
 
 * Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`4a986ba`](https://github.com/mraniki/MyLLM/commit/4a986ba02db0609e94221b814216f215ae8cecbc))
 
-* Add merge workflow for automerging releases ([`654e140`](https://github.com/mraniki/MyLLM/commit/654e1404c6efa332607c356f15dfac1a4fcfc4fd))
-
 * Merge pull request #169 from mraniki/dev
 
 Dev ([`62f29e6`](https://github.com/mraniki/MyLLM/commit/62f29e6a13973d83c6247dcd538e056795062f96))
 
-* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`742c915`](https://github.com/mraniki/MyLLM/commit/742c915f688dfb4b0198f4673fcf57c2e588cefb))
+* Add merge workflow for automerging releases ([`654e140`](https://github.com/mraniki/MyLLM/commit/654e1404c6efa332607c356f15dfac1a4fcfc4fd))
 
-* update Ci flow ([`ac6f3ce`](https://github.com/mraniki/MyLLM/commit/ac6f3ce64cbbf2819265ecd875f9cf2f40991158))
+* Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`742c915`](https://github.com/mraniki/MyLLM/commit/742c915f688dfb4b0198f4673fcf57c2e588cefb))
 
 ### Update
 
@@ -2984,6 +3002,8 @@ Dev ([`62f29e6`](https://github.com/mraniki/MyLLM/commit/62f29e6a13973d83c6247dc
 * Merge pull request #168 from mraniki/dev
 
 Update README.md ([`8f22c46`](https://github.com/mraniki/MyLLM/commit/8f22c46ed90dd15cf4dd7e54684ce9e59476b44b))
+
+* update Ci flow ([`ac6f3ce`](https://github.com/mraniki/MyLLM/commit/ac6f3ce64cbbf2819265ecd875f9cf2f40991158))
 
 ### Update
 
@@ -3097,10 +3117,6 @@ Dev ([`c15f824`](https://github.com/mraniki/MyLLM/commit/c15f824ed2bf216da947ad0
 Conflicts:
 	.github/mergify.yml ([`740c20c`](https://github.com/mraniki/MyLLM/commit/740c20c9c51a54c812e3b59757918d902b3c3097))
 
-### Update
-
-* Update  mergify.yml ([`59cb107`](https://github.com/mraniki/MyLLM/commit/59cb107a953401e4b2df38b88c10105239ec67a9))
-
 ### 👷
 
 * 👷 CI Change ([`2b29d12`](https://github.com/mraniki/MyLLM/commit/2b29d12fd638e923075c3229a9fac9bc448d60ba))
@@ -3116,6 +3132,10 @@ Conflicts:
 * Merge pull request #159 from mraniki/dev
 
 :recycle: Refactor Mergify configuration file ([`8e3c976`](https://github.com/mraniki/MyLLM/commit/8e3c97653c4831d8320dac68de45de962f7f5c12))
+
+### Update
+
+* Update  mergify.yml ([`59cb107`](https://github.com/mraniki/MyLLM/commit/59cb107a953401e4b2df38b88c10105239ec67a9))
 
 ## v3.1.20 (2023-10-11)
 
@@ -3218,11 +3238,15 @@ there are no check failures. ([`f5a36c3`](https://github.com/mraniki/MyLLM/commi
 
 * Update Requirements ([`b7da539`](https://github.com/mraniki/MyLLM/commit/b7da5393fcd96b07eae5db235a4937e50a5e6e78))
 
+* Update Requirements ([`265f825`](https://github.com/mraniki/MyLLM/commit/265f825d966d0e8d4d0abd8fdacda12d0070c9e9))
+
 ### ⬆️
 
 * ⬆️ 🛠️(deps): update dependency g4f to v0.1.5.8 ([`2dd3338`](https://github.com/mraniki/MyLLM/commit/2dd33388694f090664e64f17f4350a8b54e74af0))
 
 * ⬆️ 🛠️(deps): update dependency g4f to v0.1.5.7 ([`38cd274`](https://github.com/mraniki/MyLLM/commit/38cd274cf18eb64ee22e4126ba209f7219fb5d00))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.5.6 ([`4fe6045`](https://github.com/mraniki/MyLLM/commit/4fe60454f570fcd177c9fbfcd851a3c4ddcd4458))
 
 ## v3.1.16 (2023-10-08)
 
@@ -3238,13 +3262,9 @@ there are no check failures. ([`f5a36c3`](https://github.com/mraniki/MyLLM/commi
 
 ### Update
 
-* Update Requirements ([`265f825`](https://github.com/mraniki/MyLLM/commit/265f825d966d0e8d4d0abd8fdacda12d0070c9e9))
-
 * Update Requirements ([`d8037fd`](https://github.com/mraniki/MyLLM/commit/d8037fd74ae84d4babbdd91f60281a90fe755ccf))
 
 ### ⬆️
-
-* ⬆️ 🛠️(deps): update dependency g4f to v0.1.5.6 ([`4fe6045`](https://github.com/mraniki/MyLLM/commit/4fe60454f570fcd177c9fbfcd851a3c4ddcd4458))
 
 * ⬆️ 🛠️(deps): update dependency g4f to v0.1.5.5 ([`f9e2b7f`](https://github.com/mraniki/MyLLM/commit/f9e2b7f37eb477437e2ac39749e80228bb4f2839))
 
@@ -3292,11 +3312,11 @@ The commit message should be:
 
 * Update provider to be converted to string in return statement ([`8e00a6d`](https://github.com/mraniki/MyLLM/commit/8e00a6d91a4015c2450f54287866d6298d914e1f))
 
-* Update pyproject.toml ignore and format settings ([`fe0e9a3`](https://github.com/mraniki/MyLLM/commit/fe0e9a3f16932176f73b37839e41bc883ea58633))
-
 * Update Requirements ([`9d7f0cd`](https://github.com/mraniki/MyLLM/commit/9d7f0cd50b94cf2afce43e229e10a99d94515730))
 
 * Update pyproject.toml ([`21a2c0a`](https://github.com/mraniki/MyLLM/commit/21a2c0a29f67d16cf1753dbd99fa1648df2fc04c))
+
+* Update pyproject.toml ignore and format settings ([`fe0e9a3`](https://github.com/mraniki/MyLLM/commit/fe0e9a3f16932176f73b37839e41bc883ea58633))
 
 ## v3.1.13 (2023-10-05)
 
@@ -3334,9 +3354,9 @@ The commit message should be:
 
 ### ⬆️
 
-* ⬆️ ([`0bb6e6b`](https://github.com/mraniki/MyLLM/commit/0bb6e6be3ed1d3537a2ed5d563261d7e90de14e0))
-
 * ⬆️ 🛠️(deps): update dependency pytest-loguru to ^0.3.0 ([`c18f2e9`](https://github.com/mraniki/MyLLM/commit/c18f2e98f6c4e76fb3d7c54336a6be070e7ff29c))
+
+* ⬆️ ([`0bb6e6b`](https://github.com/mraniki/MyLLM/commit/0bb6e6be3ed1d3537a2ed5d563261d7e90de14e0))
 
 ## v3.1.11 (2023-10-04)
 
@@ -3634,6 +3654,10 @@ Update unit test ([`d8977b6`](https://github.com/mraniki/MyLLM/commit/d8977b6c36
 
 * Update 👷Flow.yml ([`6a5012a`](https://github.com/mraniki/MyLLM/commit/6a5012a96d40602e9c88fa48968756fdddcb0512))
 
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.1.3.7 ([`784131c`](https://github.com/mraniki/MyLLM/commit/784131c227dd88f8d47541edb802f7513927ad65))
+
 ## v3.0.4 (2023-09-26)
 
 ### Other
@@ -3657,10 +3681,6 @@ Add prompt conversion to string (Sourcery refactored) ([`e9bd6ca`](https://githu
 ### ⚡
 
 * ⚡ ([`4452874`](https://github.com/mraniki/MyLLM/commit/44528743ff06ece2ec3194955a21b294c29e5cb5))
-
-### ⬆️
-
-* ⬆️ 🛠️(deps): update dependency g4f to v0.1.3.7 ([`784131c`](https://github.com/mraniki/MyLLM/commit/784131c227dd88f8d47541edb802f7513927ad65))
 
 ## v3.0.3 (2023-09-26)
 
@@ -3773,10 +3793,6 @@ Dynaconf dep ([`7cf621c`](https://github.com/mraniki/MyLLM/commit/7cf621cb152fb1
 
 * Merge branch &#39;dev&#39; of git@github.com:mraniki/MyLLM.git ([`8ca5f13`](https://github.com/mraniki/MyLLM/commit/8ca5f13333f395705f564c4e9835038c4844c637))
 
-### Update
-
-* Update dynaconf version to &#34;\u000fLˌ��\b� ([`792cc28`](https://github.com/mraniki/MyLLM/commit/792cc288c3923df11cd6b3890d9b4c2eda5be273))
-
 ## v2.0.12 (2023-09-23)
 
 ### Other
@@ -3792,6 +3808,8 @@ Dynaconf dep ([`7cf621c`](https://github.com/mraniki/MyLLM/commit/7cf621cb152fb1
 ⬆️ 🛠️(deps): update dependency langchain to ^0.0.297 ([`0bf9b30`](https://github.com/mraniki/MyLLM/commit/0bf9b30c03580142524b522d8b475329b9bc1b93))
 
 ### Update
+
+* Update dynaconf version to &#34;\u000fLˌ��\b� ([`792cc28`](https://github.com/mraniki/MyLLM/commit/792cc288c3923df11cd6b3890d9b4c2eda5be273))
 
 * Update llm_provider in default_settings.toml ([`d9e7367`](https://github.com/mraniki/MyLLM/commit/d9e7367d9de3df6a844c521d0362bfeedb341259))
 
@@ -3871,13 +3889,13 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`738a314`](https://g
 
 ### Other
 
-* Merge pull request #94 from mraniki/renovate/langchain-0.x
-
-⬆️ 🛠️(deps): update dependency langchain to ^0.0.294 ([`8c95ed9`](https://github.com/mraniki/MyLLM/commit/8c95ed998355d7fee35fe7609a5acd646de68bde))
-
 * Merge pull request #91 from mraniki/dev
 
 ⬆️ 🛠️(deps): update dependency ([`02f3f55`](https://github.com/mraniki/MyLLM/commit/02f3f5590244dc5ff3db008ffd71e56000f6bede))
+
+* Merge pull request #94 from mraniki/renovate/langchain-0.x
+
+⬆️ 🛠️(deps): update dependency langchain to ^0.0.294 ([`8c95ed9`](https://github.com/mraniki/MyLLM/commit/8c95ed998355d7fee35fe7609a5acd646de68bde))
 
 * Merge pull request #93 from mraniki/renovate/langchain-0.x
 
@@ -3968,8 +3986,6 @@ Refactor main.py and add nest_asyncio dependency ([`83f2767`](https://github.com
 Conflicts:
 	pyproject.toml ([`4eef441`](https://github.com/mraniki/MyLLM/commit/4eef4413b3c28e81924a60cf0f8e4b49d2773dab))
 
-* Refactor main.py and add nest_asyncio dependency ([`be23b57`](https://github.com/mraniki/MyLLM/commit/be23b57b8847303bd58f11505fb0d29586befbe7))
-
 ### Update
 
 * Update Requirements ([`9a43b58`](https://github.com/mraniki/MyLLM/commit/9a43b58bfc2638117126446e7146d094a35d20bb))
@@ -3982,6 +3998,16 @@ Conflicts:
 
 ⬆️ 🛠️(deps): update dependency langchain to ^0.0.284 ([`e0c01af`](https://github.com/mraniki/MyLLM/commit/e0c01af05ae2eb0635b2ef9b0b9364541b0f0b1d))
 
+* Refactor main.py and add nest_asyncio dependency ([`be23b57`](https://github.com/mraniki/MyLLM/commit/be23b57b8847303bd58f11505fb0d29586befbe7))
+
+### Update
+
+* Update Requirements ([`4aad94b`](https://github.com/mraniki/MyLLM/commit/4aad94b94b0405990f91c5600e0af1b032401490))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency langchain to ^0.0.284 ([`9f416bc`](https://github.com/mraniki/MyLLM/commit/9f416bc10f13b89fc152b22a31a68de663c990d3))
+
 ## v2.0.4 (2023-09-07)
 
 ### Other
@@ -3993,12 +4019,6 @@ Conflicts:
 ### Update
 
 * Update Requirements ([`9a13c76`](https://github.com/mraniki/MyLLM/commit/9a13c765811f256dbce898fa5b2731f71e1eb0d1))
-
-* Update Requirements ([`4aad94b`](https://github.com/mraniki/MyLLM/commit/4aad94b94b0405990f91c5600e0af1b032401490))
-
-### ⬆️
-
-* ⬆️ 🛠️(deps): update dependency langchain to ^0.0.284 ([`9f416bc`](https://github.com/mraniki/MyLLM/commit/9f416bc10f13b89fc152b22a31a68de663c990d3))
 
 ### 💬
 
@@ -4154,9 +4174,9 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7f0ee6d`](https://g
 
 * Update Requirements ([`dfbe272`](https://github.com/mraniki/MyLLM/commit/dfbe272b2575680ef6da449d1c9dd1bcd09bc2df))
 
-* Update default_settings.toml and pyproject.toml ([`aa51d5e`](https://github.com/mraniki/MyLLM/commit/aa51d5e851019ca2b7ac91a1f42bfb5c49a4836d))
-
 * Update Requirements ([`360ee07`](https://github.com/mraniki/MyLLM/commit/360ee07a458418fa3b5c8c79741571275ce1437b))
+
+* Update default_settings.toml and pyproject.toml ([`aa51d5e`](https://github.com/mraniki/MyLLM/commit/aa51d5e851019ca2b7ac91a1f42bfb5c49a4836d))
 
 ### ♻️
 
@@ -4246,6 +4266,23 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7f0ee6d`](https://g
 
 ⬆️ Dep: Update sphinx requirement from 7.1.2 to 7.2.2 ([`7dd2d52`](https://github.com/mraniki/MyLLM/commit/7dd2d5263947543440194242eb60974b804837a6))
 
+### Update
+
+* :arrow_up: Dep: Update sphinx requirement from 7.1.2 to 7.2.2
+
+Updates the requirements on [sphinx](https://github.com/sphinx-doc/sphinx) to permit the latest version.
+- [Release notes](https://github.com/sphinx-doc/sphinx/releases)
+- [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES)
+- [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.1.2...v7.2.2)
+
+---
+updated-dependencies:
+- dependency-name: sphinx
+  dependency-type: direct:development
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`932a6c6`](https://github.com/mraniki/MyLLM/commit/932a6c6c82a3a7e11225ddb443a3514d21ec687c))
+
 ## v1.2.27 (2023-08-21)
 
 ### Fix
@@ -4267,21 +4304,6 @@ Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`7f0ee6d`](https://g
 Update .github/workflows/:construction_worker_man:Flow.yml ([`0123c2b`](https://github.com/mraniki/MyLLM/commit/0123c2b5fcc5f5aea363a33dd82de4be6e47ded4))
 
 ### Update
-
-* :arrow_up: Dep: Update sphinx requirement from 7.1.2 to 7.2.2
-
-Updates the requirements on [sphinx](https://github.com/sphinx-doc/sphinx) to permit the latest version.
-- [Release notes](https://github.com/sphinx-doc/sphinx/releases)
-- [Changelog](https://github.com/sphinx-doc/sphinx/blob/master/CHANGES)
-- [Commits](https://github.com/sphinx-doc/sphinx/compare/v7.1.2...v7.2.2)
-
----
-updated-dependencies:
-- dependency-name: sphinx
-  dependency-type: direct:development
-...
-
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`932a6c6`](https://github.com/mraniki/MyLLM/commit/932a6c6c82a3a7e11225ddb443a3514d21ec687c))
 
 * Update .github/workflows/:construction_worker_man:Flow.yml ([`1062d25`](https://github.com/mraniki/MyLLM/commit/1062d25a1a496d0345bd29c774955ef9f1350e02))
 
@@ -4629,6 +4651,10 @@ Update dependency langchain to v0.0.255 ([`8906588`](https://github.com/mraniki/
 
 Update dependency pydantic to v2 ([`2f9142b`](https://github.com/mraniki/MyLLM/commit/2f9142baf0f526901b8310f9a7b8795f2708c229))
 
+### Update
+
+* Update dependency pydantic to v2 ([`64e7fa8`](https://github.com/mraniki/MyLLM/commit/64e7fa8e8a776ff82d0a7e85d183e6b0fe5968f9))
+
 ## v1.2.3 (2023-08-07)
 
 ### Other
@@ -4671,7 +4697,15 @@ Update dependency langchain to v0.0.254 ([`02c46f4`](https://github.com/mraniki/
 
 ### Update
 
-* Update dependency pydantic to v2 ([`64e7fa8`](https://github.com/mraniki/MyLLM/commit/64e7fa8e8a776ff82d0a7e85d183e6b0fe5968f9))
+* Update Requirements ([`85137e4`](https://github.com/mraniki/MyLLM/commit/85137e4709b9f0e1f08c2421d00036a9db9d749d))
+
+* Update dependency pydantic to v2 ([`8b4b572`](https://github.com/mraniki/MyLLM/commit/8b4b57243896d24f85c4669b67e932ca8564591a))
+
+* Update Requirements ([`11f3c89`](https://github.com/mraniki/MyLLM/commit/11f3c89f9e42d4617b1b66a2bee753bd5c9deada))
+
+* Update dependency numexpr to v2.8.5 ([`ba593b6`](https://github.com/mraniki/MyLLM/commit/ba593b68eebba8b31bd6dedabf0745ac54e1e860))
+
+* Update dependency langchain to v0.0.254 ([`11daff4`](https://github.com/mraniki/MyLLM/commit/11daff46a9bb49811f7a42fdd30c6477f8892dd0))
 
 ## v1.2.0 (2023-08-07)
 
@@ -4705,25 +4739,11 @@ Merge ([`8ecb29e`](https://github.com/mraniki/MyLLM/commit/8ecb29edb82929d776d7c
 
 ### Update
 
-* Update dependency langchain to v0.0.254 ([`11daff4`](https://github.com/mraniki/MyLLM/commit/11daff46a9bb49811f7a42fdd30c6477f8892dd0))
-
-* Update Requirements ([`11f3c89`](https://github.com/mraniki/MyLLM/commit/11f3c89f9e42d4617b1b66a2bee753bd5c9deada))
-
-* Update dependency numexpr to v2.8.5 ([`ba593b6`](https://github.com/mraniki/MyLLM/commit/ba593b68eebba8b31bd6dedabf0745ac54e1e860))
-
-* Update Requirements ([`85137e4`](https://github.com/mraniki/MyLLM/commit/85137e4709b9f0e1f08c2421d00036a9db9d749d))
-
-* Update dependency pydantic to v2 ([`8b4b572`](https://github.com/mraniki/MyLLM/commit/8b4b57243896d24f85c4669b67e932ca8564591a))
-
 * Update Requirements ([`abb48ab`](https://github.com/mraniki/MyLLM/commit/abb48ab61bb6d116756ae158a8131c338f116deb))
-
-* Update Requirements ([`8ae15a2`](https://github.com/mraniki/MyLLM/commit/8ae15a2e7a6974e87530622602850e5ecd0a7f34))
 
 * Update dependency langchain to v0.0.253 ([`bc8cf94`](https://github.com/mraniki/MyLLM/commit/bc8cf943fcb23381c78473d81e957949d9b77b09))
 
-* Update Requirements ([`e78ba04`](https://github.com/mraniki/MyLLM/commit/e78ba041864e81f5f5da233de8ed101c09f5eb8c))
-
-* Update README.md ([`2a66494`](https://github.com/mraniki/MyLLM/commit/2a66494ca3c8cc8dc1388d738090576662b9d4a8))
+* Update Requirements ([`8ae15a2`](https://github.com/mraniki/MyLLM/commit/8ae15a2e7a6974e87530622602850e5ecd0a7f34))
 
 * Update Requirements ([`994eb3c`](https://github.com/mraniki/MyLLM/commit/994eb3cf2512ee992631375b08cfd183e625d75d))
 
@@ -4742,6 +4762,10 @@ Merge ([`8ecb29e`](https://github.com/mraniki/MyLLM/commit/8ecb29edb82929d776d7c
 * Update and rename README.md to README.rst ([`78f1971`](https://github.com/mraniki/MyLLM/commit/78f19712f199aafe1f739d6aaa49992158cd3fb4))
 
 * Update Requirements ([`93743d9`](https://github.com/mraniki/MyLLM/commit/93743d93e102c6180ed12519a04b27fd71733c6f))
+
+* Update Requirements ([`e78ba04`](https://github.com/mraniki/MyLLM/commit/e78ba041864e81f5f5da233de8ed101c09f5eb8c))
+
+* Update README.md ([`2a66494`](https://github.com/mraniki/MyLLM/commit/2a66494ca3c8cc8dc1388d738090576662b9d4a8))
 
 ### ✨
 

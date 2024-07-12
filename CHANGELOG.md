@@ -3,6 +3,18 @@
 
 
 
+## v4.11.3 (2024-07-12)
+
+### Other
+
+* Merge pull request #587 from mraniki/dev
+
+⬆️ 🤖 - You worry too much about your job  Stop it  You are not paid enough to worry ([`c63a3de`](https://github.com/mraniki/MyLLM/commit/c63a3dec81eb0118ae12ee6e130bd4581b3a77f7))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.2.2 ([`582d1e5`](https://github.com/mraniki/MyLLM/commit/582d1e5a46374587f3fe6e305f287bfd17487579))
+
 ## v4.11.2 (2024-07-10)
 
 ### Other

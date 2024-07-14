@@ -3,6 +3,18 @@
 
 
 
+## v4.11.4 (2024-07-14)
+
+### Other
+
+* Merge pull request #589 from mraniki/dev
+
+⬆️ 🤖 - Save energy be apathetic ([`af38f40`](https://github.com/mraniki/MyLLM/commit/af38f40592f899937fa0c1a5eee63a0d5ce86ead))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency curl_cffi to v0.7.1 ([`c97eeff`](https://github.com/mraniki/MyLLM/commit/c97eeff3f060e6b20fa092201bf88bbd2ccdf83d))
+
 ## v4.11.3 (2024-07-12)
 
 ### Other

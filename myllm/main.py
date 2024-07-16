@@ -134,16 +134,10 @@ class MyLLM:
             library is not supported.
 
         """
-        library = (
-            kwargs.get("library")
-            or kwargs.get("platform")
-            or kwargs.get("protocol")
-            or kwargs.get("parser_library")
-            or kwargs.get("llm_library")
-            or "g4f"
+        library = kwargs.get("library") or kwargs.get("llm_library") or "g4f"
+        return self.client_classes.get(f"{library.capitalize()}Handler", None).__call__(
+            **kwargs
         )
-        cls = self.client_classes.get((f"{library.capitalize()}Handler"))
-        return None if cls is None else cls(**kwargs)
 
     def get_all_client_classes(self):
         """

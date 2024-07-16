@@ -3,6 +3,24 @@
 
 
 
+## v4.11.5 (2024-07-16)
+
+### Other
+
+* Merge pull request #594 from mraniki/dev
+
+⬆️ 🤖 - Just to have it is enough ([`cdabb30`](https://github.com/mraniki/MyLLM/commit/cdabb300282ecc72a2891a80b2e37fd7b10e7bb9))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.4.4 ([`4a7bedf`](https://github.com/mraniki/MyLLM/commit/4a7bedf7993efdb056056d592d25986e4daebf31))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.4.3 ([`a8f8824`](https://github.com/mraniki/MyLLM/commit/a8f882431fbb38c868bd4d80de62c88dbf95a421))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.4.1 ([`b60976d`](https://github.com/mraniki/MyLLM/commit/b60976d7713fe265ded408b2811eefd494d2b0fb))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.4.0 ([`72cbd6c`](https://github.com/mraniki/MyLLM/commit/72cbd6c435a5f7a7f4766c5c738befa2c612d14b))
+
 ## v4.11.4 (2024-07-14)
 
 ### Other

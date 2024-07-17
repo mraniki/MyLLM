@@ -3,6 +3,24 @@
 
 
 
+## v4.11.6 (2024-07-17)
+
+### Other
+
+* Merge pull request #597 from mraniki/dev
+
+⬆️ 🤖 - Abandon the search for Truth settle for a good fantasy ([`537ea72`](https://github.com/mraniki/MyLLM/commit/537ea728751c8571e27c031591a993f2c461de7e))
+
+### ♻️
+
+* ♻️ _create_client ([`d30ca36`](https://github.com/mraniki/MyLLM/commit/d30ca365607c5a19589550f1cee24d3dd05c8a26))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.4.5 ([`3d391ec`](https://github.com/mraniki/MyLLM/commit/3d391ec071b9f0de1ea770d61232d416e655eaf5))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.14 ([`518188f`](https://github.com/mraniki/MyLLM/commit/518188fd10cb2bca3a9759e40ae7867fe3525eff))
+
 ## v4.11.5 (2024-07-16)
 
 ### Other

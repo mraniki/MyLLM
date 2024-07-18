@@ -29,10 +29,11 @@ class AIClient:
         Args:
             None
         """
-
+        get = kwargs.get
         logger.info("Initializing Client")
-        self.name = kwargs.get("name", None)
-        self.enabled = kwargs.get("enabled", True)
+        self.name = get("name", None)
+        self.enabled = get("enabled", True)
+
         self.__dict__.update(kwargs)
         # self.llm_library = kwargs.get("llm_library", None) or kwargs.get(
         #     "library", None
@@ -41,15 +42,15 @@ class AIClient:
         # self.llm_provider = kwargs.get("llm_provider", None)
         # self.llm_provider_key = kwargs.get("llm_provider_key", None)
         # self.llm_base_url = kwargs.get("llm_base_url", None)
-        # self.max_memory = kwargs.get("max_memory", 100)
+        self.max_memory = get("max_memory", 100)
         # self.load_history = kwargs.get("load_history", False)
         # self.timeout = kwargs.get("timeout", 0)
-        # self.llm_prefix = kwargs.get("llm_prefix", None)
-        # self.llm_suffix = kwargs.get("llm_suffix", None)
-        # self.history_filename = (
-        #     kwargs.get("history_filename") or f"history-{self.name or 'default'}.json"
-        # )
-        # self.llm_template = kwargs.get("llm_template")
+        self.llm_prefix = get("llm_prefix", None)
+        self.llm_suffix = get("llm_suffix", None)
+        self.history_filename = (
+            get("history_filename") or f"history-{self.name or 'default'}.json"
+        )
+        self.llm_template = get("llm_template")
         # self.stream_mode = kwargs.get("stream_mode", False)
         self.conversation = Conversation(
             max_memory=self.max_memory, llm_template=self.llm_template

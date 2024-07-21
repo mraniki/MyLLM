@@ -3,6 +3,34 @@
 
 
 
+## v4.11.7 (2024-07-21)
+
+### Other
+
+* Merge pull request #598 from mraniki/dev
+
+♻️ AIClient refactor ([`e18556a`](https://github.com/mraniki/MyLLM/commit/e18556a612036c10edd585c97fec3bc62aaeb6ce))
+
+* Add llm_provider attribute to G4fHandler class ([`a6a40b5`](https://github.com/mraniki/MyLLM/commit/a6a40b5b1bf2c92ab1dc80343196e1e7569f01af))
+
+### ♻️
+
+* ♻️ ([`084d703`](https://github.com/mraniki/MyLLM/commit/084d703496a4fb99b64bd78c3c2df5e64f2ba1e9))
+
+* ♻️ AIClient refactor ([`c301aae`](https://github.com/mraniki/MyLLM/commit/c301aae63eb1ad3d44c8b59099effcaced470ee6))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.36.1 ([`4f377cd`](https://github.com/mraniki/MyLLM/commit/4f377cd6dfa15ace0f890359ca073d867e07e465))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.4.7 ([`7f952b7`](https://github.com/mraniki/MyLLM/commit/7f952b7fb62ffa2e05eda1c2509dbc188430668c))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.36.0 ([`c0e05b2`](https://github.com/mraniki/MyLLM/commit/c0e05b2b84e08da4557f53c27c10e7b5725f1bc1))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.35.15 ([`2bdd375`](https://github.com/mraniki/MyLLM/commit/2bdd375ebebef0573248ab15fe51cd10dc8c481d))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v7.4.6 ([`4cfd072`](https://github.com/mraniki/MyLLM/commit/4cfd0725da050029e85158d35849d119143d31fa))
+
 ## v4.11.6 (2024-07-17)
 
 ### Other

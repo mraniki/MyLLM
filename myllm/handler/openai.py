@@ -29,6 +29,7 @@ class OpenaiHandler(AIClient):
 
         super().__init__(**kwargs)
         if self.enabled and self.llm_provider_key:
+            self.llm_base_url = kwargs.get("llm_base_url", None)
             self.client = OpenAI(
                 api_key=self.llm_provider_key, base_url=self.llm_base_url
             )

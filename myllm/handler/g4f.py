@@ -26,6 +26,7 @@ class G4fHandler(AIClient):
         """
         super().__init__(**kwargs)
         logger.debug("G4F provider initializing")
+        self.llm_provider = kwargs.get("llm_provider", None)
         if self.enabled and self.llm_provider:
             provider_module_name = self.llm_provider
             provider_module = importlib.import_module(provider_module_name)

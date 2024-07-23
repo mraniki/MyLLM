@@ -3,6 +3,18 @@
 
 
 
+## v4.11.8 (2024-07-23)
+
+### Other
+
+* Merge pull request #605 from mraniki/dev
+
+⬆️ 🤖 - Q	Whats the difference between an Irish wedding and an Irish wake ([`4578eda`](https://github.com/mraniki/MyLLM/commit/4578edad4be7477b13294205d32afeb3f99c2a6d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.37.0 ([`ddc8704`](https://github.com/mraniki/MyLLM/commit/ddc87044c16634d8af6e42b2fc661d07929db06b))
+
 ## v4.11.7 (2024-07-21)
 
 ### Other

@@ -3,6 +3,18 @@
 
 
 
+## v4.11.9 (2024-07-27)
+
+### Other
+
+* Merge pull request #607 from mraniki/dev
+
+⬆️ 🤖 - Dont hate yourself in the morning  sleep till noon ([`52ca8a1`](https://github.com/mraniki/MyLLM/commit/52ca8a11e2357e8231f655a556bab29ba72d1b58))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.37.1 ([`f56b937`](https://github.com/mraniki/MyLLM/commit/f56b9373a327c81699a86511534809f6000f5d19))
+
 ## v4.11.8 (2024-07-23)
 
 ### Other

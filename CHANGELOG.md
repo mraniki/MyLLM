@@ -3,6 +3,20 @@
 
 
 
+## v4.11.10 (2024-08-02)
+
+### Other
+
+* Merge pull request #609 from mraniki/dev
+
+⬆️ 🤖 - Lady Luck brings added income today  Lady friend takes it away tonight ([`8138f38`](https://github.com/mraniki/MyLLM/commit/8138f385ea4b7542c7160315ac6144228fe7c080))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.37.2 ([`84ce1ec`](https://github.com/mraniki/MyLLM/commit/84ce1ecd467498aab0a0c4387fc192e4c76e22e4))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.2.3 ([`192341c`](https://github.com/mraniki/MyLLM/commit/192341c397a926f451e7763bce95d4bc5998157c))
+
 ## v4.11.9 (2024-07-27)
 
 ### Other

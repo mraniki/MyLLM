@@ -3,6 +3,18 @@
 
 
 
+## v4.11.11 (2024-08-03)
+
+### Other
+
+* Merge pull request #612 from mraniki/dev
+
+⬆️ 🤖 - Your temporary financial embarrassment will be relieved in a surprising manner ([`56cf1d3`](https://github.com/mraniki/MyLLM/commit/56cf1d39f1d132e170d12f5663abdbcfd85f926f))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.38.0 ([`f670015`](https://github.com/mraniki/MyLLM/commit/f670015e74f99dc46cba3a0db16a0d5f5f4c0dcb))
+
 ## v4.11.10 (2024-08-02)
 
 ### Other

@@ -3,6 +3,22 @@
 
 
 
+## v4.11.12 (2024-08-07)
+
+### Other
+
+* Merge pull request #615 from mraniki/dev
+
+⬆️ 🤖 - Clothes make the man  Naked people have little or no influence on society ([`b1f57bb`](https://github.com/mraniki/MyLLM/commit/b1f57bb40b579be48239b55589064238235344f0))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.40.1 ([`314be36`](https://github.com/mraniki/MyLLM/commit/314be3691a7f037b7a4192e1d0c2534c43db5d15))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.40.0 ([`e4665fc`](https://github.com/mraniki/MyLLM/commit/e4665fc8a992405f37ca80effd49e117c49a360d))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.39.0 ([`31b59ac`](https://github.com/mraniki/MyLLM/commit/31b59ac35c7eef41216ac46c4c730e39958f4ead))
+
 ## v4.11.11 (2024-08-03)
 
 ### Other

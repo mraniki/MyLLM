@@ -3,6 +3,18 @@
 
 
 
+## v4.11.13 (2024-08-10)
+
+### Other
+
+* Merge pull request #619 from mraniki/dev
+
+⬆️ 🤖 - Always the dullness of the fool is the whetstone of the wits ([`7930f87`](https://github.com/mraniki/MyLLM/commit/7930f8764b86df31cc9c4a46e26b80561e0ffdcf))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.40.2 ([`6beb160`](https://github.com/mraniki/MyLLM/commit/6beb1601931086bb3f2962402dfcdb0ecaf7f9f1))
+
 ## v4.11.12 (2024-08-07)
 
 ### Other

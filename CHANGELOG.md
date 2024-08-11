@@ -3,6 +3,18 @@
 
 
 
+## v4.11.14 (2024-08-11)
+
+### Other
+
+* Merge pull request #621 from mraniki/dev
+
+⬆️ 🤖 - Living your life is a task so difficult it has never been attempted before ([`2445620`](https://github.com/mraniki/MyLLM/commit/2445620f0a032e21c899a5409f8590c30f15080f))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.40.3 ([`15e7c28`](https://github.com/mraniki/MyLLM/commit/15e7c280a012fa52ecc9104b5e37f6c0f625a2e1))
+
 ## v4.11.13 (2024-08-10)
 
 ### Other

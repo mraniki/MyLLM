@@ -3,6 +3,20 @@
 
 
 
+## v4.11.15 (2024-08-13)
+
+### Other
+
+* Merge pull request #625 from mraniki/dev
+
+⬆️ 🤖 - Work consists of whatever a body is obliged to do ([`486e22c`](https://github.com/mraniki/MyLLM/commit/486e22c4b8b2a93a59f4ad5a877716aa664e46c3))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.40.6 ([`9706a0d`](https://github.com/mraniki/MyLLM/commit/9706a0d777d209a6f75ab3a92c5949018c41c6ac))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.40.4 ([`950ca29`](https://github.com/mraniki/MyLLM/commit/950ca290eab870d26001af37bbfac9b9d539055a))
+
 ## v4.11.14 (2024-08-11)
 
 ### Other

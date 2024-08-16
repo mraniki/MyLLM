@@ -3,6 +3,22 @@
 
 
 
+## v4.11.16 (2024-08-16)
+
+### Other
+
+* Merge pull request #628 from mraniki/dev
+
+⬆️ 🤖 - There are more things in heaven and earth ([`d122a1e`](https://github.com/mraniki/MyLLM/commit/d122a1ea740d9cae5df59481336d2db01fd0a460))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.40.8 ([`e3d0614`](https://github.com/mraniki/MyLLM/commit/e3d0614df71a4ddaffb59d616981143af6548756))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.40.7 ([`1d41d66`](https://github.com/mraniki/MyLLM/commit/1d41d668c33e853efe4b2ad8ad942ddfb1a456f3))
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.6.0 ([`11816bc`](https://github.com/mraniki/MyLLM/commit/11816bc2ddf31b731b82e962f59620a649efe0b3))
+
 ## v4.11.15 (2024-08-13)
 
 ### Other

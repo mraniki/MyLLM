@@ -3,6 +3,20 @@
 
 
 
+## v4.11.17 (2024-08-18)
+
+### Other
+
+* Merge pull request #631 from mraniki/dev
+
+⬆️ 🤖 - If you stand on your head you will get footprints in your hair ([`ff0f94c`](https://github.com/mraniki/MyLLM/commit/ff0f94c47b61595257f9c562932ce3339937c088))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.2.4 ([`f24f32b`](https://github.com/mraniki/MyLLM/commit/f24f32b336aa5258b8cb7820a8afbefb1e507577))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.41.0 ([`25d3f26`](https://github.com/mraniki/MyLLM/commit/25d3f26a39c77009bba94b2806111a73ed94e081))
+
 ## v4.11.16 (2024-08-16)
 
 ### Other

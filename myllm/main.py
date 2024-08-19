@@ -263,7 +263,7 @@ class MyLLM:
         """
         logger.info("Browsing URL: {}", url)
         async with async_playwright() as playwright:
-            browser = await playwright.chromium.launch(headless=False)
+            browser = await playwright.chromium.launch()
             page = await browser.new_page()
             await page.goto(url)
             await asyncio.sleep(2)

@@ -4,9 +4,11 @@ MYLLM Main 🤖
 
 """
 
+import base64
 import importlib
 
 from loguru import logger
+from playwright.async_api import async_playwright
 
 from myllm import __version__
 from myllm.config import settings
@@ -200,6 +202,35 @@ class MyLLM:
         if _chats:
             return "\n".join(_chats)
 
+    async def vision(self, base64_image):
+        """
+        Asynchronously processes a base64-encoded image
+        and returns the responses from each client.
+
+        Parameters:
+        base64_image (str): A base64-encoded image.
+
+        Returns:
+        str: A string containing the responses
+        from each client, separated by newlines.
+
+        """
+        _chats = [
+            (
+                data
+                if len(self.clients) == 1 and not self.ai_agent_mode
+                else (
+                    f"{self.ai_agent_prefix} {client.name}\n"
+                    f"{data} {self.ai_agent_suffix}"
+                )
+            )
+            for client in self.clients
+            if (data := await client.vision(base64_image)) is not None and data.strip()
+        ]
+
+        if _chats:
+            return "\n".join(_chats)
+
     async def export_chat_history(self):
         """
         Asynchronous function to export chat history for each
@@ -224,3 +255,19 @@ class MyLLM:
         """
         for client in self.clients:
             await client.import_chat_history()
+
+    async def browse_url(self, url: str = "https://google.com") -> None:
+        """
+        Browse URL and save a screenshot of the page.
+        """
+        logger.info("Browsing URL: {}", url)
+        async with async_playwright() as playwright:
+            browser = await playwright.chromium.launch()
+            page = await browser.new_page()
+            await page.goto(url)
+            # await page.screenshot(path="screenshot.png")
+            screenshot_bytes = await page.screenshot()
+            base64_image = base64.b64encode(screenshot_bytes).decode("utf-8")
+            await browser.close()
+        # logger.info("Screenshot: {}", base64_image)
+        return await self.vision(base64_image=base64_image)

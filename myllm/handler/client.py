@@ -56,6 +56,8 @@ class AIClient:
             max_memory=self.max_memory, llm_template=self.llm_template
         )
         self.client = None
+        self.browser = get("enabled", False)
+        self.browse_url = get("browse_url", None)
 
     async def chat(self, prompt):
         """
@@ -67,6 +69,9 @@ class AIClient:
         Returns:
             str: The response from the conversation model.
         """
+
+    async def vision(self, prompt):
+        """ """
 
     async def clear_chat_history(self):
         """

@@ -3,6 +3,20 @@
 
 
 
+## v4.12.1 (2024-08-19)
+
+### Other
+
+* Merge pull request #634 from mraniki/dev
+
+Update OpenaiHandler debug message and add mouse wheel scroll in MyLLM. ([`5133242`](https://github.com/mraniki/MyLLM/commit/51332427c32b0da379c629744939c6221fb088e7))
+
+* Refactor sleep method in main.py for better readability ([`74e8264`](https://github.com/mraniki/MyLLM/commit/74e82647477f4de937cae8a0bf8c4272fb564ef3))
+
+### Update
+
+* Update OpenaiHandler debug message and add mouse wheel scroll in MyLLM. ([`12bea1d`](https://github.com/mraniki/MyLLM/commit/12bea1d276565384300afb56993e88ac77d43e62))
+
 ## v4.12.0 (2024-08-19)
 
 ### Feat

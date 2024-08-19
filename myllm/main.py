@@ -6,6 +6,7 @@ MYLLM Main 🤖
 
 import base64
 import importlib
+import asyncio
 
 from loguru import logger
 from playwright.async_api import async_playwright
@@ -262,10 +263,11 @@ class MyLLM:
         """
         logger.info("Browsing URL: {}", url)
         async with async_playwright() as playwright:
-            browser = await playwright.chromium.launch()
+            browser = await playwright.chromium.launch(headless=False)
             page = await browser.new_page()
             await page.goto(url)
-            # await page.screenshot(path="screenshot.png")
+            await asyncio.sleep(2)
+            await page.mouse.wheel(0, 300)
             screenshot_bytes = await page.screenshot()
             base64_image = base64.b64encode(screenshot_bytes).decode("utf-8")
             await browser.close()

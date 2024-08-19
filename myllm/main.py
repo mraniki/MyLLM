@@ -266,7 +266,7 @@ class MyLLM:
             browser = await playwright.chromium.launch(headless=False)
             page = await browser.new_page()
             await page.goto(url)
-            await asyncio.sleep(2)  
+            await asyncio.sleep(2)
             await page.mouse.wheel(0, 300)
             screenshot_bytes = await page.screenshot()
             base64_image = base64.b64encode(screenshot_bytes).decode("utf-8")

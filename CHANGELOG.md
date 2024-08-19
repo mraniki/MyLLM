@@ -3,6 +3,18 @@
 
 
 
+## v4.12.2 (2024-08-19)
+
+### :arrow_up:
+
+* :arrow_up: Refactor browser launch method in MyLLM class ([`6e8ce03`](https://github.com/mraniki/MyLLM/commit/6e8ce030abcf25cf0a779ec61fd2fd2e75d6e84d))
+
+### Other
+
+* Merge pull request #635 from mraniki/dev
+
+:arrow_up: Refactor browser launch method in MyLLM class ([`3f7562b`](https://github.com/mraniki/MyLLM/commit/3f7562bc01d946a0a7e88d02e2450b5bd91e245a))
+
 ## v4.12.1 (2024-08-19)
 
 ### Other

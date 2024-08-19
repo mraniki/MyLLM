@@ -26,7 +26,18 @@ async def main():
     # 🐻 You told me your name is Jack. Is that correct?
 
     await talky.export_chat_history()
-    # talky.clear_chat_history()
+    talky.clear_chat_history()
+
+    screenshot = await talky.browse_url()
+    print(screenshot)
+    #  The image is a consent notice from Google.
+    #  It informs users about the use of cookies and data for various purposes,
+    #  including service delivery,
+    #  fraud prevention, improvement of services, and personalized advertising.
+    #  Users can choose to accept all cookies,
+    #  reject them, or explore further options for managing their data settings.
+    #  The notice emphasizes the importance of user consent in relation to personalizing
+    #  content and ads based on their activity and preferences.
 
 
 if __name__ == "__main__":

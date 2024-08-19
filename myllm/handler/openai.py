@@ -8,6 +8,7 @@ via https://localai.io
 
 from time import sleep
 
+from loguru import logger
 from openai import OpenAI
 
 from .client import AIClient
@@ -42,6 +43,7 @@ class OpenaiHandler(AIClient):
         :return: The response from the chat.
 
         """
+
         self.conversation.add_message("user", prompt)
         archived_messages = self.conversation.get_messages()
 
@@ -53,4 +55,42 @@ class OpenaiHandler(AIClient):
 
         if response_content := response.choices[0].message.content:
             self.conversation.add_message("assistant", response_content)
+            return f"{self.llm_prefix} {response_content}"
+
+    async def vision(self, base64_image):
+        """
+        Asynchronously summarizes the content of
+        an image based on the given base64 encoded image string.
+
+        Args:
+            base64_image (str): A base64 encoded image string.
+
+        Returns:
+            str: A summarized description of the image content.
+        """
+        logger.debug("base64_image {}", base64_image)
+
+        response = self.client.chat.completions.create(
+            model=self.llm_model,
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": "Summarize the image content:",
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": f"data:image/jpeg;base64,{base64_image}"
+                            },
+                        },
+                    ],
+                }
+            ],
+        )
+        sleep(self.timeout)
+        logger.debug("response {}", response)
+        if response_content := response.choices[0].message.content:
             return f"{self.llm_prefix} {response_content}"

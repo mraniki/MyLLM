@@ -3,6 +3,18 @@
 
 
 
+## v4.12.0 (2024-08-19)
+
+### Feat
+
+* ✨ feature Vision+Browsing ([`6173ddc`](https://github.com/mraniki/MyLLM/commit/6173ddc047cf475165cf3922bc6b696e13b2ce12))
+
+### Other
+
+* Merge pull request #633 from mraniki/dev
+
+✨ feature Vision+Browsing ([`209e72c`](https://github.com/mraniki/MyLLM/commit/209e72cba1424c9dae7fca0a0ec415c703645e1f))
+
 ## v4.11.17 (2024-08-18)
 
 ### Other

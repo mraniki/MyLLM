@@ -3,6 +3,26 @@
 
 
 
+## v4.12.4 (2024-08-20)
+
+### Other
+
+* Merge pull request #638 from mraniki/dev
+
+🔧 update default_settings.toml, client.py and openai.py ([`f0b4302`](https://github.com/mraniki/MyLLM/commit/f0b4302a2da6241011a9bf9346344d3f9695690a))
+
+* update main.py ([`8146113`](https://github.com/mraniki/MyLLM/commit/81461134546112366b06ea33afaf6b6843b13738))
+
+* update main.py ([`54faff7`](https://github.com/mraniki/MyLLM/commit/54faff7375a38ce024a5db6268f0ddbd5fa71965))
+
+### 🎨
+
+* 🎨 ([`ebe140a`](https://github.com/mraniki/MyLLM/commit/ebe140ab828e19df2162067a3e496d693e42cd72))
+
+### 🔧
+
+* 🔧 update default_settings.toml, client.py and openai.py ([`c8eb1ac`](https://github.com/mraniki/MyLLM/commit/c8eb1acf1d413bf1c20fd270f2cc52d5a04e3160))
+
 ## v4.12.3 (2024-08-20)
 
 ### Other

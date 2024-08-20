@@ -3,6 +3,22 @@
 
 
 
+## v4.12.3 (2024-08-20)
+
+### Other
+
+* Merge pull request #637 from mraniki/dev
+
+⚡ update example.py, default_settings.toml and main.py ([`538789d`](https://github.com/mraniki/MyLLM/commit/538789dcbae5a9d59fc19ca2bfc70f1d75a2b9f4))
+
+### ⚡
+
+* ⚡ update example.py, default_settings.toml and main.py ([`93eec18`](https://github.com/mraniki/MyLLM/commit/93eec18abfbaa14730241e8a109063881db734fa))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.41.1 ([`c034653`](https://github.com/mraniki/MyLLM/commit/c0346532a9019c5e306e52ac451fe6213187714a))
+
 ## v4.12.2 (2024-08-19)
 
 ### :arrow_up:

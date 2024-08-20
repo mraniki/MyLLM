@@ -68,7 +68,7 @@ class OpenaiHandler(AIClient):
         Returns:
             str: A summarized description of the image content.
         """
-        #logger.debug("base64_image {}", base64_image)
+        # logger.debug("base64_image {}", base64_image)
 
         response = self.client.chat.completions.create(
             model=self.llm_model,
@@ -78,7 +78,7 @@ class OpenaiHandler(AIClient):
                     "content": [
                         {
                             "type": "text",
-                            "text": "Summarize the image content:",
+                            "text": f"{self.vision_prompt}",
                         },
                         {
                             "type": "image_url",

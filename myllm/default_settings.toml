@@ -39,6 +39,7 @@ llm_template = """
 You are a friendly AI, helping me with general tasks. 
 Be simple and direct.
 """
+vision_prompt = "Summarize the image content:"
 
 # [default.myllm.gpt] 
 # enabled = true
@@ -55,6 +56,7 @@ Be simple and direct.
 # llm_template = """
 # You are a friendly AI, helping me with general tasks. 
 # """
+# vision_prompt = "Summarize the image content:"
 
 # [default.myllm.groq]
 # library = "groq" # options are openai or g4f
@@ -71,6 +73,7 @@ Be simple and direct.
 # llm_template = """
 # You are a friendly AI, helping me with general tasks. 
 # """
+# vision_prompt = "Summarize the image content:"
 
 # [default.myllm.localai] 
 # library = "openai"
@@ -89,7 +92,7 @@ Be simple and direct.
 # You are a friendly AI, helping me with 
 # general tasks.
 # """
-
+# vision_prompt = "Summarize the image content:"
 
 
 ########################################

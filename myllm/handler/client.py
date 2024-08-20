@@ -58,6 +58,7 @@ class AIClient:
         self.client = None
         self.browser = get("enabled", False)
         self.browse_url = get("browse_url", None)
+        self.vision_prompt = get("vision_prompt", "Summarize the image content:")
 
     async def chat(self, prompt):
         """

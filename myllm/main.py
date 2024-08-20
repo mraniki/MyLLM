@@ -269,7 +269,7 @@ class MyLLM:
             url = self.browser_url
         async with async_playwright() as playwright:
             browser = await playwright.chromium.launch(headless=self.browser_headless)
-            context = await browser.new_context(
+            await browser.new_context(
                 locale="en-US",
                 timezone_id="America/Los_Angeles",
                 device_scale_factor=1,

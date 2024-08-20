@@ -4,9 +4,9 @@ MYLLM Main 🤖
 
 """
 
+import asyncio
 import base64
 import importlib
-import asyncio
 
 from loguru import logger
 from playwright.async_api import async_playwright
@@ -67,6 +67,10 @@ class MyLLM:
         self.ai_agent_mode = settings.ai_agent_mode or False
         self.ai_agent_prefix = settings.ai_agent_prefix or ""
         self.ai_agent_suffix = settings.ai_agent_suffix or ""
+
+        # Set the browser settings
+        self.browser_url = settings.browser_url or "https://google.com"
+        self.browser_headless = settings.browser_headless or True
 
         # Create a mapping of library names to client classes
         self.client_classes = self.get_all_client_classes()
@@ -262,8 +266,10 @@ class MyLLM:
         Browse URL and save a screenshot of the page.
         """
         logger.info("Browsing URL: {}", url)
+        if url is None:
+            url = self.browser_url
         async with async_playwright() as playwright:
-            browser = await playwright.chromium.launch()
+            browser = await playwright.chromium.launch(headless=self.browser_headless)
             page = await browser.new_page()
             await page.goto(url)
             await asyncio.sleep(2)
@@ -271,5 +277,4 @@ class MyLLM:
             screenshot_bytes = await page.screenshot()
             base64_image = base64.b64encode(screenshot_bytes).decode("utf-8")
             await browser.close()
-        # logger.info("Screenshot: {}", base64_image)
         return await self.vision(base64_image=base64_image)

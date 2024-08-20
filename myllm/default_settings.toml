@@ -19,6 +19,9 @@ myllm_enabled = true
 ai_agent_mode = false
 ai_agent_prefix = "🧠" # prefix use to filter the AI response
 ai_agent_suffix = "" # suffix use to filter the AI response
+browser_url = "https://www.google.com"
+browser_headless = true
+
 
 [default.myllm.template]
 library = "g4f" # options are openai or g4f

@@ -4,7 +4,6 @@ MYLLM Main 🤖
 
 """
 
-import asyncio
 import base64
 import importlib
 
@@ -270,10 +269,35 @@ class MyLLM:
             url = self.browser_url
         async with async_playwright() as playwright:
             browser = await playwright.chromium.launch(headless=self.browser_headless)
+            await browser.new_context(
+                locale="en-US",
+                timezone_id="America/Los_Angeles",
+                device_scale_factor=1,
+                screen={"width": 1920, "height": 1080},
+                extra_http_headers={
+                    "Accept": (
+                        "text/html,application/xhtml+xml,"
+                        "application/xml;q=0.9,*/*;q=0.8"
+                    ),
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Accept-Language": "en-GB,en;q=0.9",
+                    "Cache-Control": "max-age=0",
+                    "Connection": "keep-alive",
+                    "Sec-Fetch-Dest": "document",
+                    "Sec-Fetch-Mode": "navigate",
+                    "Sec-Fetch-Site": "same-origin",
+                    "User-Agent": (
+                        "Mozilla/5.0 "
+                        "(Macintosh; Intel Mac OS X 10_15_7) "
+                        "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+                        "Version/17.2.1 Safari/605.1.15"
+                    ),
+                },
+            )
             page = await browser.new_page()
             await page.goto(url)
-            await asyncio.sleep(2)
-            await page.mouse.wheel(0, 300)
+            # await asyncio.sleep(2)
+            # await page.mouse.wheel(0, 300)
             screenshot_bytes = await page.screenshot()
             base64_image = base64.b64encode(screenshot_bytes).decode("utf-8")
             await browser.close()

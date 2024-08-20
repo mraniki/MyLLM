@@ -4,7 +4,6 @@ MYLLM Main 🤖
 
 """
 
-import asyncio
 import base64
 import importlib
 
@@ -278,7 +277,8 @@ class MyLLM:
                 extra_http_headers={
                     "Accept": (
                         "text/html,application/xhtml+xml,"
-                        "application/xml;q=0.9,*/*;q=0.8"),
+                        "application/xml;q=0.9,*/*;q=0.8"
+                    ),
                     "Accept-Encoding": "gzip, deflate, br",
                     "Accept-Language": "en-GB,en;q=0.9",
                     "Cache-Control": "max-age=0",
@@ -296,8 +296,8 @@ class MyLLM:
             )
             page = await browser.new_page()
             await page.goto(url)
-            await asyncio.sleep(2)
-            await page.mouse.wheel(0, 300)
+            # await asyncio.sleep(2)
+            # await page.mouse.wheel(0, 300)
             screenshot_bytes = await page.screenshot()
             base64_image = base64.b64encode(screenshot_bytes).decode("utf-8")
             await browser.close()

@@ -3,6 +3,18 @@
 
 
 
+## v4.12.6 (2024-08-23)
+
+### Other
+
+* Merge pull request #642 from mraniki/dev
+
+⬆️ 🤖 - Stay away from hurricanes for a while ([`f258c2c`](https://github.com/mraniki/MyLLM/commit/f258c2c6de1ff6da1eaf9231f7cef7536ceba96e))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency pytest-asyncio to ^0.24.0 ([`1a85b53`](https://github.com/mraniki/MyLLM/commit/1a85b535e9fea68274b65303cd4cfc6332fa47e2))
+
 ## v4.12.5 (2024-08-22)
 
 ### Other

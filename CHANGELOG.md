@@ -3,6 +3,18 @@
 
 
 
+## v4.12.7 (2024-08-28)
+
+### Other
+
+* Merge pull request #644 from mraniki/dev
+
+⬆️ 🤖 - You have an unusual magnetic personality  Dont walk too close to ([`f608594`](https://github.com/mraniki/MyLLM/commit/f608594ef2c79b19719e9c2514495eefe41800c7))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.10.0 ([`0ad9d18`](https://github.com/mraniki/MyLLM/commit/0ad9d181e262c56b0d842e1a9499bf055c2ea775))
+
 ## v4.12.6 (2024-08-23)
 
 ### Other

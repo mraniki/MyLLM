@@ -3,6 +3,24 @@
 
 
 
+## v4.12.8 (2024-08-30)
+
+### Other
+
+* Merge pull request #651 from mraniki/dev
+
+Dev ([`72df72a`](https://github.com/mraniki/MyLLM/commit/72df72a3fd1a43bbfab9197dd66f602d8a910ec2))
+
+### ⬆️
+
+* ⬆️ build(deps): update pyproject.toml ([`3fb426f`](https://github.com/mraniki/MyLLM/commit/3fb426f50ab47ce0e7127759df6db61373bb5ec2))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.43.0 ([`972034d`](https://github.com/mraniki/MyLLM/commit/972034df7e45cc843610eabed62858c7104d3ac3))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v8.0.2 ([`cb135f9`](https://github.com/mraniki/MyLLM/commit/cb135f9035a6e248f8723f2400bb4d569a107de6))
+
+* ⬆️ 🛠️(deps): update dependency sphinx to v8 ([`ef4ef3b`](https://github.com/mraniki/MyLLM/commit/ef4ef3bd73fcf0c0163afa18bbdd8acb5c02edef))
+
 ## v4.12.7 (2024-08-28)
 
 ### Other

@@ -3,6 +3,18 @@
 
 
 
+## v4.12.9 (2024-08-31)
+
+### Other
+
+* Merge pull request #653 from mraniki/dev
+
+⬆️ 🤖 - You will be given a post of trust and responsibility ([`2a4b585`](https://github.com/mraniki/MyLLM/commit/2a4b585383da99105b81c372a1e504fe1b8db179))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.2.5 ([`ddffbe8`](https://github.com/mraniki/MyLLM/commit/ddffbe86d5200351ca08115cfde96f6744fc99fb))
+
 ## v4.12.8 (2024-08-30)
 
 ### Other

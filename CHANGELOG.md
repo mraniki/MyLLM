@@ -3,6 +3,18 @@
 
 
 
+## v4.12.10 (2024-09-04)
+
+### Other
+
+* Merge pull request #655 from mraniki/dev
+
+⬆️ 🤖 - Tempt not a desperate man ([`a9e0478`](https://github.com/mraniki/MyLLM/commit/a9e04788c921c2029273744a83448086f619f3af))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.11.0 ([`4faa8fc`](https://github.com/mraniki/MyLLM/commit/4faa8fc869d2c866d6923f0c09ea14928f319b0a))
+
 ## v4.12.9 (2024-08-31)
 
 ### Other

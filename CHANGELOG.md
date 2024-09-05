@@ -3,6 +3,18 @@
 
 
 
+## v4.12.11 (2024-09-05)
+
+### Other
+
+* Merge pull request #657 from mraniki/dev
+
+⬆️ 🤖 - It is often the case that the man who cant tell a lie thinks he is the best ([`53e2f47`](https://github.com/mraniki/MyLLM/commit/53e2f47f86d9084d6019a44b579331f55a59611e))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency myst_parser to v4 ([`5253741`](https://github.com/mraniki/MyLLM/commit/52537419d1448e38086de0b6093b442a07cf07d2))
+
 ## v4.12.10 (2024-09-04)
 
 ### Other

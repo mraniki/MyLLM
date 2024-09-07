@@ -3,6 +3,18 @@
 
 
 
+## v4.12.13 (2024-09-07)
+
+### Other
+
+* Merge pull request #661 from mraniki/dev
+
+⬆️ 🤖 - Tonights the night Sleep in a eucalyptus tree ([`4ffda0c`](https://github.com/mraniki/MyLLM/commit/4ffda0ca24e1417bc940d5ad326cb64b82dd4eb4))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.44.0 ([`bcbaf70`](https://github.com/mraniki/MyLLM/commit/bcbaf7052f90bed968b56b4527b05c70b8a00597))
+
 ## v4.12.12 (2024-09-06)
 
 ### Other

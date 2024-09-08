@@ -3,6 +3,18 @@
 
 
 
+## v4.12.14 (2024-09-08)
+
+### Other
+
+* Merge pull request #663 from mraniki/dev
+
+⬆️ 🤖 - Soap and education are not as sudden as a massacre but they are more ([`1770446`](https://github.com/mraniki/MyLLM/commit/1770446a7ca0b641499ea17bbae503090f69ac9b))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.2.6 ([`b694f8d`](https://github.com/mraniki/MyLLM/commit/b694f8d8e70479fe6220f00fdb91af0ab765f9c7))
+
 ## v4.12.13 (2024-09-07)
 
 ### Other

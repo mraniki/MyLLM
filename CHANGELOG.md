@@ -3,6 +3,18 @@
 
 
 
+## v4.12.15 (2024-09-11)
+
+### Other
+
+* Merge pull request #666 from mraniki/dev
+
+⬆️ 🤖 - You will gain money by a speculation or lottery ([`b452605`](https://github.com/mraniki/MyLLM/commit/b4526059d2a926e9bfe9d35138ef65369814ffca))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.44.1 ([`01c3f29`](https://github.com/mraniki/MyLLM/commit/01c3f29957a09e43dc547bad84a7b8e668159ae2))
+
 ## v4.12.14 (2024-09-08)
 
 ### Other

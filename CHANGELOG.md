@@ -3,6 +3,20 @@
 
 
 
+## v4.12.16 (2024-09-13)
+
+### Other
+
+* Merge pull request #668 from mraniki/dev
+
+⬆️ 🤖 - Must I hold a candle to my shames ([`081f0a0`](https://github.com/mraniki/MyLLM/commit/081f0a02265523633907954ba3362ea7d37b86a6))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency playwright to v1.47.0 ([`09bebb0`](https://github.com/mraniki/MyLLM/commit/09bebb05f9f0665c39f25fd9fd52dda9e2253f87))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.45.0 ([`d261931`](https://github.com/mraniki/MyLLM/commit/d2619311684ad0e3f9b1e84eb8ce56f25ddb13b6))
+
 ## v4.12.15 (2024-09-11)
 
 ### Other

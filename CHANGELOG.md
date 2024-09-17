@@ -3,6 +3,18 @@
 
 
 
+## v4.12.17 (2024-09-17)
+
+### Other
+
+* Merge pull request #673 from mraniki/dev
+
+⬆️ 🤖 - Tempt not a desperate man ([`a7ee8e0`](https://github.com/mraniki/MyLLM/commit/a7ee8e0a58987ab47bcca2a022c02a11a0807a7e))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.45.1 ([`b40c3e6`](https://github.com/mraniki/MyLLM/commit/b40c3e684086126735858af0e40523553662a8b7))
+
 ## v4.12.16 (2024-09-13)
 
 ### Other

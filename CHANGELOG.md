@@ -3,6 +3,18 @@
 
 
 
+## v4.12.18 (2024-09-18)
+
+### Other
+
+* Merge pull request #675 from mraniki/dev
+
+⬆️ 🤖 - You could live a better life if you had a better mind and a better body ([`9246fb9`](https://github.com/mraniki/MyLLM/commit/9246fb98dc31c9e4c9e700897cd8a7287199c0b4))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.46.0 ([`625e0ba`](https://github.com/mraniki/MyLLM/commit/625e0ba3a523d3b4fe710b513f9e96bf51218305))
+
 ## v4.12.17 (2024-09-17)
 
 ### Other

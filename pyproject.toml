@@ -32,7 +32,7 @@ js2py = "^0.74"
 PyExecJS2="1.6.1"
 curl_cffi = "0.7.1"
 Brotli = "1.1.0"
-openai = "1.46.0"
+openai = "1.47.0"
 groq = "0.11.0"
 playwright = "1.47.0"
 

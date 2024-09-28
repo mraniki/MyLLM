@@ -3,6 +3,34 @@
 
 
 
+## v4.12.20 (2024-09-28)
+
+### Other
+
+* Merge pull request #687 from mraniki/dev
+
+⬆️ 🤖 - To be or not to be ([`6ef9f39`](https://github.com/mraniki/MyLLM/commit/6ef9f3999451422455b0085fdd051f01239d0210))
+
+* Merge pull request #681 from mraniki/dev
+
+⬆️ 🤖 - Someone is speaking well of you ([`e6a4cfd`](https://github.com/mraniki/MyLLM/commit/e6a4cfdd3d66fbe0905cbb02d341213f5dbe8e58))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.50.2 ([`cd2cede`](https://github.com/mraniki/MyLLM/commit/cd2cedef7371e3a2cff1a727b434384d84f75d02))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.50.1 ([`3ba6382`](https://github.com/mraniki/MyLLM/commit/3ba6382349657053db0b3668c013c0f59036814f))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.50.0 ([`1f9fb4f`](https://github.com/mraniki/MyLLM/commit/1f9fb4fff5d64d0afbe921ca50c1b37a3452fe5c))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.49.0 ([`5524da4`](https://github.com/mraniki/MyLLM/commit/5524da486c812b585e1e7c8988c9a08dfd372d7a))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.48.0 ([`5ba1ba4`](https://github.com/mraniki/MyLLM/commit/5ba1ba499b02521db4585a8556d0df3826a27629))
+
+* ⬆️ 🛠️(deps): update dependency curl_cffi to v0.7.2 ([`0b711f9`](https://github.com/mraniki/MyLLM/commit/0b711f99e391bdeca8fd690cc4ae972d2cd04d76))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.47.1 ([`2d0bb1b`](https://github.com/mraniki/MyLLM/commit/2d0bb1b66f7c341703101b7eb5219cac48181336))
+
 ## v4.12.19 (2024-09-21)
 
 ### Other

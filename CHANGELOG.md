@@ -3,6 +3,18 @@
 
 
 
+## v4.12.21 (2024-10-02)
+
+### Other
+
+* Merge pull request #690 from mraniki/dev
+
+⬆️ 🤖 - Q	Why was Stonehenge abandoned ([`3a1fd78`](https://github.com/mraniki/MyLLM/commit/3a1fd7805c980b49f5137fcdff95b1d2733acf3e))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.51.0 ([`3c0a6ff`](https://github.com/mraniki/MyLLM/commit/3c0a6ff4e60e7b9da9610bd7c850c273548ae3dd))
+
 ## v4.12.20 (2024-09-28)
 
 ### Other

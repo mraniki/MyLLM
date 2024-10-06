@@ -206,7 +206,7 @@ class MyLLM:
         if _chats:
             return "\n".join(_chats)
 
-    async def vision(self, base64_image=None):
+    async def vision(self, prompt=None):
         """
         Asynchronously processes a base64-encoded image
         and returns the responses from each client.
@@ -222,10 +222,10 @@ class MyLLM:
         _chats = []
         for client in self.clients:
             try:
-                if base64_image is None:
+                if prompt is None:
                     data = await client.vision()
                 else:
-                    data = await client.vision(base64_image=base64_image)
+                    data = await client.vision(prompt=prompt)
                 if data is not None and data.strip():
                     if len(self.clients) == 1 and not self.ai_agent_mode:
                         _chats.append(data)

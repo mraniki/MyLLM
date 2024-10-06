@@ -15,9 +15,9 @@ from openai import OpenAI
 from .client import AIClient
 
 
-class CrawlaiHandler(AIClient):
+class Crawl4aiHandler(AIClient):
     """
-    MyLLM class for CrawlAI
+    MyLLM class for Crawl4AI
 
     """
 

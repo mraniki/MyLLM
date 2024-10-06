@@ -35,6 +35,7 @@ Brotli = "1.1.0"
 openai = "1.51.0"
 groq = "0.11.0"
 playwright = "1.47.0"
+crawl4ai = "0.3.5"
 
 
 [tool.poetry.group.dev.dependencies]

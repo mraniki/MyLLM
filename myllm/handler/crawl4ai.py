@@ -58,7 +58,7 @@ class Crawl4aiHandler(AIClient):
             self.conversation.add_message("assistant", response_content)
             return f"{self.llm_prefix} {response_content}"
 
-    async def vision(self, prompt):
+    async def vision(self):
         """
         Asynchronously chats with the client based on the given prompt.
 

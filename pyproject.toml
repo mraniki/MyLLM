@@ -32,9 +32,11 @@ js2py = "^0.74"
 PyExecJS2="1.6.1"
 curl_cffi = "0.7.2"
 Brotli = "1.1.0"
-openai = "1.51.0"
+openai = "1.52.2"
 groq = "0.11.0"
+crawl4ai = "0.3.5"
 playwright = "1.47.0"
+
 
 
 [tool.poetry.group.dev.dependencies]

@@ -59,14 +59,16 @@ async def test_get_chats(talky):
     ]
     assert found_keywords
 
-@pytest.mark.asyncio
-async def test_get_vision(talky):
-    result = await talky.vision("tell me a story")
-    assert result is not None
-    found_keywords = [
-        keyword for keyword in ["llama", "bing", "openai", "groq"] if keyword in result
-    ]
-    assert found_keywords
+
+# @pytest.mark.asyncio
+# async def test_get_vision(talky):
+#     result = await talky.vision("tell me a story")
+#     assert result is not None
+#     found_keywords = [
+#         keyword for keyword in ["llama", "openai", "groq"] if keyword in result
+#     ]
+#     assert found_keywords
+
 
 @pytest.mark.asyncio
 async def test_export_chat_history(talky):

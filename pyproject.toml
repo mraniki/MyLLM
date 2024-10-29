@@ -34,7 +34,7 @@ curl_cffi = "0.7.3"
 Brotli = "1.1.0"
 openai = "1.52.2"
 groq = "0.11.0"
-crawl4ai = "0.3.72"
+# crawl4ai = "0.3.72"
 playwright = "1.47.0"
 
 

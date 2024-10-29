@@ -3,6 +3,24 @@
 
 
 
+## v4.13.1 (2024-10-29)
+
+### Other
+
+* Merge pull request #714 from mraniki/dev
+
+⬆️ 🤖 - Q	How do you keep a moron in suspense ([`7e29d63`](https://github.com/mraniki/MyLLM/commit/7e29d63b9e16d9491b3f60152af9452746169864))
+
+* build(deps): update pyproject.toml ([`96918e0`](https://github.com/mraniki/MyLLM/commit/96918e002af1050adec0e662dd6f13625342b544))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.7.0 ([`4c376cb`](https://github.com/mraniki/MyLLM/commit/4c376cb9e38f771097dea0f2ad6011a499074125))
+
+* ⬆️ 🛠️(deps): update dependency curl_cffi to v0.7.3 ([`108c13c`](https://github.com/mraniki/MyLLM/commit/108c13cce2f5ac3ac1472a3d5f6a28593a7350c6))
+
+* ⬆️ 🛠️(deps): update dependency crawl4ai to v0.3.72 ([`8306765`](https://github.com/mraniki/MyLLM/commit/83067651003a1a55dd91dfba543ed5b6f0398a60))
+
 ## v4.13.0 (2024-10-27)
 
 ### Other

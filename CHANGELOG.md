@@ -3,6 +3,18 @@
 
 
 
+## v4.13.2 (2024-10-31)
+
+### Other
+
+* Merge pull request #718 from mraniki/dev
+
+⬆️ 🤖 - You are so boring that when I see you my feet go to sleep ([`1598d7c`](https://github.com/mraniki/MyLLM/commit/1598d7c75fa8067c69839f7cf1bbf1b0ffb09f0b))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.53.0 ([`1d42000`](https://github.com/mraniki/MyLLM/commit/1d4200019f99caf4b625e99b49620065e1e967c0))
+
 ## v4.13.1 (2024-10-29)
 
 ### Other

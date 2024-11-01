@@ -3,6 +3,18 @@
 
 
 
+## v4.13.3 (2024-11-01)
+
+### Other
+
+* Merge pull request #719 from mraniki/dev
+
+♻️ refactor client structure ([`6369406`](https://github.com/mraniki/MyLLM/commit/6369406f77684dd13b4502de5f611c2923ebb4e9))
+
+### ♻️
+
+* ♻️ refactor client structure ([`bac7283`](https://github.com/mraniki/MyLLM/commit/bac72835d7fb01329118de58b82f998901933c94))
+
 ## v4.13.2 (2024-10-31)
 
 ### Other

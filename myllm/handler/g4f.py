@@ -8,7 +8,7 @@ from time import sleep
 
 from loguru import logger
 
-from .client import AIClient
+from ._client import AIClient
 
 
 class G4fHandler(AIClient):

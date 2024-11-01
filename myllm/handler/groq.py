@@ -9,7 +9,7 @@ from time import sleep
 
 from groq import Groq
 
-from .client import AIClient
+from ._client import AIClient
 
 
 class GroqHandler(AIClient):

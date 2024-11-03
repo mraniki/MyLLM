@@ -3,6 +3,18 @@
 
 
 
+## v4.13.4 (2024-11-03)
+
+### Other
+
+* Merge pull request #720 from mraniki/dev
+
+⬆️ 🤖 - Why is it that we rejoice at a birth and grieve at a funeral  It is because we ([`70d0eb5`](https://github.com/mraniki/MyLLM/commit/70d0eb51d99663ad014f8bb0b16a3753ae622f46))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.3.3 ([`ada8918`](https://github.com/mraniki/MyLLM/commit/ada8918bfbb4196a9c997ecd72729f4d35588618))
+
 ## v4.13.3 (2024-11-01)
 
 ### Other

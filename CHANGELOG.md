@@ -3,6 +3,22 @@
 
 
 
+## v4.13.5 (2024-11-05)
+
+### Other
+
+* Merge pull request #726 from mraniki/dev
+
+⬆️ 🤖 - You may my glories and my state dispose ([`adce0ba`](https://github.com/mraniki/MyLLM/commit/adce0ba40af4a0944c6197ddfdda544f9c7eeada))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.54.0 ([`7b06ca4`](https://github.com/mraniki/MyLLM/commit/7b06ca424777657c5ea9b60d48f174d80daa11a4))
+
+* ⬆️ 🛠️(deps): update dependency pre-commit to v4 ([`3a15d6e`](https://github.com/mraniki/MyLLM/commit/3a15d6eef1e9ad5f125aa5d7123541ced9ddce5a))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.53.1 ([`0fec415`](https://github.com/mraniki/MyLLM/commit/0fec41549de7d1cb98efc044279d6f229712d6a6))
+
 ## v4.13.4 (2024-11-03)
 
 ### Other

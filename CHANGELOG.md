@@ -3,6 +3,20 @@
 
 
 
+## v4.13.6 (2024-11-06)
+
+### Other
+
+* Merge pull request #728 from mraniki/dev
+
+⬆️ 🤖 - Good news from afar can bring you a welcome visitor ([`a349793`](https://github.com/mraniki/MyLLM/commit/a3497932e6a1369aa864156bdde38839775c34ae))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.54.2 ([`a181608`](https://github.com/mraniki/MyLLM/commit/a1816089e7a1e58201e5313fef6e08e648ad29ab))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.54.1 ([`33217a8`](https://github.com/mraniki/MyLLM/commit/33217a857c2e33f9cf9e7d228e73ab928dc34b18))
+
 ## v4.13.5 (2024-11-05)
 
 ### Other

@@ -3,6 +3,22 @@
 
 
 
+## v4.13.8 (2024-11-13)
+
+### Other
+
+* Merge pull request #734 from mraniki/dev
+
+⬆️ 🤖 - Chicken Little was right ([`15419c5`](https://github.com/mraniki/MyLLM/commit/15419c57b58f8764c222019fc370e72ff54e8042))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.12.0 ([`7823ce4`](https://github.com/mraniki/MyLLM/commit/7823ce4905bd76d82cce8670181709b18160d48a))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.54.4 (#732)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`603bed7`](https://github.com/mraniki/MyLLM/commit/603bed7d834e099e72cd22713ae7e8c44646d2dc))
+
 ## v4.13.7 (2024-11-07)
 
 ### Other

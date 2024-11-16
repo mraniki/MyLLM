@@ -3,6 +3,18 @@
 
 
 
+## v4.13.9 (2024-11-16)
+
+### Other
+
+* Merge pull request #736 from mraniki/dev
+
+⬆️ 🤖 - There is an old time toast which is golden for its beauty ([`bf20d03`](https://github.com/mraniki/MyLLM/commit/bf20d03f52c32768ca3126f39127589e6e975dd0))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.3.4 ([`bc175f3`](https://github.com/mraniki/MyLLM/commit/bc175f32ebe7b45a67285544b85f164d847ed415))
+
 ## v4.13.8 (2024-11-13)
 
 ### Other

@@ -3,6 +3,18 @@
 
 
 
+## v4.13.10 (2024-11-17)
+
+### Other
+
+* Merge pull request #738 from mraniki/dev
+
+⬆️ 🤖 - You will win success in whatever calling you adopt ([`9e6b9c3`](https://github.com/mraniki/MyLLM/commit/9e6b9c3fde3541c5b62b07d36dbddc68d9d5bb82))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.4.0 ([`a3d0b44`](https://github.com/mraniki/MyLLM/commit/a3d0b449398302d164ba4962792cde44ef2335cf))
+
 ## v4.13.9 (2024-11-16)
 
 ### Other

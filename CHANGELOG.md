@@ -3,6 +3,32 @@
 
 
 
+## v4.13.12 (2024-11-23)
+
+### Other
+
+* Merge pull request #761 from mraniki/dev
+
+⬆️ 🤖 - When one burns ones bridges what a very nice fire it makes ([`ec41059`](https://github.com/mraniki/MyLLM/commit/ec4105904db77689e1ca9f7004cdab4a7dafe7c0))
+
+* Merge pull request #762 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.3.6.3 ([`98c1f53`](https://github.com/mraniki/MyLLM/commit/98c1f533ffc4243f0a3a36ef7ae353fdb7cae68c))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.6.3 ([`e10f104`](https://github.com/mraniki/MyLLM/commit/e10f1041d32bb3a59b77b813f4dfe8c20eddc7ac))
+
+* ⬆️ 🛠️(deps): update dependency playwright to v1.49.0 (#760)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`00104e8`](https://github.com/mraniki/MyLLM/commit/00104e8f8e4f327e1de1df513b78fa912e2a1937))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.6.1 ([`0da97c3`](https://github.com/mraniki/MyLLM/commit/0da97c3fb49bc39561f7259c1ed53f419858d228))
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.8.0 ([`eb44803`](https://github.com/mraniki/MyLLM/commit/eb44803a8cc27a9fe4e24788250e51a45cd4a29f))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.6.0 ([`9c98029`](https://github.com/mraniki/MyLLM/commit/9c98029cab1723b4a7bb9b3c599fef3a9a16966f))
+
 ## v4.13.11 (2024-11-21)
 
 ### Other

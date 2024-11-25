@@ -3,6 +3,30 @@
 
 
 
+## v4.13.13 (2024-11-25)
+
+### Other
+
+* Merge pull request #768 from mraniki/dev
+
+⬆️ 🤖 - He draweth out the thread of his verbosity finer than the staple of his ([`cb1271b`](https://github.com/mraniki/MyLLM/commit/cb1271b49060bbbdc68e5eb5121ac4e045fdef1c))
+
+* Merge pull request #767 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.3.7.1 ([`71b3470`](https://github.com/mraniki/MyLLM/commit/71b3470d7c01e5e0a2844df48092f8703b016325))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.7.1 ([`a04166c`](https://github.com/mraniki/MyLLM/commit/a04166cf04f22ae99c9b16419f75af07ed97032c))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.6.9 ([`33ce3cc`](https://github.com/mraniki/MyLLM/commit/33ce3cc87acc6b1342c7613ecd196f464d83c71d))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.6.7 ([`78730c5`](https://github.com/mraniki/MyLLM/commit/78730c573c2c67d5455c526b0ee1bb83098ee870))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.6.6 ([`a70714e`](https://github.com/mraniki/MyLLM/commit/a70714ecada9e22820a71d390160fc5bcf6c889b))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.6.4 ([`b4c072d`](https://github.com/mraniki/MyLLM/commit/b4c072da1c7c86b8430c08693e947b4491d4046e))
+
 ## v4.13.12 (2024-11-23)
 
 ### Other

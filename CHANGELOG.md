@@ -3,6 +3,24 @@
 
 
 
+## v4.13.14 (2024-11-26)
+
+### Other
+
+* Merge pull request #772 from mraniki/dev
+
+⬆️ 🤖 - There is a  chance of tomorrow ([`7593c95`](https://github.com/mraniki/MyLLM/commit/7593c95435e4660bfd4e9b5be38f20da0170392a))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.55.1 (#771)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`0de1e30`](https://github.com/mraniki/MyLLM/commit/0de1e30240bc03957717bf19a0e5ea7a0c55b417))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.7.4 ([`0fd563c`](https://github.com/mraniki/MyLLM/commit/0fd563cbc4a3e698a0baa697cd5f98cd9d0b835a))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.3.7.3 ([`53d21f9`](https://github.com/mraniki/MyLLM/commit/53d21f9e641f20b4f635152a0c41450ea9bf5ac7))
+
 ## v4.13.13 (2024-11-25)
 
 ### Other
@@ -591,15 +609,15 @@ Update OpenaiHandler debug message and add mouse wheel scroll in MyLLM. ([`51332
 
 ## v4.12.0 (2024-08-19)
 
-### Feat
-
-* ✨ feature Vision+Browsing ([`6173ddc`](https://github.com/mraniki/MyLLM/commit/6173ddc047cf475165cf3922bc6b696e13b2ce12))
-
 ### Other
 
 * Merge pull request #633 from mraniki/dev
 
 ✨ feature Vision+Browsing ([`209e72c`](https://github.com/mraniki/MyLLM/commit/209e72cba1424c9dae7fca0a0ec415c703645e1f))
+
+### ✨
+
+* ✨ feature Vision+Browsing ([`6173ddc`](https://github.com/mraniki/MyLLM/commit/6173ddc047cf475165cf3922bc6b696e13b2ce12))
 
 ## v4.11.17 (2024-08-18)
 
@@ -1037,10 +1055,6 @@ Refactor Chat main function ([`4e9c52f`](https://github.com/mraniki/MyLLM/commit
 
 ## v4.10.0 (2024-06-23)
 
-### Fix
-
-* ♻️ refactor chat for ai_agent_prefix ([`029822a`](https://github.com/mraniki/MyLLM/commit/029822aa1aeebd43d831fc3c34c64d041a618a84))
-
 ### Other
 
 * Merge pull request #560 from mraniki/dev
@@ -1066,6 +1080,8 @@ Refactor Chat main function ([`4e9c52f`](https://github.com/mraniki/MyLLM/commit
 ### ♻️
 
 * ♻️ update default_settings.toml and main.py ([`0f562be`](https://github.com/mraniki/MyLLM/commit/0f562beb1b044607af595905d7af179ed9fd49ed))
+
+* ♻️ refactor chat for ai_agent_prefix ([`029822a`](https://github.com/mraniki/MyLLM/commit/029822aa1aeebd43d831fc3c34c64d041a618a84))
 
 ### ✅
 
@@ -1823,7 +1839,7 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 ## v4.7.2 (2024-03-26)
 
-### Fix
+### :ambulance:
 
 * :ambulance:Update provider module with OPENAILLM class and fix import casing. ([`63a233d`](https://github.com/mraniki/MyLLM/commit/63a233d0bf96a58267871e050730604285e9dc0f))
 
@@ -2145,13 +2161,13 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 * ⬆️ 🛠️(deps): update dependency black to v24 ([`d80a637`](https://github.com/mraniki/MyLLM/commit/d80a6375718ce8e1ed21a14a53422b36cd194fa2))
 
+### 💬
+
+* 💬 🔧 ([`e6e6c4b`](https://github.com/mraniki/MyLLM/commit/e6e6c4bb39607915f84307748b5a577b296b0714))
+
 ### 🔥
 
 * 🔥 removing petals until stabalized ([`5d8bacc`](https://github.com/mraniki/MyLLM/commit/5d8bacc9262be359677c2bb0a520292a5821b90f))
-
-### 🔧
-
-* 💬 🔧 ([`e6e6c4b`](https://github.com/mraniki/MyLLM/commit/e6e6c4bb39607915f84307748b5a577b296b0714))
 
 ### 🚨
 
@@ -2421,6 +2437,10 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 * ♻️ ([`bbb2258`](https://github.com/mraniki/MyLLM/commit/bbb225875bfedc8e97f51a8fc240febf4db7bacd))
 
+### ✅
+
+* ✅ Unit Test 🔧 ([`85dfffd`](https://github.com/mraniki/MyLLM/commit/85dfffd32cad9eb434cd58ff29489fad8c39c266))
+
 ### ⬆️
 
 * ⬆️ 🛠️(deps): update dependency g4f to v0.2.1.0 ([`0f2571d`](https://github.com/mraniki/MyLLM/commit/0f2571dcd3c9f387604ad22ddd3a761c12388cfd))
@@ -2434,8 +2454,6 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 ### 🔧
 
 * 🔧 ([`4768630`](https://github.com/mraniki/MyLLM/commit/4768630b2eeb32884e9dd9e38fd87e6a7b8ae52e))
-
-* ✅ Unit Test 🔧 ([`85dfffd`](https://github.com/mraniki/MyLLM/commit/85dfffd32cad9eb434cd58ff29489fad8c39c266))
 
 * 🔧 ([`c7b3a08`](https://github.com/mraniki/MyLLM/commit/c7b3a088e4bd88683dac235f2d1b5cac127d5fc6))
 
@@ -2557,13 +2575,13 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 ⬆️ 🤖 - You are a very redundant person thats what kind of person you are ([`7e98436`](https://github.com/mraniki/MyLLM/commit/7e984366106d3ac911ad651587b8eaf7594dfa8e))
 
+### ♻️
+
+* ♻️ 🐛 ([`2a2d497`](https://github.com/mraniki/MyLLM/commit/2a2d497ec3a4e496de9cd06ac5c87d3e98c4417e))
+
 ### ⚡
 
 * ⚡ ([`6fe9ade`](https://github.com/mraniki/MyLLM/commit/6fe9adee79e9c385553f2064ff3d3849fde68323))
-
-### 🐛
-
-* ♻️ 🐛 ([`2a2d497`](https://github.com/mraniki/MyLLM/commit/2a2d497ec3a4e496de9cd06ac5c87d3e98c4417e))
 
 ## v4.0.15 (2024-01-28)
 
@@ -2781,7 +2799,7 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 ⚡ 🐛 Added chat export per client ([`311ad00`](https://github.com/mraniki/MyLLM/commit/311ad0075dc0379367d13e9a85b257665a346137))
 
-### 🐛
+### ⚡
 
 * ⚡ 🐛 Added chat export per client ([`1fead7f`](https://github.com/mraniki/MyLLM/commit/1fead7f4667bfc8d82f8f019cd0cb7378bae9c5a))
 
@@ -2845,13 +2863,13 @@ Update installation commands for poetry in readthedocs.yaml ([`52f299d`](https:/
 
 * 🔧 enable /disable flag per client ([`e2cfb32`](https://github.com/mraniki/MyLLM/commit/e2cfb32bede1ac72604f81b63e52fdfad8048ded))
 
+* 🔧 🚑 ([`c63fed6`](https://github.com/mraniki/MyLLM/commit/c63fed6b725cb4b2c5a83c9d371003cf27be108f))
+
 ### 🚑
 
 * 🚑 ([`77429a2`](https://github.com/mraniki/MyLLM/commit/77429a2b51b4158d7642e7c9fea03461893dd9d2))
 
 * 🚑 ([`f03b007`](https://github.com/mraniki/MyLLM/commit/f03b007229ecf3b0811ec55ac5b7681d0aa223ac))
-
-* 🔧 🚑 ([`c63fed6`](https://github.com/mraniki/MyLLM/commit/c63fed6b725cb4b2c5a83c9d371003cf27be108f))
 
 ## v4.0.0 (2024-01-26)
 
@@ -3247,13 +3265,13 @@ Dev ([`a0465e1`](https://github.com/mraniki/MyLLM/commit/a0465e144b9d8fbca33eb0f
 
 ### Update
 
-* ⬆️ Update Requirements and Version ([`b02c9b5`](https://github.com/mraniki/MyLLM/commit/b02c9b5b13999969ada41853a51305f479e10659))
-
 * Update Requirements ([`4cbbf36`](https://github.com/mraniki/MyLLM/commit/4cbbf369ef6c2fa8ab45c6e687e50bf0b5ec9b85))
 
 ### ⬆️
 
 * ⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`cdc3da8`](https://github.com/mraniki/MyLLM/commit/cdc3da86b56ecf394bf3d5412f4bae5524ff269a))
+
+* ⬆️ Update Requirements and Version ([`b02c9b5`](https://github.com/mraniki/MyLLM/commit/b02c9b5b13999969ada41853a51305f479e10659))
 
 * ⬆️ 🛠️(deps): update dependency g4f to v0.1.7.8 ([`957577b`](https://github.com/mraniki/MyLLM/commit/957577b8e2a42319ecb0da8ffdc0f8d306adb130))
 
@@ -3275,13 +3293,11 @@ Dev ([`a0465e1`](https://github.com/mraniki/MyLLM/commit/a0465e144b9d8fbca33eb0f
 
 * Merge branch 'main' into dev ([`767fa5d`](https://github.com/mraniki/MyLLM/commit/767fa5d92b57671224ce7aa5f8e33c897052d756))
 
-### Update
-
-* ⬆️ Update Requirements and Version ([`e1dafdb`](https://github.com/mraniki/MyLLM/commit/e1dafdb75c5e065d2f67fc9b7c5f71d8375ea685))
-
 ### ⬆️
 
 * ⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`7d6700f`](https://github.com/mraniki/MyLLM/commit/7d6700f260992794d68cf56526f4c14dfb5169fa))
+
+* ⬆️ Update Requirements and Version ([`e1dafdb`](https://github.com/mraniki/MyLLM/commit/e1dafdb75c5e065d2f67fc9b7c5f71d8375ea685))
 
 * ⬆️ 🛠️(deps): update dependency ruff to v0.1.3 ([`aec0e21`](https://github.com/mraniki/MyLLM/commit/aec0e21cbde041f619275d83648deabbaab707e1))
 
@@ -3309,17 +3325,15 @@ Dev ([`a0465e1`](https://github.com/mraniki/MyLLM/commit/a0465e144b9d8fbca33eb0f
 
 * Auto ([`7d60d24`](https://github.com/mraniki/MyLLM/commit/7d60d24cb85e03c7c72dedb5d08ff051531b7d49))
 
-### Update
-
-* ⬆️ Update Requirements and Version ([`621a23b`](https://github.com/mraniki/MyLLM/commit/621a23b885c56f61df9d0dfb66fc9a0b1a08f4ea))
-
-* ⬆️ Update Requirements and Version ([`88ec135`](https://github.com/mraniki/MyLLM/commit/88ec135c98d316c3debbea6700eb036a6fd0d70f))
-
 ### ⬆️
 
 * ⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`b14ff0b`](https://github.com/mraniki/MyLLM/commit/b14ff0b9ecb246723244a21dd3ee2fed6e532805))
 
+* ⬆️ Update Requirements and Version ([`621a23b`](https://github.com/mraniki/MyLLM/commit/621a23b885c56f61df9d0dfb66fc9a0b1a08f4ea))
+
 * ⬆️ 🛠️(deps): update dependency fastapi to v0.104.0 ([`9c6897d`](https://github.com/mraniki/MyLLM/commit/9c6897dd895bdc9ec7d39a56ed7ac1c9618eaf3a))
+
+* ⬆️ Update Requirements and Version ([`88ec135`](https://github.com/mraniki/MyLLM/commit/88ec135c98d316c3debbea6700eb036a6fd0d70f))
 
 ### 👷
 
@@ -4400,15 +4414,15 @@ Update example.py ([`236c8e2`](https://github.com/mraniki/MyLLM/commit/236c8e226
 
 ## v3.1.0 (2023-09-27)
 
-### Feat
-
-* ✨ Added chat export feature ([`5a0352b`](https://github.com/mraniki/MyLLM/commit/5a0352b0bbf7582e6673756c23c87a5ec7e78e3f))
-
 ### Other
 
 * Merge pull request #121 from mraniki/dev
 
 ✨ Added chat export feature ([`fbd2186`](https://github.com/mraniki/MyLLM/commit/fbd2186c71c898cac4704cc1b24ac08b3a180afc))
+
+### ✨
+
+* ✨ Added chat export feature ([`5a0352b`](https://github.com/mraniki/MyLLM/commit/5a0352b0bbf7582e6673756c23c87a5ec7e78e3f))
 
 ### 🔧
 
@@ -4669,6 +4683,22 @@ Dynaconf dep ([`7cf621c`](https://github.com/mraniki/MyLLM/commit/7cf621cb152fb1
 
 ## v2.0.10 (2023-09-19)
 
+### :arrow_up:
+
+* :arrow_up: 🤖 Dependencies: Update g4f requirement
+
+Updates the requirements on [g4f](https://github.com/xtekky/gpt4free) to permit the latest version.
+- [Release notes](https://github.com/xtekky/gpt4free/releases)
+- [Commits](https://github.com/xtekky/gpt4free/compare/0.0.2.6...0.0.3.0)
+
+---
+updated-dependencies:
+- dependency-name: g4f
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([`738a314`](https://github.com/mraniki/MyLLM/commit/738a314c5e73e1af98b9e391d4acb4040e8d06a8))
+
 ### Other
 
 * Merge pull request #96 from mraniki/dev
@@ -4684,22 +4714,6 @@ Dynaconf dep ([`7cf621c`](https://github.com/mraniki/MyLLM/commit/7cf621cb152fb1
 ⬆️ 🤖 Dependencies: Update g4f requirement from ^0.0.2.6 to >=0.0.2.6,<0.0.4.0 ([`8a6ac8e`](https://github.com/mraniki/MyLLM/commit/8a6ac8ee02b28df3585b71eef8c8318be471c1b1))
 
 * Merge branch 'main' into dev ([`17858b7`](https://github.com/mraniki/MyLLM/commit/17858b7528b3597de71b771201b740b130e9d2d5))
-
-### Update
-
-* :arrow_up: 🤖 Dependencies: Update g4f requirement
-
-Updates the requirements on [g4f](https://github.com/xtekky/gpt4free) to permit the latest version.
-- [Release notes](https://github.com/xtekky/gpt4free/releases)
-- [Commits](https://github.com/xtekky/gpt4free/compare/0.0.2.6...0.0.3.0)
-
----
-updated-dependencies:
-- dependency-name: g4f
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com> ([`738a314`](https://github.com/mraniki/MyLLM/commit/738a314c5e73e1af98b9e391d4acb4040e8d06a8))
 
 ### ⬆️
 
@@ -4870,6 +4884,22 @@ Update README.md ([`3e678ce`](https://github.com/mraniki/MyLLM/commit/3e678ce39c
 
 ## v2.0.0 (2023-09-07)
 
+### :arrow_up:
+
+* :arrow_up: 🤖 Dependencies: Update langchain requirement
+
+Updates the requirements on [langchain](https://github.com/langchain-ai/langchain) to permit the latest version.
+- [Release notes](https://github.com/langchain-ai/langchain/releases)
+- [Commits](https://github.com/langchain-ai/langchain/compare/v0.0.275...v0.0.277)
+
+---
+updated-dependencies:
+- dependency-name: langchain
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([`29eb534`](https://github.com/mraniki/MyLLM/commit/29eb5340e2505a000616a6a727beb1e0485ca2da))
+
 ### Other
 
 * Merge pull request #70 from mraniki/dev
@@ -4891,20 +4921,6 @@ Update README.md ([`3e678ce`](https://github.com/mraniki/MyLLM/commit/3e678ce39c
 * Update Requirements ([`0ea8b4d`](https://github.com/mraniki/MyLLM/commit/0ea8b4da5da78b2503d638d457bc9bb17809e00b))
 
 * Update Requirements ([`e3b20de`](https://github.com/mraniki/MyLLM/commit/e3b20de692020d6fe5e6fc0166b4c9ae43bddf90))
-
-* :arrow_up: 🤖 Dependencies: Update langchain requirement
-
-Updates the requirements on [langchain](https://github.com/langchain-ai/langchain) to permit the latest version.
-- [Release notes](https://github.com/langchain-ai/langchain/releases)
-- [Commits](https://github.com/langchain-ai/langchain/compare/v0.0.275...v0.0.277)
-
----
-updated-dependencies:
-- dependency-name: langchain
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com> ([`29eb534`](https://github.com/mraniki/MyLLM/commit/29eb5340e2505a000616a6a727beb1e0485ca2da))
 
 ### ⬆️
 
@@ -4934,6 +4950,22 @@ Signed-off-by: dependabot[bot] <support@github.com> ([`29eb534`](https://github.
 
 ## v1.2.37 (2023-08-30)
 
+### :arrow_up:
+
+* :arrow_up: 🤖 Dependencies: Update langchain requirement
+
+Updates the requirements on [langchain](https://github.com/langchain-ai/langchain) to permit the latest version.
+- [Release notes](https://github.com/langchain-ai/langchain/releases)
+- [Commits](https://github.com/langchain-ai/langchain/compare/v0.0.275...v0.0.276)
+
+---
+updated-dependencies:
+- dependency-name: langchain
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([`7f0ee6d`](https://github.com/mraniki/MyLLM/commit/7f0ee6dc3dd5b4211e44c99bde2ed0aeffb69b8f))
+
 ### Other
 
 * Merge pull request #72 from mraniki/dependabot/pip/dev/langchain-gte-0.0.275-and-lt-0.0.277
@@ -4949,20 +4981,6 @@ Signed-off-by: dependabot[bot] <support@github.com> ([`29eb534`](https://github.
 * Update Requirements ([`971abd2`](https://github.com/mraniki/MyLLM/commit/971abd2e8e9abfa5e28b899fd867136f913137f9))
 
 * Update Requirements ([`7a94935`](https://github.com/mraniki/MyLLM/commit/7a949355c5c8a201ec66ad5c98a07fb3fefd2a8f))
-
-* :arrow_up: 🤖 Dependencies: Update langchain requirement
-
-Updates the requirements on [langchain](https://github.com/langchain-ai/langchain) to permit the latest version.
-- [Release notes](https://github.com/langchain-ai/langchain/releases)
-- [Commits](https://github.com/langchain-ai/langchain/compare/v0.0.275...v0.0.276)
-
----
-updated-dependencies:
-- dependency-name: langchain
-  dependency-type: direct:production
-...
-
-Signed-off-by: dependabot[bot] <support@github.com> ([`7f0ee6d`](https://github.com/mraniki/MyLLM/commit/7f0ee6dc3dd5b4211e44c99bde2ed0aeffb69b8f))
 
 ## v1.2.36 (2023-08-29)
 
@@ -5080,13 +5098,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([`7f0ee6d`](https://github.
 
 ## v1.2.28 (2023-08-21)
 
-### Other
-
-* Merge pull request #59 from mraniki/dependabot/pip/sphinx-7.2.2
-
-⬆️ Dep: Update sphinx requirement from 7.1.2 to 7.2.2 ([`7dd2d52`](https://github.com/mraniki/MyLLM/commit/7dd2d5263947543440194242eb60974b804837a6))
-
-### Update
+### :arrow_up:
 
 * :arrow_up: Dep: Update sphinx requirement from 7.1.2 to 7.2.2
 
@@ -5103,17 +5115,23 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] <support@github.com> ([`932a6c6`](https://github.com/mraniki/MyLLM/commit/932a6c6c82a3a7e11225ddb443a3514d21ec687c))
 
+### Other
+
+* Merge pull request #59 from mraniki/dependabot/pip/sphinx-7.2.2
+
+⬆️ Dep: Update sphinx requirement from 7.1.2 to 7.2.2 ([`7dd2d52`](https://github.com/mraniki/MyLLM/commit/7dd2d5263947543440194242eb60974b804837a6))
+
 ## v1.2.27 (2023-08-21)
-
-### Fix
-
-* ♻️ continous fix ([`d4d556d`](https://github.com/mraniki/MyLLM/commit/d4d556d5e02ab12391f03b7e4991a56e6aa2d696))
 
 ### Other
 
 * Merge pull request #61 from mraniki/dev
 
 ♻️ continous fix ([`cca4b15`](https://github.com/mraniki/MyLLM/commit/cca4b15dc93c93c455e1e09779f2c8ec37c791c2))
+
+### ♻️
+
+* ♻️ continous fix ([`d4d556d`](https://github.com/mraniki/MyLLM/commit/d4d556d5e02ab12391f03b7e4991a56e6aa2d696))
 
 ## v1.2.26 (2023-08-21)
 
@@ -5151,7 +5169,7 @@ Update .github/workflows/:construction_worker_man:Flow.yml ([`0123c2b`](https://
 
 ## v1.2.23 (2023-08-20)
 
-### Fix
+### :memo:
 
 * :memo: hot fix for sphinx Update pyproject.toml ([`e21758f`](https://github.com/mraniki/MyLLM/commit/e21758fc86116ab11c7fa37bf765cf0d28fd80ea))
 
@@ -5311,15 +5329,7 @@ Merge (Sourcery refactored) ([`504a330`](https://github.com/mraniki/MyLLM/commit
 
 ## v1.2.13 (2023-08-18)
 
-### Other
-
-* Merge pull request #44 from mraniki/dependabot/pip/g4f-gte-0.0.1.4-and-lt-0.0.3.0
-
-⬆️ Dep: Update g4f requirement from ^0.0.1.4 to >=0.0.1.4,<0.0.3.0 ([`9bf9abd`](https://github.com/mraniki/MyLLM/commit/9bf9abd3d89bcc3921c03693208ebd6afd83f222))
-
-### Update
-
-* Update Requirements ([`ef9b1b6`](https://github.com/mraniki/MyLLM/commit/ef9b1b6a5eda77a59d82741ec88be24c457e06a0))
+### :arrow_up:
 
 * :arrow_up: Dep: Update g4f requirement
 
@@ -5334,6 +5344,16 @@ updated-dependencies:
 ...
 
 Signed-off-by: dependabot[bot] <support@github.com> ([`8ef0138`](https://github.com/mraniki/MyLLM/commit/8ef0138d3c984a7b534e2f9865c2b211c362ba64))
+
+### Other
+
+* Merge pull request #44 from mraniki/dependabot/pip/g4f-gte-0.0.1.4-and-lt-0.0.3.0
+
+⬆️ Dep: Update g4f requirement from ^0.0.1.4 to >=0.0.1.4,<0.0.3.0 ([`9bf9abd`](https://github.com/mraniki/MyLLM/commit/9bf9abd3d89bcc3921c03693208ebd6afd83f222))
+
+### Update
+
+* Update Requirements ([`ef9b1b6`](https://github.com/mraniki/MyLLM/commit/ef9b1b6a5eda77a59d82741ec88be24c457e06a0))
 
 ## v1.2.12 (2023-08-12)
 
@@ -5395,7 +5415,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([`8ef0138`](https://github.
 
 * ⬆️(deps): update dependency ruff to >=0.0.283,<0.0.284 ([`e5aad38`](https://github.com/mraniki/MyLLM/commit/e5aad385d0a759977efc37aa78d7e3e7fd447f4b))
 
-### 🔧
+### 📝
 
 * 📝 🔧  settings documentation ([`2e0b0f7`](https://github.com/mraniki/MyLLM/commit/2e0b0f7699881fcb8fa8a7b0d54ba9e122b84f8d))
 
@@ -5529,12 +5549,6 @@ Update dependency langchain to v0.0.254 ([`02c46f4`](https://github.com/mraniki/
 
 ## v1.2.0 (2023-08-07)
 
-### Fix
-
-* 📝 intersphinx fix ([`b054b75`](https://github.com/mraniki/MyLLM/commit/b054b75e0c2b5a759865dd3319a262fa05a70f8a))
-
-* 📝  fix ([`665a067`](https://github.com/mraniki/MyLLM/commit/665a06733b296796bb45fa71c12b73bd81d67a65))
-
 ### Other
 
 * Merge pull request #20 from mraniki/renovate/langchain-0.x
@@ -5602,6 +5616,10 @@ Merge ([`8ecb29e`](https://github.com/mraniki/MyLLM/commit/8ecb29edb82929d776d7c
 ### 📝
 
 * 📝 updating docs template and sphinx ([`71d6efb`](https://github.com/mraniki/MyLLM/commit/71d6efb6b7336693ee27b66b27dc2e6de362eca7))
+
+* 📝 intersphinx fix ([`b054b75`](https://github.com/mraniki/MyLLM/commit/b054b75e0c2b5a759865dd3319a262fa05a70f8a))
+
+* 📝  fix ([`665a067`](https://github.com/mraniki/MyLLM/commit/665a06733b296796bb45fa71c12b73bd81d67a65))
 
 * 📝  sphinx.ext.extlinks ([`0f24828`](https://github.com/mraniki/MyLLM/commit/0f2482868543cc75c57e34f502d0dd19c39bdede))
 
@@ -5677,6 +5695,12 @@ Configure Sweep ([`829d95c`](https://github.com/mraniki/MyLLM/commit/829d95cf8e9
 
 ## v1.0.0 (2023-08-05)
 
+### :bug:
+
+* :bug: Update version variables in pyproject.toml file ([`fab4eca`](https://github.com/mraniki/MyLLM/commit/fab4ecaae1438f942909b6f7be9e939faa3bddda))
+
+* :bug: Update version variables in pyproject.toml file ([`b2ea120`](https://github.com/mraniki/MyLLM/commit/b2ea120c69ba610fc1a291b32897c75758b0c13d))
+
 ### :fire:
 
 * :fire: ([`044510c`](https://github.com/mraniki/MyLLM/commit/044510c897481c71c8bc5079ed7578123254970b))
@@ -5712,10 +5736,6 @@ Configure Renovate ([`1f3c7b0`](https://github.com/mraniki/MyLLM/commit/1f3c7b0c
 * Initial commit ([`4adc482`](https://github.com/mraniki/MyLLM/commit/4adc482db3fc7be1aebc12be4d1a93765ae92f32))
 
 ### Update
-
-* :bug: Update version variables in pyproject.toml file ([`fab4eca`](https://github.com/mraniki/MyLLM/commit/fab4ecaae1438f942909b6f7be9e939faa3bddda))
-
-* :bug: Update version variables in pyproject.toml file ([`b2ea120`](https://github.com/mraniki/MyLLM/commit/b2ea120c69ba610fc1a291b32897c75758b0c13d))
 
 * Update Requirements ([`b0a2d04`](https://github.com/mraniki/MyLLM/commit/b0a2d0461b0de310cf8eef9405caa5790d4d45ad))
 

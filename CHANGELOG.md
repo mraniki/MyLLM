@@ -3,6 +3,20 @@
 
 
 
+## v4.13.15 (2024-11-28)
+
+### Other
+
+* Merge pull request #776 from mraniki/dev
+
+⬆️ 🤖 - All generalizations are false including this one ([`3801711`](https://github.com/mraniki/MyLLM/commit/3801711ba3181570d3a38b33fc72da6da4f8ba57))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.55.2 (#775)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`22a63ea`](https://github.com/mraniki/MyLLM/commit/22a63eaeffb5cdf97586ac8b87b6ee0a729f99ec))
+
 ## v4.13.14 (2024-11-26)
 
 ### Other

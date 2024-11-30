@@ -3,6 +3,26 @@
 
 
 
+## v4.13.16 (2024-11-30)
+
+### Other
+
+* Merge pull request #779 from mraniki/dev
+
+⬆️ 🤖 - Future looks spotty  You will spill soup in late evening ([`93cd713`](https://github.com/mraniki/MyLLM/commit/93cd7133d60c3252acce9c08e36de82bb75d9726))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.13.0 ([`635c58a`](https://github.com/mraniki/MyLLM/commit/635c58a48779d084f91b4b488199f647fb731295))
+
+* ⬆️ 🛠️(deps): update dependency pytest-cov to v6 (#778)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`1b01191`](https://github.com/mraniki/MyLLM/commit/1b01191ed75672c17419c3c5d01d9219dbdfc698))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.55.3 (#777)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`467a075`](https://github.com/mraniki/MyLLM/commit/467a0759894c80f011f69eed9b8ff7bc4b1667bb))
+
 ## v4.13.15 (2024-11-28)
 
 ### Other

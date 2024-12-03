@@ -3,6 +3,26 @@
 
 
 
+## v4.13.17 (2024-12-03)
+
+### Other
+
+* Merge pull request #783 from mraniki/dev
+
+⬆️ 🤖 - You have the capacity to learn from mistakes  Youll learn a lot today ([`cd22ab4`](https://github.com/mraniki/MyLLM/commit/cd22ab451062c7991d1c9db43cab51e8b059b69a))
+
+* Merge pull request #784 from mraniki/renovate/curl_cffi-0.x
+
+⬆️ 🛠️(deps): update dependency curl_cffi to v0.7.4 ([`a4e3bc9`](https://github.com/mraniki/MyLLM/commit/a4e3bc9f7741914f27067731206bc76c5e93f527))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency curl_cffi to v0.7.4 ([`fdacef9`](https://github.com/mraniki/MyLLM/commit/fdacef9a738a144ad7601e5440f17a0c1c9d402b))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.56.0 (#782)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`cc55d94`](https://github.com/mraniki/MyLLM/commit/cc55d941e1a22f0bdc4efb8ba3098e4b96c168d7))
+
 ## v4.13.16 (2024-11-30)
 
 ### Other

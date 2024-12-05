@@ -3,6 +3,24 @@
 
 
 
+## v4.13.18 (2024-12-05)
+
+### Other
+
+* Merge pull request #786 from mraniki/dev
+
+⬆️ 🤖 - What good is an obscenity trial except to popularize literature ([`5d97963`](https://github.com/mraniki/MyLLM/commit/5d97963f4ea6b214767fbd81f0cd2587c6f82e86))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.56.2 (#787)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`39fcb94`](https://github.com/mraniki/MyLLM/commit/39fcb940844c104529dcef80f8b16ee7d9a0e2fb))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.56.1 (#785)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`50155ff`](https://github.com/mraniki/MyLLM/commit/50155ff953bff44a0eeda4a0f98a182cbebb98ad))
+
 ## v4.13.17 (2024-12-03)
 
 ### Other

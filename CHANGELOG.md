@@ -3,6 +3,20 @@
 
 
 
+## v4.13.19 (2024-12-06)
+
+### Other
+
+* Merge pull request #790 from mraniki/dev
+
+⬆️ 🤖 - Q	How many Harvard MBAs does it take to screw in a light bulb ([`6644efb`](https://github.com/mraniki/MyLLM/commit/6644efb79bce5799aef9607802cb5243859d7d7a))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.57.0 (#789)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`5cbfa9e`](https://github.com/mraniki/MyLLM/commit/5cbfa9e5aa893d188613ea935c670a86456d133b))
+
 ## v4.13.18 (2024-12-05)
 
 ### Other

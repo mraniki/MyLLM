@@ -3,6 +3,28 @@
 
 
 
+## v4.13.20 (2024-12-12)
+
+### Other
+
+* Merge pull request #795 from mraniki/dev
+
+⬆️ 🤖 - Snow Day  stay home ([`7f6db1e`](https://github.com/mraniki/MyLLM/commit/7f6db1e6a9969ba02b545a0196229202aa115972))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency playwright to v1.49.1 (#797)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`a6e8a1c`](https://github.com/mraniki/MyLLM/commit/a6e8a1c5cbb0fe50574fc905e820d4746fd1d67b))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.57.2 (#796)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`5472ffa`](https://github.com/mraniki/MyLLM/commit/5472ffaf7c64acbae4525a8bd069ead96c69968c))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.57.1 (#794)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`664686d`](https://github.com/mraniki/MyLLM/commit/664686dc4831b76a851159d18afdf29b93464a1b))
+
 ## v4.13.19 (2024-12-06)
 
 ### Other

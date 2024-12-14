@@ -3,6 +3,26 @@
 
 
 
+## v4.13.21 (2024-12-14)
+
+### Other
+
+* Merge pull request #800 from mraniki/dev
+
+⬆️ 🤖 - Q	Why do WASPs play golf ([`e546e36`](https://github.com/mraniki/MyLLM/commit/e546e36f768c4cf4555f0308396d6ef5877a8eeb))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.57.4 (#802)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`e39819c`](https://github.com/mraniki/MyLLM/commit/e39819c853d7a490f59201b76c1aefe646872ef5))
+
+* ⬆️ 🛠️(deps): update dependency pytest-asyncio to ^0.25.0 ([`7ec5e0e`](https://github.com/mraniki/MyLLM/commit/7ec5e0e12c64c0dbfde1235379516df6dc21afe5))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.57.3 (#799)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`3043c06`](https://github.com/mraniki/MyLLM/commit/3043c06c9838757440771fb29e553c92642978e3))
+
 ## v4.13.20 (2024-12-12)
 
 ### Other

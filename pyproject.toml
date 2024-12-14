@@ -32,7 +32,7 @@ js2py = "^0.74"
 PyExecJS2="1.6.1"
 curl_cffi = "0.7.4"
 Brotli = "1.1.0"
-openai = "1.57.2"
+openai = "1.57.4"
 groq = "0.13.0"
 # crawl4ai = "0.3.72"
 playwright = "1.49.1"
@@ -116,7 +116,7 @@ overgeneral-exceptions = [
 [tool.poetry.group.test.dependencies]
 pytest = "^8.0.0"
 pytest-cov = "^6.0.0"
-pytest-asyncio = "^0.24.0"
+pytest-asyncio = "^0.25.0"
 pytest-mock = "^3.11.1"
 pytest-loguru = "^0.4.0"
 

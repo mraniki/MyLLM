@@ -3,6 +3,26 @@
 
 
 
+## v4.13.22 (2024-12-18)
+
+### Other
+
+* Merge pull request #804 from mraniki/dev
+
+⬆️ 🤖 - You have the body of a  year old  Please return it before it gets wrinkled ([`df0da6e`](https://github.com/mraniki/MyLLM/commit/df0da6e823ad1fded980552877fa143f244c8dbe))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.58.1 (#808)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`fa28bec`](https://github.com/mraniki/MyLLM/commit/fa28bec568ef5d1f7df4a254d180eab213bedfb5))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.58.0 (#806)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`219b36a`](https://github.com/mraniki/MyLLM/commit/219b36a320d966374ab8d9ddae26ab9101c1970b))
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.13.1 ([`db3be80`](https://github.com/mraniki/MyLLM/commit/db3be80484fcb09d55ee81e6cbd999cbbdc3abae))
+
 ## v4.13.21 (2024-12-14)
 
 ### Other

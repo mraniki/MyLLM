@@ -3,6 +3,18 @@
 
 
 
+## v4.13.24 (2025-01-01)
+
+### Other
+
+* Merge pull request #813 from mraniki/dev
+
+⬆️ 🤖 - Your heart is pure and your mind clear and your soul devout ([`97a5e3a`](https://github.com/mraniki/MyLLM/commit/97a5e3a41867a2ee6a19e8773cf004a2a8d501ee))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.0.0 ([`cf3bf0d`](https://github.com/mraniki/MyLLM/commit/cf3bf0de2222bb0cbed8b39b40d8a1b25e7eeb68))
+
 ## v4.13.23 (2024-12-22)
 
 ### Other

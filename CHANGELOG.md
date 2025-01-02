@@ -3,6 +3,18 @@
 
 
 
+## v4.13.25 (2025-01-02)
+
+### Other
+
+* Merge pull request #815 from mraniki/dev
+
+⬆️ 🤖 - Keep it short for pithy sake ([`f6ba2b1`](https://github.com/mraniki/MyLLM/commit/f6ba2b14bccc565a6698a7dd5dff22a60a46718a))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.0.2 ([`17790b7`](https://github.com/mraniki/MyLLM/commit/17790b73bcbdbbee8fc1431ef23a5db836151c21))
+
 ## v4.13.24 (2025-01-01)
 
 ### Other

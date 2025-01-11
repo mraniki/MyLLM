@@ -3,6 +3,42 @@
 
 
 
+## v4.13.27 (2025-01-11)
+
+### Other
+
+* Merge pull request #825 from mraniki/dev
+
+⬆️ 🤖 - Q	How did you get into artificial intelligence ([`40ad8cd`](https://github.com/mraniki/MyLLM/commit/40ad8cd74f065afdfeefb9a7fb8b56d5d4f10834))
+
+* Merge pull request #830 from mraniki/renovate/groq-0.x
+
+⬆️ 🛠️(deps): update dependency groq to v0.15.0 ([`25691e4`](https://github.com/mraniki/MyLLM/commit/25691e4f89f0da5cfe55c36b2bda963222a6c60d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.15.0 ([`1595152`](https://github.com/mraniki/MyLLM/commit/159515266c04d59a765e71adba9d1bf85fcec43a))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.0.9 ([`5e40fcd`](https://github.com/mraniki/MyLLM/commit/5e40fcd567008ab24f87fcd48ee273296c30523e))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.59.6 (#828)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`5759792`](https://github.com/mraniki/MyLLM/commit/575979224eccadec7150bc425ef7ccdf7e4d1a4f))
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.9.0 ([`c66f13b`](https://github.com/mraniki/MyLLM/commit/c66f13b0149976786e975770761ef3e2f271f25b))
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.14.0 ([`a83a25c`](https://github.com/mraniki/MyLLM/commit/a83a25cd17da6d8fffb3140900d6d34ec93ba63f))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.59.5 (#824)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`07c6b32`](https://github.com/mraniki/MyLLM/commit/07c6b327ba3d0f67676a1ddd0c27fb3cbf7dd22a))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.59.4 (#822)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`57dce47`](https://github.com/mraniki/MyLLM/commit/57dce47d65f5113c1485167466384a8a581341a6))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.0.7 ([`dfed9c2`](https://github.com/mraniki/MyLLM/commit/dfed9c2ef3bc99bed896276b985403ecd3e8e660))
+
 ## v4.13.26 (2025-01-04)
 
 ### Other

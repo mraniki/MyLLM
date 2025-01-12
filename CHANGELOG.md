@@ -3,6 +3,18 @@
 
 
 
+## v4.13.28 (2025-01-12)
+
+### Other
+
+* Merge pull request #832 from mraniki/dev
+
+⬆️ 🤖 - You are sick twisted and perverted  I like that in a person ([`535880c`](https://github.com/mraniki/MyLLM/commit/535880c0fe4bef41fd6ae16390118de93307ef6b))
+
+### Update
+
+* Update dependabot configuration file format. ([`e3a2ad9`](https://github.com/mraniki/MyLLM/commit/e3a2ad9a0f9a853dbd710aeb533066fe073997e6))
+
 ## v4.13.27 (2025-01-11)
 
 ### Other

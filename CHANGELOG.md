@@ -3,6 +3,18 @@
 
 
 
+## v4.13.29 (2025-01-13)
+
+### Other
+
+* Merge pull request #834 from mraniki/dev
+
+⬆️ 🤖 - Q	What is purple and commutes ([`560c1a0`](https://github.com/mraniki/MyLLM/commit/560c1a0f5f43416e6830ab5e62bb3c1b305afe64))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.1.0 ([`24d56ff`](https://github.com/mraniki/MyLLM/commit/24d56ff2145f2533302a23dc20e901c5f4910cfb))
+
 ## v4.13.28 (2025-01-12)
 
 ### Other

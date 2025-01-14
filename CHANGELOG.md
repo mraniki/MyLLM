@@ -3,6 +3,20 @@
 
 
 
+## v4.13.30 (2025-01-14)
+
+### Other
+
+* Merge pull request #836 from mraniki/dev
+
+⬆️ 🤖 - Abandon the search for Truth settle for a good fantasy ([`7e625db`](https://github.com/mraniki/MyLLM/commit/7e625db01374620d5cd457e4facc3ab69a6f8c53))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.59.7 (#835)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`ab7203d`](https://github.com/mraniki/MyLLM/commit/ab7203d59ab50db4c71614fbe33b09bd9f4a694c))
+
 ## v4.13.29 (2025-01-13)
 
 ### Other

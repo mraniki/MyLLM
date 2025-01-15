@@ -3,6 +3,18 @@
 
 
 
+## v4.13.31 (2025-01-15)
+
+### Other
+
+* Merge pull request #838 from mraniki/dev
+
+⬆️ 🤖 - If you stand on your head you will get footprints in your hair ([`c699238`](https://github.com/mraniki/MyLLM/commit/c6992389934e7160476cd3e756a75f9de744dbfe))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.1.1 ([`18a36a5`](https://github.com/mraniki/MyLLM/commit/18a36a532cf605e29a73b8d8b9bc75950494ede5))
+
 ## v4.13.30 (2025-01-14)
 
 ### Other

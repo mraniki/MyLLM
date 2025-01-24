@@ -3,6 +3,30 @@
 
 
 
+## v4.13.34 (2025-01-24)
+
+### Other
+
+* Merge pull request #845 from mraniki/dev
+
+⬆️ 🤖 - Things past redress and now with me past care ([`49d49e4`](https://github.com/mraniki/MyLLM/commit/49d49e4f0f27ad5671c3399b57f30401ee79f203))
+
+* Merge pull request #847 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.4.2.0 ([`fdcd39c`](https://github.com/mraniki/MyLLM/commit/fdcd39c09a86c43e2c8247ecbe62fadf3bb6f04d))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.2.0 ([`6bea18d`](https://github.com/mraniki/MyLLM/commit/6bea18da79c338a9d5f64a08ff11f10f2ee02ba6))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.60.0 (#846)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`6a89cf3`](https://github.com/mraniki/MyLLM/commit/6a89cf3dfcc4d141aae948984adf7aa53684f4a3))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.59.9 (#844)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`9340e67`](https://github.com/mraniki/MyLLM/commit/9340e67d5993a6ae880f711d07cd110d7b07ef99))
+
 ## v4.13.33 (2025-01-18)
 
 ### Other

@@ -3,6 +3,28 @@
 
 
 
+## v4.13.35 (2025-01-26)
+
+### Other
+
+* Merge pull request #853 from mraniki/dev
+
+⬆️ 🤖 - And do you think fop that I am that I could be the Scarlet Pumpernickel ([`a811c23`](https://github.com/mraniki/MyLLM/commit/a811c23b00c152766bb094478f9dbc10956ffae7))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.2.6 ([`52ee406`](https://github.com/mraniki/MyLLM/commit/52ee406d14277548ad86e4f5cf63f7b6e400ffca))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.2.5 ([`05da00b`](https://github.com/mraniki/MyLLM/commit/05da00b581da9c299780d13e69d83ba18e2b50fe))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.60.1 (#852)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`8e67c3b`](https://github.com/mraniki/MyLLM/commit/8e67c3b4e918765f89954932a78fee89798446ba))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.2.4 ([`254e601`](https://github.com/mraniki/MyLLM/commit/254e6015c10a61ffe0a14604358362fb83effc05))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.2.2 ([`86f2c17`](https://github.com/mraniki/MyLLM/commit/86f2c1738275714975d5f752965a8768bdb0e226))
+
 ## v4.13.34 (2025-01-24)
 
 ### Other

@@ -3,6 +3,24 @@
 
 
 
+## v4.13.38 (2025-01-30)
+
+### Other
+
+* Merge pull request #866 from mraniki/dev
+
+⬆️ 🤖 - Your domestic life may be harmonious ([`5ebadd4`](https://github.com/mraniki/MyLLM/commit/5ebadd47fa426330b6b35d2a9590da38615cc14f))
+
+* Merge pull request #867 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.4.3.6 ([`217fb23`](https://github.com/mraniki/MyLLM/commit/217fb234e6ea36b1f0c1f301590a75bc54d8ad16))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.3.6 ([`f59857f`](https://github.com/mraniki/MyLLM/commit/f59857f1b9bc1555070e22773271910c482fbccc))
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.16.0 ([`d2efd4b`](https://github.com/mraniki/MyLLM/commit/d2efd4b3af71bed0b03cfb23737fed3d5d5ee1e7))
+
 ## v4.13.37 (2025-01-29)
 
 ### Other

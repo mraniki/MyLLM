@@ -3,6 +3,26 @@
 
 
 
+## v4.13.39 (2025-02-03)
+
+### Other
+
+* Merge pull request #869 from mraniki/dev
+
+⬆️ 🤖 - Q	Why is it that the more accuracy you demand from an interpolation ([`7227a03`](https://github.com/mraniki/MyLLM/commit/7227a033c0a0d06c23e56da83ede3e7c13e8b7ee))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.5.0 ([`5a60afc`](https://github.com/mraniki/MyLLM/commit/5a60afc5b6cc3e93d452feb9c2e3c1b9b0350fbd))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.4.4 ([`1a801aa`](https://github.com/mraniki/MyLLM/commit/1a801aa68dda58384685b3bf7ed19b4a317d04c4))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.4.1 ([`0099c02`](https://github.com/mraniki/MyLLM/commit/0099c0288268fc8e641791bc0671c57365551a89))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.61.0 (#868)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`5995fe0`](https://github.com/mraniki/MyLLM/commit/5995fe0b984288ed8fcf24509e3c32f28c6c7bcb))
+
 ## v4.13.38 (2025-01-30)
 
 ### Other

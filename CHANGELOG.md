@@ -3,6 +3,34 @@
 
 
 
+## v4.13.40 (2025-02-04)
+
+### Other
+
+* Merge pull request #879 from mraniki/dev
+
+⬆️ 🤖 - an experienced industrious ambitious and often quite often ([`43711b0`](https://github.com/mraniki/MyLLM/commit/43711b012cf9a10585ef1a0c543099d2262e8601))
+
+* Merge pull request #881 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.4.5.3 ([`71c869d`](https://github.com/mraniki/MyLLM/commit/71c869d99b3054216dce318564d4a86b0b3158c2))
+
+* Merge pull request #880 from mraniki/renovate/groq-0.x
+
+⬆️ 🛠️(deps): update dependency groq to v0.17.0 ([`c1ce65e`](https://github.com/mraniki/MyLLM/commit/c1ce65e050da2928b55f435a4fcebacf071c7fb0))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.5.3 ([`f966a58`](https://github.com/mraniki/MyLLM/commit/f966a58b1c28a7add7dc82bf2eea5a1a71befe5f))
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.17.0 ([`5b9f62a`](https://github.com/mraniki/MyLLM/commit/5b9f62a3274f8593d249932aeaabd873d28db9cf))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.5.1 ([`09125f1`](https://github.com/mraniki/MyLLM/commit/09125f13e6353d54de32f1af6e6ee3ada8560ceb))
+
+* ⬆️ 🛠️(deps): update dependency playwright to v1.50.0 (#877)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`32ac841`](https://github.com/mraniki/MyLLM/commit/32ac8412a9fd751c61859cad715702a381d0ccb1))
+
 ## v4.13.39 (2025-02-03)
 
 ### Other

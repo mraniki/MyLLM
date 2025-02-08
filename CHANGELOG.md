@@ -3,6 +3,26 @@
 
 
 
+## v4.13.41 (2025-02-08)
+
+### Other
+
+* Merge pull request #885 from mraniki/dev
+
+⬆️ 🤖 - So so is good very good very excellent good ([`d527bb9`](https://github.com/mraniki/MyLLM/commit/d527bb9f61535fa32c363f4ac60e4eed77b48cf6))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.5.5 ([`276d0e6`](https://github.com/mraniki/MyLLM/commit/276d0e64e3bfd42d094423477840056589a66418))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.5.4 ([`e8cd558`](https://github.com/mraniki/MyLLM/commit/e8cd558dbc03142a317eb69d7b3629a9e9a49e68))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.61.1 (#884)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`9061ad5`](https://github.com/mraniki/MyLLM/commit/9061ad5823a722607a13f12b99f41390a0bd11bc))
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.18.0 ([`f2924d7`](https://github.com/mraniki/MyLLM/commit/f2924d76cb206331f4ac59d512e0639f6a150a50))
+
 ## v4.13.40 (2025-02-04)
 
 ### Other

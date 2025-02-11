@@ -27,7 +27,7 @@ uvicorn = ">=0.22.0"
 dynaconf = ">=3.2.0"
 loguru = ">=0.6.0"
 httpx = ">=0.24.1"
-g4f = "0.4.5.5"
+g4f = "0.4.6.0"
 js2py = "^0.74"
 PyExecJS2="1.6.1"
 curl_cffi = "0.7.4"
@@ -42,7 +42,7 @@ playwright = "1.50.0"
 [tool.poetry.group.dev.dependencies]
 python-semantic-release = ">=8.0.8"
 ruff = "^0.9.0"
-black = "^24.0.0"
+# black = "^24.0.0"
 pre-commit = "^4.0.0"
 
 [tool.ruff]

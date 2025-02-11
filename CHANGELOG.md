@@ -3,6 +3,20 @@
 
 
 
+## v4.13.42 (2025-02-11)
+
+### Other
+
+* Merge pull request #888 from mraniki/dev
+
+⬆️ 🤖 - Youre not my type  For that matter youre not even my species ([`48f2510`](https://github.com/mraniki/MyLLM/commit/48f251033b31f66d93ad9e77bd18e8fba7fb761d))
+
+* build(deps): update pyproject.toml ([`223cafa`](https://github.com/mraniki/MyLLM/commit/223cafa79eca566408047ac5d5522eeabe8594a9))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.6.0 ([`fa5758c`](https://github.com/mraniki/MyLLM/commit/fa5758cf87ed0ee2ec62ed5b03a0b01c4ccdfcf3))
+
 ## v4.13.41 (2025-02-08)
 
 ### Other
@@ -1531,15 +1545,13 @@ Refactor Chat main function ([`4e9c52f`](https://github.com/mraniki/MyLLM/commit
 
 ## v4.10.1 (2024-06-24)
 
-### Fix
-
-* update chat in main.py for ai agent prefix/suffix ([`f336abb`](https://github.com/mraniki/MyLLM/commit/f336abb73f962c15f385c5c825cd10d6f6659b58))
-
 ### Other
 
 * Merge pull request #561 from mraniki/dev
 
 ⬆️ 🤖 - You need more time and you probably always will ([`9a8ed21`](https://github.com/mraniki/MyLLM/commit/9a8ed214ee094865104d72d25cf06c154ae79fcc))
+
+* update chat in main.py for ai agent prefix/suffix ([`f336abb`](https://github.com/mraniki/MyLLM/commit/f336abb73f962c15f385c5c825cd10d6f6659b58))
 
 ## v4.10.0 (2024-06-23)
 
@@ -6129,14 +6141,6 @@ Merge ([`8ecb29e`](https://github.com/mraniki/MyLLM/commit/8ecb29edb82929d776d7c
 
 ## v1.1.0 (2023-08-05)
 
-### Feat
-
-* Create feature template ([`342d411`](https://github.com/mraniki/MyLLM/commit/342d411a759c4ef83e341633e17a4057902ce49b))
-
-### Fix
-
-* Create bugfix template ([`31804f7`](https://github.com/mraniki/MyLLM/commit/31804f7cb0464ccac1b171840ac1b35f7eb163a3))
-
 ### Other
 
 * Merge pull request #8 from mraniki/sweep/add-sweep-config
@@ -6144,6 +6148,10 @@ Merge ([`8ecb29e`](https://github.com/mraniki/MyLLM/commit/8ecb29edb82929d776d7c
 Configure Sweep ([`829d95c`](https://github.com/mraniki/MyLLM/commit/829d95cf8e98bf2047ab6f2d45740c43708f7503))
 
 * Create refactor template ([`9bd9714`](https://github.com/mraniki/MyLLM/commit/9bd9714a352147dcfa1eedf1936f5247b7130fce))
+
+* Create feature template ([`342d411`](https://github.com/mraniki/MyLLM/commit/342d411a759c4ef83e341633e17a4057902ce49b))
+
+* Create bugfix template ([`31804f7`](https://github.com/mraniki/MyLLM/commit/31804f7cb0464ccac1b171840ac1b35f7eb163a3))
 
 * Create sweep.yaml config file ([`9b88c00`](https://github.com/mraniki/MyLLM/commit/9b88c00d8d1cb28dc9ca7b3f83b92e4f5dd6c972))
 

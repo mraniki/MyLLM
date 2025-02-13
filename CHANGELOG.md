@@ -3,6 +3,22 @@
 
 
 
+## v4.13.43 (2025-02-13)
+
+### Other
+
+* Merge pull request #892 from mraniki/dev
+
+⬆️ 🤖 - If more of us valued food and cheer and song above hoarded gold it would ([`1491e2d`](https://github.com/mraniki/MyLLM/commit/1491e2df0c6fae4fe3368a9da750311d928c3109))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.6.1 ([`19b87dc`](https://github.com/mraniki/MyLLM/commit/19b87dccea238c76095b4ec52fa23e40607eacdc))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.62.0 (#890)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`70ae55b`](https://github.com/mraniki/MyLLM/commit/70ae55b9c0dfbda1ccf5b6cb9cee51d0e1ab5192))
+
 ## v4.13.42 (2025-02-11)
 
 ### Other

@@ -3,6 +3,20 @@
 
 
 
+## v4.13.44 (2025-02-14)
+
+### Other
+
+* Merge pull request #894 from mraniki/dev
+
+⬆️ 🤖 - Go not to the elves for counsel for they will say both yes and no ([`30f7b6b`](https://github.com/mraniki/MyLLM/commit/30f7b6bbe6ce409f1ade608f898532cdd1ca0879))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.63.0 (#893)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`00f7e8b`](https://github.com/mraniki/MyLLM/commit/00f7e8b4efc044e8a3c4ea16cc9905bb49b4cf07))
+
 ## v4.13.43 (2025-02-13)
 
 ### Other

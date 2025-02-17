@@ -3,6 +3,18 @@
 
 
 
+## v4.13.45 (2025-02-17)
+
+### Other
+
+* Merge pull request #896 from mraniki/dev
+
+⬆️ 🤖 - Look afar and see the end from the beginning ([`7fe8cdd`](https://github.com/mraniki/MyLLM/commit/7fe8cddfc4282e126512b309bc4921318982eb21))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency curl_cffi to v0.9.0 ([`5a5b782`](https://github.com/mraniki/MyLLM/commit/5a5b78285f6497fd09a14fc8cef817762b637541))
+
 ## v4.13.44 (2025-02-14)
 
 ### Other

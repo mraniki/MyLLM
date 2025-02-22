@@ -3,6 +3,20 @@
 
 
 
+## v4.13.47 (2025-02-22)
+
+### Other
+
+* Merge pull request #903 from mraniki/dev
+
+⬆️ 🤖 - You should emulate your heros but dont carry it too far  Especially ([`38e0952`](https://github.com/mraniki/MyLLM/commit/38e095298189f6d02467ae5c1efa5e3139cef550))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.7.2 ([`4f7cdab`](https://github.com/mraniki/MyLLM/commit/4f7cdabe621186b4211f798baa19779964cae0a4))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.7.1 ([`e0dfb69`](https://github.com/mraniki/MyLLM/commit/e0dfb695f151f25bc6ee39330a58fdd32a73136c))
+
 ## v4.13.46 (2025-02-19)
 
 ### Other

@@ -3,6 +3,22 @@
 
 
 
+## v4.13.48 (2025-02-23)
+
+### Other
+
+* Merge pull request #906 from mraniki/dev
+
+⬆️ 🤖 - Q	How do you catch a unique rabbit ([`d855e43`](https://github.com/mraniki/MyLLM/commit/d855e43d53782de4d357bc6645ae9d80642740c1))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.64.0 (#905)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`a189044`](https://github.com/mraniki/MyLLM/commit/a189044f5f66cb9536101fc2dc48a6236d2cde52))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.7.3 ([`c3d464e`](https://github.com/mraniki/MyLLM/commit/c3d464e1cfebb7f4ac49efc61f6d12253f591c7c))
+
 ## v4.13.47 (2025-02-22)
 
 ### Other

@@ -3,6 +3,34 @@
 
 
 
+## v4.13.49 (2025-03-02)
+
+### Other
+
+* Merge pull request #910 from mraniki/dev
+
+⬆️ 🤖 - Q	What do you call  blondes in a circle ([`a38da7b`](https://github.com/mraniki/MyLLM/commit/a38da7b447f1d96b525f13029bf1cb884dcaa01a))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.65.2 (#913)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`fbba466`](https://github.com/mraniki/MyLLM/commit/fbba4668a5a7130d87aa9d769def3bdad4bb4780))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.7.7 ([`2b34b75`](https://github.com/mraniki/MyLLM/commit/2b34b759322c0dc90b3cd0ba3a2dd1ed2947ae24))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.7.6 ([`26c86d2`](https://github.com/mraniki/MyLLM/commit/26c86d2e1c00260f09c1e5c21635cf7bcf84cd3a))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.65.1 (#909)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`a7c36d7`](https://github.com/mraniki/MyLLM/commit/a7c36d7ed0e2483b4e0d2c2f8dc977c431de0bc0))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.65.0 (#908)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`942c99b`](https://github.com/mraniki/MyLLM/commit/942c99bcd1f8751e2d45da71a8945ff08b9af26d))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.7.5 ([`31ceecf`](https://github.com/mraniki/MyLLM/commit/31ceecfbbcd0342eacd899c9a9d0eccea552ef7d))
+
 ## v4.13.48 (2025-02-23)
 
 ### Other

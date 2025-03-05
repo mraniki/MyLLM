@@ -3,6 +3,20 @@
 
 
 
+## v4.13.50 (2025-03-05)
+
+### Other
+
+* Merge pull request #916 from mraniki/dev
+
+⬆️ 🤖 - You may worry about your hairdo today but tomorrow much peanut butter will ([`b629b5a`](https://github.com/mraniki/MyLLM/commit/b629b5ad25c3f975d2b729c1174f91a7d591c8a7))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.65.3 (#915)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`c999155`](https://github.com/mraniki/MyLLM/commit/c999155bcb69fe6f1f14f5458476980b41e31308))
+
 ## v4.13.49 (2025-03-02)
 
 ### Other

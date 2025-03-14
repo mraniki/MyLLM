@@ -3,6 +3,26 @@
 
 
 
+## v4.13.52 (2025-03-14)
+
+### Other
+
+* Merge pull request #933 from mraniki/dev
+
+⬆️ 🤖 - You will be held hostage by a radical group ([`19d8222`](https://github.com/mraniki/MyLLM/commit/19d82223f83e88cf310c58e831e60d087d4e8472))
+
+* Merge pull request #934 from mraniki/renovate/ruff-0.x
+
+⬆️ 🛠️(deps): update dependency ruff to ^0.11.0 ([`6180002`](https://github.com/mraniki/MyLLM/commit/61800023760792ec33f10d9bc88f6b532a8516a1))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.11.0 ([`adf1091`](https://github.com/mraniki/MyLLM/commit/adf1091cd2f27504fd7b839029ed181a40144117))
+
+* ⬆️ 🛠️(deps): update dependency ruff to ^0.10.0 ([`6edac21`](https://github.com/mraniki/MyLLM/commit/6edac21b7ab4e8f4b3309411fe08a1fd2de3fda6))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.8.6 ([`05a7f64`](https://github.com/mraniki/MyLLM/commit/05a7f64ab9aa2edde3cf51d7031b85f0b70e3c5e))
+
 ## v4.13.51 (2025-03-13)
 
 ### Other

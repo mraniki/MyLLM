@@ -33,7 +33,7 @@ PyExecJS2="1.6.1"
 curl_cffi = "0.10.0"
 Brotli = "1.1.0"
 openai = "1.66.5"
-groq = "0.19.0"
+groq = "0.20.0"
 # crawl4ai = "0.3.72"
 playwright = "1.51.0"
 

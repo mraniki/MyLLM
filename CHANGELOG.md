@@ -3,6 +3,44 @@
 
 
 
+## v4.13.53 (2025-03-21)
+
+### Other
+
+* Merge pull request #937 from mraniki/dev
+
+⬆️ 🤖 - Q	What is orange and goes click click ([`8028826`](https://github.com/mraniki/MyLLM/commit/8028826e5b3a2bf298234add79b0c7d87cbc7208))
+
+* Merge pull request #941 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.4.9.0 ([`de3cd68`](https://github.com/mraniki/MyLLM/commit/de3cd6891a2dbacf90323acb9b688e5e88f974cd))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.68.2 (#942)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`c67ee0f`](https://github.com/mraniki/MyLLM/commit/c67ee0fb82fdfe30a1b8adaa555859135a2c6618))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.9.0 ([`6ed52a3`](https://github.com/mraniki/MyLLM/commit/6ed52a3191a08194a317d37dc42dfbe4859a163c))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.68.0 (#940)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`6b1405a`](https://github.com/mraniki/MyLLM/commit/6b1405a6fdedd19607f10b6eb989178403059fec))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.67.0 (#939)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`bfabc04`](https://github.com/mraniki/MyLLM/commit/bfabc044cf4e31769333f0bae520c6a9c99dc9e5))
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.20.0 ([`8355824`](https://github.com/mraniki/MyLLM/commit/83558248dae0dd14690ea63f6b8be76a43748aec))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.66.5 (#936)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`5dc1348`](https://github.com/mraniki/MyLLM/commit/5dc134811209b01f35f80e6323cc2e31e578a7fb))
+
+* ⬆️ 🛠️(deps): update dependency playwright to v1.51.0 (#935)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`e1246db`](https://github.com/mraniki/MyLLM/commit/e1246db6fdc84403243470b5589fde9b43b2d34c))
+
 ## v4.13.52 (2025-03-14)
 
 ### Other

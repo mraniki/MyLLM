@@ -3,6 +3,42 @@
 
 
 
+## v4.13.54 (2025-03-30)
+
+### Other
+
+* Merge pull request #944 from mraniki/dev
+
+⬆️ 🤖 - You will be surrounded by luxury ([`65f344e`](https://github.com/mraniki/MyLLM/commit/65f344e2552f602e0ae2fc050f819b57f2d10f87))
+
+* Merge pull request #953 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.5.0.1 ([`2f7170b`](https://github.com/mraniki/MyLLM/commit/2f7170bd5e636854a91f2162445a06fb2f55263e))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.5.0.1 ([`3b6796b`](https://github.com/mraniki/MyLLM/commit/3b6796b0dc47825b334f8cf0a80f47cf6416a290))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.9.9 ([`17e17cc`](https://github.com/mraniki/MyLLM/commit/17e17cc6485c430ffe8aec60acd5cd5a523842c5))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.69.0 (#951)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`0221926`](https://github.com/mraniki/MyLLM/commit/0221926d372280628475388fa9e99d9f1aa5f68e))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.9.8 ([`254acfb`](https://github.com/mraniki/MyLLM/commit/254acfbc8f680b380795483e8195ca36f3319bc1))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.9.7 ([`fd53683`](https://github.com/mraniki/MyLLM/commit/fd536839432ce6e863899e9b4e615aae639bfe1a))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.9.6 ([`6610acc`](https://github.com/mraniki/MyLLM/commit/6610acccc03ace35626d6382efa234bd5ecfa254))
+
+* ⬆️ 🛠️(deps): update dependency pytest-asyncio to ^0.26.0 ([`34b5509`](https://github.com/mraniki/MyLLM/commit/34b55099bb2421a274369ead26328f76c0c6ccaa))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.9.4 ([`c246d5e`](https://github.com/mraniki/MyLLM/commit/c246d5e784665f9123f750f6daf5e047d60cca28))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.9.2 ([`8179064`](https://github.com/mraniki/MyLLM/commit/8179064ffcdf650c4732dc47c583e5fc48c5fd15))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.4.9.1 ([`186b347`](https://github.com/mraniki/MyLLM/commit/186b347612c3880d00cae2d3f72ae3feab607c0c))
+
 ## v4.13.53 (2025-03-21)
 
 ### Other

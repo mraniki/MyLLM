@@ -3,6 +3,50 @@
 
 
 
+## v4.13.56 (2025-04-23)
+
+### Other
+
+* Merge pull request #964 from mraniki/dev
+
+⬆️ 🤖 - Your goose is cooked ([`285a523`](https://github.com/mraniki/MyLLM/commit/285a5239fa6e7ff5311adae86088dfa7e6338e36))
+
+* Merge pull request #973 from mraniki/renovate/groq-0.x
+
+⬆️ 🛠️(deps): update dependency groq to v0.23.0 ([`c3687d4`](https://github.com/mraniki/MyLLM/commit/c3687d4a5b428931df012c1f2b30f3cd3c45eaa2))
+
+* Merge pull request #972 from mraniki/renovate/g4f-0.x
+
+⬆️ 🛠️(deps): update dependency g4f to v0.5.1.5 ([`4051714`](https://github.com/mraniki/MyLLM/commit/4051714d2238d4daaba3410da2c72c3ecf5a4ce5))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.23.0 ([`4964337`](https://github.com/mraniki/MyLLM/commit/49643376c7b033ccae86dc5a72e5cbce3571eae4))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.5.1.5 ([`73fd7a6`](https://github.com/mraniki/MyLLM/commit/73fd7a688f7eef127a787a24248395306883f6f4))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.5.1.4 ([`1477b70`](https://github.com/mraniki/MyLLM/commit/1477b701b4f81439a91e98cd44da4216ff34533a))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.5.1.3 ([`e17822e`](https://github.com/mraniki/MyLLM/commit/e17822e95c88d89864d854198e48ac3afc6125eb))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.5.1.2 ([`aa03633`](https://github.com/mraniki/MyLLM/commit/aa036333c9425f363d9e7c8d2a1567ef9f5a1341))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.5.1.1 ([`0cc4937`](https://github.com/mraniki/MyLLM/commit/0cc493792e12954c1f387ccfadc6ab974463e4d6))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.75.0 (#967)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`6126bab`](https://github.com/mraniki/MyLLM/commit/6126bab64af8d2ef205b37afa4409d50e28e10e1))
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.5.1.0 ([`e3969aa`](https://github.com/mraniki/MyLLM/commit/e3969aabcac24f7f5f0cd9632d5e883dd8700059))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.74.0 (#965)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`bb6c3a0`](https://github.com/mraniki/MyLLM/commit/bb6c3a0d9c228109edbb1a3e45d622456b3c5681))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.73.0 (#963)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`f959062`](https://github.com/mraniki/MyLLM/commit/f959062dc87ede839016fd208acf75cec542593c))
+
 ## v4.13.55 (2025-04-12)
 
 ### Other

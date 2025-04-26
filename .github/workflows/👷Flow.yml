@@ -13,11 +13,11 @@ jobs:
     secrets: inherit
   test:
     needs: [lint]
-    uses: mraniki/coding_toolset/.github/workflows/🧪Test.yml@main
+    uses: mraniki/coding_toolset/.github/workflows/UVTest.yml@main
     secrets: inherit
   build:
     needs: [lint]
-    uses: mraniki/coding_toolset/.github/workflows/🐍Build.yml@main
+    uses: mraniki/coding_toolset/.github/workflows/UVBuild.yml@main
     secrets: inherit
   release:
     needs: [build, test]

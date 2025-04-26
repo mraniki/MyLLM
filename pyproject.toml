@@ -6,7 +6,7 @@ authors = [
   { name = "mraniki", email = "8766259+mraniki@users.noreply.github.com" },
 ]
 # license = { text = "MIT License" } # Or use identifier: license = "MIT"
-license = { file = "LICENSE" } # Point to the license file
+license = "MIT" # Use SPDX identifier (preferred over file link for setuptools)
 readme = "README.md"
 keywords = ["chatgpt","llm","ai","llama","ai", "g4f", "freegpt"]
 # requires-python = "^3.10" # Copied from tool.poetry.dependencies

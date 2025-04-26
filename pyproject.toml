@@ -142,6 +142,9 @@ version_toml = [
 
 
 
+
+
+
 [tool.semantic_release.commit_parser_options]
 major_tags = [
     "BREAKING",

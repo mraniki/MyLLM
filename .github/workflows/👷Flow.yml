@@ -9,15 +9,17 @@ on:
 
 jobs:
   lint:
-    uses: mraniki/coding_toolset/.github/workflows/🦺Lint.yml@main
+    # Keep linting as is, unless you want to migrate Ruff/etc. management to UV as well
+    # uses: mraniki/coding_toolset/.github/workflows/🦺Lint.yml@main
+    uses: mraniki/coding_toolset/.github/workflows/UVLint.yml@main
     secrets: inherit
   test:
     needs: [lint]
-    uses: mraniki/coding_toolset/.github/workflows/🧪Test.yml@main
+    uses: mraniki/coding_toolset/.github/workflows/UVTest.yml@main
     secrets: inherit
   build:
     needs: [lint]
-    uses: mraniki/coding_toolset/.github/workflows/🐍Build.yml@main
+    uses: mraniki/coding_toolset/.github/workflows/UVBuild.yml@main
     secrets: inherit
   release:
     needs: [build, test]

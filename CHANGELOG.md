@@ -3,6 +3,24 @@
 
 
 
+## v4.13.57 (2025-04-26)
+
+### Other
+
+* Merge pull request #975 from mraniki/dev
+
+⬆️ 🤖 - You are deeply attached to your friends and acquaintances ([`8ae766e`](https://github.com/mraniki/MyLLM/commit/8ae766ec827f630fa894a0a33bf1bd925cf818e6))
+
+### ⬆️
+
+* ⬆️ 🛠️(deps): update dependency g4f to v0.5.1.6 ([`71bbdbe`](https://github.com/mraniki/MyLLM/commit/71bbdbe4321464ef35aafb1e30827a5e24c5c1fb))
+
+* ⬆️ 🛠️(deps): update dependency groq to v0.23.1 ([`8a4e2f2`](https://github.com/mraniki/MyLLM/commit/8a4e2f2d5155ee4c51a26591cdbd23803b03bd23))
+
+* ⬆️ 🛠️(deps): update dependency openai to v1.76.0 (#974)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> ([`d5880b8`](https://github.com/mraniki/MyLLM/commit/d5880b8e85a880496bfd4b14edd7658a373b6d32))
+
 ## v4.13.56 (2025-04-23)
 
 ### Other

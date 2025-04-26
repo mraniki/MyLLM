@@ -3,6 +3,94 @@
 
 
 
+## v4.14.0 (2025-04-26)
+
+### Other
+
+* Merge pull request #988 from mraniki/dev
+
+👷 CI Change build(deps): update pyproject.toml ([`a5565c6`](https://github.com/mraniki/MyLLM/commit/a5565c62e42d46565a654eb0d0571a33c4a7cbfd))
+
+* Merge pull request #987 from mraniki/dev
+
+👷 CI Change build(deps): update pyproject.toml ([`03d8cd4`](https://github.com/mraniki/MyLLM/commit/03d8cd4d9f78c25101ee8988749462e163d607d5))
+
+* Merge branch 'main' into dev ([`6532fe4`](https://github.com/mraniki/MyLLM/commit/6532fe4b0acb0ea7a6103c371e9ce992848301d2))
+
+* Merge pull request #986 from mraniki/dev
+
+👷 CI Change build(deps): update pyproject.toml ([`6f0f238`](https://github.com/mraniki/MyLLM/commit/6f0f23877252b05c03153aa6f98d880b09e0fdb6))
+
+* Merge branch 'main' into dev ([`ce9930d`](https://github.com/mraniki/MyLLM/commit/ce9930dd3d4fa3c28280c3b37480ed57ec5f1aff))
+
+* Merge pull request #985 from mraniki/dev
+
+👷 CI Change build(deps): update pyproject.toml ([`fc72439`](https://github.com/mraniki/MyLLM/commit/fc72439eaad298f28ffafd35162a6ac59bc17cd2))
+
+* Merge pull request #984 from mraniki/dev
+
+👷 CI Change build(deps): update pyproject.toml ([`b154fc0`](https://github.com/mraniki/MyLLM/commit/b154fc0f658c6f1678fb9f19daf676848ff70c87))
+
+* Merge pull request #983 from mraniki/dev
+
+👷 CI Change build(deps): update pyproject.toml ([`c5207fe`](https://github.com/mraniki/MyLLM/commit/c5207fecd2dbf8fdeb41499a049400c311525221))
+
+* Merge pull request #982 from mraniki/dev
+
+build(deps): update pyproject.toml ([`8826f61`](https://github.com/mraniki/MyLLM/commit/8826f61e28c56c7f677e5c52f1f569226aed2e4e))
+
+* build(deps): update pyproject.toml ([`a04fa29`](https://github.com/mraniki/MyLLM/commit/a04fa2919de1b0207de1889b40f2d7a3375ff56c))
+
+* build(deps): update pyproject.toml ([`a280f25`](https://github.com/mraniki/MyLLM/commit/a280f2537eb9d8029d9fcb37da76a1270bea29b7))
+
+* Merge branch 'main' into dev ([`f3ff5d1`](https://github.com/mraniki/MyLLM/commit/f3ff5d179fd0e36e36bb9099a2df329cdb220996))
+
+* Merge pull request #981 from mraniki/dev
+
+⬆️ build(deps): update pyproject.toml ([`943cd7b`](https://github.com/mraniki/MyLLM/commit/943cd7b47abcb26019cb576cf850d4f0fb7d84a7))
+
+* build(deps): update pyproject.toml ([`cb218f8`](https://github.com/mraniki/MyLLM/commit/cb218f829cd85bdd8ff3e1249ef639e5867be769))
+
+* Merge pull request #980 from mraniki/dev
+
+ci: update 👷Flow.yml ([`48dab91`](https://github.com/mraniki/MyLLM/commit/48dab91c86347ee25a7a9cf28a2a6b24839f5cc2))
+
+* Merge branch 'main' into dev ([`f2563f6`](https://github.com/mraniki/MyLLM/commit/f2563f68124e24206bf1fc8a9ec65dfd22bf3e14))
+
+* Merge pull request #979 from mraniki/dev
+
+✨ feature: UV build and test ([`8eafd33`](https://github.com/mraniki/MyLLM/commit/8eafd330cd4efa4b7add50d176f1087783b5730c))
+
+* ci: update 👷Flow.yml ([`e62fd72`](https://github.com/mraniki/MyLLM/commit/e62fd729b853dac25311973bdebfc7a22ca4cc5b))
+
+* build(deps): update pyproject.toml ([`d642345`](https://github.com/mraniki/MyLLM/commit/d642345d7324429e90e1890832b44fc2d772f3e0))
+
+* build(deps): update pyproject.toml ([`17e0f44`](https://github.com/mraniki/MyLLM/commit/17e0f44b6263a21f9fbc683cd623e7d198eccb09))
+
+### ✨
+
+* ✨ feature: UV build and test ([`c312b2b`](https://github.com/mraniki/MyLLM/commit/c312b2bfe6b662ac845389fb951b061bd0cd0b18))
+
+### ⬆️
+
+* ⬆️ build(deps): update pyproject.toml ([`832f1a3`](https://github.com/mraniki/MyLLM/commit/832f1a32f72ffcca03baad9f0d0dcd5bedb99de5))
+
+### 👷
+
+* 👷 CI Change build(deps): update pyproject.toml ([`503dfe0`](https://github.com/mraniki/MyLLM/commit/503dfe0a5958a39d4aeda2c4a9434bacb9dbc8a4))
+
+* 👷 CI Change build(deps): update pyproject.toml ([`c6a5d58`](https://github.com/mraniki/MyLLM/commit/c6a5d5827b67c3cac98deda9ec73d2b399c53c6f))
+
+* 👷 CI Change build(deps): update pyproject.toml ([`89c6030`](https://github.com/mraniki/MyLLM/commit/89c603041ab225125346e20cd09ed6f2233f7cab))
+
+* 👷 CI Change build(deps): update pyproject.toml ([`cee5b9e`](https://github.com/mraniki/MyLLM/commit/cee5b9e95539f93de3e41ada4a2ae1c9744cffbc))
+
+* 👷 CI Change build(deps): update pyproject.toml ([`02971ef`](https://github.com/mraniki/MyLLM/commit/02971ef40b6f61af8a3e8a9c19cc720e02a53afb))
+
+* 👷 CI Change build(deps): update pyproject.toml ([`034223d`](https://github.com/mraniki/MyLLM/commit/034223d3ec420245348f5faa78a42afab94af85e))
+
+* 👷 CI Change 🚨 ([`12a8971`](https://github.com/mraniki/MyLLM/commit/12a8971c285312db0d3b3127322eccbf0fe69ac9))
+
 ## v4.13.57 (2025-04-26)
 
 ### Other

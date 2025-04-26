@@ -23,5 +23,6 @@ jobs:
     secrets: inherit
   release:
     needs: [build, test]
-    uses: mraniki/coding_toolset/.github/workflows/📦Release.yml@main
+    # uses: mraniki/coding_toolset/.github/workflows/📦Release.yml@main
+    uses: mraniki/coding_toolset/.github/workflows/UVRelease.yml@main # Use UV-specific release workflow
     secrets: inherit

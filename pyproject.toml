@@ -8,7 +8,8 @@ authors = [
 license = { text = "MIT License" } # Or use identifier: license = "MIT"
 readme = "README.md"
 keywords = ["chatgpt","llm","ai","llama","ai", "g4f", "freegpt"]
-requires-python = "^3.10" # Copied from tool.poetry.dependencies
+# requires-python = "^3.10" # Copied from tool.poetry.dependencies
+requires-python = ">=3.10" # Use standard PEP 621 specifier
 classifiers = [ # Add standard classifiers if desired
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
@@ -123,10 +124,12 @@ skips = ["B101","B104"]
 [tool.semantic_release]
 upload_to_vcs_release = true
 version_variables = ["myllm/__init__.py:__version__"]
-build_command = "pip install poetry && poetry build"
+# build_command = "pip install poetry && poetry build" # Remove or update for UV/setuptools if needed
+build_command = "uv build --sdist --wheel" # Use uv build command
 commit_parser = "emoji"
 version_toml = [
-   "pyproject.toml:tool.poetry.version",
+   # "pyproject.toml:tool.poetry.version",
+   "pyproject.toml:project.version", # Point to the standard project version
    ]
 
 

@@ -128,48 +128,110 @@ omit = [
 exclude_dirs = ["tests","docs"]
 skips = ["B101","B104"]
 
+# [tool.semantic_release]
+# upload_to_vcs_release = true
+# version_variables = ["myllm/__init__.py:__version__"]
+# # build_command = "uv build --sdist --wheel" # Removed - build will be a separate step
+# # commit_parser = "emoji"
+# commit_parser = "angular" # Use angular parser for better structure
+# version_toml = [
+#    # "pyproject.toml:tool.poetry.version",
+#    "pyproject.toml:project.version", # Point to the standard project version
+#    ]
+
+# [tool.semantic_release.commit_parser_options]
+# major_tags = ["BREAKING", "💥"] # Breaking change keyword or emoji
+# minor_tags = ["feat", "✨"]     # New feature keyword or emoji
+# patch_tags = [                  # Fixes, updates, dependencies, refactoring, docs
+#     "fix",
+#     "Update", # Added based on user request
+#     "🐛", # Bug fix
+#     "⬆️", # Dependency bump
+#     "♻️", # Refactor
+#     "📝", # Docs
+# ]
+
+# [tool.semantic_release.changelog]
+# # template_dir = "templates"
+# changelog_file = "CHANGELOG.md"
+# # exclude_commit_patterns = []
+# # exclude_commit_patterns = [
+# #     "^Merge pull request",
+# #     "^Merge branch",
+# # ]
+# # Define sections based on Conventional Commit types
+# sections = [
+#     { title = "💥 Breaking Changes", types = ["BREAKING"] }, # If using BREAKING keyword/footer
+#     { title = "✨ Features", types = ["feat"] },
+#     { title = "🐛 Bug Fixes", types = ["fix"] },
+#     { title = "⬆️ Dependency Updates", types = ["⬆️"] }, # Map specific emojis if needed
+#     { title = "♻️ Refactors", types = ["♻️", "refactor"] }, # Map type/emoji
+#     { title = "📝 Documentation", types = ["📝", "docs"] }, # Map type/emoji
+#     { title = "👷 CI/CD", types = ["ci", "build"] }, # Example for CI commits
+#     # Add other sections as needed
+# ]
+
+# [tool.semantic_release.branches.main]
+# match = "(main|master|dev)"
+# prerelease_token = "rc"
+# prerelease = false
+
+# [tool.semantic_release.publish]
+# dist_glob_patterns = ["dist/*"]
+# upload_to_vcs_release = true
+# upload_to_pypi = true # Enable PyPI upload within semantic-release
+
+
 [tool.semantic_release]
 upload_to_vcs_release = true
-version_variables = ["myllm/__init__.py:__version__"]
-# build_command = "uv build --sdist --wheel" # Removed - build will be a separate step
-# commit_parser = "emoji"
-commit_parser = "angular" # Use angular parser for better structure
+version_variables = ["talkytrend/__init__.py:__version__"]
+commit_parser = "emoji"
 version_toml = [
-   # "pyproject.toml:tool.poetry.version",
-   "pyproject.toml:project.version", # Point to the standard project version
+   "pyproject.toml:project.version",
    ]
 
 [tool.semantic_release.commit_parser_options]
-major_tags = ["BREAKING", "💥"] # Breaking change keyword or emoji
-minor_tags = ["feat", "✨"]     # New feature keyword or emoji
-patch_tags = [                  # Fixes, updates, dependencies, refactoring, docs
-    "fix",
-    "Update", # Added based on user request
-    "🐛", # Bug fix
-    "⬆️", # Dependency bump
-    "♻️", # Refactor
-    "📝", # Docs
+major_tags = [
+    "BREAKING",
+    "💥",
+    ":boom:",
+  ]
+minor_tags = ["feat",
+    "🥚",":egg:",
+    "🚀",":rocket:",
+    "💄",":lipstick:",
+    "✨",":sparkles:",
+]
+
+patch_tags = ["fix","bump","Update",
+    "🎨",":art:",
+    "🐛",":bug:",
+    "🚑",":ambulance:",
+    "⚡",":zap:",
+    "🔥",":fire:",
+    "🚨",":rotating_light:",
+    "♻️",":recycle:",
+    "🔧",":wrench:",
+    "⬆️",":arrow_up:",
+    "🩹",":adhesive_bandage:",
+    "👷",":construction_worker:",
+    "📝",":memo:",
+    "🔒",":lock:",
+    "👽",":alien:",
+    "💬",":speech_balloon:",
+    "🥅",":goal_net:",
+    "✅",":white_check_mark:",
+    "🐳",":whale:",
+    "🙈",":see_no_evil:",
+    "⚗️",":alembic:",
+    "🧐",":monocle_face:",
+    "🔇",":mute:",
+    "🔊",":volume:",
 ]
 
 [tool.semantic_release.changelog]
-# template_dir = "templates"
 changelog_file = "CHANGELOG.md"
-# exclude_commit_patterns = []
-exclude_commit_patterns = [
-    "^Merge pull request",
-    "^Merge branch",
-]
-# Define sections based on Conventional Commit types
-sections = [
-    { title = "💥 Breaking Changes", types = ["BREAKING"] }, # If using BREAKING keyword/footer
-    { title = "✨ Features", types = ["feat"] },
-    { title = "🐛 Bug Fixes", types = ["fix"] },
-    { title = "⬆️ Dependency Updates", types = ["⬆️"] }, # Map specific emojis if needed
-    { title = "♻️ Refactors", types = ["♻️", "refactor"] }, # Map type/emoji
-    { title = "📝 Documentation", types = ["📝", "docs"] }, # Map type/emoji
-    { title = "👷 CI/CD", types = ["ci", "build"] }, # Example for CI commits
-    # Add other sections as needed
-]
+exclude_commit_patterns = []
 
 [tool.semantic_release.branches.main]
 match = "(main|master|dev)"
@@ -179,4 +241,3 @@ prerelease = false
 [tool.semantic_release.publish]
 dist_glob_patterns = ["dist/*"]
 upload_to_vcs_release = true
-upload_to_pypi = true # Enable PyPI upload within semantic-release

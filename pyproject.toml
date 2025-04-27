@@ -155,10 +155,10 @@ patch_tags = [                  # Fixes, updates, dependencies, refactoring, doc
 # template_dir = "templates"
 changelog_file = "CHANGELOG.md"
 # exclude_commit_patterns = []
-exclude_commit_patterns = [
-    "^Merge pull request",
-    "^Merge branch",
-]
+# exclude_commit_patterns = [
+#     "^Merge pull request",
+#     "^Merge branch",
+# ]
 # Define sections based on Conventional Commit types
 sections = [
     { title = "💥 Breaking Changes", types = ["BREAKING"] }, # If using BREAKING keyword/footer

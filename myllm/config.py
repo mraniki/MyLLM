@@ -3,31 +3,72 @@
 """
 
 import os
-
 from dynaconf import Dynaconf
 
-# Define the root path of the project
+# Define the root path of the project library
 ROOT = os.path.dirname(__file__)
+# Define the library's internal default settings path
+DEFAULT_SETTINGS_PATH = os.path.join(ROOT, "default_settings.toml")
 
-# Load the default settings file
+# --- Start Modification ---
+# Check for the application's config directory via environment variable
+# e.g., /app or ./ if run locally from tt root
+APP_CONFIG_DIR = os.environ.get("TT_CONFIG_DIR")
+
+# Construct paths to app/user config files if the directory is specified
+talky_settings_path = None
+user_settings_path = None
+secrets_path = None
+op_path = None
+
+if APP_CONFIG_DIR and os.path.isdir(APP_CONFIG_DIR):
+    print(f"MyLLM Config: Found TT_CONFIG_DIR: {APP_CONFIG_DIR}")
+    # Use the specific name tt expects for its default settings
+    talky_settings_path = os.path.join(APP_CONFIG_DIR, "tt", "talky_settings.toml")
+    user_settings_path = os.path.join(APP_CONFIG_DIR, "settings.toml")
+    secrets_path = os.path.join(APP_CONFIG_DIR, ".secrets.toml")
+    op_path = os.path.join(APP_CONFIG_DIR, ".op.toml") # If MyLLM also reads this
+else:
+    # Fallback for local development/testing without TT_CONFIG_DIR?
+    # Maybe check relative paths from CWD if needed, or just rely on internal defaults.
+    print(
+        f"MyLLM Config: TT_CONFIG_DIR not set or invalid "
+        f"('{APP_CONFIG_DIR}'). Relying on library defaults."
+    )
+
+# Build the settings_files list dynamically
+# Order: Library Default < TT Default < User Settings < User Secrets
+settings_files = []
+if os.path.exists(DEFAULT_SETTINGS_PATH):
+    settings_files.append(DEFAULT_SETTINGS_PATH)
+else:
+    print(
+        f"MyLLM Config: Warning - Library default not found "
+        f"at {DEFAULT_SETTINGS_PATH}"
+    )
+
+if talky_settings_path and os.path.exists(talky_settings_path):
+    settings_files.append(talky_settings_path)
+if user_settings_path and os.path.exists(user_settings_path):
+    settings_files.append(user_settings_path)
+if secrets_path and os.path.exists(secrets_path):
+    settings_files.append(secrets_path)
+if op_path and os.path.exists(op_path):
+    settings_files.append(op_path)
+
+print(f"MyLLM Config: Loading settings from: {settings_files}")
+# --- End Modification ---
+
+# Load the settings using the constructed list
 settings = Dynaconf(
     envvar_prefix="TT",
-    # Set the root path of the project
-    root_path=os.path.dirname(ROOT),
-    # Load the default settings file
-    settings_files=[
-        os.path.join(ROOT, "default_settings.toml"),
-        "talky_settings.toml",
-        "settings.toml",
-        ".secrets.toml",
-        ".op.toml",
-    ],
-    # Load the.env file
-    load_dotenv=True,
-    # merge=True,
+    # root_path is not strictly needed now for finding app/user files
+    # but Dynaconf might use it for other things like finding .env
+    # Keep it pointed to the library's parent dir for now.
+    root_path=os.path.dirname(ROOT), 
+    settings_files=settings_files, # Use the dynamically built list
+    load_dotenv=True, # .env still loaded relative to CWD or via find_dotenv()
     merge_enabled=True,
-    # Set the environments to True
     environments=True,
-    # Set the default environment
     default_env="default",
 )

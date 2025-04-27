@@ -70,7 +70,11 @@ requires = ["setuptools>=61.0"] # Specify a reasonable minimum setuptools versio
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-packages = ["myllm"]
+# packages = ["myllm"] # Keep commented out or remove
+[tool.setuptools.packages.find]
+where = ["."] # Search for packages in the root directory (where pyproject.toml is)
+include = ["myllm*" ] # Include the myllm package and its subpackages
+exclude = ["tests*", "docs*", "examples*"] # Exclude test/doc/example directories
 
 # Keep existing tool configurations
 [tool.ruff]

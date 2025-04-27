@@ -182,6 +182,7 @@ skips = ["B101","B104"]
 # upload_to_pypi = true # Enable PyPI upload within semantic-release
 
 
+
 [tool.semantic_release]
 upload_to_vcs_release = true
 version_variables = ["talkytrend/__init__.py:__version__"]

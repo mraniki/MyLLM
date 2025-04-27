@@ -4,9 +4,14 @@ build:
   os: "ubuntu-22.04"
   tools:
     python: "3.11"
-    uv: "latest"
+    # uv is not directly supported in tools, install via pip below
+    # uv: "latest"
   jobs:
+    # Install uv after the environment is created
+    post_create_environment:
+      - pip install uv
     post_install:
+      # Install the package with docs extras using uv
       - uv pip install -e '.[docs]'
 
 sphinx:

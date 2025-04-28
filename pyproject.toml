@@ -184,6 +184,7 @@ skips = ["B101","B104"]
 
 
 
+
 [tool.semantic_release]
 upload_to_vcs_release = true
 version_variables = ["talkytrend/__init__.py:__version__"]

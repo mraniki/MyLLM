@@ -1,6 +1,6 @@
 [project]
 name = "MyLLM"
-version = "4.19.1"
+version = "4.19.2"
 description = "A python package to interact with llm model supported by g4f and langchain."
 authors = [
   { name = "mraniki", email = "8766259+mraniki@users.noreply.github.com" },

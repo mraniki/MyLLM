@@ -1,6 +1,43 @@
 # CHANGELOG
 
 
+## v4.19.2 (2025-04-29)
+
+### Other
+
+- Merge branch 'main' into dev
+  ([`f5e7cfa`](https://github.com/mraniki/MyLLM/commit/f5e7cfa6e7b233dfabed5cc5e1b3142b2367e13d))
+
+- Merge pull request #1006 from mraniki/dev
+  ([`7e7dc37`](https://github.com/mraniki/MyLLM/commit/7e7dc37ce2da3aeb91ab6584ab12f0b2e1ebe36b))
+
+🐛 update main.py
+
+- Merge pull request #1008 from mraniki/dev
+  ([`ca97f38`](https://github.com/mraniki/MyLLM/commit/ca97f38d809fc1c77ec04ee7b0073e7ae228ce79))
+
+Dev
+
+- Update main.py
+  ([`454697e`](https://github.com/mraniki/MyLLM/commit/454697ef1f97a6967330a857ca4f0b7a4a0cfa55))
+
+- Update main.py
+  ([`35bfb9a`](https://github.com/mraniki/MyLLM/commit/35bfb9af65baa55d6d78691435f3c4636068883e))
+
+### ⬆️
+
+- ⬆️ 🛠️(deps): update dependency openai to v1.76.1
+  ([#1007](https://github.com/mraniki/MyLLM/pull/1007),
+  [`09be159`](https://github.com/mraniki/MyLLM/commit/09be159a6746c27a8671c90dadc2f4326237d1e5))
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+### 🚑
+
+- 🚑 update main.py
+  ([`a038611`](https://github.com/mraniki/MyLLM/commit/a038611f187b393607e32767bec92c18f2372cf7))
+
+
 ## v4.19.1 (2025-04-29)
 
 ### Other

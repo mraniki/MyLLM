@@ -1,6 +1,21 @@
 # CHANGELOG
 
 
+## v4.19.1 (2025-04-29)
+
+### Other
+
+- Merge pull request #1005 from mraniki/dev
+  ([`8099f0f`](https://github.com/mraniki/MyLLM/commit/8099f0f007727938f2ca4c8d72d31e3d610e48ea))
+
+🐛 update main.py
+
+### 🐛
+
+- 🐛 update main.py
+  ([`dc2700e`](https://github.com/mraniki/MyLLM/commit/dc2700eb7232cfcb9a4261915ac5a400aef28b41))
+
+
 ## v4.19.0 (2025-04-28)
 
 

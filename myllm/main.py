@@ -96,7 +96,7 @@ class MyLLM:
              logger.warning("No 'myllm' configuration table found in settings.")
 
         # Create a client for each client in the retrieved table
-        for name, client_config in myllm_config_table.items(): # Iterate over the safely retrieved table
+        for name, client_config in myllm_config_table.items(): # Iterate over safe table
             if (
                 # Skip empty client configs
                 client_config is None

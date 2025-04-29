@@ -90,8 +90,13 @@ class MyLLM:
         print("--- End MyLLM Settings Debug ---")
         # --- DEBUGGING END ---
 
-        # Create a client for each client in settings.myllm
-        for name, client_config in settings.myllm.items():
+        # Use .get() for safer access to the nested table
+        myllm_config_table = settings.get('myllm', {})
+        if not myllm_config_table:
+             logger.warning("No 'myllm' configuration table found in settings.")
+
+        # Create a client for each client in the retrieved table
+        for name, client_config in myllm_config_table.items(): # Iterate over the safely retrieved table
             if (
                 # Skip empty client configs
                 client_config is None

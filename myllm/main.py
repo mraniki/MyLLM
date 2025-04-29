@@ -80,6 +80,16 @@ class MyLLM:
             return
         self.clients = []
 
+        # --- DEBUGGING START ---
+        print("--- MyLLM Settings Debug ---")
+        print(f"Current Dynaconf Env: {settings.current_env}")
+        print(f"Has 'myllm' (lowercase): {'myllm' in settings}")
+        print(f"Has 'MYLLM' (uppercase): {'MYLLM' in settings}")
+        # Optional: Print keys if needed, might be long
+        # print(f"Available settings keys: {list(settings.keys())}")
+        print("--- End MyLLM Settings Debug ---")
+        # --- DEBUGGING END ---
+
         # Create a client for each client in settings.myllm
         for name, client_config in settings.myllm.items():
             if (

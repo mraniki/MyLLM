@@ -1,6 +1,27 @@
 # CHANGELOG
 
 
+## v4.19.3 (2025-04-30)
+
+### Other
+
+- Merge pull request #1010 from mraniki/dev
+  ([`677c121`](https://github.com/mraniki/MyLLM/commit/677c12119836881661928165b94134a00fe23ea3))
+
+⬆️ 🤖 - Wrinkles should merely indicate where smiles have been
+
+- Update main.py
+  ([`0c0bd97`](https://github.com/mraniki/MyLLM/commit/0c0bd97f44d6be3c6758f38d41ab3bc2a0385f67))
+
+### ⬆️
+
+- ⬆️ 🛠️(deps): update dependency openai to v1.76.2
+  ([#1009](https://github.com/mraniki/MyLLM/pull/1009),
+  [`9483e3a`](https://github.com/mraniki/MyLLM/commit/9483e3a018370ab0637c17f1835301a51fc9a81b))
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+
 ## v4.19.2 (2025-04-29)
 
 ### Other

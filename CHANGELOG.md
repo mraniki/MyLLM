@@ -1,6 +1,24 @@
 # CHANGELOG
 
 
+## v4.19.4 (2025-05-01)
+
+### Other
+
+- Merge pull request #1012 from mraniki/dev
+  ([`72cf0e9`](https://github.com/mraniki/MyLLM/commit/72cf0e9cf95ca3fcce2fb63c775a051ba2ef3416))
+
+⬆️ 🤖 - You attempt things that you do not even plan because of your extreme stupidity
+
+### ⬆️
+
+- ⬆️ 🛠️(deps): update dependency playwright to v1.52.0
+  ([#1011](https://github.com/mraniki/MyLLM/pull/1011),
+  [`5070f73`](https://github.com/mraniki/MyLLM/commit/5070f735a01b67c704a8b9089950c70265b11a96))
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+
 ## v4.19.3 (2025-04-30)
 
 ### Other

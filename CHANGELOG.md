@@ -1,6 +1,21 @@
 # CHANGELOG
 
 
+## v4.19.5 (2025-05-02)
+
+### Other
+
+- Merge pull request #1014 from mraniki/dev
+  ([`fc76f76`](https://github.com/mraniki/MyLLM/commit/fc76f7660745d25e7ecc5ab8994ed006ad8e216c))
+
+⬆️ 🤖 - Your business will assume vast proportions
+
+### ⬆️
+
+- ⬆️ 🛠️(deps): update dependency g4f to v0.5.2.1
+  ([`c1e26e9`](https://github.com/mraniki/MyLLM/commit/c1e26e92e4cb9819ccd8854b3dcb6278406eaac9))
+
+
 ## v4.19.4 (2025-05-01)
 
 ### Other

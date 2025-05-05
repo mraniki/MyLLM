@@ -1,6 +1,27 @@
 # CHANGELOG
 
 
+## v4.19.6 (2025-05-05)
+
+### Other
+
+- Merge pull request #1017 from mraniki/dev
+  ([`913d77a`](https://github.com/mraniki/MyLLM/commit/913d77afae696fe786187fbbe11ea9ba2a03f0d4))
+
+⬆️ 🤖 - Dont look back the lemmings are gaining on you
+
+### ⬆️
+
+- ⬆️ 🛠️(deps): update dependency groq to v0.24.0
+  ([`032769f`](https://github.com/mraniki/MyLLM/commit/032769f560606bc303fcf8afbd3aeec9e84a258f))
+
+- ⬆️ 🛠️(deps): update dependency openai to v1.77.0
+  ([#1016](https://github.com/mraniki/MyLLM/pull/1016),
+  [`78c57a4`](https://github.com/mraniki/MyLLM/commit/78c57a470be7bd271587988c38ca0b4a04e07a80))
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+
 ## v4.19.5 (2025-05-02)
 
 ### Other

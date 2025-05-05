@@ -29,8 +29,8 @@ dependencies = [
   "PyExecJS2==1.6.1", # Pinned version
   "curl_cffi==0.10.0", # Pinned version
   "Brotli==1.1.0", # Pinned version
-  "openai==1.76.2", # Pinned version
-  "groq==0.23.1", # Pinned version
+  "openai==1.77.0", # Pinned version
+  "groq==0.24.0", # Pinned version
   # "crawl4ai==0.3.72", # Kept commented out
   "playwright==1.52.0", # Pinned version
 ]

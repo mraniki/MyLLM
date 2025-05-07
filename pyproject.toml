@@ -24,7 +24,7 @@ dependencies = [
   "dynaconf>=3.2.0",
   "loguru>=0.6.0",
   "httpx>=0.24.1",
-  "g4f==0.5.2.1", # Pinned version, keep as is
+  "g4f==0.5.2.2", # Pinned version, keep as is
   "js2py~=0.74",
   "PyExecJS2==1.6.1", # Pinned version
   "curl_cffi==0.10.0", # Pinned version

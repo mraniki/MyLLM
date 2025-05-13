@@ -1,6 +1,24 @@
 # CHANGELOG
 
 
+## v4.19.9 (2025-05-13)
+
+### Other
+
+- Merge pull request #1023 from mraniki/dev
+  ([`7a6760a`](https://github.com/mraniki/MyLLM/commit/7a6760a27d3b54bbcecadefb10ba27eb48053c26))
+
+⬆️ 🤖 - Cold hands no gloves
+
+### ⬆️
+
+- ⬆️ 🛠️(deps): update dependency openai to v1.78.1
+  ([#1022](https://github.com/mraniki/MyLLM/pull/1022),
+  [`eb0b7ad`](https://github.com/mraniki/MyLLM/commit/eb0b7ad851067d942a917c9311979a739dbb4838))
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+
 ## v4.19.8 (2025-05-09)
 
 ### Other

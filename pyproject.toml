@@ -27,7 +27,7 @@ dependencies = [
   "g4f==0.5.2.2", # Pinned version, keep as is
   "js2py~=0.74",
   "PyExecJS2==1.6.1", # Pinned version
-  "curl_cffi==0.10.0", # Pinned version
+  "curl_cffi==0.11.0", # Pinned version
   "Brotli==1.1.0", # Pinned version
   "openai==1.78.1", # Pinned version
   "groq==0.24.0", # Pinned version

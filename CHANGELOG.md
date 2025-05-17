@@ -1,6 +1,44 @@
 # CHANGELOG
 
 
+## v4.19.10 (2025-05-17)
+
+### Other
+
+- Merge pull request #1027 from mraniki/dev
+  ([`eeff04a`](https://github.com/mraniki/MyLLM/commit/eeff04a1768a525e6552c13dd4ce8c4779c4ffc4))
+
+⬆️ 🤖 - You had some happiness once but your parents moved away and you had to
+
+- Merge pull request #1029 from mraniki/renovate/groq-0.x
+  ([`770355c`](https://github.com/mraniki/MyLLM/commit/770355c6595e38b56a91c0f2c72aef61736347af))
+
+⬆️ 🛠️(deps): update dependency groq to v0.25.0
+
+### ⬆️
+
+- ⬆️ 🛠️(deps): update dependency curl_cffi to v0.11.0
+  ([`1b07cfd`](https://github.com/mraniki/MyLLM/commit/1b07cfdec27cf9f65a9ea21f1304a07b219a7265))
+
+- ⬆️ 🛠️(deps): update dependency curl_cffi to v0.11.1
+  ([`81160e0`](https://github.com/mraniki/MyLLM/commit/81160e017c0318178253ab18da8bb61a62f61210))
+
+- ⬆️ 🛠️(deps): update dependency g4f to v0.5.2.3
+  ([`2195c40`](https://github.com/mraniki/MyLLM/commit/2195c40b775b7d0a5c05eb950f421890fca5178b))
+
+- ⬆️ 🛠️(deps): update dependency g4f to v0.5.2.4
+  ([`c0295a2`](https://github.com/mraniki/MyLLM/commit/c0295a2ff88c7e5fb1c9ad10616a70cddf18a1be))
+
+- ⬆️ 🛠️(deps): update dependency groq to v0.25.0
+  ([`a346edb`](https://github.com/mraniki/MyLLM/commit/a346edb04c14538d5a1c4979910c9811d7d42b69))
+
+- ⬆️ 🛠️(deps): update dependency openai to v1.79.0
+  ([#1030](https://github.com/mraniki/MyLLM/pull/1030),
+  [`d05ac22`](https://github.com/mraniki/MyLLM/commit/d05ac229db465ca4dedb1332d214d96ad6547818))
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+
+
 ## v4.19.9 (2025-05-13)
 
 ### Other

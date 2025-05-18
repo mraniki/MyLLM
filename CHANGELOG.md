@@ -1,6 +1,32 @@
 # CHANGELOG
 
 
+## v4.19.11 (2025-05-18)
+
+### Other
+
+- Merge pull request #1034 from mraniki/dev
+  ([`53815fe`](https://github.com/mraniki/MyLLM/commit/53815fe4747abbacd4e1b531acfe7ae67c238f91))
+
+⬆️ 🤖 - You will be traveling and coming into a fortune
+
+- Merge pull request #1035 from mraniki/renovate/g4f-0.x
+  ([`bd1633f`](https://github.com/mraniki/MyLLM/commit/bd1633fc0470306c5416a63e7cf88449cbe648c3))
+
+⬆️ 🛠️(deps): update dependency g4f to v0.5.2.8
+
+### ⬆️
+
+- ⬆️ 🛠️(deps): update dependency g4f to v0.5.2.5
+  ([`fbfa9de`](https://github.com/mraniki/MyLLM/commit/fbfa9de9115b84d47eaee8981c23bfcb09ae534e))
+
+- ⬆️ 🛠️(deps): update dependency g4f to v0.5.2.7
+  ([`27dac18`](https://github.com/mraniki/MyLLM/commit/27dac18380d3c5f659ee5b41bf4f36a6468bc598))
+
+- ⬆️ 🛠️(deps): update dependency g4f to v0.5.2.8
+  ([`9fe17a9`](https://github.com/mraniki/MyLLM/commit/9fe17a966442b0ebe4b470b7a9418655b614a0d4))
+
+
 ## v4.19.10 (2025-05-17)
 
 ### Other

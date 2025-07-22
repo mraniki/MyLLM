@@ -32,7 +32,7 @@ dependencies = [
   "openai==1.97.1", # Pinned version
   "groq==0.30.0", # Pinned version
   # "crawl4ai==0.3.72", # Kept commented out
-  "playwright==1.53.0", # Pinned version
+  "playwright==1.54.0", # Pinned version
 ]
 
 [project.urls]

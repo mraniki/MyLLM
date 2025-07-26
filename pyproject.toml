@@ -24,15 +24,15 @@ dependencies = [
   "dynaconf>=3.2.0",
   "loguru>=0.6.0",
   "httpx>=0.24.1",
-  "g4f==0.5.5.5", # Pinned version, keep as is
+  "g4f==0.5.6.4", # Pinned version, keep as is
   "js2py~=0.74",
   "PyExecJS2==1.6.1", # Pinned version
-  "curl_cffi==0.11.4", # Pinned version
+  "curl_cffi==0.12.0", # Pinned version
   "Brotli==1.1.0", # Pinned version
-  "openai==1.92.2", # Pinned version
-  "groq==0.29.0", # Pinned version
+  "openai==1.97.1", # Pinned version
+  "groq==0.30.0", # Pinned version
   # "crawl4ai==0.3.72", # Kept commented out
-  "playwright==1.53.0", # Pinned version
+  "playwright==1.54.0", # Pinned version
 ]
 
 [project.urls]
